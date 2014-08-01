@@ -1,0 +1,10 @@
+A_Resource_Whose_Name = ematinscovers_en_US_ematins
+
+logo.text = "eMatins  powered by AGES"
+
+GE.text = "Texts in Greek and English"
+E.text = "Text in English"
+G.text = "Text in Greek"
+
+blank.text = "This page is intentionally blank."
+blank.note = "Although the texts of the material found at the beginning of Matins may change during the Pascal season and over time, incorporating improvements and substitutions, we have formatted the document so that the first 12 pages may be saved as a more or less permanent and separate text, allowing the Cantor to download the entire Matins service, but print only the material specific to the day. We shall periodically inform you of any major changes that have taken place within the first part of the service so that you can update the material and thus always have the latest and best of our materials."

@@ -1,0 +1,13 @@
+Template preface_en_US_alwb
+
+
+
+	Preface eMatins
+		Para ldp @Service_Date End-Para
+//		Para sid misc_en_US_ematins.Mode ldp @Mode_of_Week End-Para
+		Para sid properties_en_US_alwb.preface.url End-Para
+		Para sid properties_en_US_alwb.Urls.agespublicdcs End-Para
+		Para sid properties_en_US_alwb.Copyright.symbol ldp @Service_Year sid properties_en_US_alwb.Copyrights.FrSeraphimDedes End-Para
+	End-Preface
+	
+End-Template

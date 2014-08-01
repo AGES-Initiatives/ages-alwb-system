@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>net.ages.liturgical.workbench.system</name>
+	<comment></comment>
+	<projects>
+		<project>net.ages.liturgical.workbench.library_en_US_dedes</project>
+		<project>net.ages.liturgical.workbench.library_en_US_holycross</project>
+		<project>net.ages.liturgical.workbench.library_en_US_public</project>
+		<project>net.ages.liturgical.workbench.library_gr_GR_cog</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+	</natures>
+</projectDescription>

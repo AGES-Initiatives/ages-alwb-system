@@ -1,0 +1,14 @@
+A_Resource_Whose_Name = eo
+eo.description = ""
+eo.title = ""
+eo.Exaposteilarion.description = ""
+eo.Exaposteilarion.mode = //misc_gr_GR_cog.Mode2
+eo.Exaposteilarion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Exaposteilarion.text = ""
+eo.Theotokion.description = ""
+eo.Theotokion.mode = //misc_gr_GR_cog.Mode2
+eo.Theotokion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Theotokion.text = ""
+eo.Doxasticon.description = ""
+eo.Doxasticon.mode  = ""
+eo.Doxasticon.text = ""
