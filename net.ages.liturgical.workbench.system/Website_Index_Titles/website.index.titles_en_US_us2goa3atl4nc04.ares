@@ -1,0 +1,226 @@
+A_Resource_Whose_Name = website.index.titles_en_US_us2goa3atl4nc04
+
+// languages
+lang.gr = ""
+lang.en = ""
+lang.delimiter = ""
+
+// filetypes
+file.type.html = "Text/Music"
+file.type.pdf = "PDF/Print"
+file.type.epub = "ePub"
+
+// Services index (p.1) for years and months
+index.title = "AGES DCS - Calendar Index"
+index.description1 = ""
+index.description2 = ""
+index.description3 = ""
+//You can have any number of index.descriptions, e.g.
+//index.description4 = "I am the index description 4"
+
+// index for specific day
+index.day.title = "" //where is this displayed?
+index.day.title2.date.prefix = "AGES DCS - Services for<br>"
+index.day.date.format = "EEEE, MMM d, yyyy" // controls the format of dates in the index
+index.day.title2.date.suffix = ""
+//index.day.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+//index.day.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+//index.day.description3 = "The date/time stamp (EST) next to a label indicates when the file was last updated."
+//You can have any number of index.descriptions, e.g.
+//index.description3 = "I am the index description 3"
+
+
+// index for books
+index.books.title = "AGES DCS<br>Sacraments and Services"
+//index.books.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+//index.books.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+//index.books.description3 = "The date/time stamp next to a label indicates when the file was last updated."
+//You can have any number of index.descriptions, e.g.
+//index.description3 = "I am the index description 3"
+
+// index for custom content
+index.custom.title = "AGES DCSbr>Index of Additional Resources"
+//index.custom.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+//index.custom.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+//index.custom.description3 = "The date/time stamp next to a label indicates when the file was last updated."
+//You can have any number of index.descriptions, e.g.
+//index.description3 = "I am the index description 3"
+
+ 
+// index titles
+co.html.link = "Evening Compline "
+consecration_relics.html.link = "Reception of Relics "
+consecration_vespers.html.link = "Consecration Vespers "
+consecration_liturgy.html.link = "Consecration Liturgy "
+unction.html.link = "Unction "
+baptism.html.link = "Baptism "
+funeral.html.link = "Funeral "
+memorial.html.link = "Memorial "
+wedding.html.link = "Wedding "
+lichrysbasil.html.link = "Liturgy of Chrysostom/Basil "
+presanctified.html.link = "Presanctified Liturgy "
+
+em.html.link = "Matins (in the evening)"
+
+gh.html.link = "Great Hours"
+
+h1.html.link = "First Hour"
+
+h3.html.link = "Third Hour"
+
+h6.html.link = "Sixth Hour"
+
+h9.html.link = "Ninth Hour"
+
+li.html.link = "Divine Liturgy"
+
+ma.html.link = "Matins"
+
+mi.html.link = "Midnight"
+
+pl.html.link = "Presanctified Liturgy"
+
+sv.html.link = "Small Vespers"
+
+ve.html.link = "Vespers"
+
+vl.html.link = "Vesperal Liturgy"
+
+//index types
+se.html.link = "Service Index"
+bk.html.link = "Book Index"
+cu.html.link = "Custom Index"
+
+//books - collections
+eo.html.link = "EOTHINA"
+ep.html.link = "EPISTLES"
+eu.html.link = "EUCHOLOGION"
+go.html.link = "GOSPELS"
+he.html.link = "HEIRMOLOGION"
+hi.html.link = "PRIESTS HANDBOOK"
+ho.html.link = "HOROLOGION"
+ka.html.link = "KATAVASIAS"
+le.html.link = "LECTIONARY"
+me.html.link = "MENAION"
+oc.html.link = "OCTOECHOS"
+pe.html.link = "PENTECOSTARION"
+pr.html.link = "PROPHECIES"
+ps.html.link = "PSALTER"
+sy.html.link = "SYNAXARION"
+tr.html.link = "TRIODION"
+
+//sevice types
+// sv.html.link = "Small Vespers" // duplicate
+// ve.html.link = "Vespers"
+gc.html.link = "Great Compline"
+sal.html.link = "Salutations"
+mo.html.link = "Midnight Office"
+// ma.html.link = "Matins" // duplicate entry
+em.html.link = "Evening Matins"
+// h1.html.link = "First Hour" // duplicate entry
+// h3.html.link = "Third Hour" // duplicate entry
+// h6.html.link = "Sixth Hour" // duplicate entry
+h36.html.link = "Trithekte"
+ty.html.link = "Typika"
+// h9.html.link = "Ninth Hour" // duplicate entry
+// gh.html.link = "Great Hours" // duplicate entry
+// li.html.link = "Divine Liturgy" // duplicate entry
+// pl.html.link = "Presanctified Liturgy" // Duplicate entry
+// vl.html.link = "Vesperal Liturgy" // Duplicte entry
+
+// non-Greek services
+mol.html.link = "Moleben"
+sla.html.link = "Slava"
+rds.html.link = "Reader Service"
+
+//periods
+adv.html.link = "Advent"
+trn.html.link = "Triodion"
+lnt.html.link = "Lent"
+hwk.html.link = "Holy Week"
+pas.html.link = "Pascha"
+prf.html.link = "Pre-Feast"
+aff.html.link = "Post-Feast"
+lvt.html.link = "Leave-taking"
+
+//days
+sat.html.link = "Saturday"
+sun.html.link = "Sunday"
+wkd.html.link = "Weekday"
+
+//octoechos
+m_.html.link = "Mode"
+d__.html.link = "Day"
+
+//menaion
+m__.html.link = "Month"
+// d__.html.link = "Day" // duplicate entry
+
+//triodion and pentecostarion
+d___.html.link = "Day"// day of moveable cycle - triodion (001-071), pentecostarion (d071-127)
+
+//heirmologion
+a.html.link = "automela"
+h.html.link = "heirmoi"
+// m.html.link = "mode" // duplicate entry
+ga.html.link = "General Apolytikia"
+k.html.link = "Katavasias"
+o.html.link = "Other"
+
+//synaxarion
+// m__.html.link = "Month" // duplicate entry
+// d__.html.link = "Day" // duplicate entry
+
+//hieratikon
+hi00.html.link = "Introduction"
+hi01.html.link = "Vespers"
+hi02.html.link = "Great Compline"
+hi03.html.link = "Midnight Office"
+hi04.html.link = "Matins"
+hi05.html.link = "Vigil"
+hi06.html.link = "Liturgy-Preparation"
+hi07.html.link = "Liturgy-Chrysostom"
+hi08.html.link = "Liturgy Hymns"
+hi09.html.link = "Liturgy-Basil"
+hi10.html.link = "Liturgy-Presanctified"
+hi11.html.link = "Concelebration"
+hi12.html.link = "Communion Prayers"
+hi13.html.link = "Cross Ceremonies"
+hi14.html.link = "Great Blessing of Waters"
+hi15.html.link = "Pentecost Kneeling Vespers"
+hi16.html.link = "Special Services"
+hi17.html.link = "Various Prayers"
+
+//horologion
+ho01.html.link = "Preliminary Prayers"
+ho02.html.link = "Midnight Office"
+ho03.html.link = "Matins"
+ho04.html.link = "First Hour" 
+ho05.html.link = "Third Hour"
+ho06.html.link = "Sixth Hour"
+ho07.html.link = "Typika Service"
+ho08.html.link = "Lunch Prayers"
+ho09.html.link = "Ninth Hour"
+ho10.html.link = "Vespers"
+ho11.html.link = "Dinner Prayers"
+ho12.html.link = "Great Compline"
+ho13.html.link = "Small Compline"
+ho14.html.link = "Paschal Service"
+ho15.html.link = "Troparia by Month"
+ho16.html.link = "Troparia of Triodion"
+ho17.html.link = "Troparia of Pentecostarion"
+ho18.html.link = "Resurrectional Hymns"
+ho19.html.link = "Weekday Apolytikia"
+ho20.html.link = "Theotokia by Mode and Day"
+ho21.html.link = "Communion Prayers"
+ho22.html.link = "Salutation / Akathist to Theotokos"
+ho23.html.link = "Small Paraklesis"
+ho24.html.link = "Great Paraklesis"
+ho25.html.link = "Supplication Canon to Lord Jesus"
+ho26.html.link = "Supplication Canon to Guardian Angel"
+ho27.html.link = "Supplication Canon to Angels and Saints"
+ho28.html.link = "Akathist to the Cross"
+ho29.html.link = "Canon, Oikoi, and Hymns to the Holy Trinity"
+
+
+

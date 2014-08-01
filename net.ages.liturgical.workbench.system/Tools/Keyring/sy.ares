@@ -1,0 +1,400 @@
+A_Resource_Whose_Name = sy
+
+S00.Days = ""
+S00.Hours = ""
+
+S01.Com = ""
+S01.Ver1 = ""
+S01.Ver2 = ""
+S01.Ver3 = ""
+S01.Nar = ""
+
+S02.Com = ""
+S02.Ver = ""
+S02.Nar = ""
+
+S03.Com = ""
+S03.Ver = ""
+S03.Nar = ""
+
+S04.Com = ""
+S04.Ver = ""
+S04.Nar = ""
+
+S05.Com = ""
+S05.Ver = ""
+S05.Nar = ""
+
+S06.Com = ""
+S06.Ver = ""
+S06.Nar = ""
+
+S07.Com = ""
+S07.Ver = ""
+S07.Nar = ""
+
+S08.Com = ""
+S08.Ver = ""
+S08.Nar = ""
+
+S09.Com = ""
+S09.Ver = ""
+S09.Nar = ""
+
+S10.Com = ""
+S10.Ver = ""
+S10.Nar = ""
+
+S11.Com = ""
+S11.Ver = ""
+S11.Nar = ""
+
+S12.Com = ""
+S12.Ver = ""
+S12.Nar = ""
+
+S13.Com = ""
+S13.Ver = ""
+S13.Nar = ""
+
+S14.Com = ""
+S14.Ver = ""
+S14.Nar = ""
+
+S15.Com = ""
+S15.Ver = ""
+S15.Nar = ""
+
+S16.Com = ""
+S16.Ver = ""
+S16.Nar = ""
+
+S17.Com = ""
+S17.Ver = ""
+S17.Nar = ""
+
+S18.Com = ""
+S18.Ver = ""
+S18.Nar = ""
+
+S19.Com = ""
+S19.Ver = ""
+S19.Nar = ""
+
+S20.Com = ""
+S20.Ver = ""
+S20.Nar = ""
+
+S21.Com = ""
+S21.Ver = ""
+S21.Nar = ""
+
+S22.Com = ""
+S22.Ver = ""
+S22.Nar = ""
+
+S23.Com = ""
+S23.Ver = ""
+S23.Nar = ""
+
+S24.Com = ""
+S24.Ver = ""
+S24.Nar = ""
+
+S25.Com = ""
+S25.Ver = ""
+S25.Nar = ""
+
+S26.Com = ""
+S26.Ver = ""
+S26.Nar = ""
+
+S27.Com = ""
+S27.Ver = ""
+S27.Nar = ""
+
+S28.Com = ""
+S28.Ver = ""
+S28.Nar = ""
+
+S29.Com = ""
+S29.Ver = ""
+S29.Nar = ""
+
+S30.Com = ""
+S30.Ver = ""
+S30.Nar = ""
+
+S31.Com = ""
+S31.Ver = ""
+S31.Nar = ""
+
+S32.Com = ""
+S32.Ver = ""
+S32.Nar = ""
+
+S33.Com = ""
+S33.Ver = ""
+S33.Nar = ""
+
+S34.Com = ""
+S34.Ver = ""
+S34.Nar = ""
+
+S35.Com = ""
+S35.Ver = ""
+S35.Nar = ""
+
+S36.Com = ""
+S36.Ver = ""
+S36.Nar = ""
+
+S37.Com = ""
+S37.Ver = ""
+S37.Nar = ""
+
+S38.Com = ""
+S38.Ver = ""
+S38.Nar = ""
+
+S39.Com = ""
+S39.Ver = ""
+S39.Nar = ""
+
+S40.Com = ""
+S40.Ver = ""
+S40.Nar = ""
+
+S41.Com = ""
+S41.Ver = ""
+S41.Nar = ""
+
+S42.Com = ""
+S42.Ver = ""
+S42.Nar = ""
+
+S43.Com = ""
+S43.Ver = ""
+S43.Nar = ""
+
+S44.Com = ""
+S44.Ver = ""
+S44.Nar = ""
+
+S45.Com = ""
+S45.Ver = ""
+S45.Nar = ""
+
+S46.Com = ""
+S46.Ver = ""
+S46.Nar = ""
+
+S47.Com = ""
+S47.Ver = ""
+S47.Nar = ""
+
+S48.Com = ""
+S48.Ver = ""
+S48.Nar = ""
+
+S49.Com = ""
+S49.Ver = ""
+S49.Nar = ""
+
+S50.Com = ""
+S50.Ver = ""
+S50.Nar = ""
+
+S51.Com = ""
+S51.Ver = ""
+S51.Nar = ""
+
+S52.Com = ""
+S52.Ver = ""
+S52.Nar = ""
+
+S53.Com = ""
+S53.Ver = ""
+S53.Nar = ""
+
+S54.Com = ""
+S54.Ver = ""
+S54.Nar = ""
+
+S55.Com = ""
+S55.Ver = ""
+S55.Nar = ""
+
+S56.Com = ""
+S56.Ver = ""
+S56.Nar = ""
+
+S57.Com = ""
+S57.Ver = ""
+S57.Nar = ""
+
+S58.Com = ""
+S58.Ver = ""
+S58.Nar = ""
+
+S59.Com = ""
+S59.Ver = ""
+S59.Nar = ""
+
+S60.Com = ""
+S60.Ver = ""
+S60.Nar = ""
+
+S61.Com = ""
+S61.Ver = ""
+S61.Nar = ""
+
+S62.Com = ""
+S62.Ver = ""
+S62.Nar = ""
+
+S63.Com = ""
+S63.Ver = ""
+S63.Nar = ""
+
+S64.Com = ""
+S64.Ver = ""
+S64.Nar = ""
+
+S65.Com = ""
+S65.Ver = ""
+S65.Nar = ""
+
+S66.Com = ""
+S66.Ver = ""
+S66.Nar = ""
+
+S67.Com = ""
+S67.Ver = ""
+S67.Nar = ""
+
+S68.Com = ""
+S68.Ver = ""
+S68.Nar = ""
+
+S69.Com = ""
+S69.Ver = ""
+S69.Nar = ""
+
+S70.Com = ""
+S70.Ver = ""
+S70.Nar = ""
+
+S71.Com = ""
+S71.Ver = ""
+S71.Nar = ""
+
+S72.Com = ""
+S72.Ver = ""
+S72.Nar = ""
+
+S73.Com = ""
+S73.Ver = ""
+S73.Nar = ""
+
+S74.Com = ""
+S74.Ver = ""
+S74.Nar = ""
+
+S75.Com = ""
+S75.Ver = ""
+S75.Nar = ""
+
+S76.Com = ""
+S76.Ver = ""
+S76.Nar = ""
+
+S77.Com = ""
+S77.Ver = ""
+S77.Nar = ""
+
+S78.Com = ""
+S78.Ver = ""
+S78.Nar = ""
+
+S79.Com = ""
+S79.Ver = ""
+S79.Nar = ""
+
+S80.Com = ""
+S80.Ver = ""
+S80.Nar = ""
+
+S81.Com = ""
+S81.Ver = ""
+S81.Nar = ""
+
+S82.Com = ""
+S82.Ver = ""
+S82.Nar = ""
+
+S83.Com = ""
+S83.Ver = ""
+S83.Nar = ""
+
+S84.Com = ""
+S84.Ver = ""
+S84.Nar = ""
+
+S85.Com = ""
+S85.Ver = ""
+S85.Nar = ""
+
+S86.Com = ""
+S86.Ver = ""
+S86.Nar = ""
+
+S87.Com = ""
+S87.Ver = ""
+S87.Nar = ""
+
+S88.Com = ""
+S88.Ver = ""
+S88.Nar = ""
+
+S89.Com = ""
+S89.Ver = ""
+S89.Nar = ""
+
+S90.Com = ""
+S90.Ver = ""
+S90.Nar = ""
+
+S91.Com = ""
+S91.Ver = ""
+S91.Nar = ""
+
+S92.Com = ""
+S92.Ver = ""
+S92.Nar = ""
+
+S93.Com = ""
+S93.Ver = ""
+S93.Nar = ""
+
+S94.Com = ""
+S94.Ver = ""
+S94.Nar = ""
+
+S95.Com = ""
+S95.Ver = ""
+S95.Nar = ""
+
+S96.Com = ""
+S96.Ver = ""
+S96.Nar = ""
+
+S97.Com = ""
+S97.Ver = ""
+S97.Nar = ""
+
+S98.Com = ""
+S98.Ver = ""
+S98.Nar = ""
+
+S99.LastLine = ""

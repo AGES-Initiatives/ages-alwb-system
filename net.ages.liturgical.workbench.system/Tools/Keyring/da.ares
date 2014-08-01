@@ -1,0 +1,57 @@
+A_Resource_Whose_Name = da
+
+da.title1 = ""
+da.title2 = ""
+da.title3 = ""
+da.Sundays.title = ""
+da.Weekdays.title = ""
+da.R001 = ""
+
+daDay.text = ""
+daCommemoration.text = ""
+
+daVE.OnTheMorningBefore  = ""
+daVE.OnTheDayBefore  = ""
+daVE.OnTheAfternoonBefore  = ""
+daVE.OnTheEveningBefore  = ""
+
+daVE.Apolytikion1.mode  = ""
+daVE.Apolytikion1.melody  = ""
+daVE.Apolytikion1.text  = ""
+
+daVE.Apolytikion2.mode  = ""
+daVE.Apolytikion2.melody  = ""
+daVE.Apolytikion2.text  = ""
+
+daVE.ApolTheotokion.mode  = ""
+daVE.ApolTheotokion.melody  = ""
+daVE.ApolTheotokion.text  = ""
+
+daMA.Triadic1Ending.text = ""
+daMA.Triadic2Ending.text = ""
+daMA.Triadic3Ending.text = ""
+
+daMA.Photagogic1Ending.text = ""
+daMA.Photagogic2Ending.text = ""
+daMA.Photagogic3Ending.text = ""
+
+daMA.Photagogic1Beginning.text = ""
+daMA.Photagogic2Beginning.text = ""
+daMA.Photagogic3Beginning.text = ""
+
+daMA.Exaposteilarion1.mode  = ""
+daMA.Exaposteilarion1.melody  = ""
+daMA.Exaposteilarion1.text  = ""
+
+daMA.Exaposteilarion2.mode  = ""
+daMA.Exaposteilarion2.melody  = ""
+daMA.Exaposteilarion2.text  = ""
+
+daMA.ExapTheotokion.mode  = ""
+daMA.ExapTheotokion.melody  = ""
+daMA.ExapTheotokion.text  = ""
+
+daLI.CommunionHymn.text = "" //for media
+
+daLI.CommunionHymnAlt.text = "" //for media
+
