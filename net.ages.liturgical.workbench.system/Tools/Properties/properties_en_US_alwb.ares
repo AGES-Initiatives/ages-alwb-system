@@ -1,29 +1,6 @@
 A_Resource_Whose_Name = properties_en_US_alwb
 
-Copyrights.AGES                = "Copyright © by AGES Initiatives, Inc."
-Copyright.symbol               = "©"
-Copyrights.FrSeraphimDedes     = "Copyright © 2014 by Fr. Seraphim Dedes"
-Copyrights.HolyCrossPress      = "Courtesy and copyright of Holy Cross Press, Brookline, MA"
-Copyrights.HolyTransfiguration = "Copyright Holy Transfiguration Monastery"
-Copyrights.DenverMetropolis = "Copyright 2004 Metropolis of Denver"
-Copyrights.NA                  = "NA"
-Copyrights.SAAS                = "Copyright © 2008 St. Athanasius Academy of Orthodox Theology"
-Copyrights.Unknown             = "Unknown"
 
-DEDES = "Fr. Seraphim Dedes"
-DENVERMETROPOLIS = "Metropolis of Denver"
-HC = " (Holy Cross)"
-HTM = " (HTM)"
-KJV =  " (KJV)"
-Lash = " (Lash)"
-NET = "(NET)"
-NKJV = " (NKJV)"
-NRS = " (NRS)"
-RSV = " (RSV)"
-SAAS = " (SAAS)"
-TGB = "(from the Green Book)"
-
-Urls.ages = "www.ages.org"
 Urls.agespublicdcs = "www.agesinitiatives.com/dcs/public/dcs"
 
 preface.disclaimer                      = "Disclaimer"
@@ -50,14 +27,5 @@ acknowledgements02.text = "Published in the United States of America: May God bl
 acknowledgements03.text = "All rights reserved. This booklet and the materials contained within it remain the property of Fr. Seraphim Dedes (aka Alex G. Dedes) and all contributing translators. It is published solely for the purpose of providing a source of worship materials to the parishes of the Orthodox Church and may be copied and otherwise reproduced as needed by the parish toward this end; however, it may not be reprinted, reproduced, transmitted, stored in a retrieval system, or translated into any language in any form by any means — electronic, mechanical, recording, or otherwise — for the purpose of sale without the express written permission of Fr. Seraphim Dedes."
 
 acknowledgements04.text = "This document was produced using the AGES Liturgical Workbench. For more information, contact AGES Initiatives: info@agesinitiatives.org "
-
-
-Statuses.ApprovalReview  = "Approval Review"
-Statuses.Approved        = "Approved"
-Statuses.EditorialReview = "Editorial Review"
-Statuses.InitialDraft    = "Initial Draft"
-Statuses.Published       = "Published"
-Statuses.RevisedDraft    = "Revised Draft"
-
 
 
