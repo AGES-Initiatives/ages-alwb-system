@@ -171,7 +171,7 @@ trVE.AposBoth.text = ""
 trVE.Apolytikion1.mode  = ""
 trVE.Apolytikion1.melody  = ""
 trVE.Apolytikion1.text = ""
-trVE.Apolytikion1.name = "" // name of saint for General Apolytikia
+trVE.GeneralApolytikion1.name = "" // name of saint for General Apolytikia
 
 trVE.Apolytikion2.mode = ""
 trVE.Apolytikion2.melody = ""
@@ -563,9 +563,6 @@ trMA.Ode2K.mode  = ""
 trMA.Ode2K.melody  = ""
 trMA.Ode2K.text  = ""
 
-
-
-
 trMA.Ode3C1H.ode  = ""
 trMA.Ode3C1H.mode  = ""
 trMA.Ode3C1H.melody  = ""
@@ -743,9 +740,6 @@ trMA.Ode3Kathisma5.text = ""
 //this is used on Lent 3 Sunday
 trMA.Ode3Kathisma2Verse.source = ""
 trMA.Ode3Kathisma2Verse.text = ""
-
-
-
 
 trMA.Ode4C1H.ode  = ""
 trMA.Ode4C1H.mode  = ""
@@ -1231,9 +1225,6 @@ trMA.Synaxarion1.Ver6 = ""
 trMA.Synaxarion1.Nar = ""
 
 trMA.Synaxarion.LastLine = ""
-
-
-
 
 trMA.Ode7C1H.ode  = ""
 trMA.Ode7C1H.mode  = ""
@@ -3467,9 +3458,6 @@ trHW.Encomia3FVerse.text = ""
 trHW.Encomia3F.text = ""
 
 
-
-
-
 // Suggestions for Saturday morning
 trVE.Reading3.book = ""
 trVE.Reading3.chapverse = ""
@@ -3839,9 +3827,6 @@ trCA.Ode6T.ode  = ""
 trCA.Ode6T.mode  = ""
 trCA.Ode6T.melody  = ""
 trCA.Ode6T.text = ""
-
-
-
 
 trCA.Kontakion.mode  = ""
 trCA.Kontakion.melody  = ""
@@ -5168,9 +5153,6 @@ trGC.Ode3C2T.ode  = ""
 trGC.Ode3C2T.mode  = ""
 trGC.Ode3C2T.melody  = ""
 trGC.Ode3C2T.text = ""
-
-
-
 
 
 // Ode 4 Great Canon

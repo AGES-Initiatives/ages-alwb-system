@@ -306,9 +306,6 @@ pePA.Hours5.text  = ""
 pePA.Hours6.text  = ""
 pePA.Hours7.text  = ""
 
-
-
-
 //Small Vespers
 
 peSV.Stichera1.mode  = ""
