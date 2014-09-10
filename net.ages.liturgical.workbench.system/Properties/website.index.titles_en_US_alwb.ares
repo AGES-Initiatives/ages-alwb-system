@@ -3,6 +3,8 @@ A_Resource_Whose_Name = website.index.titles_en_US_alwb
 // languages
 lang.gr = "GR"
 lang.en = "EN"
+lang.swh = "SWH"
+lang.kik = "KIK"
 lang.delimiter = "-"
 
 // filetypes
