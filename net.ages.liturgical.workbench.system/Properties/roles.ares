@@ -1,0 +1,39 @@
+A_Resource_Whose_Name = roles
+
+//roles with Title
+mixed = "mixed"
+name = "name"
+chapverse = "chapverse"
+melody = "melody"
+mode = "mode"
+desig = "designation"
+rubric = "rubric"
+
+//roles with Para
+heirmos = "heirmos"
+hymnlinefirst = "hymnlinefirst"
+hymnlinemiddle = "hymnlinemiddle"
+hymnlinelast = "hymnlinelast"
+inaudible = "inaudible"
+dialogzero = "dialogzero"
+readingzero = "readingzero"
+chant = "chant"
+prayer = "prayer"
+prayerzero = "prayerzero"
+versecenter = "versecenter"
+
+
+//roles with Title for eMatins cover
+cover0 = "cover0"
+cover1 = "cover1"
+cover2 = "cover2"
+cover3 = "cover3"
+cover4 = "cover4"
+cover5 = "cover5"
+
+//roles with Para for eMatins credits
+credits1 = "credits1"
+credits2 = "credits2"
+credits3 = "credits3"
+
+
