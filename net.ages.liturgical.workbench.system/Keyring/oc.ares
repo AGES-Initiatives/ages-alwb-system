@@ -1882,8 +1882,6 @@ octrMA.Kathisma11.text = ""
 
 octrMA.Kathisma12Verse.description = ""
 octrMA.Kathisma12Verse.source = ""
-octrMA.Kathisma12Verse.text = ""
-
 octrMA.Kathisma12.description = ""
 octrMA.Kathisma12.mode  = ""
 octrMA.Kathisma12.melody  = ""
@@ -1891,8 +1889,6 @@ octrMA.Kathisma12.text = ""
 
 octrMA.Kathisma13Verse.description = ""
 octrMA.Kathisma13Verse.source = ""
-octrMA.Kathisma13Verse.text = ""
-
 octrMA.Kathisma13.description = ""
 octrMA.Kathisma13.mode  = ""
 octrMA.Kathisma13.melody  = ""
@@ -1954,8 +1950,6 @@ octrMA.Aposticha1.text = ""
 
 octrMA.Aposticha2Verse.description = ""
 octrMA.Aposticha2Verse.source  = ""
-octrMA.Aposticha2Verse.text = ""
-
 octrMA.Aposticha2.description = ""
 octrMA.Aposticha2.mode  = ""
 octrMA.Aposticha2.melody  = ""
@@ -1963,8 +1957,6 @@ octrMA.Aposticha2.text = ""
 
 octrMA.Aposticha3Verse.description = ""
 octrMA.Aposticha3Verse.source  = ""
-octrMA.Aposticha3Verse.text = ""
-
 octrMA.Aposticha3.description = ""
 octrMA.Aposticha3.mode  = ""
 octrMA.Aposticha3.melody  = ""
