@@ -75,8 +75,16 @@ h6.html.link = "Sixth Hour"
 h9.html.link = "Ninth Hour"
 
 li.html.link = "Divine Liturgy"
+li2.html.link = "Divine Liturgy - Rubrics 2"
+li3.html.link = "Divine Liturgy - Rubrics 3"
+li4.html.link = "Divine Liturgy - Rubrics 4"
+li5.html.link = "Divine Liturgy - Rubrics 5"
 
 ma.html.link = "Matins"
+ma2.html.link = "Matins - Rubrics 2"
+ma3.html.link = "Matins - Rubrics 3"
+ma4.html.link = "Matins - Rubrics 4"
+ma5.html.link = "Matins - Rubrics 5"
 
 mi.html.link = "Midnight"
 
@@ -85,6 +93,10 @@ pl.html.link = "Presanctified Liturgy"
 sv.html.link = "Small Vespers"
 
 ve.html.link = "Vespers"
+ve2.html.link = "Vespers - Rubrics 2"
+ve3.html.link = "Vespers - Rubrics 3"
+ve4.html.link = "Vespers - Rubrics 4"
+ve5.html.link = "Vespers - Rubrics 5"
 
 vl.html.link = "Vesperal Liturgy"
 
