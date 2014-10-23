@@ -3,8 +3,8 @@ A_Resource_Whose_Name = properties_en_US_alwb
 
 Urls.agespublicdcs = "www.agesinitiatives.com/dcs/public/dcs"
 
-preface.disclaimer                      = "Disclaimer"
-preface.url                             = "The Web site can be found at this address:"
+preface.disclaimer = "Disclaimer"
+preface.url = "The Web site can be found at this address:"
 
 contact1 = "Fr. Seraphim Dedes"
 contact2 = "7900 Greenside Ct."
