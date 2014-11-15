@@ -25,7 +25,7 @@ index.day.title = "" //where is this displayed?
 index.day.title2.date.prefix = "AGES Digital Chant Stand<br>Services for "
 index.day.date.format = "EEEE, MMM d, yyyy" // controls the format of dates in the index
 index.day.title2.date.suffix = ""
-index.day.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+index.day.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
 index.day.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
 //index.day.description3 = "The date/time stamp (EST) next to a label indicates when the file was last updated."
 //You can have any number of index.descriptions, e.g.
@@ -34,7 +34,7 @@ index.day.description2 = "Links with the label <em>Text/Music</em> open the html
 
 // index for books
 index.books.title = "AGES Digital Chant Stand<br>Sacraments and Services"
-index.books.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+index.books.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
 index.books.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
 //index.books.description3 = "The date/time stamp next to a label indicates when the file was last updated."
 //You can have any number of index.descriptions, e.g.
@@ -42,7 +42,7 @@ index.books.description2 = "Links with the label <em>Text/Music</em> open the ht
 
 // index for custom content
 index.custom.title = "AGES Digital Chant Stand<br>Index of Additional Resources"
-index.custom.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the website."
+index.custom.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
 index.custom.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
 //index.custom.description3 = "The date/time stamp next to a label indicates when the file was last updated."
 //You can have any number of index.descriptions, e.g.
@@ -75,28 +75,43 @@ h6.html.link = "Sixth Hour"
 h9.html.link = "Ninth Hour"
 
 li.html.link = "Divine Liturgy"
-li2.html.link = "Divine Liturgy - Rubrics 2"
-li3.html.link = "Divine Liturgy - Rubrics 3"
-li4.html.link = "Divine Liturgy - Rubrics 4"
-li5.html.link = "Divine Liturgy - Rubrics 5"
+li1.html.link = "Divine Liturgy - Alt. Version 1"
+li2.html.link = "Divine Liturgy - Alt. Version 2"
+li3.html.link = "Divine Liturgy - Alt. Version 3"
+li4.html.link = "Divine Liturgy - Alt. Version 4"
+li5.html.link = "Divine Liturgy - Alt. Version 5"
+li6.html.link = "Divine Liturgy - Alt. Version 6"
+li7.html.link = "Divine Liturgy - Alt. Version 7"
+li8.html.link = "Divine Liturgy - Alt. Version 8"
+li9.html.link = "Divine Liturgy - Alt. Version 9"
 
 ma.html.link = "Matins"
-ma2.html.link = "Matins - Rubrics 2"
-ma3.html.link = "Matins - Rubrics 3"
-ma4.html.link = "Matins - Rubrics 4"
-ma5.html.link = "Matins - Rubrics 5"
+ma1.html.link = "Matins - Alt. Version 1"
+ma2.html.link = "Matins - Alt. Version 2"
+ma3.html.link = "Matins - Alt. Version 3"
+ma4.html.link = "Matins - Alt. Version 4"
+ma5.html.link = "Matins - Alt. Version 5"
+ma6.html.link = "Matins - Alt. Version 6"
+ma7.html.link = "Matins - Alt. Version 7"
+ma8.html.link = "Matins - Alt. Version 8"
+ma9.html.link = "Matins - Alt. Version 9"
 
-mi.html.link = "Midnight"
+mo.html.link = "Midnight"
 
 pl.html.link = "Presanctified Liturgy"
 
 sv.html.link = "Small Vespers"
 
 ve.html.link = "Vespers"
-ve2.html.link = "Vespers - Rubrics 2"
-ve3.html.link = "Vespers - Rubrics 3"
-ve4.html.link = "Vespers - Rubrics 4"
-ve5.html.link = "Vespers - Rubrics 5"
+ve1.html.link = "Vespers - Alt. Version 1<br><font size='1' color='black'>&nbsp; &nbsp; &nbsp; &nbsp; Same rubrics as default. English text is all Lash.</font>"
+ve2.html.link = "Vespers - Alt. Version 2"
+ve3.html.link = "Vespers - Alt. Version 3"
+ve4.html.link = "Vespers - Alt. Version 4"
+ve5.html.link = "Vespers - Alt. Version 5"
+ve6.html.link = "Vespers - Alt. Version 6"
+ve7.html.link = "Vespers - Alt. Version 7"
+ve8.html.link = "Vespers - Alt. Version 8"
+ve9.html.link = "Vespers - Alt. Version 9"
 
 vl.html.link = "Vesperal Liturgy"
 
