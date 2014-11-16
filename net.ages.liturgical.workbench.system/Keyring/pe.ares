@@ -1594,6 +1594,8 @@ peMA.Lauds3.mode  = ""
 peMA.Lauds3.melody  = ""
 peMA.Lauds3.text = ""
 
+peMA.Lauds123.text = ""
+
 peMA.Lauds4.mode  = ""
 peMA.Lauds4.melody  = ""
 peMA.Lauds4.text = ""
