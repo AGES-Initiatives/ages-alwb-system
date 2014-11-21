@@ -36,6 +36,8 @@ meVE.Stichera03.melody  = ""
 meVE.Stichera03.text = ""
 
 meVE.Stichera123Sunday.text = "" //for media
+meVE.Stichera1123Sunday.text = "" //for media
+meVE.Stichera1234Sunday.text = "" //for media
 
 meVE.Stichera04.description = ""
 meVE.Stichera04.mode  = ""
