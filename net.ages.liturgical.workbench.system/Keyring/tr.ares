@@ -1941,6 +1941,7 @@ trLI.Gospel.book = ""
 trLI.Gospel.chapverse = ""
 trLI.Gospel.text = ""
 
+trLI.CherubicHymn.title  = ""
 trLI.CherubicHymn.mode  = ""
 trLI.CherubicHymnPart1.text = ""
 trLI.CherubicHymnPart2.text = ""
@@ -3597,6 +3598,10 @@ trHW.SaturdayAriseVerse5.text = ""
 trHW.SaturdayAriseVerse6.source = ""
 trHW.SaturdayAriseVerse6.text = ""
 
+trHW.CherubicHymn.title = 
+trHW.CherubicHymn.mode = 
+trHW.CherubicHymnPart1.text = ""
+trHW.CherubicHymnPart2.text = ""
 
 //Supplicatory Canon to St Theodore, Sunday of Orthodoxy procession. Maybe use for Great Canon as well
 trCA.poet  = ""
