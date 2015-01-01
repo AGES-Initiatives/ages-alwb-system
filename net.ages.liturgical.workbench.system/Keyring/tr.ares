@@ -1213,18 +1213,25 @@ trMA.Oikos16.text = ""
 trMA.Oikos17.text = ""
 trMA.Oikos18.text = ""
 
-trMA.Synaxarion1.Com = ""
-trMA.Synaxarion1.Ver1 = ""
-trMA.Synaxarion1.Ver2 = ""
-
-trMA.Synaxarion1.Ver3 = "" //used as Title
-trMA.Synaxarion1.Ver4 = ""
-trMA.Synaxarion1.Ver5 = ""
-trMA.Synaxarion1.Ver6 = ""
-
-trMA.Synaxarion1.Nar = ""
-
-trMA.Synaxarion.LastLine = ""
+trMA.Synaxarion.commemoration.text = ""
+trMA.Synaxarion.couplet1.title = 
+trMA.Synaxarion.couplet1.verse1 = ""
+trMA.Synaxarion.couplet1.verse2 = ""
+trMA.Synaxarion.couplet1.verse3 = "" //tr.d001
+trMA.Synaxarion.couplet2.title = 
+trMA.Synaxarion.couplet2.verse1 = ""
+trMA.Synaxarion.couplet2.verse2 = ""
+trMA.Synaxarion.couplet2.verse3 = "" //tr.d065
+trMA.Synaxarion.couplet3.verse1 = "" //tr.d068
+trMA.Synaxarion.couplet3.verse2 = "" //tr.d068
+trMA.Synaxarion.couplet3.verse3 = "" //tr.d068
+trMA.Synaxarion.couplet4.title =  //tr.d068
+trMA.Synaxarion.couplet4.verse1 = "" //tr.d068
+trMA.Synaxarion.couplet4.verse2 = "" //tr.d068
+trMA.Synaxarion.single1.title = //tr.d001
+trMA.Synaxarion.single1.text = //tr.d001 
+trMA.Synaxarion.narration1.text = ""
+trMA.Synaxarion.lastline.text = ""
 
 trMA.Ode7C1H.ode  = ""
 trMA.Ode7C1H.mode  = ""
