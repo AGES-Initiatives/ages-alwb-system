@@ -1199,12 +1199,15 @@ peMA.Oikos16.text = ""
 peMA.Oikos17.text = ""
 peMA.Oikos18.text = ""
 
-peMA.Synaxarion1.Com = ""
-peMA.Synaxarion1.Ver1 = ""
-peMA.Synaxarion1.Ver2 = ""
-peMA.Synaxarion1.Nar = ""
-
-peMA.Synaxarion.LastLine = ""
+peMA.Synaxarion.commemoration.text = ""
+peMA.Synaxarion.couplet1.title = 
+peMA.Synaxarion.couplet1.verse1 = ""
+peMA.Synaxarion.couplet1.verse2 = ""
+peMA.Synaxarion.single1.text = "" //d120
+peMA.Synaxarion.couplet2.title = //d113
+peMA.Synaxarion.couplet2.verse1 = "" //d113
+peMA.Synaxarion.couplet2.verse2 = "" //d113
+peMA.Synaxarion.lastline.text = ""
 
 
 // Ode 7
