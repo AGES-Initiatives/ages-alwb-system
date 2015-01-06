@@ -25,6 +25,7 @@ chant = "chant"
 prayer = "prayer"
 prayerzero = "prayerzero"
 versecenter = "versecenter"
+titlezero = "titlezero"
 
 
 //roles with Title for eMatins cover
