@@ -1228,9 +1228,7 @@ trMA.Synaxarion.couplet3.verse3 = "" //tr.d068
 trMA.Synaxarion.couplet4.title =  //tr.d068
 trMA.Synaxarion.couplet4.verse1 = "" //tr.d068
 trMA.Synaxarion.couplet4.verse2 = "" //tr.d068
-trMA.Synaxarion.single1.title = //tr.d001
 trMA.Synaxarion.single1.text = //tr.d001 
-trMA.Synaxarion.narration1.text = ""
 trMA.Synaxarion.lastline.text = ""
 
 trMA.Ode7C1H.ode  = ""
