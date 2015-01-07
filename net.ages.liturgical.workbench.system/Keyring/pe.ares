@@ -505,6 +505,10 @@ peVE.Apolytikion3.mode  = ""
 peVE.Apolytikion3.melody  = ""
 peVE.Apolytikion3.text = ""
 
+peVE.ApolTheotokion.mode  = ""
+peVE.ApolTheotokion.melody  = ""
+peVE.ApolTheotokion.text = ""
+
 //Matins
 
 peMA.Kathisma11.mode  = ""
