@@ -5,6 +5,12 @@ trShortCommemoration1.text = ""
 trInsert1 = "" //for use in petitions and dismissal
 trInsert2 = "" //for use in petitions and dismissal
 trNote.text = ""
+trHO.day = ""
+trHO.commemorations = ""
+trHO.description1 = ""
+trHO.description2 = ""
+trHO.note1 = ""
+trHO.note2 = ""
 trDismissal = ""
 
 trVE.Stichera01.mode  = ""
