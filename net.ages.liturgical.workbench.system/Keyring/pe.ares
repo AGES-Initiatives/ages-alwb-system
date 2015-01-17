@@ -1209,6 +1209,19 @@ peMA.Oikos16.text = ""
 peMA.Oikos17.text = ""
 peMA.Oikos18.text = ""
 
+peMA.Kontakion2.mode  = ""
+peMA.Kontakion2.melody  = ""
+peMA.Kontakion2.text = ""
+
+peMA.Oikos2.text = ""
+peMA.Oikos22.text = ""
+peMA.Oikos23.text = ""
+peMA.Oikos24.text = ""
+peMA.Oikos25.text = ""
+peMA.Oikos26.text = ""
+peMA.Oikos27.text = ""
+peMA.Oikos28.text = ""
+
 peMA.Synaxarion.commemoration.text = ""
 peMA.Synaxarion.couplet1.title = 
 peMA.Synaxarion.couplet1.verse1 = ""
