@@ -1829,8 +1829,6 @@ ocLI.BeatitudesBoth.mode  = ""
 ocLI.BeatitudesBoth.melody  = ""
 ocLI.BeatitudesBoth.text = ""
 
-
-
 //Octoechos in Triodion
 
 octrVE.Stichera1.description = ""

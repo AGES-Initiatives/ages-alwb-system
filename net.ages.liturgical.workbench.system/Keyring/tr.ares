@@ -193,7 +193,6 @@ trVE.ApolTheotokion.mode  = ""
 trVE.ApolTheotokion.melody  = ""
 trVE.ApolTheotokion.text = ""
 
-
 trMA.Kathisma11.mode  = ""
 trMA.Kathisma11.melody  = ""
 trMA.Kathisma11.text = ""
@@ -251,7 +250,6 @@ trMA.PostGospelGlory.text = ""
 trMA.PostGospelBoth.mode  = ""
 trMA.PostGospelBoth.melody  = ""
 trMA.PostGospelBoth.text = ""
-
 
 trMA.PostGospelIdiomelon.mode  = ""
 trMA.PostGospelIdiomelon.melody  = ""
@@ -329,7 +327,6 @@ trMA.Ode1C1T.mode  = ""
 trMA.Ode1C1T.melody  = ""
 trMA.Ode1C1T.text = ""
 
-
 trMA.Ode1C21.ode  = ""
 trMA.Ode1C21.mode  = ""
 trMA.Ode1C21.melody  = ""
@@ -384,7 +381,6 @@ trMA.Ode1C2H.ode  = ""
 trMA.Ode1C2H.mode  = ""
 trMA.Ode1C2H.melody  = ""
 trMA.Ode1C2H.text = ""
-
 
 trMA.Ode1C31.ode  = ""
 trMA.Ode1C31.mode  = ""
@@ -899,8 +895,6 @@ trMA.Ode4K.mode  = ""
 trMA.Ode4K.melody  = ""
 trMA.Ode4K.text  = ""
 
-
-
 trMA.Ode5C1H.ode  = ""
 trMA.Ode5C1H.mode  = ""
 trMA.Ode5C1H.melody  = ""
@@ -1206,7 +1200,6 @@ trMA.Ode6K.mode  = ""
 trMA.Ode6K.melody  = ""
 trMA.Ode6K.text  = ""
 
-
 trMA.Kontakion1.mode  = ""
 trMA.Kontakion1.melody  = ""
 trMA.Kontakion1.text = ""
@@ -1393,7 +1386,6 @@ trMA.Ode7K.ode  = ""
 trMA.Ode7K.mode  = ""
 trMA.Ode7K.melody  = ""
 trMA.Ode7K.text  = ""
-
 
 trMA.Ode8C1H.ode  = ""
 trMA.Ode8C1H.mode  = ""
@@ -1766,7 +1758,6 @@ trMA.LaudsStavrotheotokion.mode  = ""
 trMA.LaudsStavrotheotokion.melody  = ""
 trMA.LaudsStavrotheotokion.text = ""
 
-
 trMA.Aposticha1.mode  = ""
 trMA.Aposticha1.melody  = ""
 trMA.Aposticha1.text = ""
@@ -1838,7 +1829,6 @@ trTE.Prokeimenon2.text = ""
 trTE.Prokeimenon2Verse.source = ""
 trTE.Prokeimenon2Verse.text = ""
 
-
 trSV.Stichera1.mode  = ""
 trSV.Stichera1.melody  = ""
 trSV.Stichera1.text = ""
@@ -1884,7 +1874,6 @@ trSV.AposGlory.text = ""
 trMA.Kontakion0.mode = //only in T1
 trMA.Kontakion0.melody = //only in T1
 trMA.Kontakion0.text = "" //only in T1
-
 
 trLI.Antiphon1Verse1.source = ""
 trLI.Antiphon1Verse1.text = ""
@@ -2132,8 +2121,6 @@ trAK.Kontakion4.text = ""
 trAK.Kontakion5.text = ""
 trAK.Kontakion6.text = ""
 
-
-
 //Troparion for Holy Week Matins
 trHW.Alleluia.text  = ""
 
@@ -2153,7 +2140,6 @@ trHW.Troparion2.text = ""
 trHW.Troparion3.mode  = ""
 trHW.Troparion3.melody  = ""
 trHW.Troparion3.text = ""
-
 
 // Idiomela for the Foot Washing
 trHW.NiptirIdiomelon1.mode  = ""
@@ -2185,7 +2171,6 @@ trHW.NiptirIdiomelon6.text = ""
 trHW.Gospel01.name = "" //"Ματθαῖον or Μᾶρκον or Λουκᾶν or Ἰωάννην or Matthew or Mark or Luke or John"
 trHW.Gospel01.chapverse = "" //"(Κεφ. ΓΓʹ 11-11) or 1:11-11"
 trHW.Gospel01.text = ""
-
 
 trHW.Antiphon011.mode  = ""
 trHW.Antiphon011.text = ""
@@ -2703,7 +2688,6 @@ trHW.AlleluiaVerse3.text = ""
 trHW.Gospel.book = ""
 trHW.Gospel.chapverse = ""
 trHW.Gospel.text = ""
-
 
 // Good Friday night
 // First Stanza
@@ -3471,7 +3455,6 @@ trHW.Encomia3FVerse.source = ""
 trHW.Encomia3FVerse.text = ""
 trHW.Encomia3F.text = ""
 
-
 // Suggestions for Saturday morning
 trVE.Reading3.book = ""
 trVE.Reading3.chapverse = ""
@@ -3664,7 +3647,6 @@ trCA.Ode1T.mode  = ""
 trCA.Ode1T.melody  = ""
 trCA.Ode1T.text = ""
 
-
 trCA.Ode31.ode  = ""
 trCA.Ode31.mode  = ""
 trCA.Ode31.melody  = ""
@@ -3800,7 +3782,6 @@ trCA.Ode5T.mode  = ""
 trCA.Ode5T.melody  = ""
 trCA.Ode5T.text = ""
 
-
 trCA.Ode61.ode  = ""
 trCA.Ode61.mode  = ""
 trCA.Ode61.melody  = ""
@@ -3850,7 +3831,6 @@ trCA.Kontakion.mode  = ""
 trCA.Kontakion.melody  = ""
 trCA.Kontakion.text = ""
 
-
 trCA.Ode71.ode  = ""
 trCA.Ode71.mode  = ""
 trCA.Ode71.melody  = ""
@@ -3895,7 +3875,6 @@ trCA.Ode7T.ode  = ""
 trCA.Ode7T.mode  = ""
 trCA.Ode7T.melody  = ""
 trCA.Ode7T.text = ""
-
 
 trCA.Ode81.ode  = ""
 trCA.Ode81.mode  = ""
@@ -4057,7 +4036,6 @@ trCO.Ode1C1T.mode  = ""
 trCO.Ode1C1T.melody  = ""
 trCO.Ode1C1T.text = ""
 
-
 trCO.Ode2C1H.ode  = ""
 trCO.Ode2C1H.mode  = ""
 trCO.Ode2C1H.melody  = ""
@@ -4188,12 +4166,9 @@ trCO.Ode3C1T.mode  = ""
 trCO.Ode3C1T.melody  = ""
 trCO.Ode3C1T.text = ""
 
-
-
 trCO.Kathisma11.mode  = ""
 trCO.Kathisma11.melody  = ""
 trCO.Kathisma11.text = ""
-
 
 trCO.Ode4C1H.ode  = ""
 trCO.Ode4C1H.mode  = ""
@@ -4505,7 +4480,6 @@ trCO.Ode9C1T.mode  = ""
 trCO.Ode9C1T.melody  = ""
 trCO.Ode9C1T.text = ""
 
-
 // Thursday of the Great Canon
 
 trGC.SticheraPoet  = ""
@@ -4610,7 +4584,6 @@ trGC.Stichera24.text = ""
 trGC.SticheraT.mode  = ""
 trGC.SticheraT.melody  = ""
 trGC.SticheraT.text = ""
-
 
 //Matins
 trGC.Title = ""
@@ -4737,7 +4710,6 @@ trGC.Ode1C123.ode  = ""
 trGC.Ode1C123.mode  = ""
 trGC.Ode1C123.melody  = ""
 trGC.Ode1C123.text = ""
-
 
 trGC.C2Acrostic.text = ""
 
@@ -5002,7 +4974,6 @@ trGC.Ode2C2T.mode  = ""
 trGC.Ode2C2T.melody  = ""
 trGC.Ode2C2T.text = ""
 
-
 //Ode 3
 
 trGC.Ode3C1H.ode  = ""
@@ -5054,7 +5025,6 @@ trGC.Ode3C1T.ode  = ""
 trGC.Ode3C1T.mode  = ""
 trGC.Ode3C1T.melody  = ""
 trGC.Ode3C1T.text = ""
-
 
 trGC.Ode3C2H.ode  = ""
 trGC.Ode3C2H.mode  = ""
@@ -5126,7 +5096,6 @@ trGC.Ode3C213.mode  = ""
 trGC.Ode3C213.melody  = ""
 trGC.Ode3C213.text = ""
 
-
 trGC.Ode3C214.ode  = ""
 trGC.Ode3C214.mode  = ""
 trGC.Ode3C214.melody  = ""
@@ -5171,7 +5140,6 @@ trGC.Ode3C2T.ode  = ""
 trGC.Ode3C2T.mode  = ""
 trGC.Ode3C2T.melody  = ""
 trGC.Ode3C2T.text = ""
-
 
 // Ode 4 Great Canon
 
@@ -5315,7 +5283,6 @@ trGC.Ode4C127.mode  = ""
 trGC.Ode4C127.melody  = ""
 trGC.Ode4C127.text = ""
 
-
 trGC.Ode4C201.ode  = ""
 trGC.Ode4C201.mode  = ""
 trGC.Ode4C201.melody  = ""
@@ -5453,7 +5420,6 @@ trGC.Ode5C121.mode  = ""
 trGC.Ode5C121.melody  = ""
 trGC.Ode5C121.text = ""
 
-
 trGC.Ode5C201.ode  = ""
 trGC.Ode5C201.mode  = ""
 trGC.Ode5C201.melody  = ""
@@ -5561,7 +5527,6 @@ trGC.Ode6C115.mode  = ""
 trGC.Ode6C115.melody  = ""
 trGC.Ode6C115.text = ""
 
-
 trGC.Ode6C201.ode  = ""
 trGC.Ode6C201.mode  = ""
 trGC.Ode6C201.melody  = ""
@@ -5591,7 +5556,6 @@ trGC.Ode6C2H.ode  = ""
 trGC.Ode6C2H.mode  = ""
 trGC.Ode6C2H.melody  = ""
 trGC.Ode6C2H.text = ""
-
 
 // Beatitudes
 
@@ -5658,7 +5622,6 @@ trGC.BeatitudesTr.text = ""
 trGC.BeatitudesT.verse = ""
 trGC.BeatitudesT.mode  = ""
 trGC.BeatitudesT.text = ""
-
 
 // Ode 7
 
@@ -5767,7 +5730,6 @@ trGC.Ode7C120.mode  = ""
 trGC.Ode7C120.melody  = ""
 trGC.Ode7C120.text = ""
 
-
 trGC.Ode7C201.ode  = ""
 trGC.Ode7C201.mode  = ""
 trGC.Ode7C201.melody  = ""
@@ -5792,7 +5754,6 @@ trGC.Ode7C2T.ode  = ""
 trGC.Ode7C2T.mode  = ""
 trGC.Ode7C2T.melody  = ""
 trGC.Ode7C2T.text = ""
-
 
 // Ode 8 Great Canon
 
@@ -5901,7 +5862,6 @@ trGC.Ode8C120.mode  = ""
 trGC.Ode8C120.melody  = ""
 trGC.Ode8C120.text = ""
 
-
 trGC.Ode8C201.ode  = ""
 trGC.Ode8C201.mode  = ""
 trGC.Ode8C201.melody  = ""
@@ -5931,7 +5891,6 @@ trGC.Ode8C2H.ode  = ""
 trGC.Ode8C2H.mode  = ""
 trGC.Ode8C2H.melody  = ""
 trGC.Ode8C2H.text = ""
-
 
 // Ode 9 Great Canon
 
@@ -6065,7 +6024,6 @@ trGC.Ode9C125.mode  = ""
 trGC.Ode9C125.melody  = ""
 trGC.Ode9C125.text = ""
 
-
 trGC.Ode9C201.ode  = ""
 trGC.Ode9C201.mode  = ""
 trGC.Ode9C201.melody  = ""
@@ -6095,5 +6053,4 @@ trGC.Ode9C2H.ode  = ""
 trGC.Ode9C2H.mode  = ""
 trGC.Ode9C2H.melody  = ""
 trGC.Ode9C2H.text = ""
-
 
