@@ -1881,6 +1881,11 @@ meLI.EntranceHymn.description = ""
 meLI.EntranceHymn.source = ""
 meLI.EntranceHymn.text = ""
 
+meLI.Kontakion1.description = ""
+meLI.Kontakion1.mode  = ""
+meLI.Kontakion1.melody  = ""
+meLI.Kontakion1.text  = ""
+
 meLI.SeasonalKontakion.description = ""
 meLI.SeasonalKontakion.mode  = ""
 meLI.SeasonalKontakion.melody  = ""
