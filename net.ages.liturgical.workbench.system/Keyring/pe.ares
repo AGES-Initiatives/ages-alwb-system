@@ -13,7 +13,6 @@ peHO.note1 = ""
 peHO.note2 = ""
 peDismissal  = ""
 
-
 // Unique Pascha ID's used throughout Pentecostarion
 
 pePA.ComeReceiveTheLight.mode  = ""
@@ -33,7 +32,6 @@ pePA.PaschaVerse3.text = ""
 
 pePA.PaschaVerse4.source = ""
 pePA.PaschaVerse4.text = ""
-
 
 pePA.Canon.Poet  = ""
 
@@ -64,7 +62,6 @@ pePA.Ode1T2.mode  = ""
 pePA.Ode1T2.melody  = ""
 pePA.Ode1T2.text = ""
 
-
 pePA.Ode3H.ode  = ""
 pePA.Ode3H.mode  = ""
 pePA.Ode3H.melody  = ""
@@ -92,7 +89,6 @@ pePA.Ode3T2.text = ""
 
 pePA.Hypakoe.mode  = ""
 pePA.Hypakoe.text = ""
-
 
 pePA.Ode4H.ode  = ""
 pePA.Ode4H.mode  = ""
@@ -123,7 +119,6 @@ pePA.Ode4T2.ode  = ""
 pePA.Ode4T2.mode  = ""
 pePA.Ode4T2.melody  = ""
 pePA.Ode4T2.text = ""
-
 
 pePA.Ode5H.ode  = ""
 pePA.Ode5H.mode  = ""
@@ -303,7 +298,6 @@ pePA.Stichera4.text = ""
 pePA.SticGlory.mode  = ""
 pePA.SticGlory.text = ""
 
-
 pePA.Hours1.text = pePA.ChristIsRisen.text
 pePA.Hours2.text  = ""
 pePA.Hours3.text  = ""
@@ -334,21 +328,17 @@ peSV.SticGlory.mode  = ""
 peSV.SticGlory.melody  = ""
 peSV.SticGlory.text = ""
 
-
 peSV.Aposticha1.mode  = ""
 peSV.Aposticha1.melody  = ""
 peSV.Aposticha1.text = ""
-
 
 peSV.Aposticha2.mode  = ""
 peSV.Aposticha2.melody  = ""
 peSV.Aposticha2.text = ""
 
-
 peSV.Aposticha3.mode  = ""
 peSV.Aposticha3.melody  = ""
 peSV.Aposticha3.text = ""
-
 
 peSV.Aposticha4.mode  = ""
 peSV.Aposticha4.melody  = ""
@@ -361,8 +351,6 @@ peSV.AposGlory.text = ""
 peSV.AposBoth.mode  = ""
 peSV.AposBoth.melody  = ""
 peSV.AposBoth.text = ""
-
-
 
 //Vespers
 peVE.Stichera1234.text = "" //for media
@@ -476,16 +464,13 @@ peVE.Aposticha1.mode  = ""
 peVE.Aposticha1.melody  = ""
 peVE.Aposticha1.text = ""
 
-
 peVE.Aposticha2.mode  = ""
 peVE.Aposticha2.melody  = ""
 peVE.Aposticha2.text = ""
 
-
 peVE.Aposticha3.mode  = ""
 peVE.Aposticha3.melody  = ""
 peVE.Aposticha3.text = ""
-
 
 peVE.Aposticha4.mode  = ""
 peVE.Aposticha4.melody  = ""
@@ -571,12 +556,9 @@ peMA.PostGospelBoth.mode  = ""
 peMA.PostGospelBoth.melody  = ""
 peMA.PostGospelBoth.text = ""
 
-
 peMA.PostGospelIdiomelon.mode  = ""
 peMA.PostGospelIdiomelon.melody  = ""
 peMA.PostGospelIdiomelon.text = ""
-
-
 
 //canon odes
 // Allow for C1 to have Heirmos + 8 troparia + F1, F2, Tr, T. Not all odes or canons have this many.
@@ -654,7 +636,6 @@ peMA.Ode1C1T.ode  = ""
 peMA.Ode1C1T.mode  = ""
 peMA.Ode1C1T.melody  = ""
 peMA.Ode1C1T.text = ""
-
 
 peMA.Ode1C2H.ode  = ""
 peMA.Ode1C2H.mode  = ""
@@ -772,7 +753,6 @@ peMA.Ode3C1T.ode  = ""
 peMA.Ode3C1T.mode  = ""
 peMA.Ode3C1T.melody  = ""
 peMA.Ode3C1T.text = ""
-
 
 peMA.Ode3C2H.ode  = ""
 peMA.Ode3C2H.mode  = ""
@@ -907,7 +887,6 @@ peMA.Ode4C1T.mode  = ""
 peMA.Ode4C1T.melody  = ""
 peMA.Ode4C1T.text = ""
 
-
 peMA.Ode4C2H.ode  = ""
 peMA.Ode4C2H.mode  = ""
 peMA.Ode4C2H.melody  = ""
@@ -957,7 +936,6 @@ peMA.Ode4C2T.ode  = ""
 peMA.Ode4C2T.mode  = ""
 peMA.Ode4C2T.melody  = ""
 peMA.Ode4C2T.text = ""
-
 
 // Ode 5
 
@@ -1026,7 +1004,6 @@ peMA.Ode5C1T.mode  = ""
 peMA.Ode5C1T.melody  = ""
 peMA.Ode5C1T.text = ""
 
-
 peMA.Ode5C2H.ode  = ""
 peMA.Ode5C2H.mode  = ""
 peMA.Ode5C2H.melody  = ""
@@ -1076,7 +1053,6 @@ peMA.Ode5C2T.ode  = ""
 peMA.Ode5C2T.mode  = ""
 peMA.Ode5C2T.melody  = ""
 peMA.Ode5C2T.text = ""
-
 
 // Ode 6
 
@@ -1144,7 +1120,6 @@ peMA.Ode6C1T.ode  = ""
 peMA.Ode6C1T.mode  = ""
 peMA.Ode6C1T.melody  = ""
 peMA.Ode6C1T.text = ""
-
 
 peMA.Ode6C2H.ode  = ""
 peMA.Ode6C2H.mode  = ""
@@ -1232,7 +1207,6 @@ peMA.Synaxarion.couplet2.verse1 = "" //d113
 peMA.Synaxarion.couplet2.verse2 = "" //d113
 peMA.Synaxarion.lastline.text = ""
 
-
 // Ode 7
 
 peMA.Ode7C1H.ode  = ""
@@ -1300,7 +1274,6 @@ peMA.Ode7C1T.mode  = ""
 peMA.Ode7C1T.melody  = ""
 peMA.Ode7C1T.text = ""
 
-
 peMA.Ode7C2H.ode  = ""
 peMA.Ode7C2H.mode  = ""
 peMA.Ode7C2H.melody  = ""
@@ -1350,7 +1323,6 @@ peMA.Ode7C2T.ode  = ""
 peMA.Ode7C2T.mode  = ""
 peMA.Ode7C2T.melody  = ""
 peMA.Ode7C2T.text = ""
-
 
 // Ode 8
 
@@ -1419,7 +1391,6 @@ peMA.Ode8C1T.mode  = ""
 peMA.Ode8C1T.melody  = ""
 peMA.Ode8C1T.text = ""
 
-
 peMA.Ode8C2H.ode  = ""
 peMA.Ode8C2H.mode  = ""
 peMA.Ode8C2H.melody  = ""
@@ -1470,9 +1441,7 @@ peMA.Ode8C2T.mode  = ""
 peMA.Ode8C2T.melody  = ""
 peMA.Ode8C2T.text = ""
 
-
 // Ode 9
-
 
 peMA.Ode9C1H.ode  = ""
 peMA.Ode9C1H.mode  = ""
@@ -1591,7 +1560,6 @@ peMA.Ode9C2T.mode  = ""
 peMA.Ode9C2T.melody  = ""
 peMA.Ode9C2T.text = ""
 
-
 peMA.Exaposteilarion1.mode  = ""
 peMA.Exaposteilarion1.melody  = ""
 peMA.Exaposteilarion1.text = ""
@@ -1660,16 +1628,13 @@ peMA.Aposticha1.mode  = ""
 peMA.Aposticha1.melody  = ""
 peMA.Aposticha1.text = ""
 
-
 peMA.Aposticha2.mode  = ""
 peMA.Aposticha2.melody  = ""
 peMA.Aposticha2.text = ""
 
-
 peMA.Aposticha3.mode  = ""
 peMA.Aposticha3.melody  = ""
 peMA.Aposticha3.text = ""
-
 
 peMA.Aposticha4.mode  = ""
 peMA.Aposticha4.melody  = ""

@@ -31,7 +31,6 @@ index.day.description2 = "Links with the label <em>Text/Music</em> open the html
 //You can have any number of index.descriptions, e.g.
 //index.description3 = "I am the index description 3"
 
-
 // index for books
 index.books.title = "AGES Digital Chant Stand<br>Sacraments and Services"
 index.books.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
@@ -250,6 +249,4 @@ ho26.html.link = "Supplication Canon to Guardian Angel"
 ho27.html.link = "Supplication Canon to Angels and Saints"
 ho28.html.link = "Akathist to the Cross"
 ho29.html.link = "Canon, Oikoi, and Hymns to the Holy Trinity"
-
-
 

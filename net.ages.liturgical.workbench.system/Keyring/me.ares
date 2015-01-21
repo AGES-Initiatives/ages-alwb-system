@@ -19,7 +19,6 @@ meHO.note1 = ""
 meHO.note2 = ""
 meDismissal = ""
 
-
 meVE.Stichera01.description = ""
 meVE.Stichera01.mode  = ""
 meVE.Stichera01.melody  = ""
@@ -261,7 +260,6 @@ meVE.Apolytikion3.mode  = ""
 meVE.Apolytikion3.melody  = ""
 meVE.Apolytikion3.text = ""
 
-
 meMA.Kathisma11.description = ""
 meMA.Kathisma11.mode  = ""
 meMA.Kathisma11.melody  = ""
@@ -336,7 +334,6 @@ meMA.PostGospelBoth.description = ""
 meMA.PostGospelBoth.mode  = ""
 meMA.PostGospelBoth.melody  = ""
 meMA.PostGospelBoth.text = ""
-
 
 meMA.PostGospelIdiomelon.description = ""
 meMA.PostGospelIdiomelon.mode  = ""
@@ -1156,8 +1153,6 @@ meMA.Oikos26.text = ""
 meMA.Oikos27.text = ""
 meMA.Oikos28.text = ""
 
-
-
 meMA.Synaxarion.description = ""
 meMA.Synaxarion.text  = ""
 
@@ -1519,7 +1514,6 @@ meMA.Ode9C3MTr.description = ""
 meMA.Ode9C3MTr.text = ""
 meMA.Ode9C3MTh.description = ""
 meMA.Ode9C3MTh.text = ""
-
 
 meMA.Ode9C1H.description = ""
 meMA.Ode9C1H.ode  = ""
@@ -1990,7 +1984,6 @@ meSV.AposBoth.mode  = ""
 meSV.AposBoth.melody  = ""
 meSV.AposBoth.text = ""
 
-
 meVE.SticGlory1.description = ""
 meVE.SticGlory1.mode  = ""
 meVE.SticGlory1.melody  = ""
@@ -2210,7 +2203,6 @@ meCO.Ode5C22.ode  = ""
 meCO.Ode5C22.mode  = ""
 meCO.Ode5C22.melody  = ""
 meCO.Ode5C22.text = ""
-
 
 meCO.Ode6C1H.description = ""
 meCO.Ode6C1H.ode  = ""
@@ -2471,7 +2463,6 @@ meVE.TheotokosHymn.text  = ""
 
 meVE.CommunionHymn.description = ""
 meVE.CommunionHymn.text = ""
-
 
 //for Iambic canons
 meMA.C2Acrostic1.description = ""
@@ -2818,8 +2809,6 @@ meMA.Ode9K2.ode  = ""
 meMA.Ode9K2.mode  = ""
 meMA.Ode9K2.melody  = ""
 meMA.Ode9K2.text  = ""
-
-
 
 //Great Water Blessing for Jan 6 Epiphany
 meGW.Idiomelon1.description = ""

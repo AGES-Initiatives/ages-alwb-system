@@ -27,7 +27,6 @@ prayerzero = "prayerzero"
 versecenter = "versecenter"
 titlezero = "titlezero"
 
-
 //roles with Title for eMatins cover
 cover0 = "cover0"
 cover1 = "cover1"
@@ -40,5 +39,4 @@ cover5 = "cover5"
 credits1 = "credits1"
 credits2 = "credits2"
 credits3 = "credits3"
-
 
