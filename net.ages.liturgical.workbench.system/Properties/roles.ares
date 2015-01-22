@@ -8,6 +8,7 @@ melody = "melody"
 mode = "mode"
 desig = "designation"
 rubric = "rubric"
+source = "source"
 
 //roles with Para
 heirmos = "heirmos"
