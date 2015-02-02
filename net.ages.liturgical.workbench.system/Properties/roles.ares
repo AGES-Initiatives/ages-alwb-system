@@ -9,6 +9,7 @@ mode = "mode"
 desig = "designation"
 rubric = "rubric"
 source = "source"
+source0 = "source0"
 
 //roles with Para
 heirmos = "heirmos"
