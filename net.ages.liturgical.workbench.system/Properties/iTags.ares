@@ -16,3 +16,5 @@ Tmode = "emphasis,mode"
 Tdesig = "emphasis,designation"
 Trubric = "emphasis,rubric"
 Tnumright = "emphasis,numright"
+
+inlinerubric = "emphasis,rubric"
