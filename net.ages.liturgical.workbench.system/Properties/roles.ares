@@ -12,6 +12,7 @@ source = "source"
 source0 = "source0"
 
 //roles with Para
+alttext = "alttext"
 heirmos = "heirmos"
 hymnlinefirst = "hymnlinefirst"
 hymnlinemiddle = "hymnlinemiddle"
