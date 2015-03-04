@@ -5255,7 +5255,7 @@ trGC.SticheraT.melody  = ""
 trGC.SticheraT.text = ""
 
 //Matins
-trGC.Title = ""
+trGC.title = ""
 trGC.C1Poet  = ""
 
 //Ode 1
