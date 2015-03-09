@@ -18,3 +18,5 @@ Trubric = "emphasis,rubric"
 Tnumright = "emphasis,numright"
 
 inlinerubric = "emphasis,rubric"
+anum = "emphasis,anum"
+reference = "emphasis,reference"
