@@ -50,6 +50,7 @@ index.custom.description2 = "Links with the label <em>Text/Music</em> open the h
  
 // index titles
 co.html.link = "Evening Compline "
+co1.html.link = "Pre-Resurrection Service "
 consecration_relics.html.link = "Reception of Relics "
 consecration_vespers.html.link = "Consecration Vespers "
 consecration_liturgy.html.link = "Consecration Liturgy "
@@ -66,6 +67,7 @@ em.html.link = "Matins (in the evening)"
 gh.html.link = "Great Hours"
 
 h1.html.link = "First Hour"
+h11.html.link = "Changeable parts for Hours"
 
 h3.html.link = "Third Hour"
 
@@ -74,7 +76,7 @@ h6.html.link = "Sixth Hour"
 h9.html.link = "Ninth Hour"
 
 li.html.link = "Divine Liturgy"
-li1.html.link = "Divine Liturgy - Alt. Version 1"
+li1.html.link = "Changeable Hymns for Liturgy"
 li2.html.link = "Divine Liturgy - Alt. Version 2"
 li3.html.link = "Divine Liturgy - Alt. Version 3"
 li4.html.link = "Divine Liturgy - Alt. Version 4"
