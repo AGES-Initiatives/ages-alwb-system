@@ -1,6 +1,8 @@
 A_Resource_Whose_Name = iTags
 
 //format based tags used with Title role mixed
+bl = "emphasis,black"
+inbl = "emphasis,italicsblack"
 b = "emphasis,bold"
 i = "emphasis,italics"
 r = "emphasis,red"
