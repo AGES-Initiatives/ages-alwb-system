@@ -34,10 +34,10 @@ meVE.Stichera03.mode = ""
 meVE.Stichera03.melody = ""
 meVE.Stichera03.text = ""
 
-meVE.Stichera123Sunday.text = "" //for media
-meVE.Stichera1123Sunday.text = "" //for media
-meVE.Stichera1234Sunday.text = "" //for media
-meVE.Stichera4456Sunday.text = "" //for media
+meVE.MM.Stichera123Sunday.text = "" //for media
+meVE.MM.Stichera1123Sunday.text = "" //for media
+meVE.MM.Stichera1234Sunday.text = "" //for media
+meVE.MM.Stichera4456Sunday.text = "" //for media
 
 meVE.Stichera04.des = ""
 meVE.Stichera04.mode = ""
@@ -104,23 +104,6 @@ meVE.SticStavrotheotokion2.mode = ""
 meVE.SticStavrotheotokion2.melody = ""
 meVE.SticStavrotheotokion2.text = ""
 
-meVE.GreatProkeimenon.des = ""
-meVE.GreatProkeimenon.mode = ""
-meVE.GreatProkeimenon.source = ""
-meVE.GreatProkeimenon.text = ""
-
-meVE.GreatProkeimenonVerse1.des = ""
-meVE.GreatProkeimenonVerse1.source = ""
-meVE.GreatProkeimenonVerse1.text = ""
-
-meVE.GreatProkeimenonVerse2.des = ""
-meVE.GreatProkeimenonVerse2.source = ""
-meVE.GreatProkeimenonVerse2.text = ""
-
-meVE.GreatProkeimenonVerse3.des = ""
-meVE.GreatProkeimenonVerse3.source = ""
-meVE.GreatProkeimenonVerse3.text = ""
-
 meVE.Lity1.des = ""
 meVE.Lity1.mode = ""
 meVE.Lity1.melody = ""
@@ -176,18 +159,10 @@ meVE.Aposticha1a.mode = ""
 meVE.Aposticha1a.melody = ""
 meVE.Aposticha1a.text = ""
 
-meVE.ApostichaVerse2a.des = ""
-meVE.ApostichaVerse2a.source = ""
-meVE.ApostichaVerse2a.text = ""
-
 meVE.Aposticha2a.des = ""
 meVE.Aposticha2a.mode = ""
 meVE.Aposticha2a.melody = ""
 meVE.Aposticha2a.text = ""
-
-meVE.ApostichaVerse3a.des = ""
-meVE.ApostichaVerse3a.source = ""
-meVE.ApostichaVerse3a.text = ""
 
 meVE.Aposticha3a.des = ""
 meVE.Aposticha3a.mode = ""
@@ -199,27 +174,15 @@ meVE.Aposticha1.mode = ""
 meVE.Aposticha1.melody = ""
 meVE.Aposticha1.text = ""
 
-meVE.ApostichaVerse2.des = ""
-meVE.ApostichaVerse2.source = ""
-meVE.ApostichaVerse2.text = ""
-
 meVE.Aposticha2.des = ""
 meVE.Aposticha2.mode = ""
 meVE.Aposticha2.melody = ""
 meVE.Aposticha2.text = ""
 
-meVE.ApostichaVerse3.des = ""
-meVE.ApostichaVerse3.source = ""
-meVE.ApostichaVerse3.text = ""
-
 meVE.Aposticha3.des = ""
 meVE.Aposticha3.mode = ""
 meVE.Aposticha3.melody = ""
 meVE.Aposticha3.text = ""
-
-meVE.ApostichaVerse4.des = ""
-meVE.ApostichaVerse4.source = ""
-meVE.ApostichaVerse4.text = ""
 
 meVE.Aposticha4.des = ""
 meVE.Aposticha4.mode = ""
@@ -326,10 +289,8 @@ meMA.Kathisma3T.mode = ""
 meMA.Kathisma3T.melody = ""
 meMA.Kathisma3T.text = ""
 
-meMA.Prokeimenon.des = ""
-meMA.Prokeimenon.text = "" //for mediameMA.ProkeimenonVerse.des = ""
-
-meMA.Gospel.des = ""
+meMA.MM.Prokeimenon.des = ""
+meMA.MM.Prokeimenon.text = "" //for mediameMA.ProkeimenonVerse.des = ""
 
 meMA.PostGospelGlory.des = ""
 meMA.PostGospelGlory.mode = ""
@@ -1753,8 +1714,17 @@ meMA.Lauds8.mode = ""
 meMA.Lauds8.melody = ""
 meMA.Lauds8.text = ""
 
-meMA.Lauds456.des = "" //for media
-meMA.Lauds456.text = "" //for media
+meMA.MM.LaudsSunday.des = ""
+meMA.MM.LaudsSunday.text = ""
+
+meMA.MM.Lauds12as45.des = ""
+meMA.MM.Lauds12as45.text = ""
+
+meMA.MM.Lauds123as456.des = ""
+meMA.MM.Lauds123as456.text = ""
+
+meMA.MM.Lauds456as6women12.des = ""
+meMA.MM.Lauds456as6women12.text = ""
 
 meMA.LaudsGlory.des = ""
 meMA.LaudsGlory.mode = ""
@@ -1776,38 +1746,20 @@ meMA.LaudsStavrotheotokion.mode = ""
 meMA.LaudsStavrotheotokion.melody = ""
 meMA.LaudsStavrotheotokion.text = ""
 
-meMA.LaudsSundayVerse1.des = ""
-meMA.LaudsSundayVerse1.text = ""
-
-meMA.LaudsSundayVerse2.des = ""
-meMA.LaudsSundayVerse2.text = ""
-
 meMA.Aposticha1.des = ""
 meMA.Aposticha1.mode = ""
 meMA.Aposticha1.melody = ""
 meMA.Aposticha1.text = ""
-
-meMA.ApostichaVerse2.des = ""
-meMA.ApostichaVerse2.source = ""
-meMA.ApostichaVerse2.text = ""
 
 meMA.Aposticha2.des = ""
 meMA.Aposticha2.mode = ""
 meMA.Aposticha2.melody = ""
 meMA.Aposticha2.text = ""
 
-meMA.ApostichaVerse3.des = ""
-meMA.ApostichaVerse3.source = ""
-meMA.ApostichaVerse3.text = ""
-
 meMA.Aposticha3.des = ""
 meMA.Aposticha3.mode = ""
 meMA.Aposticha3.melody = ""
 meMA.Aposticha3.text = ""
-
-meMA.ApostichaVerse4.des = ""
-meMA.ApostichaVerse4.source = ""
-meMA.ApostichaVerse4.text = ""
 
 meMA.Aposticha4.des = ""
 meMA.Aposticha4.mode = ""
@@ -1877,9 +1829,9 @@ meMA.AdditionalIdiomelonBoth.text = ""
 meLI.Antiphon2.des = ""
 meLI.Antiphon2.text = ""
 
-meLI.EntranceHymn.des = ""
-meLI.EntranceHymn.source = ""
-meLI.EntranceHymn.text = ""
+meLI.MM.EntranceHymn.des = ""
+meLI.MM.EntranceHymn.source = ""
+meLI.MM.EntranceHymn.text = ""
 
 meLI.Kontakion1.des = ""
 meLI.Kontakion1.mode = ""
@@ -1896,9 +1848,9 @@ meLI.TheotokosHymn.mode = ""
 meLI.TheotokosHymnVerse.text = ""
 meLI.TheotokosHymn.text = ""
 
-meLI.CommunionHymn.des = ""
-meLI.CommunionHymn.source = ""
-meLI.CommunionHymn.text = ""
+meLI.MM.CommunionHymn.des = ""
+meLI.MM.CommunionHymn.source = ""
+meLI.MM.CommunionHymn.text = ""
 
 meLI.AfterCommunion.des = ""
 meLI.AfterCommunion.mode = ""
@@ -1962,18 +1914,10 @@ meSV.Aposticha1.mode = ""
 meSV.Aposticha1.melody = ""
 meSV.Aposticha1.text = ""
 
-meSV.ApostichaVerse2.des = ""
-meSV.ApostichaVerse2.source = ""
-meSV.ApostichaVerse2.text = ""
-
 meSV.Aposticha2.des = ""
 meSV.Aposticha2.mode = ""
 meSV.Aposticha2.melody = ""
 meSV.Aposticha2.text = ""
-
-meSV.ApostichaVerse3.des = ""
-meSV.ApostichaVerse3.source = ""
-meSV.ApostichaVerse3.text = ""
 
 meSV.Aposticha3.des = ""
 meSV.Aposticha3.mode = ""
@@ -2467,8 +2411,8 @@ meVE.TheotokosHymn.des = ""
 meVE.TheotokosHymn.mode = ""
 meVE.TheotokosHymn.text = ""
 
-meVE.CommunionHymn.des = ""
-meVE.CommunionHymn.text = ""
+meVE.MM.CommunionHymn.des = ""
+meVE.MM.CommunionHymn.text = ""
 
 //for Iambic canons
 meMA.C2Acrostic1.des = ""
@@ -2974,10 +2918,10 @@ alt1.meVE.Stichera03.mode = ""
 alt1.meVE.Stichera03.melody = ""
 alt1.meVE.Stichera03.text = ""
 
-alt1.meVE.Stichera123Sunday.text = "" //for media
-alt1.meVE.Stichera1123Sunday.text = "" //for media
-alt1.meVE.Stichera1234Sunday.text = "" //for media
-alt1.meVE.Stichera4456Sunday.text = "" //for media
+alt1.meVE.MM.Stichera123Sunday.text = "" //for media
+alt1.meVE.MM.Stichera1123Sunday.text = "" //for media
+alt1.meVE.MM.Stichera1234Sunday.text = "" //for media
+alt1.meVE.MM.Stichera4456Sunday.text = "" //for media
 
 alt1.meVE.Stichera04.des = ""
 alt1.meVE.Stichera04.mode = ""
@@ -3044,23 +2988,6 @@ alt1.meVE.SticStavrotheotokion2.mode = ""
 alt1.meVE.SticStavrotheotokion2.melody = ""
 alt1.meVE.SticStavrotheotokion2.text = ""
 
-alt1.meVE.GreatProkeimenon.des = ""
-alt1.meVE.GreatProkeimenon.mode = ""
-alt1.meVE.GreatProkeimenon.source = ""
-alt1.meVE.GreatProkeimenon.text = ""
-
-alt1.meVE.GreatProkeimenonVerse1.des = ""
-alt1.meVE.GreatProkeimenonVerse1.source = ""
-alt1.meVE.GreatProkeimenonVerse1.text = ""
-
-alt1.meVE.GreatProkeimenonVerse2.des = ""
-alt1.meVE.GreatProkeimenonVerse2.source = ""
-alt1.meVE.GreatProkeimenonVerse2.text = ""
-
-alt1.meVE.GreatProkeimenonVerse3.des = ""
-alt1.meVE.GreatProkeimenonVerse3.source = ""
-alt1.meVE.GreatProkeimenonVerse3.text = ""
-
 alt1.meVE.Lity1.des = ""
 alt1.meVE.Lity1.mode = ""
 alt1.meVE.Lity1.melody = ""
@@ -3116,18 +3043,10 @@ alt1.meVE.Aposticha1a.mode = ""
 alt1.meVE.Aposticha1a.melody = ""
 alt1.meVE.Aposticha1a.text = ""
 
-alt1.meVE.ApostichaVerse2a.des = ""
-alt1.meVE.ApostichaVerse2a.source = ""
-alt1.meVE.ApostichaVerse2a.text = ""
-
 alt1.meVE.Aposticha2a.des = ""
 alt1.meVE.Aposticha2a.mode = ""
 alt1.meVE.Aposticha2a.melody = ""
 alt1.meVE.Aposticha2a.text = ""
-
-alt1.meVE.ApostichaVerse3a.des = ""
-alt1.meVE.ApostichaVerse3a.source = ""
-alt1.meVE.ApostichaVerse3a.text = ""
 
 alt1.meVE.Aposticha3a.des = ""
 alt1.meVE.Aposticha3a.mode = ""
@@ -3139,18 +3058,10 @@ alt1.meVE.Aposticha1.mode = ""
 alt1.meVE.Aposticha1.melody = ""
 alt1.meVE.Aposticha1.text = ""
 
-alt1.meVE.ApostichaVerse2.des = ""
-alt1.meVE.ApostichaVerse2.source = ""
-alt1.meVE.ApostichaVerse2.text = ""
-
 alt1.meVE.Aposticha2.des = ""
 alt1.meVE.Aposticha2.mode = ""
 alt1.meVE.Aposticha2.melody = ""
 alt1.meVE.Aposticha2.text = ""
-
-alt1.meVE.ApostichaVerse3.des = ""
-alt1.meVE.ApostichaVerse3.source = ""
-alt1.meVE.ApostichaVerse3.text = ""
 
 alt1.meVE.Aposticha3.des = ""
 alt1.meVE.Aposticha3.mode = ""
@@ -3266,10 +3177,8 @@ alt1.meMA.Kathisma3T.mode = ""
 alt1.meMA.Kathisma3T.melody = ""
 alt1.meMA.Kathisma3T.text = ""
 
-alt1.meMA.Prokeimenon.des = ""
-alt1.meMA.Prokeimenon.text = "" //for mediameMA.ProkeimenonVerse.des = ""
-
-alt1.meMA.Gospel.des = ""
+alt1.meMA.MM.Prokeimenon.des = ""
+alt1.meMA.MM.Prokeimenon.text = "" //for mediameMA.ProkeimenonVerse.des = ""
 
 alt1.meMA.PostGospelGlory.des = ""
 alt1.meMA.PostGospelGlory.mode = ""
@@ -4693,8 +4602,8 @@ alt1.meMA.Lauds8.mode = ""
 alt1.meMA.Lauds8.melody = ""
 alt1.meMA.Lauds8.text = ""
 
-alt1.meMA.Lauds456.des = "" //for media
-alt1.meMA.Lauds456.text = "" //for media
+alt1.meMA.MM.Lauds123as456.des = "" //for media
+alt1.meMA.MM.Lauds123as456.text = "" //for media
 
 alt1.meMA.LaudsGlory.des = ""
 alt1.meMA.LaudsGlory.mode = ""
@@ -4716,38 +4625,23 @@ alt1.meMA.LaudsStavrotheotokion.mode = ""
 alt1.meMA.LaudsStavrotheotokion.melody = ""
 alt1.meMA.LaudsStavrotheotokion.text = ""
 
-alt1.meMA.LaudsSundayVerse1.des = ""
-alt1.meMA.LaudsSundayVerse1.text = ""
-
-alt1.meMA.LaudsSundayVerse2.des = ""
-alt1.meMA.LaudsSundayVerse2.text = ""
+alt1.meMA.MM.LaudsSunday.des = ""
+alt1.meMA.MM.LaudsSunday.text = ""
 
 alt1.meMA.Aposticha1.des = ""
 alt1.meMA.Aposticha1.mode = ""
 alt1.meMA.Aposticha1.melody = ""
 alt1.meMA.Aposticha1.text = ""
 
-alt1.meMA.ApostichaVerse2.des = ""
-alt1.meMA.ApostichaVerse2.source = ""
-alt1.meMA.ApostichaVerse2.text = ""
-
 alt1.meMA.Aposticha2.des = ""
 alt1.meMA.Aposticha2.mode = ""
 alt1.meMA.Aposticha2.melody = ""
 alt1.meMA.Aposticha2.text = ""
 
-alt1.meMA.ApostichaVerse3.des = ""
-alt1.meMA.ApostichaVerse3.source = ""
-alt1.meMA.ApostichaVerse3.text = ""
-
 alt1.meMA.Aposticha3.des = ""
 alt1.meMA.Aposticha3.mode = ""
 alt1.meMA.Aposticha3.melody = ""
 alt1.meMA.Aposticha3.text = ""
-
-alt1.meMA.ApostichaVerse4.des = ""
-alt1.meMA.ApostichaVerse4.source = ""
-alt1.meMA.ApostichaVerse4.text = ""
 
 alt1.meMA.Aposticha4.des = ""
 alt1.meMA.Aposticha4.mode = ""
@@ -4817,9 +4711,9 @@ alt1.meMA.AdditionalIdiomelonBoth.text = ""
 alt1.meLI.Antiphon2.des = ""
 alt1.meLI.Antiphon2.text = ""
 
-alt1.meLI.EntranceHymn.des = ""
-alt1.meLI.EntranceHymn.source = ""
-alt1.meLI.EntranceHymn.text = ""
+alt1.meLI.MM.EntranceHymn.des = ""
+alt1.meLI.MM.EntranceHymn.source = ""
+alt1.meLI.MM.EntranceHymn.text = ""
 
 alt1.meLI.Kontakion1.des = ""
 alt1.meLI.Kontakion1.mode = ""
@@ -4836,9 +4730,9 @@ alt1.meLI.TheotokosHymn.mode = ""
 alt1.meLI.TheotokosHymnVerse.text = ""
 alt1.meLI.TheotokosHymn.text = ""
 
-alt1.meLI.CommunionHymn.des = ""
-alt1.meLI.CommunionHymn.source = ""
-alt1.meLI.CommunionHymn.text = ""
+alt1.meLI.MM.CommunionHymn.des = ""
+alt1.meLI.MM.CommunionHymn.source = ""
+alt1.meLI.MM.CommunionHymn.text = ""
 
 alt1.meLI.AfterCommunion.des = ""
 alt1.meLI.AfterCommunion.mode = ""
@@ -4902,18 +4796,10 @@ alt1.meSV.Aposticha1.mode = ""
 alt1.meSV.Aposticha1.melody = ""
 alt1.meSV.Aposticha1.text = ""
 
-alt1.meSV.ApostichaVerse2.des = ""
-alt1.meSV.ApostichaVerse2.source = ""
-alt1.meSV.ApostichaVerse2.text = ""
-
 alt1.meSV.Aposticha2.des = ""
 alt1.meSV.Aposticha2.mode = ""
 alt1.meSV.Aposticha2.melody = ""
 alt1.meSV.Aposticha2.text = ""
-
-alt1.meSV.ApostichaVerse3.des = ""
-alt1.meSV.ApostichaVerse3.source = ""
-alt1.meSV.ApostichaVerse3.text = ""
 
 alt1.meSV.Aposticha3.des = ""
 alt1.meSV.Aposticha3.mode = ""
@@ -5407,8 +5293,8 @@ alt1.meVE.TheotokosHymn.des = ""
 alt1.meVE.TheotokosHymn.mode = ""
 alt1.meVE.TheotokosHymn.text = ""
 
-alt1.meVE.CommunionHymn.des = ""
-alt1.meVE.CommunionHymn.text = ""
+alt1.meVE.MM.CommunionHymn.des = ""
+alt1.meVE.MM.CommunionHymn.text = ""
 
 //for Iambic canons
 alt1.meMA.C2Acrostic1.des = ""
@@ -5877,3 +5763,5 @@ alt1.mePL.Theotokion.des = ""
 alt1.mePL.Theotokion.mode = ""
 alt1.mePL.Theotokion.melody = ""
 alt1.mePL.Theotokion.text = ""
+
+meMA.MM.testkey = ""
