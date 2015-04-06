@@ -1,20 +1,16 @@
 A_Resource_Whose_Name = oc
 
-ocGE.GlorySticheraric.des = ""
-ocGE.GlorySticheraric.mode = // for mode-specific media
-ocGE.GlorySticheraric.text = ""
+ocGE.MM.GlorySticheraric.des = ""
+ocGE.MM.GlorySticheraric.text = ""
 
-ocGE.BothSticheraric.des = ""
-ocGE.BothSticheraric.mode = // for mode-specific media
-ocGE.BothSticheraric.text = ""
+ocGE.MM.BothSticheraric.des = ""
+ocGE.MM.BothSticheraric.text = ""
 
-ocGE.GloryHeirmologic.des = ""
-ocGE.GloryHeirmologic.mode = // for mode-specific media
-ocGE.GloryHeirmologic.text = ""
+ocGE.MM.GloryHeirmologic.des = ""
+ocGE.MM.GloryHeirmologic.text = ""
 
-ocGE.BothHeirmologic.des = ""
-ocGE.BothHeirmologic.mode = // for mode-specific media
-ocGE.BothHeirmologic.text = ""
+ocGE.MM.BothHeirmologic.des = ""
+ocGE.MM.BothHeirmologic.text = ""
 
 ocSV.Dogmatic.des = ""
 ocSV.Dogmatic.mode = ""
@@ -41,13 +37,11 @@ ocSV.AposDogmatic.mode = ""
 ocSV.AposDogmatic.melody = ""
 ocSV.AposDogmatic.text = ""
 
-ocVE.LIHC1.des = ""
-ocVE.LIHC1.mode = //for mode-specific media
-ocVE.LIHC1.text = ""
+ocVE.MM.LIHC1.des = ""
+ocVE.MM.LIHC1.text = ""
 
-ocVE.LIHC2.des = ""
-ocVE.LIHC2.mode = //for mode-specific media
-ocVE.LIHC2.text = ""
+ocVE.MM.LIHC2.des = ""
+ocVE.MM.LIHC2.text = ""
 
 ocVE.Stichera1.des = ""
 ocVE.Stichera1.mode = ""
@@ -341,13 +335,11 @@ ocMO.Ode9T.ode = ""
 ocMO.Ode9T.melody = ""
 ocMO.Ode9T.text = ""
 
-ocMA.GodIsTheLord.des = ""
-ocMA.GodIsTheLord.mode = // for mode-specific media
-ocMA.GodIsTheLord.text = ""
+ocMA.MM.GodIsTheLord.des = ""
+ocMA.MM.GodIsTheLord.text = ""
 
-ocMA.Alleluia.des = ""
-ocMA.Alleluia.mode = // for mode-specific media e.g. Triodion. Located in d7
-ocMA.Alleluia.text = ""
+ocMA.MM.Alleluia.des = ""
+ocMA.MM.Alleluia.text = ""
 
 ocMA.Kathisma11.des = ""
 ocMA.Kathisma11.mode = ""
@@ -469,13 +461,8 @@ ocMA.Antiphon43.mode = ""
 ocMA.Antiphon43.melody = ""
 ocMA.Antiphon43.text = ""
 
-ocMA.Prokeimenon.des = ""
-ocMA.Prokeimenon.source = ""
-ocMA.Prokeimenon.text = ""
-
-ocMA.ProkeimenonVerse.des = ""
-ocMA.ProkeimenonVerse.source = ""
-ocMA.ProkeimenonVerse.text = ""
+ocMA.MM.Prokeimenon.des = ""
+ocMA.MM.Prokeimenon.text = ""
 
 ocMA.C1Poet.des = ""
 ocMA.C1Poet = ""
@@ -1693,21 +1680,17 @@ ocMA.Magnificat.des = ""
 ocMA.Magnificat.mode = ""
 ocMA.Magnificat.text = ""
 
-ocMA.Lauds01.des = ""
-ocMA.Lauds01.mode = ""
-ocMA.Lauds01.text = ""
+ocMA.MM.Lauds01.des = ""
+ocMA.MM.Lauds01.text = ""
 
-ocMA.Lauds02.des = ""
-ocMA.Lauds02.mode = ""
-ocMA.Lauds02.text = ""
+ocMA.MM.Lauds02.des = ""
+ocMA.MM.Lauds02.text = ""
 
-ocMA.LaudsHeirmologic01.des = ""
-ocMA.LaudsHeirmologic01.mode = ""
-ocMA.LaudsHeirmologic01.text = ""
+ocMA.MM.LaudsHeirmologic01.des = ""
+ocMA.MM.LaudsHeirmologic01.text = ""
 
-ocMA.LaudsHeirmologic02.des = ""
-ocMA.LaudsHeirmologic02.mode = ""
-ocMA.LaudsHeirmologic02.text = ""
+ocMA.MM.LaudsHeirmologic02.des = ""
+ocMA.MM.LaudsHeirmologic02.text = ""
 
 ocMA.Lauds1.des = ""
 ocMA.Lauds1.mode = ""
@@ -1878,15 +1861,11 @@ octrMA.Kathisma11.mode = ""
 octrMA.Kathisma11.melody = ""
 octrMA.Kathisma11.text = ""
 
-octrMA.Kathisma12Verse.des = ""
-octrMA.Kathisma12Verse.source = ""
 octrMA.Kathisma12.des = ""
 octrMA.Kathisma12.mode = ""
 octrMA.Kathisma12.melody = ""
 octrMA.Kathisma12.text = ""
 
-octrMA.Kathisma13Verse.des = ""
-octrMA.Kathisma13Verse.source = ""
 octrMA.Kathisma13.des = ""
 octrMA.Kathisma13.mode = ""
 octrMA.Kathisma13.melody = ""
@@ -1946,15 +1925,11 @@ octrMA.Aposticha1.mode = ""
 octrMA.Aposticha1.melody = ""
 octrMA.Aposticha1.text = ""
 
-octrMA.Aposticha2Verse.des = ""
-octrMA.Aposticha2Verse.source = ""
 octrMA.Aposticha2.des = ""
 octrMA.Aposticha2.mode = ""
 octrMA.Aposticha2.melody = ""
 octrMA.Aposticha2.text = ""
 
-octrMA.Aposticha3Verse.des = ""
-octrMA.Aposticha3Verse.source = ""
 octrMA.Aposticha3.des = ""
 octrMA.Aposticha3.mode = ""
 octrMA.Aposticha3.melody = ""
