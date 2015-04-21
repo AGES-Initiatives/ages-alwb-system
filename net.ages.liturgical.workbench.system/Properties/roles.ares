@@ -10,6 +10,8 @@ desig = "designation"
 rubric = "rubric"
 source = "source"
 source0 = "source0"
+collapsetop = "collapsetop"
+collapsebottom = "collapsebottom"
 
 //roles with Para
 alttext = "alttext"
