@@ -1715,6 +1715,9 @@ meMA.Lauds8.mode = ""
 meMA.Lauds8.melody = ""
 meMA.Lauds8.text = ""
 
+meMA.MM.Lauds123as123.des = ""
+meMA.MM.Lauds123as123.text = ""
+
 meMA.MM.Lauds1234as5678.des = ""
 meMA.MM.Lauds1234as5678.text = ""
 
@@ -1726,6 +1729,9 @@ meMA.MM.Lauds12as45.text = ""
 
 meMA.MM.Lauds123as456.des = ""
 meMA.MM.Lauds123as456.text = ""
+
+meMA.MM.Lauds456as456.des = ""
+meMA.MM.Lauds456as456.text = ""
 
 meMA.MM.Lauds456as6women12.des = ""
 meMA.MM.Lauds456as6women12.text = ""
