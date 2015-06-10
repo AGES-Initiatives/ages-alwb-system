@@ -40,8 +40,6 @@ emc.vespersstichologia = "emc vespers stichologia"
 bmc.vesperslity = "bmc vespers lity"
 emc.vesperslity = "emc vespers lity"
 
-bmc.eothinongospel = "bmc eothinongospel"
-emc.eothinongospel = "emc eothinongospel"
 bmc.eothinongospel.position1 = "bmc eothinongospel position1"
 emc.eothinongospel.position1 = "emc eothinongospel position1"
 bmc.eothinongospel.position2 = "bmc eothinongospel position2"
@@ -49,11 +47,31 @@ emc.eothinongospel.position2 = "emc eothinongospel position2"
 
 bmc.ode3.litany = "bmc ode3 litany"
 emc.ode3.litany = "emc ode3 litany"
+
+bmc.kontakion.position2 = "bmc kontakion position2"
+emc.kontakion.position2 = "emc kontakion position2"
+
 bmc.ode6.litany = "bmc ode6 litany"
 emc.ode6.litany = "emc ode6 litany"
 
-bmc.ode1345678katavasia = "bmc ode1345678 katavasia"
-emc.ode1345678katavasia = "emc ode1345678 katavasia"
+bmc.kontakion.position1 = "bmc kontakion position1"
+emc.kontakion.position1 = "emc kontakion position1"
+
+bmc.kontakion.together = "bmc kontakion together"
+emc.kontakion.together = "emc kontakion together"
+
+bmc.ode3mekathisma = "bmc ode3 me kathisma"
+emc.ode3mekathisma = "emc ode3 me kathisma"
+
+bmc.odes1345678katavasia = "bmc odes1345678 katavasia"
+emc.odes1345678katavasia = "emc odes1345678 katavasia"
+
+bmc.magnificat.modeofweek = "bmc magnificat modeofweek"
+emc.magnificat.modeofweek = "emc magnificat modeofweek"
+
+bmc.magnificat.modeofkatavasia = "bmc magnificat modeofkatavasia"
+emc.magnificat.modeofkatavasia = "emc magnificat modeofkatavasia"
+
 bmc.ode1katavasia = "bmc ode1 katavasia"
 emc.ode1katavasia = "emc ode1 katavasia"
 bmc.ode3katavasia = "bmc ode3 katavasia"
@@ -121,9 +139,6 @@ bmc.ode8occanon3 = "bmc ode8 oc canon3"
 emc.ode8occanon3 = "emc ode8 oc canon3"
 bmc.ode9occanon3 = "bmc ode9 oc canon3"
 emc.ode9occanon3 = "emc ode9 oc canon3"
-
-bmc.ode3mekathisma = "bmc ode3 me kathisma"
-emc.ode3mekathisma = "emc ode3 me kathisma"
 
 bmc.ode1mecanon1 = "bmc ode1 me canon1"
 emc.ode1mecanon1 = "emc ode1 me canon1"
