@@ -1,0 +1,100 @@
+A_Resource_Whose_Name = website.preferences.titles_en_US_alwb 
+
+//bmc.tag = "" 
+mc.tag = "" 
+
+mc.vespersstichologia = "Vespers Stichologia"
+
+mc.vesperslity = "Vespers Lity"
+mc.eothinongospel.position1 = "Eothinon Gospel Before Katavasias"
+mc.eothinongospel.position2 = "Eothinon Gospel After Katavasias (goa)"
+
+mc.kontakion.position2 = "Secondary Kontakion Before Mid-Ode Kathisma"
+
+mc.ode3.litany = "Ode3 Short Litany"
+
+mc.ode6.litany = "Ode6 Short Litany"
+
+mc.ode3mekathisma = "Menaion Mid-Ode Kathisma"
+
+mc.kontakion.position1 = "Principal Kontakion Before Synaxarion"
+
+mc.kontakion.position21 = "Principal and Secondary Kontakia Before Synaxarion"
+
+mc.odes1345678katavasia = "Katavasias Odes 1-8"
+
+mc.magnificat.modeofcanon = "Magnificat in Mode of Canon"
+
+mc.magnificat.modeofkatavasia = "Magnificat in Mode of  Katavasia"
+
+mc.ode1katavasia = "Ode1 Katavasia"
+mc.ode3katavasia = "Ode3 Katavasia"
+mc.ode4katavasia = "Ode4 Katavasia"
+mc.ode5katavasia = "Ode5 Katavasia"
+mc.ode6katavasia = "Ode6 Katavasia"
+mc.ode7katavasia = "Ode7 Katavasia"
+mc.ode8katavasia = "Ode8 Katavasia"
+mc.ode9katavasia = "Ode9 Katavasia"
+
+mc.ode1hocanon1 = "Ode1 Horologion Canon1"
+mc.ode3hocanon1 = "Ode3 Horologion Canon1"
+mc.ode4hocanon1 = "Ode4 Horologion Canon1"
+mc.ode5hocanon1 = "Ode5 Horologion Canon1"
+mc.ode6hocanon1 = "Ode6 Horologion Canon1"
+mc.ode7hocanon1 = "Ode7 Horologion Canon1"
+mc.ode8hocanon1 = "Ode8 Horologion Canon1"
+mc.ode9hocanon1 = "Ode9 Horologion Canon1"
+
+mc.ode1occanon1 = "Ode1 Octoechos Canon1"
+mc.ode3occanon1 = "Ode3 Octoechos Canon1"
+mc.ode4occanon1 = "Ode4 Octoechos Canon1"
+mc.ode5occanon1 = "Ode5 Octoechos Canon1"
+mc.ode6occanon1 = "Ode6 Octoechos Canon1"
+mc.ode7occanon1 = "Ode7 Octoechos Canon1"
+mc.ode8occanon1 = "Ode8 Octoechos Canon1"
+mc.ode9occanon1 = "Ode9 Octoechos Canon1"
+
+mc.ode1occanon2 = "Ode1 Octoechos Canon2"
+mc.ode3occanon2 = "Ode3 Octoechos Canon2"
+mc.ode4occanon2 = "Ode4 Octoechos Canon2"
+mc.ode5occanon2 = "Ode5 Octoechos Canon2"
+mc.ode6occanon2 = "Ode6 Octoechos Canon2"
+mc.ode7occanon2 = "Ode7 Octoechos Canon2"
+mc.ode8occanon2 = "Ode8 Octoechos Canon2"
+mc.ode9occanon2 = "Ode9 Octoechos Canon2"
+
+mc.ode1occanon3 = "Ode1 Octoechos Canon3"
+mc.ode3occanon3 = "Ode3 Octoechos Canon3"
+mc.ode4occanon3 = "Ode4 Octoechos Canon3"
+mc.ode5occanon3 = "Ode5 Octoechos Canon3"
+mc.ode6occanon3 = "Ode6 Octoechos Canon3"
+mc.ode7occanon3 = "Ode7 Octoechos Canon3"
+mc.ode8occanon3 = "Ode8 Octoechos Canon3"
+mc.ode9occanon3 = "Ode9 Octoechos Canon3"
+
+mc.ode1mecanon1 = "Ode1 Menaion Canon1"
+mc.ode3mecanon1 = "Ode3 Menaion Canon1"
+mc.ode4mecanon1 = "Ode4 Menaion Canon1"
+mc.ode5mecanon1 = "Ode5 Menaion Canon1"
+mc.ode6mecanon1 = "Ode6 Menaion Canon1"
+mc.ode7mecanon1 = "Ode7 Menaion Canon1"
+mc.ode8mecanon1 = "Ode8 Menaion Canon1"
+mc.ode9mecanon1 = "Ode9 Menaion Canon1"
+
+mc.ode1mecanon2 = "Ode1 Menaion Canon2"
+mc.ode3mecanon2 = "Ode3 Menaion Canon2"
+mc.ode4mecanon2 = "Ode4 Menaion Canon2"
+mc.ode5mecanon2 = "Ode5 Menaion Canon2"
+mc.ode6mecanon2 = "Ode6 Menaion Canon2"
+mc.ode7mecanon2 = "Ode7 Menaion Canon2"
+mc.ode8mecanon2 = "Ode8 Menaion Canon2"
+mc.ode9mecanon2 = "Ode9 Menaion Canon2"
+
+mc.ode1mecanon3 = "Ode1 Menaion Canon3"
+mc.ode3mecanon3 = "Ode3 Menaion Canon3"
+mc.ode4mecanon3 = "Ode4 Menaion Canon3"
+mc.ode5mecanon3 = "Ode5 Menaion Canon3"
+mc.ode6mecanon3 = "Ode6 Menaion Canon3"
+mc.ode7mecanon3 = "Ode7 Menaion Canon3"
+mc.ode8mecanon3 = "Ode8 Menaion Canon3"
+mc.ode9mecanon3 = "Ode9 Menaion Canon3"
