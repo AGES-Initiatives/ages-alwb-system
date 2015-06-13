@@ -32,7 +32,7 @@ prayerzero = "prayerzero"
 versecenter = "versecenter"
 titlezero = "titlezero"
 
-//roles with Para or Title for marked content
+//roles with Sub-Title for marked content
 
 bmc.vespersstichologia = "bmc vespers stichologia"
 emc.vespersstichologia = "emc vespers stichologia"
