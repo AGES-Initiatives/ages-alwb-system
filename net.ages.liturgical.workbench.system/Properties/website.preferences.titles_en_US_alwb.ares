@@ -6,10 +6,10 @@ mc.tag = ""
 mc.vespersstichologia = "Vespers Stichologia"
 
 mc.vesperslity = "Vespers Lity"
-mc.eothinongospel.position1 = "Eothinon Gospel Before Katavasias"
-mc.eothinongospel.position2 = "Eothinon Gospel After Katavasias (goa)"
+mc.eothinongospel.position1 = "Eothinon Gospel (Not EP / GOA)"
+mc.eothinongospel.position2 = "Eothinon Gospel (EP / GOA)"
 
-mc.kontakion.position2 = "Secondary Kontakion Before Mid-Ode Kathisma"
+mc.kontakion.position2 = "Secondary Kontakion"
 
 mc.ode3.litany = "Ode3 Short Litany"
 
@@ -17,9 +17,9 @@ mc.ode6.litany = "Ode6 Short Litany"
 
 mc.ode3mekathisma = "Menaion Mid-Ode Kathisma"
 
-mc.kontakion.position1 = "Principal Kontakion Before Synaxarion"
+mc.kontakion.position1 = "Principal Kontakion and Synaxarion"
 
-mc.kontakion.position12 = "Principal and Secondary Kontakia Before Synaxarion"
+mc.kontakion.position12 = "Kontakia and Synaxarion"
 
 mc.odes1345678katavasia = "Katavasias Odes 1-8"
 
