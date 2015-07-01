@@ -57,8 +57,8 @@ emc_ode6_litany = "emc_ode6_litany"
 bmc_kontakion_position1 = "bmc_kontakion_position1"
 emc_kontakion_position1 = "emc_kontakion_position1"
 
-bmc_kontakion_position12 = "bmc_kontakion_position21"
-emc_kontakion_position12 = "emc_kontakion_position21"
+bmc_kontakion_position12 = "bmc_kontakion_position12"
+emc_kontakion_position12 = "emc_kontakion_position12"
 
 bmc_ode3_me_kathisma = "bmc_ode3_me_kathisma"
 emc_ode3_me_kathisma = "emc_ode3_me_kathisma"
