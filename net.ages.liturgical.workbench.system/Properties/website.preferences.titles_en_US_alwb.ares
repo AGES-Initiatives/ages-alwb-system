@@ -27,6 +27,11 @@ mc.magnificat.modeofcanon = "Magnificat in Mode of Canon"
 
 mc.magnificat.modeofkatavasia = "Magnificat in Mode of  Katavasia"
 
+mc.matins.end.no.dismissal = "Litanies, End, no Dismissal"
+mc.matins.end.before.dismissal = "Litanies and Dismissal" //unites 2 and 3
+mc.matins.dismissal = "Dismissal"
+mc.matins.close = "Conclusion, i.e. \"Through the prayers...\""
+
 mc.ode1katavasia = "Ode1 Katavasia"
 mc.ode3katavasia = "Ode3 Katavasia"
 mc.ode4katavasia = "Ode4 Katavasia"

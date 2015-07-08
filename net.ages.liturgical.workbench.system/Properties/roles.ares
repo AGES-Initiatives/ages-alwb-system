@@ -72,6 +72,18 @@ emc_magnificat_modeofcanon = "emc_magnificat_modeofcanon"
 bmc_magnificat_modeofkatavasia = "bmc_magnificat_modeokatavasia"
 emc_magnificat_modeofkatavasia = "emc_magnificat_modeofkatavasia"
 
+bmc_matins_end_no_dismissal = "bmc_matins_end_no_dismissal"
+emc_matins_end_no_dismissal = "emc_matins_end_no_dismissal"
+
+bmc_matins_end_before_dismissal = "bmc_matins_end_before_dismissal"
+emc_matins_end_before_dismissal = "emc_matins_end_before_dismissal"
+
+bmc_matins_dismissal = "bmc_matins_dismissal"
+emc_matins_dismissal = "emc_matins_dismissal"
+
+bmc_matins_close = "bmc_matins_close"
+emc_matins_close = "emc_matins_close"
+
 bmc_ode1_katavasia = "bmc_ode1_katavasia"
 emc_ode1_katavasia = "emc_ode1_katavasia"
 bmc_ode3_katavasia = "bmc_ode3_katavasia"
