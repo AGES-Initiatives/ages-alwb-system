@@ -1,0 +1,1 @@
+these files are needed for the workbench to generate meaningful pages and indexes
