@@ -80,7 +80,6 @@ trVE.SticBoth.mode = ""
 trVE.SticBoth.melody = ""
 trVE.SticBoth.text = ""
 
-
 trVE.Lity1.des = ""
 trVE.Lity1.mode = ""
 trVE.Lity1.melody = ""
@@ -2817,7 +2816,6 @@ trH9.Kontakion.text = ""
 
 // Good Friday Afternoon
 
-
 // Good Friday night
 // First Stanza
 trHW.Encomia100.mode = ""
@@ -3210,7 +3208,6 @@ trHW.Encomia3F.text = ""
 // Suggestions for Saturday morning
 
 
-
 // Hymn of the Three Servants
 trHW.SaturdayHymn.title = ""
 trHW.SaturdayHymn.mode = ""
@@ -3219,7 +3216,6 @@ trHW.SaturdayHymn.text = ""
 trHW.SaturdayHymnPlural.des = ""
 trHW.SaturdayHymnPlural.mode = ""
 trHW.SaturdayHymnPlural.text = ""
-
 
 trHW.SaturdayArise.des = ""
 trHW.SaturdayArise.mode = ""
