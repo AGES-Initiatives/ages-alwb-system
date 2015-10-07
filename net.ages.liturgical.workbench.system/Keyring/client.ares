@@ -21,6 +21,9 @@ cl.bishop2.name_c = ""
 cl.bishop2.name_p = ""
 cl.bishop2.fimi.text = ""
 
+cl.double_commemoration.bishop1and2 = "" //blank or yes
+cl.fimi.bishop1 = "" //blank or yes
+
 cl.localpatronsaint1.supplication = ""
 cl.localpatronsaint1.dismissal = ""
 cl.localpatronsaint1.greatcompline = ""
