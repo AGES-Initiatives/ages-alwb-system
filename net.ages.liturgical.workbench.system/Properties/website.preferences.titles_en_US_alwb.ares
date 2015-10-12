@@ -6,6 +6,10 @@ mc.tag = ""
 mc.vespersstichologia = "Vespers Stichologia"
 
 mc.vesperslity = "Vespers Lity"
+
+mc.matinsordinary.parish = "Matins Ordinary without Psalms 19 and 20"
+mc.matinsordinary.complete = "Matins Ordinary with complete Royal Office"
+
 mc.eothinongospel.position1 = "Eothinon Gospel (Not EP / GOA)"
 mc.eothinongospel.position2 = "Eothinon Gospel (EP / GOA)"
 
