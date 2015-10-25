@@ -40,11 +40,8 @@ emc_vespers_stichologia = "emc_vespers_stichologia"
 bmc_vespers_lity = "bmc_vespers_lity"
 emc_vespers_lity = "emc_vespers_lity"
 
-bmc_matinsordinary_parish = "bmc_matinsordinary_parish"
-emc_matinsordinary_parish = "emc_matinsordinary_parish"
-
-bmc_matinsordinary_complete = "bmc_matinsordinary_complete"
-emc_matinsordinary_complete = "emc_matinsordinary_complete"
+bmc_matinsordinary = "bmc_matinsordinary"
+emc_matinsordinary = "emc_matinsordinary"
 
 bmc_eothinongospel_position1 = "bmc_eothinongospel_position1"
 emc_eothinongospel_position1 = "emc_eothinongospel_position1"
