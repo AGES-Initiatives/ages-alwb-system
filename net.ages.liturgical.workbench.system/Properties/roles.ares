@@ -10,6 +10,7 @@ desig = "designation"
 rubric = "rubric"
 source = "source"
 source0 = "source0"
+source1 = "source1"
 
 //roles with Para
 alttext = "alttext"
