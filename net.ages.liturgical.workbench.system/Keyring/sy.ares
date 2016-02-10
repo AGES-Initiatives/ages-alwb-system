@@ -732,4 +732,11 @@ S98.couplet1.verse2 = ""
 S98.single1.text = ""
 S98.narration1.text = ""
 
+Sdd.commemoration.text = "" //for commemoration moved after Pascha
+Sdd.couplet1.title = 
+Sdd.couplet1.verse1 = ""
+Sdd.couplet1.verse2 = ""
+Sdd.single1.text = ""
+Sdd.narration1.text = ""
+
 S99.lastline.text = ""
