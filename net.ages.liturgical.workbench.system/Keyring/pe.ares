@@ -408,7 +408,7 @@ peSV.AposBoth.melody = ""
 peSV.AposBoth.text = ""
 
 //Vespers
-peVE.Stichera1234.text = "" //for media
+peVE.MM.Stichera1234as3456.text = "" //for media
 
 peVE.Stichera01.des = ""
 peVE.Stichera01.mode = ""
