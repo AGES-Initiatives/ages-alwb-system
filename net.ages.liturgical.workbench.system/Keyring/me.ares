@@ -330,6 +330,9 @@ meMA.Ode1C1H.mode = ""
 meMA.Ode1C1H.melody = ""
 meMA.Ode1C1H.text = ""
 
+meMA.C1.verse.des = ""
+meMA.C1.verse = ""
+
 meMA.Ode1C11.des = ""
 meMA.Ode1C11.ode = ""
 meMA.Ode1C11.mode = ""
@@ -378,6 +381,9 @@ meMA.Ode1C2H.mode = ""
 meMA.Ode1C2H.melody = ""
 meMA.Ode1C2H.text = ""
 
+meMA.C2.verse.des = ""
+meMA.C2.verse = ""
+
 meMA.Ode1C21.des = ""
 meMA.Ode1C21.ode = ""
 meMA.Ode1C21.mode = ""
@@ -425,6 +431,9 @@ meMA.Ode1C2T.ode = ""
 meMA.Ode1C2T.mode = ""
 meMA.Ode1C2T.melody = ""
 meMA.Ode1C2T.text = ""
+
+meMA.C3.verse.des = ""
+meMA.C3.verse = ""
 
 meMA.Ode1C31.des = ""
 meMA.Ode1C31.ode = ""
@@ -3142,6 +3151,9 @@ alt1.meMA.Ode1C1H.mode = ""
 alt1.meMA.Ode1C1H.melody = ""
 alt1.meMA.Ode1C1H.text = ""
 
+alt1.meMA.C1.verse.des = ""
+alt1.meMA.C1.verse = ""
+
 alt1.meMA.Ode1C11.des = ""
 alt1.meMA.Ode1C11.ode = ""
 alt1.meMA.Ode1C11.mode = ""
@@ -3190,6 +3202,9 @@ alt1.meMA.Ode1C2H.mode = ""
 alt1.meMA.Ode1C2H.melody = ""
 alt1.meMA.Ode1C2H.text = ""
 
+alt1.meMA.C2.verse.des = ""
+alt1.meMA.C2.verse = ""
+
 alt1.meMA.Ode1C21.des = ""
 alt1.meMA.Ode1C21.ode = ""
 alt1.meMA.Ode1C21.mode = ""
@@ -3237,6 +3252,9 @@ alt1.meMA.Ode1C2T.ode = ""
 alt1.meMA.Ode1C2T.mode = ""
 alt1.meMA.Ode1C2T.melody = ""
 alt1.meMA.Ode1C2T.text = ""
+
+alt1.meMA.C3.verse.des = ""
+alt1.meMA.C3.verse = ""
 
 alt1.meMA.Ode1C31.des = ""
 alt1.meMA.Ode1C31.ode = ""
@@ -5978,6 +5996,9 @@ alt2.meMA.Ode1C1H.mode = ""
 alt2.meMA.Ode1C1H.melody = ""
 alt2.meMA.Ode1C1H.text = ""
 
+alt2.meMA.C1.verse.des = ""
+alt2.meMA.C1.verse = ""
+
 alt2.meMA.Ode1C11.des = ""
 alt2.meMA.Ode1C11.ode = ""
 alt2.meMA.Ode1C11.mode = ""
@@ -6026,6 +6047,9 @@ alt2.meMA.Ode1C2H.mode = ""
 alt2.meMA.Ode1C2H.melody = ""
 alt2.meMA.Ode1C2H.text = ""
 
+alt2.meMA.C2.verse.des = ""
+alt2.meMA.C2.verse = ""
+
 alt2.meMA.Ode1C21.des = ""
 alt2.meMA.Ode1C21.ode = ""
 alt2.meMA.Ode1C21.mode = ""
@@ -6073,6 +6097,9 @@ alt2.meMA.Ode1C2T.ode = ""
 alt2.meMA.Ode1C2T.mode = ""
 alt2.meMA.Ode1C2T.melody = ""
 alt2.meMA.Ode1C2T.text = ""
+
+alt2.meMA.C3.verse.des = ""
+alt2.meMA.C3.verse = ""
 
 alt2.meMA.Ode1C31.des = ""
 alt2.meMA.Ode1C31.ode = ""
