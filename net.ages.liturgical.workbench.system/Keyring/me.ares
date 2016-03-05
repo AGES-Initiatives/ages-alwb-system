@@ -20,6 +20,9 @@ meHO.note2 = ""
 meDismissal = ""
 mePoet = ""
 
+meVE.Stichera.notice.des = ""
+meVE.Stichera.notice = ""
+
 meVE.Stichera01.des = ""
 meVE.Stichera01.mode = ""
 meVE.Stichera01.melody = ""
@@ -308,6 +311,9 @@ meMA.PostGospelIdiomelon.des = ""
 meMA.PostGospelIdiomelon.mode = ""
 meMA.PostGospelIdiomelon.melody = ""
 meMA.PostGospelIdiomelon.text = ""
+
+meMA.C1.notice.des = ""
+meMA.C1.notice = ""
 
 meMA.C1Poet.des = ""
 meMA.C1Poet = ""
