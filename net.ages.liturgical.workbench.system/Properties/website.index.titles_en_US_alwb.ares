@@ -51,6 +51,10 @@ index.custom.description2 = "Links with the label <em>Text/Music</em> open the h
 // index titles
 co.html.link = "Evening Compline "
 co1.html.link = "Pre-Resurrection Service "
+co2.html.link = "Small Compline and Salutations to the Theotokos"
+co3.html.link= "Small Compline and Akathist Hymn"
+
+
 consecration_relics.html.link = "Reception of Relics "
 consecration_vespers.html.link = "Consecration Vespers "
 consecration_liturgy.html.link = "Consecration Liturgy "
