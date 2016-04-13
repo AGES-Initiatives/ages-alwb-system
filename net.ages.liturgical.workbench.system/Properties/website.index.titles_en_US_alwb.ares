@@ -53,6 +53,7 @@ co.html.link = "Evening Compline "
 co1.html.link = "Pre-Resurrection Service "
 co2.html.link = "Small Compline and Salutations to the Theotokos"
 co3.html.link= "Small Compline and Akathist Hymn"
+co4.html.link= "Small Compline and Great Canon"
 
 
 consecration_relics.html.link = "Reception of Relics "
