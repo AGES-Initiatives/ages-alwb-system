@@ -254,18 +254,26 @@ trMA.PostGospelIdiomelon.melody = ""
 trMA.PostGospelIdiomelon.text = ""
 
 trMA.C1.title = ""
+trMA.C1.verse = ""
+
 trMA.C1Poet = ""
 trMA.C1Acrostic.text = ""
 
 trMA.C2.title = ""
+trMA.C2.verse = ""
+
 trMA.C2Poet = ""
 trMA.C2Acrostic.text = ""
 
 trMA.C3.title = ""
+trMA.C3.verse = ""
+
 trMA.C3Poet = ""
 trMA.C3Acrostic.text = ""
 
 trMA.C4.title = ""
+trMA.C4.verse = ""
+
 trMA.C4Poet = ""
 trMA.C4Acrostic.text = ""
 
