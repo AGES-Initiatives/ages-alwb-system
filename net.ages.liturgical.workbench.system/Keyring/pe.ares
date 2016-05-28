@@ -641,8 +641,12 @@ peMA.PostGospelIdiomelon.text = ""
 // Allow for C1 to have Heirmos + 8 troparia + F1, F2, Tr, T. Not all odes or canons have this many.
 // Allow for C2 to have Heirmos + 7 troparia + Tr, T. Not all odes or canons have this many.
 
+peMA.C1.title = ""
+
 peMA.C1Poet = ""
 peMA.C1Acrostic.text = ""
+
+peMA.C2.title = ""
 
 peMA.C2Poet = ""
 peMA.C2Acrostic.text = ""

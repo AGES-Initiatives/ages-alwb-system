@@ -466,15 +466,24 @@ ocMA.Antiphon43.text = ""
 ocMA.MM.Prokeimenon.des = ""
 ocMA.MM.Prokeimenon.text = ""
 
+ocMA.C1.title.des = ""
+ocMA.C1.title = ""
+
 ocMA.C1Poet.des = ""
 ocMA.C1Poet = ""
 ocMA.C1Acrostic.des = ""
 ocMA.C1Acrostic.text = ""
 
+ocMA.C2.title.des = ""
+ocMA.C2.title = ""
+
 ocMA.C2Poet.des = ""
 ocMA.C2Poet = ""
 ocMA.C2Acrostic.des = ""
 ocMA.C2Acrostic.text = ""
+
+ocMA.C3.title.des = ""
+ocMA.C3.title = ""
 
 ocMA.C3Poet.des = ""
 ocMA.C3Poet = ""

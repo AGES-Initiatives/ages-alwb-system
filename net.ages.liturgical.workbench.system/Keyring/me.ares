@@ -336,6 +336,8 @@ meMA.Ode1C1H.mode = ""
 meMA.Ode1C1H.melody = ""
 meMA.Ode1C1H.text = ""
 
+meMA.C1.title.des = ""
+meMA.C1.title = ""
 meMA.C1.verse.des = ""
 meMA.C1.verse = ""
 
@@ -387,6 +389,8 @@ meMA.Ode1C2H.mode = ""
 meMA.Ode1C2H.melody = ""
 meMA.Ode1C2H.text = ""
 
+meMA.C2.title.des = ""
+meMA.C2.title = ""
 meMA.C2.verse.des = ""
 meMA.C2.verse = ""
 
@@ -438,6 +442,8 @@ meMA.Ode1C2T.mode = ""
 meMA.Ode1C2T.melody = ""
 meMA.Ode1C2T.text = ""
 
+meMA.C3.title.des = ""
+meMA.C3.title = ""
 meMA.C3.verse.des = ""
 meMA.C3.verse = ""
 
