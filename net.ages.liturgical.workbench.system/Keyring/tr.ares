@@ -2037,7 +2037,8 @@ trMA.Lauds8.mode = ""
 trMA.Lauds8.melody = ""
 trMA.Lauds8.text = ""
 
-trMA.MM.LaudsSunday_i_12as56.text = ""
+trMA.MM.Lauds12as45.des = ""
+trMA.MM.Lauds12as45.text = ""
 
 trMA.LaudsGlory.des = ""
 trMA.LaudsGlory.mode = ""
