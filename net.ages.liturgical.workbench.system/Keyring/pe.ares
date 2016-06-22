@@ -33,6 +33,9 @@ pePA.Ode1H.mode = ""
 pePA.Ode1H.melody = ""
 pePA.Ode1H.text = ""
 
+pePA.C1.title = ""
+pePA.C1.verse = ""
+
 pePA.Ode11.des = ""
 pePA.Ode11.ode = ""
 pePA.Ode11.mode = ""
