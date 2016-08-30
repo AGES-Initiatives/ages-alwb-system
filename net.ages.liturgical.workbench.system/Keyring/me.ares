@@ -7,6 +7,7 @@ meDate.text = "" // date, e.g. Τῌ ΙϚʹ ΤΟΥ ΑΥΤΟΥ ΜΗΝΟΣ or July
 meCommemoration.text = "" //full title of day
 meCommemoration2.text = "" //full title of day
 meShortCommemoration1.text = ""
+meShortCommemoration2.text = ""
 meInsert1 = "" //for use in petitions and dismissal
 meInsert2 = "" //for use in petitions and dismissal
 meNote.text = ""
