@@ -3449,8 +3449,8 @@ alt1.peMA.Ode8C2T.text = ""
 // Ode 9
 alt1.peMA.Ode9C1M01.text = ""
 alt1.peMA.Ode9C1M02.text = ""
-alt1.peMA.Ode9C1M03.text = ""
-alt1.peMA.Ode9C1M04.text = ""
+alt1.peMA.Ode9C1MTr.text = ""
+alt1.peMA.Ode9C1MTh.text = ""
 
 alt1.peMA.Ode9C1H.des = ""
 alt1.peMA.Ode9C1H.ode = ""
