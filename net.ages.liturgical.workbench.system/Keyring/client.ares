@@ -5,6 +5,8 @@ cl.address = ""
 cl.city = ""
 cl.state = ""
 cl.zipcode = ""
+cl.email = ""
+cl.website = ""
 
 cl.bishop0.rank = "" //the superior of the local hierarch
 cl.bishop0.name_c = "" //comma
