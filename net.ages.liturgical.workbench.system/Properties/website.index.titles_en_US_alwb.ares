@@ -108,11 +108,12 @@ mo.html.link = "Midnight"
 pl.html.link = "Presanctified Liturgy"
 
 sv.html.link = "Small Vespers"
+sv3.html.link = "Small Vespers with Pre-Sanctified"
 
 ve.html.link = "Vespers"
 ve1.html.link = "Vespers - Alt. Version 1"
 ve2.html.link = "Vespers - Extended Version"
-ve3.html.link = "Vespers - Alt. Version 3"
+ve3.html.link = "Great Vespers and Salutations"
 ve4.html.link = "Vespers - Alt. Version 4"
 ve5.html.link = "Vespers - Alt. Version 5"
 ve6.html.link = "Vespers - Alt. Version 6"
@@ -146,17 +147,8 @@ sy.html.link = "SYNAXARION"
 tr.html.link = "TRIODION"
 
 //sevice types
-// sv.html.link = "Small Vespers" // duplicate
-// ve.html.link = "Vespers"
 gc.html.link = "Great Compline"
 sal.html.link = "Salutations"
-mo.html.link = "Midnight Office"
-// ma.html.link = "Matins" // duplicate entry
-em.html.link = "Evening Matins"
-// h1.html.link = "First Hour" // duplicate entry
-// h3.html.link = "Third Hour" // duplicate entry
-// h6.html.link = "Sixth Hour" // duplicate entry
-h36.html.link = "Trithekte"
 ty.html.link = "Typika"
 // h9.html.link = "Ninth Hour" // duplicate entry
 // gh.html.link = "Great Hours" // duplicate entry
