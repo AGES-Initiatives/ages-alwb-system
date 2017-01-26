@@ -1857,6 +1857,10 @@ meLI.MM.EntranceHymn.des = ""
 meLI.MM.EntranceHymn.source = ""
 meLI.MM.EntranceHymn.text = ""
 
+meLI.MM.EntranceHymnSunday.des = ""
+meLI.MM.EntranceHymnSunday.source = ""
+meLI.MM.EntranceHymnSunday.text = ""
+
 meLI.Kontakion1.des = ""
 meLI.Kontakion1.mode = ""
 meLI.Kontakion1.melody = ""
