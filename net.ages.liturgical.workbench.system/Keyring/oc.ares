@@ -43,7 +43,7 @@ ocVE.MM.LIHC1.text = ""
 ocVE.MM.LIHC2.des = ""
 ocVE.MM.LIHC2.text = ""
 
-ocVE.MM.LIHC_Stichologia = ""
+ocVE.MM.Stichologia.text = ""
 
 ocVE.Stichera1.des = ""
 ocVE.Stichera1.mode = ""
