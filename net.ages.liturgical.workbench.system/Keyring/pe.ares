@@ -1932,6 +1932,7 @@ peMA.AposTheotokion.text = ""
 peLI.Antiphon2.text = ""
 
 peLI.MM.EntranceHymn.text = ""
+peLI.MM.EntranceHymnAF.text = ""
 
 peLI.SeasonalKontakion.des = ""
 peLI.SeasonalKontakion.mode = ""

@@ -21,6 +21,12 @@ meHO.note2 = ""
 meDismissal = ""
 mePoet = ""
 
+meR001 = "" //for rubical notices
+meR002 = ""
+meR003 = ""
+meR004 = ""
+meR005 = ""
+
 meVE.Stichera.notice.des = ""
 meVE.Stichera.notice = ""
 
