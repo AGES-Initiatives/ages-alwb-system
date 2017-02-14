@@ -18,6 +18,7 @@ Tmode = "emphasis,mode"
 Tdesig = "emphasis,designation"
 Trubric = "emphasis,rubric"
 Tnumright = "emphasis,numright"
+Toptional = "emphasis,optional"
 
 inlinerubric = "emphasis,rubric"
 anum = "emphasis,anum"
