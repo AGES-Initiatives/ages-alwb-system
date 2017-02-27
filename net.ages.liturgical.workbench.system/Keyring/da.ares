@@ -51,6 +51,10 @@ daMA.ExapTheotokion.mode = ""
 daMA.ExapTheotokion.melody = ""
 daMA.ExapTheotokion.text = ""
 
+daMA.ExapTheotokion2.mode = ""
+daMA.ExapTheotokion2.melody = ""
+daMA.ExapTheotokion2.text = ""
+
 daLI.CommunionHymn.text = "" //for media
 
 daLI.CommunionHymnAlt.text = "" //for media
