@@ -2040,6 +2040,10 @@ meVE.GeneralApolytikion2.name = "" // name of saint for General Apolytikia
 meVE.GeneralApolytikion3.des = ""
 meVE.GeneralApolytikion3.name = "" // name of saint for General Apolytikia
 
+
+meCO.SupplicationVerse.des = ""
+meCO.SupplicationVerse.text = ""
+
 meCO.C1Acrostic.des = ""
 meCO.C1Acrostic.text = ""
 
