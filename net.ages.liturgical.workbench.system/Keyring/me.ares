@@ -7554,7 +7554,7 @@ alt2.meLI.TheotokosHymnVerse.text = ""
 alt2.meLI.TheotokosHymn.text = ""
 
 alt2.meLI.MM.CommunionHymn.des = ""
-alt2.meLI.MM.CommunionHymn.source = ""
+//alt2.meLI.MM.CommunionHymn.source = ""
 alt2.meLI.MM.CommunionHymn.text = ""
 
 alt2.meLI.AfterCommunion.des = ""
