@@ -1813,15 +1813,15 @@ ocLI.Beatitudes6.mode = ""
 ocLI.Beatitudes6.melody = ""
 ocLI.Beatitudes6.text = ""
 
-ocLI.BeatitudesGlory.des = ""
-ocLI.BeatitudesGlory.mode = ""
-ocLI.BeatitudesGlory.melody = ""
-ocLI.BeatitudesGlory.text = ""
+ocLI.BeatitudesTr.des = ""
+ocLI.BeatitudesTr.mode = ""
+ocLI.BeatitudesTr.melody = ""
+ocLI.BeatitudesTr.text = ""
 
-ocLI.BeatitudesBoth.des = ""
-ocLI.BeatitudesBoth.mode = ""
-ocLI.BeatitudesBoth.melody = ""
-ocLI.BeatitudesBoth.text = ""
+ocLI.BeatitudesT.des = ""
+ocLI.BeatitudesT.mode = ""
+ocLI.BeatitudesT.melody = ""
+ocLI.BeatitudesT.text = ""
 
 //Octoechos in Triodion
 
