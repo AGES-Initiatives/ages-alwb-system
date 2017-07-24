@@ -1867,12 +1867,22 @@ meMA.AdditionalIdiomelonBoth.text = ""
 meLI.Antiphon2.des = ""
 meLI.Antiphon2.text = ""
 
+meLI.MM.Beatitudes.Ode3C1as5678.des = ""
+meLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+meLI.MM.Beatitudes.Ode3C2as5678.des = ""
+meLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+meLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+meLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+meLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+meLI.MM.Beatitudes.Ode6C2as910GB.text = ""
+
 meLI.MM.EntranceHymn.des = ""
-meLI.MM.EntranceHymn.source = ""
 meLI.MM.EntranceHymn.text = ""
 
 meLI.MM.EntranceHymnSunday.des = ""
-meLI.MM.EntranceHymnSunday.source = ""
 meLI.MM.EntranceHymnSunday.text = ""
 
 meLI.Kontakion1.des = ""
@@ -4690,6 +4700,18 @@ alt1.meMA.AdditionalIdiomelonBoth.text = ""
 
 alt1.meLI.Antiphon2.des = ""
 alt1.meLI.Antiphon2.text = ""
+
+alt1.meLI.MM.Beatitudes.Ode3C1as5678.des = ""
+alt1.meLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+alt1.meLI.MM.Beatitudes.Ode3C2as5678.des = ""
+alt1.meLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+alt1.meLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+alt1.meLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+alt1.meLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+alt1.meLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 
 alt1.meLI.MM.EntranceHymn.des = ""
 alt1.meLI.MM.EntranceHymn.source = ""
@@ -7542,6 +7564,18 @@ alt2.meMA.AdditionalIdiomelonBoth.text = ""
 alt2.meLI.Antiphon2.des = ""
 alt2.meLI.Antiphon2.text = ""
 
+alt2.meLI.MM.Beatitudes.Ode3C1as5678.des = ""
+alt2.meLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+alt2.meLI.MM.Beatitudes.Ode3C2as5678.des = ""
+alt2.meLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+alt2.meLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+alt2.meLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+alt2.meLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+alt2.meLI.MM.Beatitudes.Ode6C2as910GB.text = ""
+
 alt2.meLI.MM.EntranceHymn.des = ""
 alt2.meLI.MM.EntranceHymn.source = ""
 alt2.meLI.MM.EntranceHymn.text = ""
@@ -10392,6 +10426,18 @@ alt3.meMA.AdditionalIdiomelonBoth.text = ""
 
 alt3.meLI.Antiphon2.des = ""
 alt3.meLI.Antiphon2.text = ""
+
+alt3.meLI.MM.Beatitudes.Ode3C1as5678.des = ""
+alt3.meLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+alt3.meLI.MM.Beatitudes.Ode3C2as5678.des = ""
+alt3.meLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+alt3.meLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+alt3.meLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+alt3.meLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+alt3.meLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 
 alt3.meLI.MM.EntranceHymn.des = ""
 alt3.meLI.MM.EntranceHymn.source = ""

@@ -2167,6 +2167,18 @@ trMA.Kontakion0.text = "" //only in T1
 
 trLI.Antiphon2.text = ""
 
+trLI.MM.Beatitudes.Ode3C1as5678.des = ""
+trLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+trLI.MM.Beatitudes.Ode3C2as5678.des = ""
+trLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+trLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+trLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+trLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+trLI.MM.Beatitudes.Ode6C2as910GB.text = ""
+
 trLI.MM.EntranceHymn.text = ""
 
 trLI.SeasonalKontakion.des = ""

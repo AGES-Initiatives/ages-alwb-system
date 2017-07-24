@@ -1931,6 +1931,18 @@ peMA.AposTheotokion.text = ""
 
 peLI.Antiphon2.text = ""
 
+peLI.MM.Beatitudes.Ode3C1as5678.des = ""
+peLI.MM.Beatitudes.Ode3C1as5678.text = ""
+
+peLI.MM.Beatitudes.Ode3C2as5678.des = ""
+peLI.MM.Beatitudes.Ode3C2as5678.text = ""
+
+peLI.MM.Beatitudes.Ode6C1as910GB.des = ""
+peLI.MM.Beatitudes.Ode6C1as910GB.text = ""
+
+peLI.MM.Beatitudes.Ode6C2as910GB.des = ""
+peLI.MM.Beatitudes.Ode6C2as910GB.text = ""
+
 peLI.MM.EntranceHymn.text = ""
 peLI.MM.EntranceHymnAF.text = ""
 
@@ -3696,6 +3708,18 @@ alt1.peMA.AposTheotokion.des = ""
 alt1.peMA.AposTheotokion.mode = ""
 alt1.peMA.AposTheotokion.melody = ""
 alt1.peMA.AposTheotokion.text = ""
+
+alt1.peLI.Beatitudes.Ode3C1as5678.des = ""
+alt1.peLI.Beatitudes.Ode3C1as5678.text = ""
+
+alt1.peLI.Beatitudes.Ode3C2as5678.des = ""
+alt1.peLI.Beatitudes.Ode3C2as5678.text = ""
+
+alt1.peLI.Beatitudes.Ode6C1as910GB.des = ""
+alt1.peLI.Beatitudes.Ode6C1as910GB.text = ""
+
+alt1.peLI.Beatitudes.Ode6C2as910GB.des = ""
+alt1.peLI.Beatitudes.Ode6C2as910GB.text = ""
 
 alt1.peLI.Antiphon2.text = ""
 
