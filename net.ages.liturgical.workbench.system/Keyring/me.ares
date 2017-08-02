@@ -2062,11 +2062,27 @@ meVE.GeneralApolytikion3.name = "" // name of saint for General Apolytikia
 meCO.SupplicationVerse.des = ""
 meCO.SupplicationVerse.text = ""
 
+meCO.C1Poet.des = ""
+meCO.C1Poet = ""
+
 meCO.C1Acrostic.des = ""
 meCO.C1Acrostic.text = ""
 
+meCO.C1.title.des = ""
+meCO.C1.title = ""
+meCO.C1.verse.des = ""
+meCO.C1.verse = ""
+
+meCO.C2Poet.des = ""
+meCO.C2Poet = ""
+
 meCO.C2Acrostic.des = ""
 meCO.C2Acrostic.text = ""
+
+meCO.C2.title.des = ""
+meCO.C2.title = ""
+meCO.C2.verse.des = ""
+meCO.C2.verse = ""
 
 meCO.Ode1C1H.des = ""
 meCO.Ode1C1H.ode = ""
