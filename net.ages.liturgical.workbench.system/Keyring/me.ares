@@ -1920,11 +1920,6 @@ meLI.Kontakion3.mode = ""
 meLI.Kontakion3.melody = ""
 meLI.Kontakion3.text = ""
 
-meLI.SeasonalKontakion.des = ""
-meLI.SeasonalKontakion.mode = ""
-meLI.SeasonalKontakion.melody = ""
-meLI.SeasonalKontakion.text = ""
-
 meLI.TheotokosHymn.des = ""
 meLI.TheotokosHymn.mode = ""
 meLI.TheotokosHymnVerse.text = ""
@@ -2087,7 +2082,6 @@ meVE.GeneralApolytikion2.name = "" // name of saint for General Apolytikia
 
 meVE.GeneralApolytikion3.des = ""
 meVE.GeneralApolytikion3.name = "" // name of saint for General Apolytikia
-
 
 meCO.SupplicationVerse.des = ""
 meCO.SupplicationVerse.text = ""
@@ -2819,11 +2813,6 @@ meMA.Ode9C224.des = ""
 meMA.Ode9C224.text = ""
 meMA.Ode9C225.des = ""
 meMA.Ode9C225.text = ""
-
-
-
-
-
 
 //Great Water Blessing for Jan 6 Epiphany
 meGW.Idiomelon1.des = ""
@@ -4767,11 +4756,6 @@ alt1.meLI.Kontakion1.des = ""
 alt1.meLI.Kontakion1.mode = ""
 alt1.meLI.Kontakion1.melody = ""
 alt1.meLI.Kontakion1.text = ""
-
-alt1.meLI.SeasonalKontakion.des = ""
-alt1.meLI.SeasonalKontakion.mode = ""
-alt1.meLI.SeasonalKontakion.melody = ""
-alt1.meLI.SeasonalKontakion.text = ""
 
 alt1.meLI.TheotokosHymn.des = ""
 alt1.meLI.TheotokosHymn.mode = ""
@@ -7631,11 +7615,6 @@ alt2.meLI.Kontakion1.mode = ""
 alt2.meLI.Kontakion1.melody = ""
 alt2.meLI.Kontakion1.text = ""
 
-alt2.meLI.SeasonalKontakion.des = ""
-alt2.meLI.SeasonalKontakion.mode = ""
-alt2.meLI.SeasonalKontakion.melody = ""
-alt2.meLI.SeasonalKontakion.text = ""
-
 alt2.meLI.TheotokosHymn.des = ""
 alt2.meLI.TheotokosHymn.mode = ""
 alt2.meLI.TheotokosHymnVerse.text = ""
@@ -10494,11 +10473,6 @@ alt3.meLI.Kontakion1.mode = ""
 alt3.meLI.Kontakion1.melody = ""
 alt3.meLI.Kontakion1.text = ""
 
-alt3.meLI.SeasonalKontakion.des = ""
-alt3.meLI.SeasonalKontakion.mode = ""
-alt3.meLI.SeasonalKontakion.melody = ""
-alt3.meLI.SeasonalKontakion.text = ""
-
 alt3.meLI.TheotokosHymn.des = ""
 alt3.meLI.TheotokosHymn.mode = ""
 alt3.meLI.TheotokosHymnVerse.text = ""
@@ -11537,7 +11511,5 @@ alt3.mePL.Theotokion.des = ""
 alt3.mePL.Theotokion.mode = ""
 alt3.mePL.Theotokion.melody = ""
 alt3.mePL.Theotokion.text = ""
-
-
 
 meMA.MM.testkey = ""

@@ -1946,11 +1946,6 @@ peLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 peLI.MM.EntranceHymn.text = ""
 peLI.MM.EntranceHymnAF.text = ""
 
-peLI.SeasonalKontakion.des = ""
-peLI.SeasonalKontakion.mode = ""
-peLI.SeasonalKontakion.melody = ""
-peLI.SeasonalKontakion.text = ""
-
 peLI.TheotokosHymn.des = ""
 peLI.TheotokosHymn.mode = ""
 peLI.TheotokosHymnVerse.text = ""
@@ -2162,7 +2157,6 @@ pePE.Prayer6.text = ""
 pePE.Prayer7.rubric = ""
 pePE.Prayer7.title = ""
 pePE.Prayer7.text = ""
-
 
 alt1.peCommemoration.text = "" //full title of day
 alt1.peShortCommemoration1.text = ""

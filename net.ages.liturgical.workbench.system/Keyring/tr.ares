@@ -2181,10 +2181,10 @@ trLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 
 trLI.MM.EntranceHymn.text = ""
 
-trLI.SeasonalKontakion.des = ""
-trLI.SeasonalKontakion.mode = ""
-trLI.SeasonalKontakion.melody = ""
-trLI.SeasonalKontakion.text = ""
+trLI.Kontakion1.des = ""
+trLI.Kontakion1.mode = ""
+trLI.Kontakion1.melody = ""
+trLI.Kontakion1.text = ""
 
 trLI.CherubicHymn.title = ""
 trLI.CherubicHymn.mode = ""
@@ -3233,7 +3233,6 @@ trHW.Encomia3T.text = ""
 trHW.Encomia3F.text = ""
 
 // Suggestions for Saturday morning
-
 
 // Hymn of the Three Servants
 trHW.SaturdayHymn.title = ""
