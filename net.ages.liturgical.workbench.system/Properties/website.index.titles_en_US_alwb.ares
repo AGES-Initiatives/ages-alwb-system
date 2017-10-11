@@ -72,7 +72,7 @@ em3.html.link = "Lamentations - Complete Text"
 gh.html.link = "Great Hours"
 
 h1.html.link = "First Hour"
-h11.html.link = "Changeable parts for Hours"
+h18.html.link = "Variable parts for Hours"
 
 h3.html.link = "Third Hour"
 
@@ -81,7 +81,7 @@ h36.html.link = "Trithekti (Third and Sixth Hours)"
 h9.html.link = "Ninth Hour"
 
 li.html.link = "Divine Liturgy"
-li1.html.link = "Changeable Hymns for Liturgy"
+li1.html.link = "Divine Liturgy - Alt. Version 1"
 li2.html.link = "Divine Liturgy - Alt. Version 2"
 li3.html.link = "Divine Liturgy - Alt. Version 3"
 li4.html.link = "Divine Liturgy - (with additional commemoration)"
