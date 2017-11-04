@@ -45,8 +45,10 @@ meVE.Stichera03.mode = ""
 meVE.Stichera03.melody = ""
 meVE.Stichera03.text = ""
 
+meVE.MM.Stichera123as456.text = "" //for media
 meVE.MM.Stichera123as567.text = "" //for media
 meVE.MM.Stichera123as8910.text = "" //for media
+meVE.MM.Stichera1123as3456.text = "" //for media
 meVE.MM.Stichera1123as78910.text = "" //for media
 meVE.MM.Stichera1234as3456.text = "" //for media
 meVE.MM.Stichera1234as5678.text = "" //for media
