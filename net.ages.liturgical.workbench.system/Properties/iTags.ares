@@ -19,6 +19,7 @@ Tdesig = "emphasis,designation"
 Trubric = "emphasis,rubric"
 Tnumright = "emphasis,numright"
 Toptional = "emphasis,optional"
+Tsmall = "emphasis,small"
 
 inlinerubric = "emphasis,rubric"
 anum = "emphasis,anum"
