@@ -1736,6 +1736,9 @@ meMA.MM.Lauds12as45.text = ""
 meMA.MM.Lauds123as123.des = ""
 meMA.MM.Lauds123as123.text = ""
 
+meMA.MM.Lauds123as345.des = ""
+meMA.MM.Lauds123as345.text = ""
+
 meMA.MM.Lauds123as456.des = ""
 meMA.MM.Lauds123as456.text = ""
 
@@ -4627,8 +4630,11 @@ alt1.meMA.Lauds8.mode = ""
 alt1.meMA.Lauds8.melody = ""
 alt1.meMA.Lauds8.text = ""
 
-alt1.meMA.MM.Lauds123as456.des = "" //for media
-alt1.meMA.MM.Lauds123as456.text = "" //for media
+alt1.meMA.MM.Lauds123as456.des = ""
+alt1.meMA.MM.Lauds123as456.text = ""
+
+alt1.meMA.MM.Lauds123as678.des = ""
+alt1.meMA.MM.Lauds123as678.text = ""
 
 alt1.meMA.MM.Lauds1234as5678.des = ""
 alt1.meMA.MM.Lauds1234as5678.text = ""
