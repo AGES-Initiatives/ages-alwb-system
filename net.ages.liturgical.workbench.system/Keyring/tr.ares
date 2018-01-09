@@ -1429,6 +1429,8 @@ trMA.Synaxarion.couplet4.title =  //tr.d068
 trMA.Synaxarion.couplet4.verse1 = "" //tr.d068
 trMA.Synaxarion.couplet4.verse2 = "" //tr.d068
 trMA.Synaxarion.single1.text = //tr.d001 
+trMA.Synaxarion.text = ""
+trMA.Synaxarion.text = "[This is where the text of the Triodion's Synaxarion will appear.]"
 trMA.Synaxarion.lastline.text = ""
 
 trMA.Ode7C1H.des = ""
