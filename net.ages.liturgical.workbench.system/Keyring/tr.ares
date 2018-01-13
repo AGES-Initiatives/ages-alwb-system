@@ -1973,6 +1973,12 @@ trMA.Ode9C3A1.mode = ""
 trMA.Ode9C3A1.melody = ""
 trMA.Ode9C3A1.text = ""
 
+trMA.Ode9C3A2.des = ""
+trMA.Ode9C3A2.ode = ""
+trMA.Ode9C3A2.mode = ""
+trMA.Ode9C3A2.melody = ""
+trMA.Ode9C3A2.text = ""
+
 trMA.Ode9C3H.des = ""
 trMA.Ode9C3H.ode = ""
 trMA.Ode9C3H.mode = ""
