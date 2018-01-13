@@ -11,7 +11,20 @@ S01.single1.text = ""
 S01.couplet2.title = 
 S01.couplet2.verse1 = ""
 S01.couplet2.verse2 = ""
-S01.narration1.text = ""
+S01.narration1.p01.text = ""
+S01.narration1.p02.text = ""
+S01.narration1.p03.text = ""
+S01.narration1.p04.text = ""
+S01.narration1.p05.text = ""
+S01.narration1.p06.text = ""
+S01.narration1.p07.text = ""
+S01.narration2.p01.text = ""
+S01.narration2.p02.text = ""
+S01.narration2.p03.text = ""
+S01.narration2.p04.text = ""
+S01.narration2.p05.text = ""
+S01.narration2.p06.text = ""
+S01.narration2.p07.text = ""
 
 S02.commemoration.text = ""
 S02.couplet1.title = 
@@ -27,7 +40,20 @@ S02.couplet2.verse7 = ""
 S02.couplet3.verse1 = ""
 S02.couplet3.verse2 = ""
 S02.single1.text = ""
-S02.narration1.text = ""
+S02.narration1.p01.text = ""
+S02.narration1.p02.text = ""
+S02.narration1.p03.text = ""
+S02.narration1.p04.text = ""
+S02.narration1.p05.text = ""
+S02.narration1.p06.text = ""
+S02.narration1.p07.text = ""
+S02.narration2.p01.text = ""
+S02.narration2.p02.text = ""
+S02.narration2.p03.text = ""
+S02.narration2.p04.text = ""
+S02.narration2.p05.text = ""
+S02.narration2.p06.text = ""
+S02.narration2.p07.text = ""
 
 S03.commemoration.text = ""
 S03.couplet1.title = 
@@ -40,7 +66,20 @@ S03.couplet3.verse2 = ""
 S03.couplet4.verse1 = ""
 S03.couplet4.verse2 = ""
 S03.single1.text = ""
-S03.narration1.text = ""
+S03.narration1.p01.text = ""
+S03.narration1.p02.text = ""
+S03.narration1.p03.text = ""
+S03.narration1.p04.text = ""
+S03.narration1.p05.text = ""
+S03.narration1.p06.text = ""
+S03.narration1.p07.text = ""
+S03.narration2.p01.text = ""
+S03.narration2.p02.text = ""
+S03.narration2.p03.text = ""
+S03.narration2.p04.text = ""
+S03.narration2.p05.text = ""
+S03.narration2.p06.text = ""
+S03.narration2.p07.text = ""
 
 S04.commemoration.text = ""
 S04.couplet1.title = 
@@ -59,7 +98,20 @@ S04.couplet6.verse2 = ""
 S04.couplet7.verse1 = ""
 S04.couplet7.verse2 = ""
 S04.single1.text = ""
-S04.narration1.text = ""
+S04.narration1.p01.text = ""
+S04.narration1.p02.text = ""
+S04.narration1.p03.text = ""
+S04.narration1.p04.text = ""
+S04.narration1.p05.text = ""
+S04.narration1.p06.text = ""
+S04.narration1.p07.text = ""
+S04.narration2.p01.text = ""
+S04.narration2.p02.text = ""
+S04.narration2.p03.text = ""
+S04.narration2.p04.text = ""
+S04.narration2.p05.text = ""
+S04.narration2.p06.text = ""
+S04.narration2.p07.text = ""
 
 S05.commemoration.text = ""
 S05.couplet1.title = 
@@ -69,7 +121,20 @@ S05.couplet2.title =
 S05.couplet2.verse1 = ""
 S05.couplet2.verse2 = ""
 S05.single1.text = ""
-S05.narration1.text = ""
+S05.narration1.p01.text = ""
+S05.narration1.p02.text = ""
+S05.narration1.p03.text = ""
+S05.narration1.p04.text = ""
+S05.narration1.p05.text = ""
+S05.narration1.p06.text = ""
+S05.narration1.p07.text = ""
+S05.narration2.p01.text = ""
+S05.narration2.p02.text = ""
+S05.narration2.p03.text = ""
+S05.narration2.p04.text = ""
+S05.narration2.p05.text = ""
+S05.narration2.p06.text = ""
+S05.narration2.p07.text = ""
 
 S06.commemoration.text = ""
 S06.couplet1.title = 
@@ -85,7 +150,20 @@ S06.couplet4.title =
 S06.couplet4.verse1 = ""
 S06.couplet4.verse2 = ""
 S06.single1.text = ""
-S06.narration1.text = ""
+S06.narration1.p01.text = ""
+S06.narration1.p02.text = ""
+S06.narration1.p03.text = ""
+S06.narration1.p04.text = ""
+S06.narration1.p05.text = ""
+S06.narration1.p06.text = ""
+S06.narration1.p07.text = ""
+S06.narration2.p01.text = ""
+S06.narration2.p02.text = ""
+S06.narration2.p03.text = ""
+S06.narration2.p04.text = ""
+S06.narration2.p05.text = ""
+S06.narration2.p06.text = ""
+S06.narration2.p07.text = ""
 
 S07.commemoration.text = ""
 S07.couplet1.title = 
@@ -95,7 +173,20 @@ S07.couplet2.title =
 S07.couplet2.verse1 = ""
 S07.couplet2.verse2 = ""
 S07.single1.text = ""
-S07.narration1.text = ""
+S07.narration1.p01.text = ""
+S07.narration1.p02.text = ""
+S07.narration1.p03.text = ""
+S07.narration1.p04.text = ""
+S07.narration1.p05.text = ""
+S07.narration1.p06.text = ""
+S07.narration1.p07.text = ""
+S07.narration2.p01.text = ""
+S07.narration2.p02.text = ""
+S07.narration2.p03.text = ""
+S07.narration2.p04.text = ""
+S07.narration2.p05.text = ""
+S07.narration2.p06.text = ""
+S07.narration2.p07.text = ""
 
 S08.commemoration.text = ""
 S08.couplet1.title = 
@@ -105,643 +196,708 @@ S08.couplet2.title =
 S08.couplet2.verse1 = ""
 S08.couplet2.verse2 = ""
 S08.single1.text = ""
-S08.narration1.text = ""
+S08.narration1.p01.text = ""
+S08.narration1.p02.text = ""
+S08.narration1.p03.text = ""
+S08.narration1.p04.text = ""
+S08.narration1.p05.text = ""
+S08.narration1.p06.text = ""
+S08.narration1.p07.text = ""
+S08.narration2.p01.text = ""
+S08.narration2.p02.text = ""
+S08.narration2.p03.text = ""
+S08.narration2.p04.text = ""
+S08.narration2.p05.text = ""
+S08.narration2.p06.text = ""
+S08.narration2.p07.text = ""
 
 S09.commemoration.text = ""
 S09.couplet1.title = 
 S09.couplet1.verse1 = ""
 S09.couplet1.verse2 = ""
 S09.single1.text = ""
-S09.narration1.text = ""
+S09.narration1.p01.text = ""
+S09.narration1.p02.text = ""
+S09.narration1.p03.text = ""
+S09.narration1.p04.text = ""
+S09.narration1.p05.text = ""
+S09.narration1.p06.text = ""
+S09.narration1.p07.text = ""
+S09.narration2.p01.text = ""
+S09.narration2.p02.text = ""
+S09.narration2.p03.text = ""
+S09.narration2.p04.text = ""
+S09.narration2.p05.text = ""
+S09.narration2.p06.text = ""
+S09.narration2.p07.text = ""
 
 S10.commemoration.text = ""
 S10.couplet1.title = 
 S10.couplet1.verse1 = ""
 S10.couplet1.verse2 = ""
 S10.single1.text = ""
-S10.narration1.text = ""
+S10.narration1.p01.text = ""
+S10.narration1.p02.text = ""
+S10.narration1.p03.text = ""
+S10.narration1.p04.text = ""
+S10.narration1.p05.text = ""
+S10.narration1.p06.text = ""
+S10.narration1.p07.text = ""
+S10.narration2.p01.text = ""
+S10.narration2.p02.text = ""
+S10.narration2.p03.text = ""
+S10.narration2.p04.text = ""
+S10.narration2.p05.text = ""
+S10.narration2.p06.text = ""
+S10.narration2.p07.text = ""
 
 S11.commemoration.text = ""
 S11.couplet1.title = 
 S11.couplet1.verse1 = ""
 S11.couplet1.verse2 = ""
 S11.single1.text = ""
-S11.narration1.text = ""
+S11.narration1.p01.text = ""
+S11.narration1.p02.text = ""
+S11.narration1.p03.text = ""
+S11.narration1.p04.text = ""
+S11.narration1.p05.text = ""
+S11.narration1.p06.text = ""
+S11.narration1.p07.text = ""
+S11.narration2.p01.text = ""
+S11.narration2.p02.text = ""
+S11.narration2.p03.text = ""
+S11.narration2.p04.text = ""
+S11.narration2.p05.text = ""
+S11.narration2.p06.text = ""
+S11.narration2.p07.text = ""
 
 S12.commemoration.text = ""
 S12.couplet1.title = 
 S12.couplet1.verse1 = ""
 S12.couplet1.verse2 = ""
 S12.single1.text = ""
-S12.narration1.text = ""
+S12.narration1.p01.text = ""
+S12.narration1.p02.text = ""
+S12.narration1.p03.text = ""
+S12.narration1.p04.text = ""
+S12.narration1.p05.text = ""
+S12.narration1.p06.text = ""
+S12.narration1.p07.text = ""
+S12.narration2.p01.text = ""
+S12.narration2.p02.text = ""
+S12.narration2.p03.text = ""
+S12.narration2.p04.text = ""
+S12.narration2.p05.text = ""
+S12.narration2.p06.text = ""
+S12.narration2.p07.text = ""
 
 S13.commemoration.text = ""
 S13.couplet1.title = 
 S13.couplet1.verse1 = ""
 S13.couplet1.verse2 = ""
 S13.single1.text = ""
-S13.narration1.text = ""
+S13.narration1.p01.text = ""
 
 S14.commemoration.text = ""
 S14.couplet1.title = 
 S14.couplet1.verse1 = ""
 S14.couplet1.verse2 = ""
 S14.single1.text = ""
-S14.narration1.text = ""
+S14.narration1.p01.text = ""
 
 S15.commemoration.text = ""
 S15.couplet1.title = 
 S15.couplet1.verse1 = ""
 S15.couplet1.verse2 = ""
 S15.single1.text = ""
-S15.narration1.text = ""
+S15.narration1.p01.text = ""
 
 S16.commemoration.text = ""
 S16.couplet1.title = 
 S16.couplet1.verse1 = ""
 S16.couplet1.verse2 = ""
 S16.single1.text = ""
-S16.narration1.text = ""
+S16.narration1.p01.text = ""
 
 S17.commemoration.text = ""
 S17.couplet1.title = 
 S17.couplet1.verse1 = ""
 S17.couplet1.verse2 = ""
 S17.single1.text = ""
-S17.narration1.text = ""
+S17.narration1.p01.text = ""
 
 S18.commemoration.text = ""
 S18.couplet1.title = 
 S18.couplet1.verse1 = ""
 S18.couplet1.verse2 = ""
 S18.single1.text = ""
-S18.narration1.text = ""
+S18.narration1.p01.text = ""
 
 S19.commemoration.text = ""
 S19.couplet1.title = 
 S19.couplet1.verse1 = ""
 S19.couplet1.verse2 = ""
 S19.single1.text = ""
-S19.narration1.text = ""
+S19.narration1.p01.text = ""
 
 S20.commemoration.text = ""
 S20.couplet1.title = 
 S20.couplet1.verse1 = ""
 S20.couplet1.verse2 = ""
 S20.single1.text = ""
-S20.narration1.text = ""
+S20.narration1.p01.text = ""
 
 S21.commemoration.text = ""
 S21.couplet1.title = 
 S21.couplet1.verse1 = ""
 S21.couplet1.verse2 = ""
 S21.single1.text = ""
-S21.narration1.text = ""
+S21.narration1.p01.text = ""
 
 S22.commemoration.text = ""
 S22.couplet1.title = 
 S22.couplet1.verse1 = ""
 S22.couplet1.verse2 = ""
 S22.single1.text = ""
-S22.narration1.text = ""
+S22.narration1.p01.text = ""
 
 S23.commemoration.text = ""
 S23.couplet1.title = 
 S23.couplet1.verse1 = ""
 S23.couplet1.verse2 = ""
 S23.single1.text = ""
-S23.narration1.text = ""
+S23.narration1.p01.text = ""
 
 S24.commemoration.text = ""
 S24.couplet1.title = 
 S24.couplet1.verse1 = ""
 S24.couplet1.verse2 = ""
 S24.single1.text = ""
-S24.narration1.text = ""
+S24.narration1.p01.text = ""
 
 S25.commemoration.text = ""
 S25.couplet1.title = 
 S25.couplet1.verse1 = ""
 S25.couplet1.verse2 = ""
 S25.single1.text = ""
-S25.narration1.text = ""
+S25.narration1.p01.text = ""
 
 S26.commemoration.text = ""
 S26.couplet1.title = 
 S26.couplet1.verse1 = ""
 S26.couplet1.verse2 = ""
 S26.single1.text = ""
-S26.narration1.text = ""
+S26.narration1.p01.text = ""
 
 S27.commemoration.text = ""
 S27.couplet1.title = 
 S27.couplet1.verse1 = ""
 S27.couplet1.verse2 = ""
 S27.single1.text = ""
-S27.narration1.text = ""
+S27.narration1.p01.text = ""
 
 S28.commemoration.text = ""
 S28.couplet1.title = 
 S28.couplet1.verse1 = ""
 S28.couplet1.verse2 = ""
 S28.single1.text = ""
-S28.narration1.text = ""
+S28.narration1.p01.text = ""
 
 S29.commemoration.text = ""
 S29.couplet1.title = 
 S29.couplet1.verse1 = ""
 S29.couplet1.verse2 = ""
 S29.single1.text = ""
-S29.narration1.text = ""
+S29.narration1.p01.text = ""
 
 S30.commemoration.text = ""
 S30.couplet1.title = 
 S30.couplet1.verse1 = ""
 S30.couplet1.verse2 = ""
 S30.single1.text = ""
-S30.narration1.text = ""
+S30.narration1.p01.text = ""
 
 S31.commemoration.text = ""
 S31.couplet1.title = 
 S31.couplet1.verse1 = ""
 S31.couplet1.verse2 = ""
 S31.single1.text = ""
-S31.narration1.text = ""
+S31.narration1.p01.text = ""
 
 S32.commemoration.text = ""
 S32.couplet1.title = 
 S32.couplet1.verse1 = ""
 S32.couplet1.verse2 = ""
 S32.single1.text = ""
-S32.narration1.text = ""
+S32.narration1.p01.text = ""
 
 S33.commemoration.text = ""
 S33.couplet1.title = 
 S33.couplet1.verse1 = ""
 S33.couplet1.verse2 = ""
 S33.single1.text = ""
-S33.narration1.text = ""
+S33.narration1.p01.text = ""
 
 S34.commemoration.text = ""
 S34.couplet1.title = 
 S34.couplet1.verse1 = ""
 S34.couplet1.verse2 = ""
 S34.single1.text = ""
-S34.narration1.text = ""
+S34.narration1.p01.text = ""
 
 S35.commemoration.text = ""
 S35.couplet1.title = 
 S35.couplet1.verse1 = ""
 S35.couplet1.verse2 = ""
 S35.single1.text = ""
-S35.narration1.text = ""
+S35.narration1.p01.text = ""
 
 S36.commemoration.text = ""
 S36.couplet1.title = 
 S36.couplet1.verse1 = ""
 S36.couplet1.verse2 = ""
 S36.single1.text = ""
-S36.narration1.text = ""
+S36.narration1.p01.text = ""
 
 S37.commemoration.text = ""
 S37.couplet1.title = 
 S37.couplet1.verse1 = ""
 S37.couplet1.verse2 = ""
 S37.single1.text = ""
-S37.narration1.text = ""
+S37.narration1.p01.text = ""
 
 S38.commemoration.text = ""
 S38.couplet1.title = 
 S38.couplet1.verse1 = ""
 S38.couplet1.verse2 = ""
 S38.single1.text = ""
-S38.narration1.text = ""
+S38.narration1.p01.text = ""
 
 S39.commemoration.text = ""
 S39.couplet1.title = 
 S39.couplet1.verse1 = ""
 S39.couplet1.verse2 = ""
 S39.single1.text = ""
-S39.narration1.text = ""
+S39.narration1.p01.text = ""
 
 S40.commemoration.text = ""
 S40.couplet1.title = 
 S40.couplet1.verse1 = ""
 S40.couplet1.verse2 = ""
 S40.single1.text = ""
-S40.narration1.text = ""
+S40.narration1.p01.text = ""
 
 S41.commemoration.text = ""
 S41.couplet1.title = 
 S41.couplet1.verse1 = ""
 S41.couplet1.verse2 = ""
 S41.single1.text = ""
-S41.narration1.text = ""
+S41.narration1.p01.text = ""
 
 S42.commemoration.text = ""
 S42.couplet1.title = 
 S42.couplet1.verse1 = ""
 S42.couplet1.verse2 = ""
 S42.single1.text = ""
-S42.narration1.text = ""
+S42.narration1.p01.text = ""
 
 S43.commemoration.text = ""
 S43.couplet1.title = 
 S43.couplet1.verse1 = ""
 S43.couplet1.verse2 = ""
 S43.single1.text = ""
-S43.narration1.text = ""
+S43.narration1.p01.text = ""
 
 S44.commemoration.text = ""
 S44.couplet1.title = 
 S44.couplet1.verse1 = ""
 S44.couplet1.verse2 = ""
 S44.single1.text = ""
-S44.narration1.text = ""
+S44.narration1.p01.text = ""
 
 S45.commemoration.text = ""
 S45.couplet1.title = 
 S45.couplet1.verse1 = ""
 S45.couplet1.verse2 = ""
 S45.single1.text = ""
-S45.narration1.text = ""
+S45.narration1.p01.text = ""
 
 S46.commemoration.text = ""
 S46.couplet1.title = 
 S46.couplet1.verse1 = ""
 S46.couplet1.verse2 = ""
 S46.single1.text = ""
-S46.narration1.text = ""
+S46.narration1.p01.text = ""
 
 S47.commemoration.text = ""
 S47.couplet1.title = 
 S47.couplet1.verse1 = ""
 S47.couplet1.verse2 = ""
 S47.single1.text = ""
-S47.narration1.text = ""
+S47.narration1.p01.text = ""
 
 S48.commemoration.text = ""
 S48.couplet1.title = 
 S48.couplet1.verse1 = ""
 S48.couplet1.verse2 = ""
 S48.single1.text = ""
-S48.narration1.text = ""
+S48.narration1.p01.text = ""
 
 S49.commemoration.text = ""
 S49.couplet1.title = 
 S49.couplet1.verse1 = ""
 S49.couplet1.verse2 = ""
 S49.single1.text = ""
-S49.narration1.text = ""
+S49.narration1.p01.text = ""
 
 S50.commemoration.text = ""
 S50.couplet1.title = 
 S50.couplet1.verse1 = ""
 S50.couplet1.verse2 = ""
 S50.single1.text = ""
-S50.narration1.text = ""
+S50.narration1.p01.text = ""
 
 S51.commemoration.text = ""
 S51.couplet1.title = 
 S51.couplet1.verse1 = ""
 S51.couplet1.verse2 = ""
 S51.single1.text = ""
-S51.narration1.text = ""
+S51.narration1.p01.text = ""
 
 S52.commemoration.text = ""
 S52.couplet1.title = 
 S52.couplet1.verse1 = ""
 S52.couplet1.verse2 = ""
 S52.single1.text = ""
-S52.narration1.text = ""
+S52.narration1.p01.text = ""
 
 S53.commemoration.text = ""
 S53.couplet1.title = 
 S53.couplet1.verse1 = ""
 S53.couplet1.verse2 = ""
 S53.single1.text = ""
-S53.narration1.text = ""
+S53.narration1.p01.text = ""
 
 S54.commemoration.text = ""
 S54.couplet1.title = 
 S54.couplet1.verse1 = ""
 S54.couplet1.verse2 = ""
 S54.single1.text = ""
-S54.narration1.text = ""
+S54.narration1.p01.text = ""
 
 S55.commemoration.text = ""
 S55.couplet1.title = 
 S55.couplet1.verse1 = ""
 S55.couplet1.verse2 = ""
 S55.single1.text = ""
-S55.narration1.text = ""
+S55.narration1.p01.text = ""
 
 S56.commemoration.text = ""
 S56.couplet1.title = 
 S56.couplet1.verse1 = ""
 S56.couplet1.verse2 = ""
 S56.single1.text = ""
-S56.narration1.text = ""
+S56.narration1.p01.text = ""
 
 S57.commemoration.text = ""
 S57.couplet1.title = 
 S57.couplet1.verse1 = ""
 S57.couplet1.verse2 = ""
 S57.single1.text = ""
-S57.narration1.text = ""
+S57.narration1.p01.text = ""
 
 S58.commemoration.text = ""
 S58.couplet1.title = 
 S58.couplet1.verse1 = ""
 S58.couplet1.verse2 = ""
 S58.single1.text = ""
-S58.narration1.text = ""
+S58.narration1.p01.text = ""
 
 S59.commemoration.text = ""
 S59.couplet1.title = 
 S59.couplet1.verse1 = ""
 S59.couplet1.verse2 = ""
 S59.single1.text = ""
-S59.narration1.text = ""
+S59.narration1.p01.text = ""
 
 S60.commemoration.text = ""
 S60.couplet1.title = 
 S60.couplet1.verse1 = ""
 S60.couplet1.verse2 = ""
 S60.single1.text = ""
-S60.narration1.text = ""
+S60.narration1.p01.text = ""
 
 S61.commemoration.text = ""
 S61.couplet1.title = 
 S61.couplet1.verse1 = ""
 S61.couplet1.verse2 = ""
 S61.single1.text = ""
-S61.narration1.text = ""
+S61.narration1.p01.text = ""
 
 S62.commemoration.text = ""
 S62.couplet1.title = 
 S62.couplet1.verse1 = ""
 S62.couplet1.verse2 = ""
 S62.single1.text = ""
-S62.narration1.text = ""
+S62.narration1.p01.text = ""
 
 S63.commemoration.text = ""
 S63.couplet1.title = 
 S63.couplet1.verse1 = ""
 S63.couplet1.verse2 = ""
 S63.single1.text = ""
-S63.narration1.text = ""
+S63.narration1.p01.text = ""
 
 S64.commemoration.text = ""
 S64.couplet1.title = 
 S64.couplet1.verse1 = ""
 S64.couplet1.verse2 = ""
 S64.single1.text = ""
-S64.narration1.text = ""
+S64.narration1.p01.text = ""
 
 S65.commemoration.text = ""
 S65.couplet1.title = 
 S65.couplet1.verse1 = ""
 S65.couplet1.verse2 = ""
 S65.single1.text = ""
-S65.narration1.text = ""
+S65.narration1.p01.text = ""
 
 S66.commemoration.text = ""
 S66.couplet1.title = 
 S66.couplet1.verse1 = ""
 S66.couplet1.verse2 = ""
 S66.single1.text = ""
-S66.narration1.text = ""
+S66.narration1.p01.text = ""
 
 S67.commemoration.text = ""
 S67.couplet1.title = 
 S67.couplet1.verse1 = ""
 S67.couplet1.verse2 = ""
 S67.single1.text = ""
-S67.narration1.text = ""
+S67.narration1.p01.text = ""
 
 S68.commemoration.text = ""
 S68.couplet1.title = 
 S68.couplet1.verse1 = ""
 S68.couplet1.verse2 = ""
 S68.single1.text = ""
-S68.narration1.text = ""
+S68.narration1.p01.text = ""
 
 S69.commemoration.text = ""
 S69.couplet1.title = 
 S69.couplet1.verse1 = ""
 S69.couplet1.verse2 = ""
 S69.single1.text = ""
-S69.narration1.text = ""
+S69.narration1.p01.text = ""
 
 S70.commemoration.text = ""
 S70.couplet1.title = 
 S70.couplet1.verse1 = ""
 S70.couplet1.verse2 = ""
 S70.single1.text = ""
-S70.narration1.text = ""
+S70.narration1.p01.text = ""
 
 S71.commemoration.text = ""
 S71.couplet1.title = 
 S71.couplet1.verse1 = ""
 S71.couplet1.verse2 = ""
 S71.single1.text = ""
-S71.narration1.text = ""
+S71.narration1.p01.text = ""
 
 S72.commemoration.text = ""
 S72.couplet1.title = 
 S72.couplet1.verse1 = ""
 S72.couplet1.verse2 = ""
 S72.single1.text = ""
-S72.narration1.text = ""
+S72.narration1.p01.text = ""
 
 S73.commemoration.text = ""
 S73.couplet1.title = 
 S73.couplet1.verse1 = ""
 S73.couplet1.verse2 = ""
 S73.single1.text = ""
-S73.narration1.text = ""
+S73.narration1.p01.text = ""
 
 S74.commemoration.text = ""
 S74.couplet1.title = 
 S74.couplet1.verse1 = ""
 S74.couplet1.verse2 = ""
 S74.single1.text = ""
-S74.narration1.text = ""
+S74.narration1.p01.text = ""
 
 S75.commemoration.text = ""
 S75.couplet1.title = 
 S75.couplet1.verse1 = ""
 S75.couplet1.verse2 = ""
 S75.single1.text = ""
-S75.narration1.text = ""
+S75.narration1.p01.text = ""
 
 S76.commemoration.text = ""
 S76.couplet1.title = 
 S76.couplet1.verse1 = ""
 S76.couplet1.verse2 = ""
 S76.single1.text = ""
-S76.narration1.text = ""
+S76.narration1.p01.text = ""
 
 S77.commemoration.text = ""
 S77.couplet1.title = 
 S77.couplet1.verse1 = ""
 S77.couplet1.verse2 = ""
 S77.single1.text = ""
-S77.narration1.text = ""
+S77.narration1.p01.text = ""
 
 S78.commemoration.text = ""
 S78.couplet1.title = 
 S78.couplet1.verse1 = ""
 S78.couplet1.verse2 = ""
 S78.single1.text = ""
-S78.narration1.text = ""
+S78.narration1.p01.text = ""
 
 S79.commemoration.text = ""
 S79.couplet1.title = 
 S79.couplet1.verse1 = ""
 S79.couplet1.verse2 = ""
 S79.single1.text = ""
-S79.narration1.text = ""
+S79.narration1.p01.text = ""
 
 S80.commemoration.text = ""
 S80.couplet1.title = 
 S80.couplet1.verse1 = ""
 S80.couplet1.verse2 = ""
 S80.single1.text = ""
-S80.narration1.text = ""
+S80.narration1.p01.text = ""
 
 S81.commemoration.text = ""
 S81.couplet1.title = 
 S81.couplet1.verse1 = ""
 S81.couplet1.verse2 = ""
 S81.single1.text = ""
-S81.narration1.text = ""
+S81.narration1.p01.text = ""
 
 S82.commemoration.text = ""
 S82.couplet1.title = 
 S82.couplet1.verse1 = ""
 S82.couplet1.verse2 = ""
 S82.single1.text = ""
-S82.narration1.text = ""
+S82.narration1.p01.text = ""
 
 S83.commemoration.text = ""
 S83.couplet1.title = 
 S83.couplet1.verse1 = ""
 S83.couplet1.verse2 = ""
 S83.single1.text = ""
-S83.narration1.text = ""
+S83.narration1.p01.text = ""
 
 S84.commemoration.text = ""
 S84.couplet1.title = 
 S84.couplet1.verse1 = ""
 S84.couplet1.verse2 = ""
 S84.single1.text = ""
-S84.narration1.text = ""
+S84.narration1.p01.text = ""
 
 S85.commemoration.text = ""
 S85.couplet1.title = 
 S85.couplet1.verse1 = ""
 S85.couplet1.verse2 = ""
 S85.single1.text = ""
-S85.narration1.text = ""
+S85.narration1.p01.text = ""
 
 S86.commemoration.text = ""
 S86.couplet1.title = 
 S86.couplet1.verse1 = ""
 S86.couplet1.verse2 = ""
 S86.single1.text = ""
-S86.narration1.text = ""
+S86.narration1.p01.text = ""
 
 S87.commemoration.text = ""
 S87.couplet1.title = 
 S87.couplet1.verse1 = ""
 S87.couplet1.verse2 = ""
 S87.single1.text = ""
-S87.narration1.text = ""
+S87.narration1.p01.text = ""
 
 S88.commemoration.text = ""
 S88.couplet1.title = 
 S88.couplet1.verse1 = ""
 S88.couplet1.verse2 = ""
 S88.single1.text = ""
-S88.narration1.text = ""
+S88.narration1.p01.text = ""
 
 S89.commemoration.text = ""
 S89.couplet1.title = 
 S89.couplet1.verse1 = ""
 S89.couplet1.verse2 = ""
 S89.single1.text = ""
-S89.narration1.text = ""
+S89.narration1.p01.text = ""
 
 S90.commemoration.text = ""
 S90.couplet1.title = 
 S90.couplet1.verse1 = ""
 S90.couplet1.verse2 = ""
 S90.single1.text = ""
-S90.narration1.text = ""
+S90.narration1.p01.text = ""
 
 S91.commemoration.text = ""
 S91.couplet1.title = 
 S91.couplet1.verse1 = ""
 S91.couplet1.verse2 = ""
 S91.single1.text = ""
-S91.narration1.text = ""
+S91.narration1.p01.text = ""
 
 S92.commemoration.text = ""
 S92.couplet1.title = 
 S92.couplet1.verse1 = ""
 S92.couplet1.verse2 = ""
 S92.single1.text = ""
-S92.narration1.text = ""
+S92.narration1.p01.text = ""
 
 S93.commemoration.text = ""
 S93.couplet1.title = 
 S93.couplet1.verse1 = ""
 S93.couplet1.verse2 = ""
 S93.single1.text = ""
-S93.narration1.text = ""
+S93.narration1.p01.text = ""
 
 S94.commemoration.text = ""
 S94.couplet1.title = 
 S94.couplet1.verse1 = ""
 S94.couplet1.verse2 = ""
 S94.single1.text = ""
-S94.narration1.text = ""
+S94.narration1.p01.text = ""
 
 S95.commemoration.text = ""
 S95.couplet1.title = 
 S95.couplet1.verse1 = ""
 S95.couplet1.verse2 = ""
 S95.single1.text = ""
-S95.narration1.text = ""
+S95.narration1.p01.text = ""
 
 S96.commemoration.text = ""
 S96.couplet1.title = 
 S96.couplet1.verse1 = ""
 S96.couplet1.verse2 = ""
 S96.single1.text = ""
-S96.narration1.text = ""
+S96.narration1.p01.text = ""
 
 S97.commemoration.text = ""
 S97.couplet1.title = 
 S97.couplet1.verse1 = ""
 S97.couplet1.verse2 = ""
 S97.single1.text = ""
-S97.narration1.text = ""
+S97.narration1.p01.text = ""
 
 S98.commemoration.text = ""
 S98.couplet1.title = 
 S98.couplet1.verse1 = ""
 S98.couplet1.verse2 = ""
 S98.single1.text = ""
-S98.narration1.text = ""
+S98.narration1.p01.text = ""
 
 Sdd.commemoration.text = "" //for commemoration moved after Pascha
 Sdd.couplet1.title = 
 Sdd.couplet1.verse1 = ""
 Sdd.couplet1.verse2 = ""
 Sdd.single1.text = ""
-Sdd.narration1.text = ""
+Sdd.narration1.p01.text = ""
 
 S99.lastline.text = ""
