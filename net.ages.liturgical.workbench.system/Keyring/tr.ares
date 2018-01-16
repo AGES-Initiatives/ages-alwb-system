@@ -2004,6 +2004,9 @@ trMA.Ode9K.mode = ""
 trMA.Ode9K.melody = ""
 trMA.Ode9K.text = ""
 
+trMA.MM.ExapIntro.des = ""
+trMA.MM.ExapIntro.text = ""
+
 trMA.Exaposteilarion1.des = ""
 trMA.Exaposteilarion1.mode = ""
 trMA.Exaposteilarion1.melody = ""
