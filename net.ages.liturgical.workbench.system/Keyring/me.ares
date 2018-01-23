@@ -250,6 +250,9 @@ meVE.Apolytikion4.mode = ""
 meVE.Apolytikion4.melody = ""
 meVE.Apolytikion4.text = ""
 
+meMA.Kathisma1.notice.des = ""
+meMA.Kathisma1.notice = ""
+
 meMA.Kathisma11.des = ""
 meMA.Kathisma11.mode = ""
 meMA.Kathisma11.melody = ""
@@ -274,6 +277,9 @@ meMA.Kathisma1St.des = ""
 meMA.Kathisma1St.mode = ""
 meMA.Kathisma1St.melody = ""
 meMA.Kathisma1St.text = ""
+
+meMA.Kathisma2.notice.des = ""
+meMA.Kathisma2.notice = ""
 
 meMA.Kathisma21.des = ""
 meMA.Kathisma21.mode = ""
@@ -1151,8 +1157,6 @@ meMA.Oikos37.text = ""
 meMA.Oikos38.text = ""
 
 meMA.Synaxarion.des = ""
-meMA.Synaxarion.text = "[This is where the text of the Menaion's Synaxarion will appear.]"
-
 meMA.Ode7C1H.des = ""
 meMA.Ode7C1H.ode = ""
 meMA.Ode7C1H.mode = ""
@@ -1685,6 +1689,9 @@ meMA.ExapStavrotheotokion.des = ""
 meMA.ExapStavrotheotokion.mode = ""
 meMA.ExapStavrotheotokion.melody = ""
 meMA.ExapStavrotheotokion.text = ""
+
+meMA.Lauds.notice.des = ""
+meMA.Lauds.notice = ""
 
 meMA.Lauds1.des = ""
 meMA.Lauds1.mode = ""
@@ -4058,9 +4065,7 @@ alt1.meMA.Oikos27.text = ""
 alt1.meMA.Oikos28.text = ""
 
 alt1.meMA.Synaxarion.des = ""
-alt1.meMA.Synaxarion.text = ""
-
-alt1.meMA.Ode7C1H.des = ""
+alt1.alt1.meMA.Ode7C1H.des = ""
 alt1.meMA.Ode7C1H.ode = ""
 alt1.meMA.Ode7C1H.mode = ""
 alt1.meMA.Ode7C1H.melody = ""
@@ -6919,9 +6924,7 @@ alt2.meMA.Oikos27.text = ""
 alt2.meMA.Oikos28.text = ""
 
 alt2.meMA.Synaxarion.des = ""
-alt2.meMA.Synaxarion.text = ""
-
-alt2.meMA.Ode7C1H.des = ""
+alt2.alt2.meMA.Ode7C1H.des = ""
 alt2.meMA.Ode7C1H.ode = ""
 alt2.meMA.Ode7C1H.mode = ""
 alt2.meMA.Ode7C1H.melody = ""
@@ -9777,9 +9780,7 @@ alt3.meMA.Oikos27.text = ""
 alt3.meMA.Oikos28.text = ""
 
 alt3.meMA.Synaxarion.des = ""
-alt3.meMA.Synaxarion.text = ""
-
-alt3.meMA.Ode7C1H.des = ""
+alt3.alt3.meMA.Ode7C1H.des = ""
 alt3.meMA.Ode7C1H.ode = ""
 alt3.meMA.Ode7C1H.mode = ""
 alt3.meMA.Ode7C1H.melody = ""
