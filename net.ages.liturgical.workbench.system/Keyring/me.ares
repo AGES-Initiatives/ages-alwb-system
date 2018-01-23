@@ -190,6 +190,9 @@ meVE.AposGlorya.mode = ""
 meVE.AposGlorya.melody = ""
 meVE.AposGlorya.text = ""
 
+meVE.Aposticha.notice.des = ""
+meVE.Aposticha.notice = ""
+
 meVE.Aposticha1.des = ""
 meVE.Aposticha1.mode = ""
 meVE.Aposticha1.melody = ""
