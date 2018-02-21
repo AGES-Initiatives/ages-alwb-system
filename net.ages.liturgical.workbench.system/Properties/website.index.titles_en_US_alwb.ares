@@ -105,6 +105,7 @@ ma9.html.link = "Matins - Hierarchical"
 mo.html.link = "Midnight"
 
 pl.html.link = "Presanctified Liturgy"
+pl8.html.link = "Presanctified Liturgy - Variable Parts"
 
 sv.html.link = "Small Vespers"
 sv3.html.link = "Small Vespers with Pre-Sanctified"
