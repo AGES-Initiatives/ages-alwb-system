@@ -403,6 +403,9 @@ ocMA.Hypakoe.mode = ""
 ocMA.Hypakoe.melody = ""
 ocMA.Hypakoe.text = ""
 
+ocMA.MM.AntiphonsProkeimenon.des = ""
+ocMA.MM.AntiphonsProkeimenon.text = ""
+
 ocMA.Antiphon11.des = ""
 ocMA.Antiphon11.mode = ""
 ocMA.Antiphon11.melody = ""
