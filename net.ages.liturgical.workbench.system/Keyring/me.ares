@@ -1921,8 +1921,14 @@ meLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 meLI.MM.EntranceHymn.des = ""
 meLI.MM.EntranceHymn.text = ""
 
+meLI.MM.EntranceHymn2.des = ""
+meLI.MM.EntranceHymn2.text = ""
+
 meLI.MM.EntranceHymnSunday.des = ""
 meLI.MM.EntranceHymnSunday.text = ""
+
+meLI.MM.EntranceHymn2Sunday.des = ""
+meLI.MM.EntranceHymn2Sunday.text = ""
 
 meLI.Kontakion1.des = ""
 meLI.Kontakion1.mode = ""
