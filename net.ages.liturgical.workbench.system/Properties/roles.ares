@@ -24,6 +24,9 @@ hymnlinelast = "hymnlinelast"
 inaudible = "inaudible"
 dialog = "dialog"
 dialogzero = "dialogzero"
+letter0 = "letter0"
+letter1 = "letter1"
+lineblank = "lineblank"
 missalreading = "missalreading"
 missaltitle = "missaltitle"
 optional = "optional"
@@ -356,4 +359,8 @@ cover6 = "cover6"
 credits1 = "credits1"
 credits2 = "credits2"
 credits3 = "credits3"
+
+//roles with Para for Logos
+logo1 = "logo1"
+logo2 = "logo2"
 

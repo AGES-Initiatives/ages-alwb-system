@@ -21,6 +21,7 @@ Tnumright = "emphasis,numright"
 Toptional = "emphasis,optional"
 Tplain = "emphasis,plain"
 Tsmall = "emphasis,small"
+Tcontact = "emphasis,contact"
 
 inlinerubric = "emphasis,rubric"
 anum = "emphasis,anum"
