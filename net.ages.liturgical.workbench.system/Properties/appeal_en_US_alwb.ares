@@ -10,13 +10,15 @@ date2.text = "Ecclesiastical New Year"
 
 salutation.text = "Dear friends,"
 
-paragraph1.text = "The AGES Digital Chant Stand is one of the most-used resources of Orthodox Christian liturgical texts and music in the world today. More than 400 of the 534 parishes of the Greek Orthodox Archdiocese of America use the free, bilingual materials it provides throughout the year. Not only in the GOA, but Orthodox Christians in five continents regularly use the Digital Chant Stand, so that congregation, clergy, and church musicians and readers can all be on the same page, when they sing, serve, and worship the All-holy Trinity, our one God."
+paragraph1.text = "The AGES Digital Chant Stand has become one of the most used resources of Orthodox Christian liturgical texts and music in the world today. More than 400 of the 534 parishes of the Greek Orthodox Archdiocese of America use the free, bilingual materials it provides throughout the year. Not only in the GOA, but Orthodox Christians in five continents regularly use the DCS, so that congregation, clergy, and church musicians and readers can all be on the same page, when they sing, serve, and worship the All-holy Trinity, our one God."
 
-paragraph2.text = "If AGES benefits the liturgical life of your parish or you personally, please consider making a tax-deductible donation between now and the end of the year, whatever amount you think is fair, to sustain this ministry. You can give online on the Donate page of the DCS; you can also send a check to: \"AGES Initiatives,\" 5108 Kuykendall Road, Charlotte, NC 28270."
+paragraph2.text = "The DCS mobile apps function as the truly \"green\" service book of all service books, that worshipers have in their purse or pocket, providing the most updated liturgical texts for a growing schedule of services and sacraments. Parishes no longer need to print out booklets nor purchase new books. The AGES DCS benefits everyone."
 
-paragraph3.text = "And don't forget, you can always get a hold of us with questions or feedback at info@agesinitiatives.org."
+paragraph3.text = "For this reason, please consider making a tax-deductible donation between now and the end of the year, whatever amount you think is fair, to sustain this ministry. You can give online on the Donate page of the DCS; you can also send a check to: \"AGES Initiatives,\" 5108 Kuykendall Road, Charlotte, NC 28270."
 
-paragraph4.text = "Thank you, and God bless you!"
+paragraph4.text = "And don't forget, you can always get a hold of us with questions or feedback at info@agesinitiatives.org."
+
+paragraph5.text = "Thank you, and God bless you!"
 
 end1.text = "Yours in the service of Christ,"
 
