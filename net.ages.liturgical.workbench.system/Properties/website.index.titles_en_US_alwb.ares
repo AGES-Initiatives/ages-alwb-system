@@ -79,7 +79,9 @@ h3.html.link = "Third Hour"
 h6.html.link = "Sixth Hour"
 h36.html.link = "Trithekti (Third and Sixth Hours)"
 h9.html.link = "Ninth Hour"
+
 h91.html.link = "Readings for the Day"
+h92.html.link = "Veneration of the Cross (moved from end of Matins to end of Liturgy)"
 
 li.html.link = "Divine Liturgy"
 li1.html.link = "Liturgy - with Typika and Beatitudes"
