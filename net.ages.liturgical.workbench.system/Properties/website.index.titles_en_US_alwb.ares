@@ -72,7 +72,8 @@ em3.html.link = "Lamentations - Complete Text"
 gh.html.link = "Great Hours"
 
 h1.html.link = "First Hour"
-h18.html.link = "Variable parts for Hours"
+h12.html.link = "Variable parts for Hours"
+h13.html.link = "Paschal Hours"
 
 h3.html.link = "Third Hour"
 
