@@ -40,6 +40,10 @@ small = "small"
 smallcenter = "smallcenter"
 versecenter = "versecenter"
 titlezero = "titlezero"
+typikon = "typikon"
+typikonomitted = "typikonomitted"
+typikoncenter = "typikoncenter"
+typikoncenteromitted = "typikoncenteromitted"
 
 //roles with Para for marked content
 bmc_collapse = "bmc_collapse"
