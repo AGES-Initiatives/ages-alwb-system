@@ -44,6 +44,8 @@ typikon = "typikon"
 typikonomitted = "typikonomitted"
 typikoncenter = "typikoncenter"
 typikoncenteromitted = "typikoncenteromitted"
+typikoncommemoration = "typikoncommemoration"
+typikonnote = "typikonnote"
 
 //roles with Para for marked content
 bmc_collapse = "bmc_collapse"
