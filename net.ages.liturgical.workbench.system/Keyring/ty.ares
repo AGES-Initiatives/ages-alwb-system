@@ -1,0 +1,190 @@
+A_Resource_Whose_Name = ty
+
+ty.Month.des = ""
+ty.Month.text = ""
+
+ty.Days.des = ""
+ty.Days.text = ""
+
+ty.Hours.des = ""
+ty.Hours.text = ""
+
+tyDate.des = ""
+tyDate.text = ""
+
+tyCommemoration.des = ""
+tyCommemoration.text = ""
+
+tyNote1.des = ""
+tyNote1.text = ""
+
+tyVE.Note1.des = ""
+tyVE.Note1.text = ""
+
+tyVE.Note2.des = ""
+tyVE.Note2.text = ""
+
+tyVE.Intro.des = ""
+tyVE.Intro.text = ""
+
+tyVE.LIHC.des = ""
+tyVE.LIHC.text = ""
+
+tyVE.Stichera.des = ""
+tyVE.Stichera.text = ""
+
+tyVE.SticGlory.des = ""
+tyVE.SticGlory.text = ""
+
+tyVE.SticBoth.des = ""
+tyVE.SticBoth.text = ""
+
+tyVE.Entrance.des = ""
+tyVE.Entrance.text = ""
+
+tyVE.Aposticha.des = ""
+tyVE.Aposticha.text = ""
+
+tyVE.AposGlory.des = ""
+tyVE.AposGlory.text = ""
+
+tyVE.AposBoth.des = ""
+tyVE.AposBoth.text = ""
+
+tyVE.Apolytikia.des = ""
+tyVE.Apolytikia.text = ""
+
+tyVE.Dismissal.des = ""
+tyVE.Dismissal.text = ""
+
+
+tyMO.Rubric1.des = ""
+tyMO.Rubric1.text = ""
+
+
+tyMA.Apolytikia.des = ""
+tyMA.Apolytikia.text = ""
+
+tyMA.Kathismata.des = ""
+tyMA.Kathismata.text = ""
+
+tyMA.Anavathmoi.des = ""
+tyMA.Anavathmoi.text = ""
+
+tyMA.Prokeimenon.des = ""
+tyMA.Prokeimenon.text = ""
+
+tyMA.ProkVerse.des = ""
+tyMA.ProkVerse.text = ""
+
+tyMA.MatinsGospel.des = ""
+tyMA.MatinsGospel.text = ""
+
+tyMA.Psalm50.des = ""
+tyMA.Psalm50.text = ""
+
+tyMA.Canons.des = ""
+tyMA.Canons.text = ""
+
+tyMA.Midode.des = ""
+tyMA.Midode.text = ""
+
+tyMA.KontakionOikos.des = ""
+tyMA.KontakionOikos.text = ""
+
+tyMA.Synaxarion.des = ""
+tyMA.Synaxarion.text = ""
+
+tyMA.Katavasias.des = ""
+tyMA.Katavasias.text = ""
+
+tyMA.Magnificat.des = ""
+tyMA.Magnificat.text = ""
+
+tyMA.Ode9_1.des = ""
+tyMA.Ode9_1.text = ""
+
+tyMA.Ode9_2.des = ""
+tyMA.Ode9_2.text = ""
+
+tyMA.Ode9_3.des = ""
+tyMA.Ode9_3.text = ""
+
+tyMA.Ode9_4.des = ""
+tyMA.Ode9_4.text = ""
+
+tyMA.Ode9_5.des = ""
+tyMA.Ode9_5.text = ""
+
+tyMA.Ode9_6.des = ""
+tyMA.Ode9_6.text = ""
+
+tyMA.Ode9_7.des = ""
+tyMA.Ode9_7.text = ""
+
+tyMA.Ode9_8.des = ""
+tyMA.Ode9_8.text = ""
+
+tyMA.Ode9_Katavasia1.des = ""
+tyMA.Ode9_Katavasia1.text = ""
+
+tyMA.Ode9_Katavasia2.des = ""
+tyMA.Ode9_Katavasia2.text = ""
+
+tyMA.Exaposteilaria.des = ""
+tyMA.Exaposteilaria.text = ""
+
+tyMA.LaudsVerses.des = ""
+tyMA.LaudsVerses.text = ""
+
+tyMA.Lauds.des = ""
+tyMA.Lauds.text = ""
+
+tyMA.LaudsGlory.des = ""
+tyMA.LaudsGlory.text = ""
+
+tyMA.LaudsBoth.des = ""
+tyMA.LaudsBoth.text = ""
+
+tyMA.Doxology.des = ""
+tyMA.Doxology.text = ""
+
+tyMA.EndApolytikion.des = ""
+tyMA.EndApolytikion.text = ""
+
+
+tyLI.Antiphons.des = ""
+tyLI.Antiphons.text = ""
+
+tyLI.EntranceHymn.des = ""
+tyLI.EntranceHymn.text = ""
+
+tyLI.Apolytikia.des = ""
+tyLI.Apolytikia.text = ""
+
+tyLI.Kontakion.des = ""
+tyLI.Kontakion.text = ""
+
+tyLI.Epistle.des = ""
+tyLI.Epistle.text = ""
+
+tyLI.Gospel.des = ""
+tyLI.Gospel.text = ""
+
+tyLI.TheotokosHymn.des = ""
+tyLI.TheotokosHymn.text = ""
+
+tyLI.Megalynarion.des = ""
+tyLI.Megalynarion.text = ""
+
+tyLI.CommunionHymn.des = ""
+tyLI.CommunionHymn.text = ""
+
+tyLI.AfterCommunion.des = ""
+tyLI.AfterCommunion.text = ""
+
+tyLI.AmboPrayer.des = ""
+tyLI.AmboPrayer.text = ""
+
+tyLI.Dismissal.des = ""
+tyLI.Dismissal.text = ""
