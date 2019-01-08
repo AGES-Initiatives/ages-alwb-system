@@ -39,6 +39,9 @@ tyVE.SticGlory.text = ""
 tyVE.SticBoth.des = ""
 tyVE.SticBoth.text = ""
 
+tyVE.SticGloryBoth.des = ""
+tyVE.SticGloryBoth.text = ""
+
 tyVE.Entrance.des = ""
 tyVE.Entrance.text = ""
 
@@ -50,6 +53,9 @@ tyVE.AposGlory.text = ""
 
 tyVE.AposBoth.des = ""
 tyVE.AposBoth.text = ""
+
+tyVE.AposGloryBoth.des = ""
+tyVE.AposGloryBoth.text = ""
 
 tyVE.Apolytikia.des = ""
 tyVE.Apolytikia.text = ""
@@ -86,8 +92,11 @@ tyMA.Psalm50.text = ""
 tyMA.Canons.des = ""
 tyMA.Canons.text = ""
 
-tyMA.Midode.des = ""
-tyMA.Midode.text = ""
+tyMA.MidodeKontakion.des = ""
+tyMA.MidodeKontakion.text = ""
+
+tyMA.MidodeKath.des = ""
+tyMA.MidodeKath.text = ""
 
 tyMA.KontakionOikos.des = ""
 tyMA.KontakionOikos.text = ""

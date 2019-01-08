@@ -46,6 +46,7 @@ typikonomitted = "typikonomitted"
 typikoncenter = "typikoncenter"
 typikoncenteromitted = "typikoncenteromitted"
 typikoncommemoration = "typikoncommemoration"
+typikonindent = "typikonindent"
 typikonnote = "typikonnote"
 
 //roles with Para for marked content
