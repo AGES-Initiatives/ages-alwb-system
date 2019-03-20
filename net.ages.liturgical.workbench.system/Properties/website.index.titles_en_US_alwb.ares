@@ -129,6 +129,7 @@ ve8.html.link = "Vespers - Alt. Version 8"
 ve9.html.link = "Vespers - Hierarchical"
 
 vl.html.link = "Vesperal Liturgy"
+vl2.html.link = "Vesperal Liturgy (Full)"
 
 //index types
 se.html.link = "Service Index"
