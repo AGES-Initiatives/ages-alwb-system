@@ -23,6 +23,10 @@ Tplain = "emphasis,plain"
 Tsmall = "emphasis,small"
 Tcontact = "emphasis,contact"
 
+Tnoprintactor = "emphasis,noprintactor"
+Tnoprintdesig = "emphasis,noprintdesig"
+//Tnoprintrubric = "emphasis,noprintrubric"
+
 inlinerubric = "emphasis,rubric"
 anum = "emphasis,anum"
 reference = "emphasis,reference"

@@ -14,6 +14,7 @@ smallcenter = "smallcenter"
 source = "source"
 source0 = "source0"
 source1 = "source1"
+noprintdesig = "noprintdesig"
 
 //roles with Para
 alttext = "alttext"
@@ -48,6 +49,10 @@ typikoncenteromitted = "typikoncenteromitted"
 typikoncommemoration = "typikoncommemoration"
 typikonindent = "typikonindent"
 typikonnote = "typikonnote"
+
+noprintactor = "noprintactor"
+noprintprayer = "noprintprayer"
+noprintrub = "noprintrub"
 
 //roles with Para for marked content
 bmc_collapse = "bmc_collapse"
