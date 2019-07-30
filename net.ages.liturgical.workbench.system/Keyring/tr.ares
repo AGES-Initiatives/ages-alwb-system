@@ -11,6 +11,8 @@ trHO.des1 = ""
 trHO.des2 = ""
 trHO.note1 = ""
 trHO.note2 = ""
+trVL.header = "" //for pdf headers of presanctified and vesperal liturgies
+trEM.header = "" //for pdf headers of Holy Week evening Matins
 trDismissal = ""
 
 trVE.Stichera01.des = ""
