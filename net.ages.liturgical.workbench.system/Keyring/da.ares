@@ -43,13 +43,13 @@ daMA.Exaposteilarion1.mode = ""
 daMA.Exaposteilarion1.melody = ""
 daMA.Exaposteilarion1.text = ""
 
+daMA.ExapTheotokion1.mode = ""
+daMA.ExapTheotokion1.melody = ""
+daMA.ExapTheotokion1.text = ""
+
 daMA.Exaposteilarion2.mode = ""
 daMA.Exaposteilarion2.melody = ""
 daMA.Exaposteilarion2.text = ""
-
-daMA.ExapTheotokion.mode = ""
-daMA.ExapTheotokion.melody = ""
-daMA.ExapTheotokion.text = ""
 
 daMA.ExapTheotokion2.mode = ""
 daMA.ExapTheotokion2.melody = ""
