@@ -175,6 +175,8 @@ meVE.LityBoth.mode = ""
 meVE.LityBoth.melody = ""
 meVE.LityBoth.text = ""
 
+meVE.MM.LityBothasGloryBoth.text = "" //for media
+
 meVE.Aposticha1a.des = ""
 meVE.Aposticha1a.mode = ""
 meVE.Aposticha1a.melody = ""
@@ -2549,13 +2551,6 @@ meH9.Idiomelon37.text = ""
 meH9.Idiomelon38.text = ""
 meH9.Kontakion.des = ""
 meH9.Kontakion.text = ""
-
-meVE.TheotokosHymn.des = ""
-meVE.TheotokosHymn.mode = ""
-meVE.TheotokosHymn.text = ""
-
-meVE.MM.CommunionHymn.des = ""
-meVE.MM.CommunionHymn.text = ""
 
 //for Iambic canons
 meMA.C2Acrostic1.des = ""
