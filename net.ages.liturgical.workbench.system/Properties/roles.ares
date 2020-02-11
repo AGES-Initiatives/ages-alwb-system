@@ -50,6 +50,10 @@ typikoncommemoration = "typikoncommemoration"
 typikonindent = "typikonindent"
 typikonnote = "typikonnote"
 
+servicesourcestitle = "servicesourcestitle"
+servicesources = "servicesources"
+servicesourcessection = "servicesourcessection"
+
 noprintactor = "noprintactor"
 noprintprayer = "noprintprayer"
 noprintrub = "noprintrub"
