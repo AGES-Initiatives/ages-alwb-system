@@ -79,9 +79,10 @@ h12.html.link = "Variable parts for Hours"
 h13.html.link = "Paschal Hours"
 
 h3.html.link = "Third Hour"
+h36.html.link = "Trithekti (Third and Sixth Hours)"
 
 h6.html.link = "Sixth Hour"
-h36.html.link = "Trithekti (Third and Sixth Hours)"
+h61.html.link = "Typika Service (no priest)"
 h9.html.link = "Ninth Hour"
 
 h91.html.link = "Readings for the Day"
