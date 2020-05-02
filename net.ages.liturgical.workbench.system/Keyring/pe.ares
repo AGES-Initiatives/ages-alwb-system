@@ -411,6 +411,7 @@ peSV.AposBoth.melody = ""
 peSV.AposBoth.text = ""
 
 //Vespers
+peVE.MM.Stichera1123as3456.text = "" //for media
 peVE.MM.Stichera123as123.text = "" //for media
 peVE.MM.Stichera1234as3456.text = "" //for media
 peVE.MM.Stichera11as56.text = "" //for media
