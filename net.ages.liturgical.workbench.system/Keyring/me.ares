@@ -59,6 +59,7 @@ meVE.MM.Stichera1234as3456.text = "" //for media
 meVE.MM.Stichera1234as5678.text = "" //for media
 meVE.MM.Stichera1234as78910.text = "" //for media
 meVE.MM.Stichera4456as78910.text = "" //for media
+meVE.MM.Stichera456as567.text = "" //for media
 
 meVE.Stichera04.des = ""
 meVE.Stichera04.mode = ""
