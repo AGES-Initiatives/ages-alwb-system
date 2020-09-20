@@ -1750,9 +1750,6 @@ meMA.Lauds8.mode = ""
 meMA.Lauds8.melody = ""
 meMA.Lauds8.text = ""
 
-meMA.MM.LaudsSunday.des = ""
-meMA.MM.LaudsSunday.text = ""
-
 meMA.MM.Lauds12as45.des = ""
 meMA.MM.Lauds12as45.text = ""
 
@@ -4699,9 +4696,6 @@ alt1.meMA.LaudsStavrotheotokion.mode = ""
 alt1.meMA.LaudsStavrotheotokion.melody = ""
 alt1.meMA.LaudsStavrotheotokion.text = ""
 
-alt1.meMA.MM.LaudsSunday.des = ""
-alt1.meMA.MM.LaudsSunday.text = ""
-
 alt1.meMA.Aposticha1.des = ""
 alt1.meMA.Aposticha1.mode = ""
 alt1.meMA.Aposticha1.melody = ""
@@ -7581,9 +7575,6 @@ alt2.meMA.LaudsStavrotheotokion.mode = ""
 alt2.meMA.LaudsStavrotheotokion.melody = ""
 alt2.meMA.LaudsStavrotheotokion.text = ""
 
-alt2.meMA.MM.LaudsSunday.des = ""
-alt2.meMA.MM.LaudsSunday.text = ""
-
 alt2.meMA.Aposticha1.des = ""
 alt2.meMA.Aposticha1.mode = ""
 alt2.meMA.Aposticha1.melody = ""
@@ -10439,9 +10430,6 @@ alt3.meMA.LaudsStavrotheotokion.des = ""
 alt3.meMA.LaudsStavrotheotokion.mode = ""
 alt3.meMA.LaudsStavrotheotokion.melody = ""
 alt3.meMA.LaudsStavrotheotokion.text = ""
-
-alt3.meMA.MM.LaudsSunday.des = ""
-alt3.meMA.MM.LaudsSunday.text = ""
 
 alt3.meMA.Aposticha1.des = ""
 alt3.meMA.Aposticha1.mode = ""
