@@ -1461,6 +1461,9 @@ meMA.Ode8H.mode = ""
 meMA.Ode8H.melody = ""
 meMA.Ode8H.text = ""
 
+meMA.Ode9C1.des = ""
+meMA.Ode9C1.notice = ""
+
 meMA.Ode9C1M01.des = ""
 meMA.Ode9C1M01.text = ""
 meMA.Ode9C1M02.des = ""
