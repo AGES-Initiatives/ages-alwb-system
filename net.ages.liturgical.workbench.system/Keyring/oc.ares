@@ -469,6 +469,8 @@ ocMA.Antiphon43.text = ""
 ocMA.MM.Prokeimenon.des = ""
 ocMA.MM.Prokeimenon.text = ""
 
+ocMA.Canon.notice = ""
+
 ocMA.C1.title.des = ""
 ocMA.C1.title = ""
 
