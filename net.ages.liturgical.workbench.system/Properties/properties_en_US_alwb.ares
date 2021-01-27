@@ -29,3 +29,9 @@ acknowledgements04.text = "This document was produced using the AGES Liturgical 
 acknowledgements05.text = "The AGES Digital Chant Stand is supported in part by generous grants from Leadership 100 and the National Forum of Greek Orthodox Church Musicians."
 
 sources.title = "Sources"
+
+fonts.title = "Fonts"
+fonts01.text = "Font copyright (c) 2010 Google Corporation with Reserved Font Arimo, Tinos and Cousine."
+fonts02.text = "Copyright (c) 2012 Red Hat, Inc. with Reserved Font Name Liberation."
+fonts03.text = "This Font Software is licensed under the SIL Open Font License, Version 1.1."
+

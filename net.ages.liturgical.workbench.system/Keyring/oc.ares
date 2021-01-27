@@ -1,5 +1,8 @@
 A_Resource_Whose_Name = oc
 
+ocBK.title = ""
+ocBK.mode.title = ""
+
 ocGE.MM.GlorySticheraric.des = ""
 ocGE.MM.GlorySticheraric.text = ""
 
@@ -1842,6 +1845,15 @@ ocLI.MM.Beatitudes1234TrTas78910GB.text = ""
 
 ocLI.MM.Beatitudes123456TrTas5678910GB.des = ""
 ocLI.MM.Beatitudes123456TrTas5678910GB.text = ""
+
+ocBK.end.des = ""
+ocBK.end.title = ""
+ocBK.end.verse1.text = ""
+ocBK.end.verse2.text = ""
+ocBK.end.verse3.text = ""
+ocBK.end.verse4.text = ""
+ocBK.end.verse5.text = ""
+ocBK.end.verse6.text = ""
 
 //Octoechos in Triodion
 
