@@ -13,6 +13,7 @@ bninr = "emphasis,bolditalicsred"
 bigblack = "emphasis,bigblack"
 
 //role based tags used with Title role mixed
+Tchapverse = "emphasis,chapverse"
 Tcontact = "emphasis,contact"
 Tdesig = "emphasis,designation"
 Tmelody = "emphasis,melody"
