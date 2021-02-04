@@ -5,13 +5,16 @@ eo.title = ""
 eo.Exaposteilarion.desc = ""
 eo.Exaposteilarion.mode = //misc_gr_GR_cog.Mode2
 eo.Exaposteilarion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Exaposteilarion.incipit = ""
 eo.Exaposteilarion.text = ""
 
 eo.Theotokion.desc = ""
 eo.Theotokion.mode = //misc_gr_GR_cog.Mode2
 eo.Theotokion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Theotokion.incipit = ""
 eo.Theotokion.text = ""
 
 eo.Doxasticon.desc = ""
 eo.Doxasticon.mode = ""
+eo.Doxasticon.incipit = ""
 eo.Doxasticon.text = ""
