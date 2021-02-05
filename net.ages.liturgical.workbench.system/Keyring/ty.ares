@@ -63,10 +63,8 @@ tyVE.Apolytikia.text = ""
 tyVE.Dismissal.desc = ""
 tyVE.Dismissal.text = ""
 
-
 tyMO.Rubric1.desc = ""
 tyMO.Rubric1.text = ""
-
 
 tyMA.Apolytikia.desc = ""
 tyMA.Apolytikia.text = ""
@@ -160,7 +158,6 @@ tyMA.Doxology.text = ""
 
 tyMA.EndApolytikion.desc = ""
 tyMA.EndApolytikion.text = ""
-
 
 tyLI.Antiphons.desc = ""
 tyLI.Antiphons.text = ""

@@ -7,7 +7,6 @@ logo2.text = "Initiatives"
 date1.text = "1 September 2018"
 date2.text = "Ecclesiastical New Year"
 
-
 salutation.text = "Dear friends,"
 
 paragraph1.text = "The AGES Digital Chant Stand has become one of the most used resources of Orthodox Christian liturgical texts and music in the world today. More than 400 of the 534 parishes of the Greek Orthodox Archdiocese of America use the free, bilingual materials it provides throughout the year. Not only in the GOA, but Orthodox Christians in five continents regularly use the DCS, so that congregation, clergy, and church musicians and readers can all be on the same page, when they sing, serve, and worship the All-holy Trinity, our one God."
@@ -33,7 +32,4 @@ contact1.text = "5108 Kuykendall Rd., Charlotte, NC 28270"
 contact2.text = "(704) 719-3074"
 contact3.text = "info@agesinitiatives.org"
 contact4.text = "www.agesinitiatives.org"
-
-
-
 
