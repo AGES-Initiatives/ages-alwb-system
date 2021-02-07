@@ -1,17 +1,17 @@
 A_Resource_Whose_Name = pe
 
-peCommemoration.text = "" //full title of day
-peShortCommemoration1.text = ""
-peInsert1 = "" //for use in petitions and dismissal
-peInsert2 = "" //for use in petitions and dismissal
-peNote.text = ""
+peDA.commemoration.full = "" //full title of day
+peDA.commemoration.short = ""
+peDA.insert1 = "" //for use in petitions and dismissal
+peDA.insert2 = "" //for use in petitions and dismissal
+peDA.note = ""
 peHO.daytitle = ""
 peHO.commemorations = ""
 peHO.des1 = ""
 peHO.des2 = ""
 peHO.note1 = ""
 peHO.note2 = ""
-peDismissal = ""
+peDA.dismissal = ""
 
 // Unique Pascha ID's used throughout Pentecostarion
 
@@ -1636,29 +1636,22 @@ peMA.Oikos16.text = ""
 peMA.Oikos17.text = ""
 peMA.Oikos18.text = ""
 
-peMA.Synaxarion.commemoration.text = ""
-peMA.Synaxarion.couplet1.title = 
-peMA.Synaxarion.couplet1.verse1 = ""
-peMA.Synaxarion.couplet1.verse2 = ""
-peMA.Synaxarion.single1.text = "" //d120
-peMA.Synaxarion.couplet2.title = //d113
-peMA.Synaxarion.couplet2.verse1 = "" //d113
-peMA.Synaxarion.couplet2.verse2 = "" //d113
-peMA.Synaxarion.narration1.p01.text = ""
-peMA.Synaxarion.narration1.p02.text = ""
-peMA.Synaxarion.narration1.p03.text = ""
-peMA.Synaxarion.narration1.p04.text = ""
-peMA.Synaxarion.narration1.p05.text = ""
-peMA.Synaxarion.narration1.p06.text = ""
-peMA.Synaxarion.narration1.p07.text = ""
-peMA.Synaxarion.narration2.p01.text = ""
-peMA.Synaxarion.narration2.p02.text = ""
-peMA.Synaxarion.narration2.p03.text = ""
-peMA.Synaxarion.narration2.p04.text = ""
-peMA.Synaxarion.narration2.p05.text = ""
-peMA.Synaxarion.narration2.p06.text = ""
-peMA.Synaxarion.narration2.p07.text = ""
-peMA.Synaxarion.lastline.text = ""
+peSY.commemoration.text = ""
+peSY.commemoration.couplet1.title = 
+peSY.commemoration.couplet1.verse1 = ""
+peSY.commemoration.couplet1.verse2 = ""
+peSY.commemoration.single1 = "" //d120
+peSY.commemoration.couplet2.title = //d113
+peSY.commemoration.couplet2.verse1 = "" //d113
+peSY.commemoration.couplet2.verse2 = "" //d113
+peSY.commemoration.narration.p01 = ""
+peSY.commemoration.narration.p02 = ""
+peSY.commemoration.narration.p03 = ""
+peSY.commemoration.narration.p04 = ""
+peSY.commemoration.narration.p05 = ""
+peSY.commemoration.narration.p06 = ""
+peSY.commemoration.narration.p07 = ""
+peSY.lastline = ""
 
 // Ode 7
 
@@ -2510,19 +2503,19 @@ pePE.Prayer7.rubric = ""
 pePE.Prayer7.title = ""
 pePE.Prayer7.text = ""
 
-alt1.peCommemoration.text = "" //full title of day
-alt1.peShortCommemoration1.text = ""
+alt1.peDA.commemoration.full = "" //full title of day
+alt1.peDA.commemoration.short = ""
 alt1.peCom1.title = ""
-alt1.peInsert1 = "" //for use in petitions and dismissal
-alt1.peInsert2 = "" //for use in petitions and dismissal
-alt1.peNote.text = ""
+alt1.peDA.insert1 = "" //for use in petitions and dismissal
+alt1.peDA.insert2 = "" //for use in petitions and dismissal
+alt1.peDA.note = ""
 alt1.peHO.daytitle = ""
 alt1.peHO.commemorations = ""
 alt1.peHO.des1 = ""
 alt1.peHO.des2 = ""
 alt1.peHO.note1 = ""
 alt1.peHO.note2 = ""
-alt1.peDismissal = ""
+alt1.peDA.dismissal = ""
 
 alt1.peVE.Stichera01.desc = ""
 alt1.peVE.Stichera01.mode = ""
@@ -3680,32 +3673,25 @@ alt1.peMA.Oikos16.text = ""
 alt1.peMA.Oikos17.text = ""
 alt1.peMA.Oikos18.text = ""
 
-alt1.peMA.Synaxarion.commemoration.text = ""
-alt1.peMA.Synaxarion.couplet1.title = ""
-alt1.peMA.Synaxarion.couplet1.verse1 = ""
-alt1.peMA.Synaxarion.couplet1.verse2 = ""
-alt1.peMA.Synaxarion.single1.text = ""
-alt1.peMA.Synaxarion.couplet2.title = ""
-alt1.peMA.Synaxarion.couplet2.verse1 = ""
-alt1.peMA.Synaxarion.couplet2.verse2 = ""
-alt1.peMA.Synaxarion.couplet3.title = ""
-alt1.peMA.Synaxarion.couplet3.verse1 = ""
-alt1.peMA.Synaxarion.couplet3.verse2 = ""
-alt1.peMA.Synaxarion.narration1.p01.text = ""
-alt1.peMA.Synaxarion.narration1.p02.text = ""
-alt1.peMA.Synaxarion.narration1.p03.text = ""
-alt1.peMA.Synaxarion.narration1.p04.text = ""
-alt1.peMA.Synaxarion.narration1.p05.text = ""
-alt1.peMA.Synaxarion.narration1.p06.text = ""
-alt1.peMA.Synaxarion.narration1.p07.text = ""
-alt1.peMA.Synaxarion.narration2.p01.text = ""
-alt1.peMA.Synaxarion.narration2.p02.text = ""
-alt1.peMA.Synaxarion.narration2.p03.text = ""
-alt1.peMA.Synaxarion.narration2.p04.text = ""
-alt1.peMA.Synaxarion.narration2.p05.text = ""
-alt1.peMA.Synaxarion.narration2.p06.text = ""
-alt1.peMA.Synaxarion.narration2.p07.text = ""
-alt1.peMA.Synaxarion.lastline.text = ""
+alt1.peSY.commemoration.text = ""
+alt1.peSY.commemoration.couplet1.title = ""
+alt1.peSY.commemoration.couplet1.verse1 = ""
+alt1.peSY.commemoration.couplet1.verse2 = ""
+alt1.peSY.commemoration.single1 = ""
+alt1.peSY.commemoration.couplet2.title = ""
+alt1.peSY.commemoration.couplet2.verse1 = ""
+alt1.peSY.commemoration.couplet2.verse2 = ""
+alt1.peSY.commemoration.couplet3.title = ""
+alt1.peSY.commemoration.couplet3.verse1 = ""
+alt1.peSY.commemoration.couplet3.verse2 = ""
+alt1.peSY.commemoration.narration.p01 = ""
+alt1.peSY.commemoration.narration.p02 = ""
+alt1.peSY.commemoration.narration.p03 = ""
+alt1.peSY.commemoration.narration.p04 = ""
+alt1.peSY.commemoration.narration.p05 = ""
+alt1.peSY.commemoration.narration.p06 = ""
+alt1.peSY.commemoration.narration.p07 = ""
+alt1.peSY.lastline = ""
 
 // Ode 7
 
