@@ -17,17 +17,17 @@ daVE.OnTheEveningBefore = ""
 
 daVE.Apolytikion1.mode = ""
 daVE.Apolytikion1.melody = ""
-daVE.Apolytikion1.incipit = ""
+daVE.Apolytikion1.incipit = "…"
 daVE.Apolytikion1.text = ""
 
 daVE.Apolytikion2.mode = ""
 daVE.Apolytikion2.melody = ""
-daVE.Apolytikion2.incipit = ""
+daVE.Apolytikion2.incipit = "…"
 daVE.Apolytikion2.text = ""
 
 daVE.ApolTheotokion.mode = ""
 daVE.ApolTheotokion.melody = ""
-daVE.ApolTheotokion.incipit = ""
+daVE.ApolTheotokion.incipit = "…"
 daVE.ApolTheotokion.text = ""
 
 daMA.Triadic1Ending.text = ""
@@ -44,22 +44,22 @@ daMA.Photagogic3Beginning.text = ""
 
 daMA.Exaposteilarion1.mode = ""
 daMA.Exaposteilarion1.melody = ""
-daMA.Exaposteilarion1.incipit = ""
+daMA.Exaposteilarion1.incipit = "…"
 daMA.Exaposteilarion1.text = ""
 
 daMA.ExapTheotokion1.mode = ""
 daMA.ExapTheotokion1.melody = ""
-daMA.ExapTheotokion1.incipit = ""
+daMA.ExapTheotokion1.incipit = "…"
 daMA.ExapTheotokion1.text = ""
 
 daMA.Exaposteilarion2.mode = ""
 daMA.Exaposteilarion2.melody = ""
-daMA.Exaposteilarion2.incipit = ""
+daMA.Exaposteilarion2.incipit = "…"
 daMA.Exaposteilarion2.text = ""
 
 daMA.ExapTheotokion2.mode = ""
 daMA.ExapTheotokion2.melody = ""
-daMA.ExapTheotokion2.incipit = ""
+daMA.ExapTheotokion2.incipit = "…"
 daMA.ExapTheotokion2.text = ""
 
 daLI.CommunionHymn.text = "" //for media

@@ -22,7 +22,7 @@ index.description3 = ""
 
 // index for specific day
 index.day.title = "" //where is this displayed?
-index.day.title2.date.prefix = "AGES Digital Chant Stand<br>Services for "
+index.day.title2.date.prefix = "AGES Digital Chant Stand<br>Services for"
 index.day.date.format = "EEEE, MMM d, yyyy" // controls the format of dates in the index
 index.day.title2.date.suffix = ""
 index.day.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
@@ -49,8 +49,8 @@ index.custom.description2 = "Links with the label <em>Text/Music</em> open the h
 
  
 // index titles
-co.html.link = "Evening Compline "
-co1.html.link = "Pre-Resurrection Service "
+co.html.link = "Evening Compline"
+co1.html.link = "Pre-Resurrection Service"
 co2.html.link = "Small Compline and Salutations to the Theotokos"
 co3.html.link= "Small Compline and Akathist Hymn"
 co4.html.link= "Small Compline and Great Canon"
@@ -58,16 +58,16 @@ co5.html.link= "Pre-Resurrection Service - Abridged"
 co6.html.link= "Paschal Compline"
 co7.html.link = "Vigil: Great Compline, Lity, End of Vespers"
 
-consecration_relics.html.link = "Reception of Relics "
-consecration_vespers.html.link = "Consecration Vespers "
-consecration_liturgy.html.link = "Consecration Liturgy "
-unction.html.link = "Unction "
-baptism.html.link = "Baptism "
-funeral.html.link = "Funeral "
-memorial.html.link = "Memorial "
-wedding.html.link = "Wedding "
-lichrysbasil.html.link = "Liturgy of Chrysostom/Basil "
-presanctified.html.link = "Presanctified Liturgy "
+consecration_relics.html.link = "Reception of Relics"
+consecration_vespers.html.link = "Consecration Vespers"
+consecration_liturgy.html.link = "Consecration Liturgy"
+unction.html.link = "Unction"
+baptism.html.link = "Baptism"
+funeral.html.link = "Funeral"
+memorial.html.link = "Memorial"
+wedding.html.link = "Wedding"
+lichrysbasil.html.link = "Liturgy of Chrysostom/Basil"
+presanctified.html.link = "Presanctified Liturgy"
 
 em.html.link = "Matins (in the evening)"
 em3.html.link = "Lamentations - Complete Text"
