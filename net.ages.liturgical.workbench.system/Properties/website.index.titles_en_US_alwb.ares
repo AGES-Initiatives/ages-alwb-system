@@ -8,8 +8,8 @@ lang.kik = "KIK"
 lang.delimiter = "-"
 
 // filetypes
-file.type.html = "Text/Music"
-file.type.pdf = "PDF/Print"
+file.type.html = "View: text / music"
+file.type.pdf = "Print: hard copy"
 file.type.epub = "ePub"
 
 // Services index (p.1) for years and months
@@ -25,27 +25,27 @@ index.day.title = "" //where is this displayed?
 index.day.title2.date.prefix = "AGES Digital Chant Stand<br>Services for"
 index.day.date.format = "EEEE, MMM d, yyyy" // controls the format of dates in the index
 index.day.title2.date.suffix = ""
-index.day.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
-index.day.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+index.day.description1 = "Links with the label <em>Print: hard copy</em> open the pdf files of the texts. Use these to print hard copy. For optimal viewing on a device, use the View links."
+index.day.description2 = "Links with the label <em>View: text / music</em> open the html text of a service, which has the links to scores and audio. To print a score that you have opened, use your device's file print options."
 //index.day.description3 = "The date/time stamp (EST) next to a label indicates when the file was last updated."
-//You can have any number of index.descriptions, e.g.
-//index.description3 = "I am the index description 3"
+//You can have any number of index.day.descriptions, e.g.
+//index.day.description4 = "I am the day index description 4"
 
 // index for books
 index.books.title = "AGES Digital Chant Stand<br>Sacraments and Services"
-index.books.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
-index.books.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+index.books.description1 = "Links with the label <em>Print: hard copy</em> open the pdf files of the texts. Use these to print hard copy. For optimal viewing on a device, use the View links."
+index.books.description2 = "Links with the label <em>View: text / music</em> open the html text of a service, which has the links to scores and audio. To print a score that you have opened, use your device's file print options."
 //index.books.description3 = "The date/time stamp next to a label indicates when the file was last updated."
-//You can have any number of index.descriptions, e.g.
-//index.description3 = "I am the index description 3"
+//You can have any number of index.books.descriptions, e.g.
+//index.books.description4 = "I am the books index description 4"
 
 // index for custom content
 index.custom.title = "AGES Digital Chant Stand<br>Index of Additional Resources"
-index.custom.description1 = "Links with the label <em>PDF/Print</em> open the pdf files of the texts, which were previously available on the eMatins website."
-index.custom.description2 = "Links with the label <em>Text/Music</em> open the html text of a service, which has the links to scores and audio. To open the score of a particular hymn or listen to the audio recording if available, scroll to the desired place in the service, click the Byzantine neum or the Western note for the respective score, or the audio icon for the recording. To print a score that you have opened, use your device's file print options."
+index.custom.description1 = "Links with the label <em>Print: hard copy</em> open the pdf files of the texts. Use these to print hard copy. For optimal viewing on a device, use the View links."
+index.custom.description2 = "Links with the label <em>View: text / music</em> open the html text of a service, which has the links to scores and audio. To print a score that you have opened, use your device's file print options."
 //index.custom.description3 = "The date/time stamp next to a label indicates when the file was last updated."
-//You can have any number of index.descriptions, e.g.
-//index.description3 = "I am the index description 3"
+//You can have any number of index.custom.descriptions, e.g.
+//index.custom.description4 = "I am the custom index description 4"
 
  
 // index titles
