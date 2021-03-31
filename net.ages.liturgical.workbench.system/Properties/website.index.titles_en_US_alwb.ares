@@ -8,8 +8,10 @@ lang.kik = "KIK"
 lang.delimiter = "-"
 
 // filetypes
-file.type.html = "View: text / music"
-file.type.pdf = "Print: hard copy"
+file.type.html = "Text/Music"
+file.type.pdf = "PDF/Print"
+//file.type.html = "View: text / music"
+//file.type.pdf = "Print: hard copy"
 file.type.epub = "ePub"
 
 // Services index (p.1) for years and months
