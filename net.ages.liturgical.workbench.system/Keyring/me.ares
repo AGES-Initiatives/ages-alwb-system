@@ -9,6 +9,7 @@ meDA.commemoration.second_short = ""
 meDA.commemoration.first_title = ""
 meDA.commemoration.second_title = ""
 meDA.commemoration.third_title = ""
+meDA.insert0 = "" //for use in petitions and dismissal
 meDA.insert1 = "" //for use in petitions and dismissal
 meDA.insert2 = "" //for use in petitions and dismissal
 meDA.note = ""
@@ -21,6 +22,12 @@ meHO.note1 = ""
 meHO.note2 = ""
 meDA.dismissal = ""
 meDA.poet = ""
+meTY.note1 = "" //footnotes from Hemerologion
+meTY.note2 = "" //footnotes from Hemerologion
+meTY.note3 = "" //footnotes from Hemerologion
+meTY.note4 = "" //footnotes from Hemerologion
+meTY.note5 = "" //footnotes from Hemerologion
+
 
 meR001 = "" //for rubical notices
 meR002 = ""

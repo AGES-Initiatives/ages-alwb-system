@@ -12,6 +12,11 @@ peHO.des2 = ""
 peHO.note1 = ""
 peHO.note2 = ""
 peDA.dismissal = ""
+peTY.note1 = "" //footnotes from Hemerologion
+peTY.note2 = "" //footnotes from Hemerologion
+peTY.note3 = "" //footnotes from Hemerologion
+peTY.note4 = "" //footnotes from Hemerologion
+peTY.note5 = "" //footnotes from Hemerologion
 
 // Unique Pascha ID's used throughout Pentecostarion
 
