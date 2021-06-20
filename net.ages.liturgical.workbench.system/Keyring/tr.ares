@@ -2556,6 +2556,7 @@ trMA.Kontakion0.mode = //only in T1
 trMA.Kontakion0.melody = //only in T1
 trMA.Kontakion0.text = "" //only in T1
 
+trLI.Antiphon2.incipit = ""
 trLI.Antiphon2.text = ""
 
 trLI.MM.Beatitudes.Ode3C1as5678.desc = ""

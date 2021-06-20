@@ -2277,6 +2277,7 @@ peMA.AposTheotokion.melody = ""
 peMA.AposTheotokion.incipit = "…"
 peMA.AposTheotokion.text = ""
 
+peLI.Antiphon2.incipit = ""
 peLI.Antiphon2.text = ""
 
 peLI.MM.Beatitudes.Ode3C1as5678.desc = ""
@@ -4333,6 +4334,7 @@ alt1.peLI.Beatitudes.Ode6C1as910GB.text = ""
 alt1.peLI.Beatitudes.Ode6C2as910GB.desc = ""
 alt1.peLI.Beatitudes.Ode6C2as910GB.text = ""
 
+alt1.peLI.Antiphon2.incipit = ""
 alt1.peLI.Antiphon2.text = ""
 
 alt1.peLI.MM.EntranceHymn.text = ""

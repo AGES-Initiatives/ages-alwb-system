@@ -2255,6 +2255,7 @@ meMA.AdditionalIdiomelonBoth.incipit = "…"
 meMA.AdditionalIdiomelonBoth.text = ""
 
 meLI.Antiphon2.desc = ""
+meLI.Antiphon2.incipit = ""
 meLI.Antiphon2.text = ""
 
 meLI.MM.Beatitudes.Ode3C1as5678.desc = ""
@@ -5549,6 +5550,7 @@ alt1.meMA.AdditionalIdiomelonBoth.incipit = "…"
 alt1.meMA.AdditionalIdiomelonBoth.text = ""
 
 alt1.meLI.Antiphon2.desc = ""
+alt1.meLI.Antiphon2.incipit = ""
 alt1.meLI.Antiphon2.text = ""
 
 alt1.meLI.MM.Beatitudes.Ode3C1as5678.desc = ""
@@ -8836,6 +8838,7 @@ alt2.meMA.AdditionalIdiomelonBoth.incipit = "…"
 alt2.meMA.AdditionalIdiomelonBoth.text = ""
 
 alt2.meLI.Antiphon2.desc = ""
+alt2.meLI.Antiphon2.incipit = ""
 alt2.meLI.Antiphon2.text = ""
 
 alt2.meLI.MM.Beatitudes.Ode3C1as5678.desc = ""
@@ -12100,6 +12103,7 @@ alt3.meMA.AdditionalIdiomelonBoth.incipit = "…"
 alt3.meMA.AdditionalIdiomelonBoth.text = ""
 
 alt3.meLI.Antiphon2.desc = ""
+alt3.meLI.Antiphon2.incipit = ""
 alt3.meLI.Antiphon2.text = ""
 
 alt3.meLI.MM.Beatitudes.Ode3C1as5678.desc = ""
