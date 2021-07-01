@@ -9,14 +9,14 @@ ty.Days.text = ""
 ty.Hours.desc = ""
 ty.Hours.text = ""
 
-tyDate.desc = ""
-tyDate.text = ""
+tyDA.Date.desc = ""
+tyDDA.ate.text = ""
 
-tyCommemoration.desc = ""
-tyCommemoration.text = ""
+tyDA.Commemoration.desc = ""
+tyDA.Commemoration.text = ""
 
-tyNote1.desc = ""
-tyNote1.text = ""
+tyDA.Note1.desc = ""
+tyDA.Note1.text = ""
 
 tyVE.Note1.desc = ""
 tyVE.Note1.text = ""
@@ -86,6 +86,24 @@ tyMA.MatinsGospel.text = ""
 
 tyMA.Psalm50.desc = ""
 tyMA.Psalm50.text = ""
+
+tyMA.Canon1.desc = ""
+tyMA.Canon1.text = ""
+
+tyMA.Canon2.desc = ""
+tyMA.Canon2.text = ""
+
+tyMA.Canon3.desc = ""
+tyMA.Canon3.text = ""
+
+tyMA.Canon1_onSunday.desc = ""
+tyMA.Canon1_onSunday.text = ""
+
+tyMA.Canon2_onSunday.desc = ""
+tyMA.Canon2_onSunday.text = ""
+
+tyMA.Canon3_onSunday.desc = ""
+tyMA.Canon3_onSunday.text = ""
 
 tyMA.Canons.desc = ""
 tyMA.Canons.text = ""
