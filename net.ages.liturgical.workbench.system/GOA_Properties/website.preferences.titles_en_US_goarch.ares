@@ -1,0 +1,167 @@
+A_Resource_Whose_Name = website.preferences.titles_en_US_goarch
+
+//bmc.tag = "" 
+mc.tag = "" 
+
+mc.vespersstichologia = "Vespers Stichologia"
+
+mc.vesperslity = "Vespers Lity"
+
+mc.matinsordinary = "Matins Ordinary"
+
+mc.eothinongospel.position1 = "Eothinon Gospel (Not EP / GOA)"
+mc.eothinongospel.position2 = "Eothinon Gospel (EP / GOA)"
+
+mc.kontakion.position2 = "Secondary Kontakion"
+
+mc.ode3.litany = "Ode 3: Short Litany"
+
+mc.ode6.litany = "Ode 6: Short Litany"
+
+mc.ode3.kathisma = "Mid-Ode Kathisma or Hypakoe"
+
+mc.kontakion.position1 = "Principal Kontakion and Synaxarion"
+
+mc.kontakion.position12 = "Kontakia and Synaxarion"
+
+mc.synaxarion.extended = "Extended Synaxarion"
+
+mc.odes1345678katavasia = "Katavasias Odes 1-8"
+
+mc.magnificat.modeofcanon = "Magnificat: Mode of Canon"
+
+mc.magnificat.modeofkatavasia = "Magnificat: Mode of Katavasia"
+
+mc.matins.end.no.dismissal = "Litanies, End, no Dismissal"
+mc.matins.end.before.dismissal = "Litanies and Dismissal" //unites 2 and 3
+mc.matins.dismissal = "Dismissal"
+mc.matins.close = "Conclusion, i.e. \"Through the prayers…\""
+
+mc.ode1katavasia = "Ode 1: Katavasia"
+mc.ode3katavasia = "Ode 3: Katavasia"
+mc.ode4katavasia = "Ode 4: Katavasia"
+mc.ode5katavasia = "Ode 5: Katavasia"
+mc.ode6katavasia = "Ode 6: Katavasia"
+mc.ode7katavasia = "Ode 7: Katavasia"
+mc.ode8katavasia = "Ode 8: Katavasia"
+mc.ode9katavasia = "Ode 9: Katavasia"
+
+mc.ode1hocanon1 = "Ode 1: Horologion: Canon-1"
+mc.ode3hocanon1 = "Ode 3: Horologion: Canon-1"
+mc.ode4hocanon1 = "Ode 4: Horologion: Canon-1"
+mc.ode5hocanon1 = "Ode 5: Horologion: Canon-1"
+mc.ode6hocanon1 = "Ode 6: Horologion: Canon-1"
+mc.ode7hocanon1 = "Ode 7: Horologion: Canon-1"
+mc.ode8hocanon1 = "Ode 8: Horologion: Canon-1"
+mc.ode9hocanon1 = "Ode 9: Horologion: Canon-1"
+
+mc.ode1occanon1 = "Ode 1: Octoechos: Canon-1"
+mc.ode3occanon1 = "Ode 3: Octoechos: Canon-1"
+mc.ode4occanon1 = "Ode 4: Octoechos: Canon-1"
+mc.ode5occanon1 = "Ode 5: Octoechos: Canon-1"
+mc.ode6occanon1 = "Ode 6: Octoechos: Canon-1"
+mc.ode7occanon1 = "Ode 7: Octoechos: Canon-1"
+mc.ode8occanon1 = "Ode 8: Octoechos: Canon-1"
+mc.ode9occanon1 = "Ode 9: Octoechos: Canon-1"
+
+mc.ode1occanon2 = "Ode 1: Octoechos: Canon-2"
+mc.ode3occanon2 = "Ode 3: Octoechos: Canon-2"
+mc.ode4occanon2 = "Ode 4: Octoechos: Canon-2"
+mc.ode5occanon2 = "Ode 5: Octoechos: Canon-2"
+mc.ode6occanon2 = "Ode 6: Octoechos: Canon-2"
+mc.ode7occanon2 = "Ode 7: Octoechos: Canon-2"
+mc.ode8occanon2 = "Ode 8: Octoechos: Canon-2"
+mc.ode9occanon2 = "Ode 9: Octoechos: Canon-2"
+
+mc.ode1occanon3 = "Ode 1: Octoechos: Canon-3"
+mc.ode3occanon3 = "Ode 3: Octoechos: Canon-3"
+mc.ode4occanon3 = "Ode 4: Octoechos: Canon-3"
+mc.ode5occanon3 = "Ode 5: Octoechos: Canon-3"
+mc.ode6occanon3 = "Ode 6: Octoechos: Canon-3"
+mc.ode7occanon3 = "Ode 7: Octoechos: Canon-3"
+mc.ode8occanon3 = "Ode 8: Octoechos: Canon-3"
+mc.ode9occanon3 = "Ode 9: Octoechos: Canon-3"
+
+mc.ode1mecanon1 = "Ode 1: Menaion: Canon-1"
+mc.ode3mecanon1 = "Ode 3: Menaion: Canon-1"
+mc.ode4mecanon1 = "Ode 4: Menaion: Canon-1"
+mc.ode5mecanon1 = "Ode 5: Menaion: Canon-1"
+mc.ode6mecanon1 = "Ode 6: Menaion: Canon-1"
+mc.ode7mecanon1 = "Ode 7: Menaion: Canon-1"
+mc.ode8mecanon1 = "Ode 8: Menaion: Canon-1"
+mc.ode9mecanon1 = "Ode 9: Menaion: Canon-1"
+
+mc.ode1mecanon2 = "Ode 1: Menaion: Canon-2"
+mc.ode3mecanon2 = "Ode 3: Menaion: Canon-2"
+mc.ode4mecanon2 = "Ode 4: Menaion: Canon-2"
+mc.ode5mecanon2 = "Ode 5: Menaion: Canon-2"
+mc.ode6mecanon2 = "Ode 6: Menaion: Canon-2"
+mc.ode7mecanon2 = "Ode 7: Menaion: Canon-2"
+mc.ode8mecanon2 = "Ode 8: Menaion: Canon-2"
+mc.ode9mecanon2 = "Ode 9: Menaion: Canon-2"
+
+mc.ode1mecanon3 = "Ode 1: Menaion: Canon-3"
+mc.ode3mecanon3 = "Ode 3: Menaion: Canon-3"
+mc.ode4mecanon3 = "Ode 4: Menaion: Canon-3"
+mc.ode5mecanon3 = "Ode 5: Menaion: Canon-3"
+mc.ode6mecanon3 = "Ode 6: Menaion: Canon-3"
+mc.ode7mecanon3 = "Ode 7: Menaion: Canon-3"
+mc.ode8mecanon3 = "Ode 8: Menaion: Canon-3"
+mc.ode9mecanon3 = "Ode 9: Menaion: Canon-3"
+
+mc.ode1trcanon1 = "Ode 1: Triodion: Canon-1"
+mc.ode2trcanon1 = "Ode 2: Triodion: Canon-1"
+mc.ode3trcanon1 = "Ode 3: Triodion: Canon-1"
+mc.ode4trcanon1 = "Ode 4: Triodion: Canon-1"
+mc.ode5trcanon1 = "Ode 5: Triodion: Canon-1"
+mc.ode6trcanon1 = "Ode 6: Triodion: Canon-1"
+mc.ode7trcanon1 = "Ode 7: Triodion: Canon-1"
+mc.ode8trcanon1 = "Ode 8: Triodion: Canon-1"
+mc.ode9trcanon1 = "Ode 9: Triodion: Canon-1"
+
+mc.ode1trcanon2 = "Ode 1: Triodion: Canon-2"
+mc.ode2trcanon2 = "Ode 2: Triodion: Canon-2"
+mc.ode3trcanon2 = "Ode 3: Triodion: Canon-2"
+mc.ode4trcanon2 = "Ode 4: Triodion: Canon-2"
+mc.ode5trcanon2 = "Ode 5: Triodion: Canon-2"
+mc.ode6trcanon2 = "Ode 6: Triodion: Canon-2"
+mc.ode7trcanon2 = "Ode 7: Triodion: Canon-2"
+mc.ode8trcanon2 = "Ode 8: Triodion: Canon-2"
+mc.ode9trcanon2 = "Ode 9: Triodion: Canon-2"
+
+mc.ode1trcanon3 = "Ode 1: Triodion: Canon-3"
+mc.ode2trcanon3 = "Ode 2: Triodion: Canon-3"
+mc.ode3trcanon3 = "Ode 3: Triodion: Canon-3"
+mc.ode4trcanon3 = "Ode 4: Triodion: Canon-3"
+mc.ode5trcanon3 = "Ode 5: Triodion: Canon-3"
+mc.ode6trcanon3 = "Ode 6: Triodion: Canon-3"
+mc.ode7trcanon3 = "Ode 7: Triodion: Canon-3"
+mc.ode8trcanon3 = "Ode 8: Triodion: Canon-3"
+mc.ode9trcanon3 = "Ode 9: Triodion: Canon-3"
+
+mc.ode1pacanon1 = "Ode 1: Pascha: Canon"
+mc.ode3pacanon1 = "Ode 3: Pascha: Canon"
+mc.ode4pacanon1 = "Ode 4: Pascha: Canon"
+mc.ode5pacanon1 = "Ode 5: Pascha: Canon"
+mc.ode6pacanon1 = "Ode 6: Pascha: Canon"
+mc.ode7pacanon1 = "Ode 7: Pascha: Canon"
+mc.ode8pacanon1 = "Ode 8: Pascha: Canon"
+mc.ode9pacanon1 = "Ode 9: Pascha: Canon"
+
+mc.ode1pecanon1 = "Ode 1: Pentecostarion: Canon-1"
+mc.ode3pecanon1 = "Ode 3: Pentecostarion: Canon-1"
+mc.ode4pecanon1 = "Ode 4: Pentecostarion: Canon-1"
+mc.ode5pecanon1 = "Ode 5: Pentecostarion: Canon-1"
+mc.ode6pecanon1 = "Ode 6: Pentecostarion: Canon-1"
+mc.ode7pecanon1 = "Ode 7: Pentecostarion: Canon-1"
+mc.ode8pecanon1 = "Ode 8: Pentecostarion: Canon-1"
+mc.ode9pecanon1 = "Ode 9: Pentecostarion: Canon-1"
+
+mc.ode1pecanon2 = "Ode 1: Pentecostarion: Canon-2"
+mc.ode3pecanon2 = "Ode 3: Pentecostarion: Canon-2"
+mc.ode4pecanon2 = "Ode 4: Pentecostarion: Canon-2"
+mc.ode5pecanon2 = "Ode 5: Pentecostarion: Canon-2"
+mc.ode6pecanon2 = "Ode 6: Pentecostarion: Canon-2"
+mc.ode7pecanon2 = "Ode 7: Pentecostarion: Canon-2"
+mc.ode8pecanon2 = "Ode 8: Pentecostarion: Canon-2"
+mc.ode9pecanon2 = "Ode 9: Pentecostarion: Canon-2"
