@@ -1,7 +1,7 @@
 A_Resource_Whose_Name = properties_en_US_goarch
 
 urls.title = "GOA DCS Website"
-urls.agespublicdcs = //"https://www.agesinitiatives.com/dcs/public/dcs"
+urls.dcs.goarch.org = "https://dcs.goarch.org/goa/dcs"
 
 preface.disclaimer = "Disclaimer"
 
@@ -12,17 +12,17 @@ contact4 = ""
 contact5 = ""
 
 disclaimer.title = "Disclaimer"
-disclaimer01.text = "The translation, rubrics, Greek and English texts are for the purposes of worship only and is subject to change without notice and should not be construed as a commitment by the authors, translators, developers, and personnel associated with its publication. Efforts are taken to make this booklet complete and accurate, but no warranty of fitness is implied."
+disclaimer01.text = "The translation, rubrics, Greek and English texts are for the purposes of worship only and is subject to change without notice at the discretion of the Greek Orthodox Archdiocese of America and should not be construed as a commitment by the authors, translators, developers, and personnel associated with its publication."
 
-disclaimer02.text = "This is a customized service. The selection of texts and rubrics were made by the client and generated at their request. No warranty of fitness is implied."
+disclaimer02.text = ""
 
 acknowledgements.title = "Acknowledgments"
 
 acknowledgements01.text = "Psalms have been taken from the St. Athanasius Academy Septuagint™, Copyright © 2008 St. Athanasius Academy of Orthodox Theology. Used by permission. All rights reserved. New Testament passages for the Epistle and Gospel readings were taken from the texts used by Holy Cross press, from the Revised Standard Version of the Holy Bible, Second Edition, Copyright © 1971. The texts of the Priest and Deacon parts are from the Web Site of the Greek Orthodox Archdiocese of America (www.goarch.org)."
 
-acknowledgements02.text = "Published in the United States of America: May God bless our country."
+acknowledgements02.text = ""
 
-acknowledgements03.text = "All rights reserved. The materials contained within this booklet remain the property of all contributing translators. It is published solely for the purpose of providing a source of worship materials to the parishes of the Orthodox Church and may be copied and otherwise reproduced as needed by the parish toward this end; however, it may not be reprinted, reproduced, transmitted, stored in a retrieval system, or translated into any language in any form by any means — electronic, mechanical, recording, or otherwise — for the purpose of sale without the express written permission."
+acknowledgements03.text = "All rights reserved. The materials contained within this booklet remain the property of all contributing translators. It is published solely for the purpose of providing a source of worship materials to the parishes of the Orthodox Church and may be copied and otherwise reproduced as needed by the parish toward this end; however, it may not be reprinted, reproduced, transmitted, stored in a retrieval system, or translated into any language in any form by any means—electronic, mechanical, recording, or otherwise—for the purpose of sale without the express written permission of the Greek Orthodox Archdiocese of America."
 
 acknowledgements04.text = "This document was produced using the AGES Liturgical Workbench."
 
