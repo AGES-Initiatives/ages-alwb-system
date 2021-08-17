@@ -1,6 +1,7 @@
-A_Resource_Whose_Name = ematinscovers_en_US_goarch
+A_Resource_Whose_Name = pdf.covers_en_US_goarch
 
-logo.text = //"eMatins  powered by AGES"
+logo1.text = "DIGITAL CHANT STAND"
+logo2.text = "OF THE GREEK ORTHODOX ARCHDIOCESE OF AMERICA"
 
 GE.text = "Texts in Greek and English"
 E.text = "Text in English"
