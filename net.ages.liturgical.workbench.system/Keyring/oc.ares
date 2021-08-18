@@ -53,6 +53,9 @@ ocVE.MM.LIHC2.text = ""
 
 ocVE.MM.Stichologia.text = ""
 
+ocBK.ModeNaked.desc = ""
+ocBK.ModeNaked = ""
+
 ocVE.Stichera1.desc = ""
 ocVE.Stichera1.mode = ""
 ocVE.Stichera1.melody = ""

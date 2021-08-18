@@ -386,6 +386,7 @@ cover7 = "cover7"
 cover8 = "cover8"
 cover9 = "cover9"
 cover10 = "cover10"
+cover11 = "cover11"
 
 //roles with Para for eMatins credits
 credits1 = "credits1"
@@ -396,4 +397,6 @@ credits4 = "credits4"
 //roles with Para for Logos
 logo1 = "logo1"
 logo2 = "logo2"
+logo_line_above = "logo_line_above"
+logo_line_below = "logo_line_below"
 
