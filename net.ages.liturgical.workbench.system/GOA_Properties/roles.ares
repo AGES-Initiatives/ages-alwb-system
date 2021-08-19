@@ -385,8 +385,10 @@ cover6 = "cover6"
 cover7 = "cover7"
 cover8 = "cover8"
 cover9 = "cover9"
+cover90 = "cover90"
 cover10 = "cover10"
 cover11 = "cover11"
+cover110 = "cover110"
 
 //roles with Para for eMatins credits
 credits1 = "credits1"
