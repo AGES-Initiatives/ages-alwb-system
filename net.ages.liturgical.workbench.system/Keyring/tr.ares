@@ -11,6 +11,7 @@ trHO.des1 = ""
 trHO.des2 = ""
 trHO.note1 = ""
 trHO.note2 = ""
+trCO.header = "" //for lenten compline
 trVE.header = "" //for pdf header of vespers e.g. on Good Friday
 trVL.header = "" //for pdf headers of presanctified and vesperal liturgies
 trEM.header = "" //for pdf headers of Holy Week evening Matins
