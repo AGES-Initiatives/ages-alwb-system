@@ -79,16 +79,18 @@ gh.html.link = "Great Hours"
 h1.html.link = "First Hour"
 h12.html.link = "Variable parts for Hours"
 h13.html.link = "Paschal Hours"
+h18.html.link = "Consecration Service"
 
 h3.html.link = "Third Hour"
 h36.html.link = "Trithekti (Third and Sixth Hours)"
 
 h6.html.link = "Sixth Hour"
 h61.html.link = "Typika Service (no priest)"
-h9.html.link = "Ninth Hour"
 
+h9.html.link = "Ninth Hour"
 h91.html.link = "Readings for the Day"
 h92.html.link = "Special Ceremony (at the end of Liturgy)"
+h98.html.link = "Reception of Relics for Consecration"
 
 li.html.link = "Divine Liturgy"
 li1.html.link = "Liturgy - with Typika and Beatitudes"
