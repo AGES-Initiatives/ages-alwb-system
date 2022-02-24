@@ -36,6 +36,7 @@ cl.Apolytikion1.melody = ""
 cl.Apolytikion1.incipit = "…"
 cl.Apolytikion1.text = ""
 
+cl.conVE.SticBoth.name = ""
 cl.consecration.name = ""
 
 cl.relics.saint1 = ""
