@@ -118,7 +118,8 @@ mo.html.link = "Midnight Office"
 mo1.html.link = "Daily Typikon"
 mo5.html.link = "Midnight Office - Alternative Commemoration"
 
-pl.html.link = "Presanctified Liturgy"
+pl.html.link = "Presanctified Liturgy" //.pl.pdf causes a problem on the GOA server, so as of 02/28/22 use pl1
+pl1.html.link = "Presanctified Liturgy" 
 pl2.html.link = "Presanctified Liturgy - Variable Parts"
 
 sv.html.link = "Small Vespers"
