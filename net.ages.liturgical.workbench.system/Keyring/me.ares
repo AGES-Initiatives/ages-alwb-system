@@ -3481,8 +3481,10 @@ alt1.meVE.Stichera03.incipit = "…"
 alt1.meVE.Stichera03.text = ""
 
 alt1.meVE.MM.Stichera123as8910.text = "" //for media
+alt1.meVE.MM.Stichera1123as3456.text = "" //for media
 alt1.meVE.MM.Stichera1123as78910.text = "" //for media
 alt1.meVE.MM.Stichera1234as5678.text = "" //for media
+alt1.meVE.MM.Stichera1234as78910.text = "" //for media
 alt1.meVE.MM.Stichera4456as78910.text = "" //for media
 
 alt1.meVE.Stichera04.desc = ""
