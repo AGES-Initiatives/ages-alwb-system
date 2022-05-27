@@ -33,7 +33,12 @@ pePA.ChristIsRisen.text = ""
 pePA.C1.title = ""
 pePA.C1.poet = ""
 
-pePA.CTh.acrostic = ""
+pePA.CTh.acrostic.title = ""
+pePA.CTh.acrostic.notice1 = ""
+pePA.CTh.acrostic.text = ""
+pePA.CTh.acrostic.notice2 = ""
+pePA.CTh.poet = ""
+pePA.CTh.title = ""
 
 pePA.Ode1H.desc = ""
 pePA.Ode1H.ode = ""
@@ -771,23 +776,21 @@ peMA.PostGospelIdiomelon.melody = ""
 peMA.PostGospelIdiomelon.incipit = "…"
 peMA.PostGospelIdiomelon.text = ""
 
-//canon odes
-// Allow for C1 to have Heirmos + 8 troparia + F1, F2, Tr, T. Not all odes or canons have this many.
-// Allow for C2 to have Heirmos + 7 troparia + Tr, T. Not all odes or canons have this many.
-
+peMA.C1.acrostic.title = ""
+peMA.C1.acrostic.notice1 = ""
+peMA.C1.acrostic.text = ""
+peMA.C1.acrostic.notice2 = ""
+peMA.C1.poet = ""
 peMA.C1.title = ""
 peMA.C1.verse = ""
 
-peMA.C1.poet = ""
-peMA.C1.acrostic = ""
-
+peMA.C2.acrostic.title = ""
+peMA.C2.acrostic.notice1 = ""
+peMA.C2.acrostic.text = ""
+peMA.C2.acrostic.notice2 = ""
+peMA.C2.poet = ""
 peMA.C2.title = ""
 peMA.C2.verse = ""
-
-peMA.C2.poet = ""
-peMA.C2.acrostic = ""
-
-//Ode 1 Canon 1
 
 peMA.Ode1C1H.desc = ""
 peMA.Ode1C1H.ode = ""
@@ -2806,23 +2809,21 @@ alt1.peMA.PostGospelIdiomelon.melody = ""
 alt1.peMA.PostGospelIdiomelon.incipit = "…"
 alt1.peMA.PostGospelIdiomelon.text = ""
 
-//canon odes
-// Allow for C1 to have Heirmos + 8 troparia + F1, F2, Tr, T. Not all odes or canons have this many.
-// Allow for C2 to have Heirmos + 7 troparia + Tr, T. Not all odes or canons have this many.
-
+alt1.peMA.C1.acrostic.title = ""
+alt1.peMA.C1.acrostic.notice1 = ""
+alt1.peMA.C1.acrostic.text = ""
+alt1.peMA.C1.acrostic.notice2 = ""
+alt1.peMA.C1.poet = ""
 alt1.peMA.C1.title = ""
 alt1.peMA.C1.verse = ""
 
-alt1.peMA.C1.poet = ""
-alt1.peMA.C1.acrostic = ""
-
+alt1.peMA.C2.acrostic.title = ""
+alt1.peMA.C2.acrostic.notice1 = ""
+alt1.peMA.C2.acrostic.text = ""
+alt1.peMA.C2.acrostic.notice2 = ""
+alt1.peMA.C2.poet = ""
 alt1.peMA.C2.title = ""
 alt1.peMA.C2.verse = ""
-
-alt1.peMA.C2.poet = ""
-alt1.peMA.C2.acrostic = ""
-
-//Ode 1 Canon 1
 
 alt1.peMA.Ode1C1H.desc = ""
 alt1.peMA.Ode1C1H.ode = ""
@@ -2832,9 +2833,6 @@ alt1.peMA.Ode1C1H.incipit = "…"
 alt1.peMA.Ode1C1H.text = ""
 
 alt1.peMA.Ode1C11.desc = ""
-alt1.peMA.C1.title = ""
-alt1.peMA.C1.verse = ""
-
 alt1.peMA.Ode1C11.ode = ""
 alt1.peMA.Ode1C11.mode = ""
 alt1.peMA.Ode1C11.melody = ""
