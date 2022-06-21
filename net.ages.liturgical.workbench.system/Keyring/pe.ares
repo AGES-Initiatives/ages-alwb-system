@@ -2316,11 +2316,10 @@ peLI.AfterCommunion.text = ""
 peMegalynarion.text = ""
 
 //for Iambic canons
-peMA.C2.Acrostic1.acrostic = ""
-peMA.C2.Acrostic2.acrostic = ""
-peMA.C2.Acrostic3.acrostic = ""
-peMA.C2.Acrostic4.acrostic = ""
-peMA.C2.Acrostic5.acrostic = ""
+peMA.C2.acrostic.line1.text = ""
+peMA.C2.acrostic.line2.text = ""
+peMA.C2.acrostic.line3.text = ""
+peMA.C2.acrostic.line4.text = ""
 
 peMA.Ode1C2H1.text = ""
 peMA.Ode1C2H2.text = ""
