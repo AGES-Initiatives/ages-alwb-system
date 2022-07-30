@@ -2,8 +2,8 @@ A_Resource_Whose_Name = me
 
 meDA.date = "" // date, e.g. Τῌ ΙϚʹ ΤΟΥ ΑΥΤΟΥ ΜΗΝΟΣ or July 16
 meDA.commemoration.full = "" //full title of day
-meDA.commemoration.second = "" //full title of day
 meDA.commemoration.first = ""
+meDA.commemoration.second = ""
 meDA.commemoration.first_short = ""
 meDA.commemoration.second_short = ""
 meDA.commemoration.first_title = ""
@@ -5648,6 +5648,8 @@ alt1.meMegalynarion2.desc = ""
 alt1.meMegalynarion2.text = ""
 alt1.meMegalynarion3.desc = ""
 alt1.meMegalynarion3.text = ""
+alt1.meMegalynarion4.desc = ""
+alt1.meMegalynarion4.text = ""
 
 alt1.meSV.Stichera1.desc = ""
 alt1.meSV.Stichera1.mode = ""
