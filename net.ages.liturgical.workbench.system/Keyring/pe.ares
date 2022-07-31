@@ -2514,6 +2514,7 @@ pePE.Prayer7.text = ""
 
 alt1.peDA.commemoration.full = "" //full title of day
 alt1.peDA.commemoration.short = ""
+alt1.peDA.commemoration.name = ""
 alt1.peCom1.title = ""
 alt1.peDA.insert1 = "" //for use in petitions and dismissal
 alt1.peDA.insert2 = "" //for use in petitions and dismissal
