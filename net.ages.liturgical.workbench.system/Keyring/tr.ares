@@ -310,6 +310,9 @@ trMA.PostGospelIdiomelon.melody = ""
 trMA.PostGospelIdiomelon.incipit = ""
 trMA.PostGospelIdiomelon.text = ""
 
+trMA.C1.notice1.desc = ""
+trMA.C1.notice1 = ""
+
 trMA.C1.acrostic.title.desc = ""
 trMA.C1.acrostic.title = ""
 trMA.C1.acrostic.notice1.desc = ""
@@ -324,6 +327,9 @@ trMA.C1.title.desc = ""
 trMA.C1.title = ""
 trMA.C1.verse.desc = ""
 trMA.C1.verse = ""
+
+trMA.C2.notice1.desc = ""
+trMA.C2.notice1 = ""
 
 trMA.C2.acrostic.title.desc = ""
 trMA.C2.acrostic.title = ""
@@ -340,6 +346,9 @@ trMA.C2.title = ""
 trMA.C2.verse.desc = ""
 trMA.C2.verse = ""
 
+trMA.C3.notice1.desc = ""
+trMA.C3.notice1 = ""
+
 trMA.C3.acrostic.title.desc = ""
 trMA.C3.acrostic.title = ""
 trMA.C3.acrostic.notice1.desc = ""
@@ -354,6 +363,9 @@ trMA.C3.title.desc = ""
 trMA.C3.title = ""
 trMA.C3.verse.desc = ""
 trMA.C3.verse = ""
+
+trMA.C4.notice1.desc = ""
+trMA.C4.notice1 = ""
 
 trMA.C4.acrostic.title.desc = ""
 trMA.C4.acrostic.title = ""
@@ -2594,8 +2606,6 @@ trMA.Kontakion0.mode = //only in T1
 trMA.Kontakion0.melody = //only in T1
 trMA.Kontakion0.text = "" //only in T1
 
-trLI.Antiphon2.incipit = ""
-trLI.Antiphon2.text = ""
 
 trLI.MM.Beatitudes.Ode3C1as5678.desc = ""
 trLI.MM.Beatitudes.Ode3C1as5678.text = ""
