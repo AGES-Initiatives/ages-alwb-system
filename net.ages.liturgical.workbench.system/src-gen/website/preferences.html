@@ -1,0 +1,80 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+		<!-- Meta Declarations -->
+		<meta charset="utf-8"/> 
+		<meta name="viewport" content="width=device-width"/>		
+		<!-- Stylesheets -->
+		        <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+		<link rel='stylesheet' type='text/css' href='js/lib/bootstrap/css/bootstrap.css'/>
+		<link type="text/css" rel="stylesheet" href="css/jquery.dropdown.css" />
+		<link rel='stylesheet' type='text/css' href='css/alwb.css'/>
+		
+		<!-- Scripts -->
+		<script data-main="js/app" src="js/lib/require.js"></script>
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+			<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->
+		</head>
+		<body>
+			<div class='agesMenu'>
+				<!-- Menu Bar Icons-->
+				<a href="#" data-jqm-dropdown="#jqm-dropdown-pages" title="Go to..."><i class="fa fa-bars ages-menu-link"></i></a>
+				
+				<!-- Dropdown Menu Contents -->
+				<div id="jqm-dropdown-pages" class="jqm-dropdown jqm-dropdown-tip">
+				    <ul class="jqm-dropdown-menu jqm-dropdown-relative">
+						<li><a href="servicesindex.html"><i class="fa fa-calendar">&nbsp;Daily Services by Date</i></a></li>
+					    <li><a href="booksindex.html"><i class="fa fa-arrows">&nbsp;Sacraments and Services</i></a></li>
+					    <li><a href="preferences.html"><i class="fa fa-list-alt">&nbsp;Preferences</i></a></li>
+						<li class="jqm-dropdown-divider"></li>
+					    <li><a href="about.html"><i class="fa fa-info-circle">&nbsp;About</i></a></li>
+					    <li><a href="contact.html"><i class="fa fa-envelope">&nbsp;Contact</i></a></li>
+				   <!-- <li><a href="donate.html"><i class="fa fa-money">&nbsp;Donate</i></a></li>-->
+						<li class="jqm-dropdown-divider"></li>
+					    <li><a href="javascript:(showInfo())"><i class="fa fa-laptop">&nbsp;Browser Information</i></a></li>
+				<!-- 	<li class="jqm-dropdown-divider"></li>  -->
+				 <!--   <li><a href="help.html"><i class="fa fa-question-circle">&nbsp;Help</i></a></li> -->
+				 	</ul>
+				</div>
+			</div>
+			<div class='index-content'>
+				<p><img style="border:0;" src="img/goa-dcs-app-logotype-1200.png" alt="Digital Chant Stand of the Greek Orthodox Archdiocese of America" width="100%" height="100%"></p>
+				<h1 class='index-title'><span class='goared'>Preferences</span></h1>
+				<p class='rubric'><span class='goared'>Using this panel, you can select the kinds of files and music you wish to appear in the indexes and service files. Once you set your preferences, click the Save button. To go back to your previous page, click the Return button.</span></p>
+
+				<h3>Language</h3>
+				<p class='rubric'><span class='goared'>Versions of Services</span></p>
+				<div class='pref-left'><label for='cb-show-gren'>Greek-English</label></div>
+				<div class='pref-right'><input id='cb-show-gren' type='checkbox' name='cb-show-gren'></div>
+				<div class='pref-left'><label for='cb-show-en'>English</label></div>
+				<div class='pref-right'><input id='cb-show-en' type='checkbox' name='cb-show-en'></div>
+				<div class='pref-left'><label for='cb-show-gr'>Greek</label></div>
+				<div class='pref-right'><input id='cb-show-gr' type='checkbox' name='cb-show-gr'></div>
+
+				<h3>Format</h3>
+				<p class='rubric'><span class='goared'>File Types of Services</span></p>
+				<div class='pref-left'><label for='cb-show-textmusic'>View [for devices and music]</label></div>
+				<div class='pref-right'><input id='cb-show-textmusic' type='checkbox' name='cb-show-textmusic'></div>
+				<div class='pref-left'><label for='cb-show-pdf'>Print [PDF for hard copy]</label></div>
+				<div class='pref-right'><input id='cb-show-pdf' type='checkbox' name='cb-show-pdf'></div>
+				
+				<h3>Music</h3>
+				<p class='rubric'><span class='goared'>Links in the DCS Services</span></p>
+				<div class='pref-left'><label for='cb-show-western'>Staff Notation</label></div>
+				<div class='pref-right'><input id='cb-show-western' type='checkbox' name='cb-show-western'></div>
+				<div class='pref-left'><label for='cb-show-byzantine'>Byzantine Notation</label></div>
+				<div class='pref-right'><input id='cb-show-byzantine' type='checkbox' name='cb-show-byzantine'></div>
+				<div class='pref-left'><label for='cb-show-audio'>Show Audio links</label></div>
+				<div class='pref-right'><input id='cb-show-audio' type='checkbox' name='cb-show-audio'></div>
+
+				<div class='save-button'><button id='pref-save-btn' class='btn btn-primary'> Save </button></div>
+				<div id="pref-messages"></div>
+				<div class='return-button'><button id='pref-return-btn' class='btn btn-primary'>Return</button></div>
+			</div>
+		</body>
+</html>

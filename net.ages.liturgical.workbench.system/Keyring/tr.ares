@@ -290,8 +290,6 @@ trMA.Kathisma33.melody = ""
 trMA.Kathisma33.incipit = ""
 trMA.Kathisma33.text = ""
 
-trMA.MM.Prokeimenon.text = ""
-
 trMA.PostGospelGlory.desc = ""
 trMA.PostGospelGlory.mode = ""
 trMA.PostGospelGlory.melody = ""
@@ -3249,13 +3247,13 @@ trHW.BeatutidesT.melody = ""
 trHW.BeatitudesT.incipit = ""
 trHW.BeatitudesT.text = ""
 
-trHW.Prokeimenon.source = ""
-trHW.Prokeimenon.mode = ""
-trHW.Prokeimenon.incipit = ""
-trHW.Prokeimenon.text = ""
+trHW.MM.Prokeimenon.source = ""
+trHW.MM.Prokeimenon.mode = ""
+trHW.MM.Prokeimenon.incipit = ""
+trHW.MM.Prokeimenon.text = ""
 
-trHW.ProkeimenonVerse1.source = ""
-trHW.ProkeimenonVerse1.text = ""
+trHW.MM.ProkeimenonVerse1.source = ""
+trHW.MM.ProkeimenonVerse1.text = ""
 
 trHW.Apolytikion1.desc = ""
 trHW.Apolytikion1.mode = ""

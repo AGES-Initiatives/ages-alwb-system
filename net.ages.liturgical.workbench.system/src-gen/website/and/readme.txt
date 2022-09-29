@@ -1,0 +1,1 @@
+This folder will contain files for the app, like About, Contact, etc. that will be managed by GOA as opposed to being backed into the app.

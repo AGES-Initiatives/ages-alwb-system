@@ -498,13 +498,17 @@ peSV.AposBoth.incipit = "…"
 peSV.AposBoth.text = ""
 
 //Vespers
+peVE.MM.Stichera11as56.text = "" //for media
 peVE.MM.Stichera112as567.text = "" //for media
 peVE.MM.Stichera1123as3456.text = "" //for media
+peVE.MM.Stichera12as34.text = "" //for media
 peVE.MM.Stichera123as123.text = "" //for media
 peVE.MM.Stichera1234as3456.text = "" //for media
-peVE.MM.Stichera11as56.text = "" //for media
 peVE.MM.Stichera22as78.text = "" //for media
 peVE.MM.Stichera33as910.text = "" //for media
+peVE.MM.Stichera789as456.text = ""
+peVE.MM.Stichera89as56.text = "" //for media
+peVE.MM.Stichera8910as567.text = "" //for media
 
 peVE.Stichera01.desc = ""
 peVE.Stichera01.mode = ""
@@ -577,9 +581,6 @@ peVE.SticBoth.mode = ""
 peVE.SticBoth.melody = ""
 peVE.SticBoth.incipit = "…"
 peVE.SticBoth.text = ""
-
-peVE.MM.GreatProkeimenon.desc = ""
-peVE.MM.GreatProkeimenon.text = ""
 
 peVE.Lity1.desc = ""
 peVE.Lity1.mode = ""

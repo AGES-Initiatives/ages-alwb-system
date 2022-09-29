@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+   		<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  		<title>Links</title>
+  		<link rel="stylesheet" href="css/alwb.css" type="text/css">
+	</head>
+	<body>
+	<script type="text/javascript">
+		function GetClock(){
+			d = new Date();
+			nhour = d.getHours();
+			nmin = d.getMinutes();
+			if (nhour == 0) {
+			  ap = " AM";
+			  nhour = 12;
+			} else if (nhour <= 11) {
+			  ap = " AM";
+			} else if (nhour == 12) {
+			  ap = " PM";
+			} else if (nhour >= 13) {
+			  ap = " PM";
+			  nhour -= 12;
+			}
+			if(nmin <= 9) {
+				nmin = "0" +nmin;
+			}
+			document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
+			setTimeout("GetClock()", 1000);
+		}
+window.onload=GetClock;
+</script>
+<!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1"/>
+</o:shapelayout></xml><![endif]-->
+
+<div id="clockbox"></div>
+</body>
+</html>
