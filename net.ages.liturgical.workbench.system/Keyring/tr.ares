@@ -22,6 +22,10 @@ trTY.note3 = "" //footnotes from Hemerologion
 trTY.note4 = "" //footnotes from Hemerologion
 trTY.note5 = "" //footnotes from Hemerologion
 
+trR001 = ""
+trR002 = ""
+trR003 = ""
+
 trVE.Stichera01.desc = ""
 trVE.Stichera01.mode = ""
 trVE.Stichera01.melody = ""
@@ -49,6 +53,7 @@ trVE.Stichera04.text = ""
 trVE.MM.Stichera112as8910.text = ""
 trVE.MM.Stichera112as567.text = ""
 trVE.MM.Stichera1123as78910.text = ""
+trVE.MM.Stichera12as56.text = ""
 trVE.MM.Stichera123as567.text = ""
 trVE.MM.Stichera456as8910.text = ""
 
