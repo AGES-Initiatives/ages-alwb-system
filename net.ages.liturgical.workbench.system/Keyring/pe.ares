@@ -510,6 +510,7 @@ peVE.MM.Stichera22as78.text = "" //for media
 peVE.MM.Stichera33as910.text = "" //for media
 peVE.MM.Stichera789as456.text = "" //for media
 peVE.MM.Stichera789as567.text = "" //for media
+peVE.MM.Stichera789as8910.text = "" //for media
 peVE.MM.Stichera89as56.text = "" //for media
 peVE.MM.Stichera8910as567.text = "" //for media
 peVE.MM.Stichera9910as567.text = "" //for media
@@ -2237,6 +2238,7 @@ peMA.MM.Lauds123as345.text = ""
 peMA.MM.Lauds123as456.text = ""
 peMA.MM.Lauds1234as1234.text = ""
 peMA.MM.Lauds5678as5678.text = ""
+peMA.MM.Lauds678as345.text = ""
 
 peMA.LaudsGlory.desc = ""
 peMA.LaudsGlory.mode = ""
