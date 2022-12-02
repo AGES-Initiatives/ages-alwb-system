@@ -3,14 +3,14 @@ A_Resource_Whose_Name = eo
 eo.title = ""
 
 eo.Exaposteilarion.desc = ""
-eo.Exaposteilarion.mode = //misc_gr_GR_cog.Mode2
-eo.Exaposteilarion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Exaposteilarion.mode = ""
+eo.Exaposteilarion.melody = ""
 eo.Exaposteilarion.incipit = "…"
 eo.Exaposteilarion.text = ""
 
 eo.Theotokion.desc = ""
-eo.Theotokion.mode = //misc_gr_GR_cog.Mode2
-eo.Theotokion.melody = //he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.name
+eo.Theotokion.mode = ""
+eo.Theotokion.melody = ""
 eo.Theotokion.incipit = "…"
 eo.Theotokion.text = ""
 
