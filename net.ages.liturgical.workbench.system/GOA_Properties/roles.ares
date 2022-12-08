@@ -3,6 +3,7 @@ A_Resource_Whose_Name = roles
 //roles with Title
 chapverse = "chapverse"
 desig = "designation"
+greekmelody = "greekmelody"
 melody = "melody"
 mixed = "mixed"
 mode = "mode"
