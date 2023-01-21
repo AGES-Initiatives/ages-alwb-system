@@ -2603,6 +2603,7 @@ trMA.AposGlory.text = ""
 
 trMA.AposTheotokion.desc = ""
 trMA.AposTheotokion.mode = ""
+trMA.AposTheotokion.greekmelody = ""
 trMA.AposTheotokion.melody = ""
 trMA.AposTheotokion.incipit = ""
 trMA.AposTheotokion.text = ""
