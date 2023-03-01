@@ -5,6 +5,7 @@ logo.text = "eMatins  powered by AGES"
 GE.text = "Texts in Greek and English"
 E.text = "Text in English"
 G.text = "Text in Greek"
+SE.text = "Text in Spanish and English"
 
 Bilingual = "Bilingual"
 English = "English"
