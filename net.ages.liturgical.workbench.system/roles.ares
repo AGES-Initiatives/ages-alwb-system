@@ -403,6 +403,3 @@ logo1 = "logo1"
 logo2 = "logo2"
 logo_line_above = "logo_line_above"
 logo_line_below = "logo_line_below"
-
-//roles with Para for anchors for ToC
-ancLI_GospelReading = "ancli_gospelreading"
