@@ -1757,6 +1757,7 @@ trMA.Ode6K.text = ""
 
 trMA.Kontakion1.desc = ""
 trMA.Kontakion1.mode = ""
+trMA.Kontakion1.greekmelody = ""
 trMA.Kontakion1.melody = ""
 trMA.Kontakion1.incipit = ""
 trMA.Kontakion1.text = ""
@@ -2694,6 +2695,7 @@ trSV.AposGlory.incipit = ""
 trSV.AposGlory.text = ""
 
 trMA.Kontakion0.mode = //only in T1
+trMA.Kontakion0.greekmelody = //only in T1
 trMA.Kontakion0.melody = //only in T1
 trMA.Kontakion0.text = "" //only in T1
 
@@ -2714,6 +2716,7 @@ trLI.MM.EntranceHymn.text = ""
 
 trLI.Kontakion1.desc = ""
 trLI.Kontakion1.mode = ""
+trLI.Kontakion1.greekmelody = ""
 trLI.Kontakion1.melody = ""
 trLI.Kontakion1.incipit = ""
 trLI.Kontakion1.text = ""

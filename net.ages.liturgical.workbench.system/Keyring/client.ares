@@ -10,16 +10,22 @@ cl.website = ""
 
 cl.bishop0.rank = "" //the superior of the local hierarch
 cl.bishop0.name_c = "" //comma
+cl.bishop0.name_co = ""
+cl.bishop0.name_sc = ""
 cl.bishop0.name_p = "" //period
 cl.bishop0.fimi.text = ""
 
 cl.bishop1.rank = "" // the local hierarch
 cl.bishop1.name_c = "" //comma
+cl.bishop1.name_co = ""
+cl.bishop1.name_sc = ""
 cl.bishop1.name_p = "" //period
 cl.bishop1.fimi.text = ""
 
 cl.bishop2.rank = "" // for double commemoration or guest
 cl.bishop2.name_c = ""
+cl.bishop2.name_co = ""
+cl.bishop2.name_sc = ""
 cl.bishop2.name_p = ""
 cl.bishop2.fimi.text = ""
 

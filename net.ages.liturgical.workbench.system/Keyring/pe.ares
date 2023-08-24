@@ -1760,6 +1760,7 @@ peMA.Ode6C2T.text = ""
 
 peMA.Kontakion1.desc = ""
 peMA.Kontakion1.mode = ""
+peMA.Kontakion1.greekmelody = ""
 peMA.Kontakion1.melody = ""
 peMA.Kontakion1.incipit = "…"
 peMA.Kontakion1.text = ""
@@ -2448,6 +2449,13 @@ peLI.MM.Beatitudes.Ode6C2as910GB.text = ""
 
 peLI.MM.EntranceHymn.text = ""
 peLI.MM.EntranceHymnAF.text = ""
+
+peLI.Kontakion1.desc = ""
+peLI.Kontakion1.mode = ""
+peLI.Kontakion1.greekmelody = ""
+peLI.Kontakion1.melody = ""
+peLI.Kontakion1.incipit = ""
+peLI.Kontakion1.text = ""
 
 peLI.TheotokosHymn.desc = ""
 peLI.TheotokosHymn.mode = ""

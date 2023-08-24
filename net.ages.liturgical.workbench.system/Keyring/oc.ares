@@ -1067,6 +1067,7 @@ ocMA.OdeS6C33.text = ""
 
 ocMA.Kontakion.desc = ""
 ocMA.Kontakion.mode = ""
+ocMA.Kontakion.greekmelody = ""
 ocMA.Kontakion.melody = ""
 ocMA.Kontakion.incipit = "…"
 ocMA.Kontakion.text = ""
