@@ -2490,6 +2490,13 @@ meLI.Kontakion3.melody = ""
 meLI.Kontakion3.incipit = ""
 meLI.Kontakion3.text = ""
 
+meLI.Kontakion1ger.desc = ""
+meLI.Kontakion1ger.mode = ""
+meLI.Kontakion1ger.greekmelody = ""
+meLI.Kontakion1ger.melody = ""
+meLI.Kontakion1ger.incipit = ""
+meLI.Kontakion1ger.text = ""
+
 meLI.TheotokosHymn.desc = ""
 meLI.TheotokosHymn.mode = ""
 meLI.TheotokosHymnVerse.incipit = ""
