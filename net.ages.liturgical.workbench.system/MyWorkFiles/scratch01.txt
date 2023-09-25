@@ -1,0 +1,22 @@
+Τὸ εὔψυχον τῆς καρτερίας ὑμῶν, 
+ἐνίκησε τὰ μηχανήματα τοῦ ἀρχεκάκου ἐχθροῦ, 
+Ἀθλοφόροι πανεύφημοι· 
+διὰ τοῦτο τῆς αἰωνίου, κατηξιώθητε μακαριότητος· 
+ἀλλὰ πρεσβεύσατε τῷ Κυρίῳ, 
+τοῦ φιλοχρίστου λαοῦ, σῶσαι τὸ ποίμνιον, 
+Μάρτυρες ὑπάρχοντες τῆς ἀληθείας.
+
+
+Your brave endurance, O Glorious martyrs, ⁄ defeated the craft of the enemy, the source of all evil: ⁄ therefore, you were counted worthy of eternal blessedness. ⁄ Intercede, then, with the Lord, O witnesses of the truth, ⁄⁄ for the salvation of Christ’s faithful flock. 
+
+
+
+
+
+
+
+ocMA.Kathisma33.mode = miscellanea_gr_GR_cog.misc.Mode3
+ocMA.Kathisma33.greekmelody = he.a.m3_gr_GR_cog.heAU.TinOraiotita.greekname
+ocMA.Kathisma33.melody = he.a.m3_gr_GR_cog.heAU.TinOraiotita.name
+ocMA.Kathisma33.incipit = "Τὰ ἐπουράνια, φόβῳ ἠγάλλοντο…"
+ocMA.Kathisma33.text = "Τὰ ἐπουράνια, φόβῳ ἠγάλλοντο, καὶ τὰ ἐπίγεια, πόθῳ ηὐφραίνοντο, ὅτε ἡ ἄχραντος φωνή, ἐπῆλθέ σοι Θεοτόκε· μία γὰρ πανήγυρις, ἀμφοτέροις ἐπέλαμψε, ὅτε τὸν πρωτόπλαστον, ὁ Δεσπότης ἐῤῥύσατο. Διὸ σὺν τῷ Ἀγγέλῳ βοῶμέν σοι· Χαῖρε ἡ Κεχαριτωμένη."
