@@ -14,10 +14,7 @@ when the Master freed from death
 when the first-created man was delivered by your Son and God. 
 And therefore with the Angel we say to you: Rejoice, O Maiden full of grace!
 
-
-
 oc.m3.d4.ocVE.Stichera1
-
 Ἡ κτίσις ἠλλοιώθη Λόγε τῇ σταυρώσει σου, 
 ὁ ἥλιος ἀκτῖνας, συνέστειλε τῷ φόβῳ, 
 καὶ ναοῦ τὸ καταπέτασμα ἐσχίσθη, 
@@ -32,7 +29,6 @@ and all believers have been saved.
 And now we glorify 
 Your immense wealth of mercy.
 
-
 oc.m3.d4.ocMA.Kathisma31
 Σταυρὸν ὑπέμεινας, ἀτίμως Δέσποτα, 
 ὁ ὑπερέκεινα, πάσης τῆς κτίσεως, 
@@ -44,7 +40,7 @@ oc.m3.d4.ocMA.Kathisma31
 Ὑμνῶ σου τὴν πολλὴν εὐσπλαγχνίαν, 
 καὶ τὴν ἀγαθότητα φιλάνθρωπε.
 
-You who are higher than all the created world, 
+You who who transcend the whole created universe, 
 wishing to honor me who long ago sustained 
 the grave dishonor, have endured dishonorable death on the cross. 
 And You let your side be pierced 
@@ -54,7 +50,7 @@ whom You fashioned, O forbearing Lord.
 I glorify Your goodness, O Savior, 
 and Your great compassion, O benevolent God.
 
-ocMA.Kathisma33
+oc.m3.d4.ocMA.Kathisma33
 Ἀναρτηθέντα σε, ὡς ἐθεάσατο, 
 ἐν ξύλῳ Δέσποτα, ἡ ἀπειρόγαμος, 
 καὶ Παναμώμητος ἁγνή, Παρθένος τε καὶ Μήτηρ σου. 
@@ -67,21 +63,113 @@ When Your immaculate and irreproachable
 and ever-virgin pure, all-holy Mother watched 
 as You were crucified, O Lord, she saw You on the cross and wept. 
 Tearfully she cried aloud, "Woe is me! O my sweetest Son! 
-How could these most villainous people condemn You to be crucified, 
+How could this unlawful crowd condemn You to be crucified, 
 for You are Lord of all and Creator! 
 I glorify Your goodness that has no end."
 
 
-ocMA.Aposticha1
+oc.m3.d4.ocMA.Aposticha1
 Φθόνῳ τρυφῆς ἐκβέβλημαι, πτῶμα πεσὼν χαλεπόν, ἀλλʼ οὐ παρεῖδες Δέσποτα, ἀναλαβὼν διʼ ἐμὲ τὸ κατʼ ἐμέ, σταυροῦσαι, καὶ σῴζεις με, εἰς δόξαν εἰσάγεις με· Λυτρωτά μου, δόξα σοι."
 
 I was cast out of Eden because of envy. It was a terrible fall. But You, O Master, did not overlook me. But You assumed my nature for me, and You were crucified. And You save me and bring me into glory. O my Redeemer, glory to You!
 
-ocMA.Aposticha3
+oc.m3.d4.ocMA.Aposticha3
 Ὡς φωστῆρες ἐν κόσμῳ λάμπετε, καὶ μετὰ θάνατον ἅγιοι Μάρτυρες, τὸν ἀγῶνα τὸν καλὸν ἀγωνισάμενοι· διὸ ἔχοντες παῤῥησίαν, Χριστὸν ἱκετεύσατε, ἐλεηθῆναι τὰς ψυχὰς ἡμῶν."
 
 O holy Martyrs, even after death, you shine on the world like luminaries, for you fought the good fight. 
 Now that you have confidence when praying to Christ, entreat Him to have mercy on our souls.
+
+oc.m3.d4.ocMA.AposTheotokion
+Ὁρῶσά σε κρεμάμενον, ἐν ξύλῳ ἡ Πανάμωμος, 
+Χριστέ μου ὑπεράγαθε, ὀδυρομένη ἐβόα μητρικῶς· 
+Υἱέ μου παμφίλτατε, 
+πῶς δῆμος ὁ ἄνομος, ξύλῳ σε κατέκρινε;"
+
+O Christ, my most benevolent Savior, 
+when Your irreproachable Mother 
+saw You hanging on the cross, 
+she lamented and cried aloud, 
+"O my beloved Son, 
+how could this unlawful crowd condemn You to be crucified!" 
+_________________________________________________________________
+
+oc.m3.d5.ocMA.Kathisma31
+Σὲ τὸν κήρυκα, τῆς ἀληθείας, 
+καὶ ὑπέρλαμπρον, φωστῆρα κόσμου, 
+εὐφημοῦντες ἀνυμνοῦμεν Νικόλαε, 
+καὶ ἐκβοῶμεν ἐν πίστει δεόμενοι. 
+Ὡς τοὺς ἀθώους θανάτου ἐξήρπασας, 
+οὕτως Ἅγιε, κινδύνων ἡμᾶς καὶ θλίψεων, 
+καὶ πάσης ἐξελοῦ δεινῆς κακώσεως.
+
+We extol you as a mighty preacher 
+of the truth of God, and as a brilliant 
+luminary in the world, and we sing your praise, 
+as we entreat you with faith and we pray to you: 
+As you once rescued those innocent men from death, 
+likewise rescue us from danger, O father Nicholas, 
+and save us from disasters and accidents.
+
+oc.m3.d5.ocMA.Kathisma33
+Θρόνος πάγχρυσος, τοῦ Βασιλέως, 
+καὶ Παράδεισος, διηνθισμένος, 
+ἀνεδείχθης Θεοτόκε Πανάχραντε· 
+τὸν γὰρ Θεὸν ἐν γαστρί σου βαστάσασα, 
+εὐωδιάζεις ἡμᾶς θείαις χάρισιν· 
+ὅθεν ἅπαντες, Θεοῦ ἀληθῶς Μητέρα σε, 
+κηρύττομεν ἀεὶ καὶ μεγαλύνομεν.
+
+We declare that you are truly Mother 
+of our God and we all magnify you, 
+who carried God in your womb and gave birth to Him. 
+O all-immaculate Virgin, and thus you are 
+the golden throne of the King of the universe 
+metaphorically, and likewise a blooming Paradise, 
+for you emit like fragrance the gifts of grace.
+
+oc.m3.d5.ocMA.Aposticha3
+Αἱ δυνάμεις τῶν Ἁγίων Ἀγγέλων, ἐθαύμασαν τῶν Μαρτύρων τοὺς ἄθλους, 
+ὅτι σῶμα θνητὸν περικείμενοι, βασάνων κατεφρόνησαν, 
+μιμηταὶ γενόμενοι, τοῦ Πάθους τοῦ Σωτῆρος ἡμῶν, 
+καὶ πρεσβεύουσιν ὑπὲρ τῶν ψυχῶν ὑμῶν.
+
+The hosts of holy Angels were amazed by the contests of the Martyrs. 
+For even in their mortal bodies, they disregarded the tortures, 
+they imitated the Passion of our Savior, 
+and now they intercede on behalf of our souls.
+
+___________________________________________________
+oc.m3.d7.ocMA.Kathisma22
+Ὅτε τῷ λόγῳ σου, παραστησόμεθα, 
+τῷ ἀδεκάστῳ σου, βήματι Κύριε, 
+μὴ καταισχύνῃς τοὺς εἰς σέ, Σωτὴρ ἡμῶν πεπιστευκότας· 
+πάντες γὰρ ἡμάρτομεν, ἀλλὰ σοῦ οὐκ ἀπέστημεν· 
+ὅθεν δυσωποῦμέν σε, ἐν σκηναῖς τῶν δικαίων σου, 
+Χριστέ, οὓς προσελάβου ἀνάπαυσον, 
+ὡς μόνος ὑπάρχων πολυέλεος.
+
+
+oc.m3.d7.ocMA.Kathisma23
+Ξύλῳ πεπτώκαμεν, πικρῶς εἰς θάνατον, 
+ξύλῳ τιμίῳ δέ, πάλιν ἀνέστημεν· 
+διὰ Σταυροῦ σου γάρ Σωτήρ, τὸν θάνατον ἐνέκρωσας, 
+καὶ τὴν ἀτελεύτητον, ζωὴν πᾶσιν ἐπήγασας, 
+ἧς περ καταξίωσον, τοὺς πρὸς σὲ ἐκδημήσαντας, 
+οἰκέτας σου πιστοὺς Ἐλεῆμον, 
+δωρούμενος αὐτοῖς τὴν Βασιλείαν σου.
+
+
+oc.m3.d7.ocMA.Kathisma24
+Τὸν πολυτάραχον, τοῦ βίου κλύδωνα, 
+τοὺς ἐκπεράσαντας, τῷ θείῳ νεύματι, 
+καὶ μεταστάντας εὐσεβῶς, οἰκέτας σου Πανάμωμε, 
+δέξαι καὶ προσάγαγε, τῷ Κριτῇ καὶ Θεῷ ἡμῶν, 
+τούτοις ἀπολύτρωσιν, παρασχεῖν ἱκετεύουσα· 
+καὶ γὰρ ὡς τοῦ ποιήσαντος Μήτηρ, 
+ἔχεις τὸ θέλειν καὶ τὸ δύνασθαι.
+
+
+
 
 
 
