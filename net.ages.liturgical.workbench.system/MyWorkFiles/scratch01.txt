@@ -221,8 +221,6 @@ oc.m3.d7.ocMA.Kathisma24
 καὶ γὰρ ὡς τοῦ ποιήσαντος Μήτηρ, 
 ἔχεις τὸ θέλειν καὶ τὸ δύνασθαι.
 
-
-
 O all-immacuate, all-blameless Virgin pure, 
 receive your supplicants who have reposed in faith 
 and by the will of God have passed away from the turbulent 
@@ -231,9 +229,7 @@ earnestly entreating Him to release them and pardon them.
 For since you are the Mother of our Maker, 
 you are able to accomplish whatever you wish.
 
-
 oc.m3.d7.ocMA.Lauds4
-
 Ἄνθρωποι, τί μάτην ταραττόμεθα; 
 ὁ δρόμος βραχύς ἐστιν, ὃν τρέχομεν, 
 καπνὸς ὑπάρχει ὁ βίος, ἀτμὶς καὶ τέφρα καὶ κόνις, 
@@ -258,9 +254,17 @@ ocMA.Aposticha1
 τοῖς ἐν πίστει καὶ πόθῳ, 7
 σὲ ὑμνοῦσι μόνε πολυέλεε· 11
 διὸ βοῶμέν σοι· Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 
+τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 12
 ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, 
 δοξάζειν σου τὴν Θεότητα.
+
+I glorify Your honorable cross, O Lord, 
+and Savior very merciful, for through it everlasting life 
+and delight have been given to us all who extol You with faith and love.  
+And now we sing to You, O Christ God, and pray 
+that You give rest to those who passed away from us, 
+and put them in the place, wherein glad are all who have their dwelling in you, 
+to glorify Your divinity.
 
 
 ocMA.Aposticha2
@@ -270,13 +274,17 @@ ocMA.Aposticha2
 ὁ γινώσκων τὴν φύσιν 7
 τῶν ἀνθρώπων, ἣν ἐδημιούργησας, 11
 σὲ ἱκετεύομεν, Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, δοξάζειν σου τὴν Θεότητα.
-
-O Lord
-
-ocMA.Aposticha2.text = "We entreat You, O Christ God, the only merciful and compassionate Lord: As You have an incomprehensible ocean of goodness, and you know the nature of humanity, which You created, give rest to those whom You have taken from us, where all those who rejoice in You are dwelling, to glorify Your divinity."
+τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 
+ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, δοξάζειν σου τὴν Θεότητα.
 
 
+O Lord, supremely caring and merciful, 
+You have an inconceivable abundance of benevolence, 
+and You know well the nature of humanity, for You created it. 
+As we entreat You now, O Christ God, we pray 
+that You give rest to those who passed away from us, 
+and put them in the place, wherein glad are all who have their dwelling in you, 
+to glorify Your divinity.
 
 
 ocMA.Aposticha3
@@ -286,7 +294,19 @@ ocMA.Aposticha3
 τοὺς ἐν τάφοις ὑπνοῦντας, 7
 ἀσιγήτως ὕμνον σοι προσφέροντας· 11
 διὸ βοῶμέν σοι Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, δοξάζειν σου τὴν Θεότητα.
+τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, 
+δοξάζειν σου τὴν Θεότητα.
+
+
+
+While You, as man, lay dead in the sepulcher, 
+as God, by Your invincible might and power You raised the dead, 
+in their graves as if sleeping. And they sang extolling You unceasingly. 
+And now we sing to You, O Christ God, and pray 
+that You give rest to those who passed away from us, 
+and put them in the place, wherein glad are all who have their dwelling in you, 
+to glorify Your divinity.
+
 
 ocMA.AposTheotokion
 Λαμπάδα νοητήν σε βαστάζουσαν, 11
@@ -294,16 +314,19 @@ ocMA.AposTheotokion
 ὁμιλῆσαν παχύτητι, 8
 τῆς ἀνθρώπων οὐσίας 7
 Θεοτόκε, πάντες ἐπιστάμεθα· 11
-διὸ τὸν σὸν δυσώπησον Υἱὸν καὶ Θεόν, 
+διὸ τὸν σὸν δυσώπησον Υἱὸν καὶ Θεόν, 13
 τοὺς μεταστάντας ἐξ ἡμῶν αὐλίζεσθαι, 
-ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία Ἁγνή, δοξάζειν σε τὴν Πανάμωμον.
+ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία Ἁγνή, 
+δοξάζειν σε τὴν Πανάμωμον.
 
 
-
-
-
-
-
+When God became incarnate and He assumed 
+the essence of humanity in your womb, then you held the light 
+of the Godhead; and therefore we call you the lampstand metaphorically. 
+O Theotokos, earnestly pray your Son and God, 
+that He give rest to those who passed away from us, 
+and put them in the place, wherein glad are all who have their dwelling in Him, 
+to glorify you, all-blameless one.
 
 
 
