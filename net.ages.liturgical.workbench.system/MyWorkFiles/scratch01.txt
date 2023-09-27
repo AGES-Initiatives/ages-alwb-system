@@ -1,332 +1,80 @@
-oc.m3.d2.ocMA.Kathisma33
-Τὰ ἐπουράνια, φόβῳ ἠγάλλοντο, 
-καὶ τὰ ἐπίγεια, πόθῳ ηὐφραίνοντο, 
-ὅτε ἡ ἄχραντος φωνή, ἐπῆλθέ σοι Θεοτόκε· 
-μία γὰρ πανήγυρις, ἀμφοτέροις ἐπέλαμψε, 
-ὅτε τὸν πρωτόπλαστον, ὁ Δεσπότης ἐῤῥύσατο. 
-Διὸ σὺν τῷ Ἀγγέλῳ βοῶμέν σοι· Χαῖρε ἡ Κεχαριτωμένη."
+oc.m4.d3.ocMA.Kathisma31
 
-goadedes
-All beings heavenly rejoiced with fear and awe, 
-and even earth itself was very glad indeed, 
-O Theotokos, when that pure salutation was spoken to you. 
-Then your Son and Master saved from destruction the first-formed man, 
-and  those on high and here below celebrated in unison. 
-And therefore with the Angel we say to you: Rejoice, O Maiden full of grace!
+Τρυγὼν ἡ φιλέρημος, ὁ ἱερὸς Βαπτιστής, 
+κηρύξας μετάνοιαν, καὶ φανερώσας Χριστόν, 
+γενόμενον ἄνθρωπον, 
+πάντων ἁμαρτανόντων, ἐγεννήθη προστάτης, 
+πᾶσι χειμαζομένοις βοηθῶν ἀενάως. 
+Αὐτοῦ ταῖς ἱκεσίαις Χριστέ, σῶσον τὸν κόσμον σου.
 
 
-Then your Son and Master saved from destruction the first-formed man, 
-and those on high and here below celebrated in unison.
-
-pe.d092 dedes
-All beings heavenly with longing leapt for joy, * while everything on earth with trembling stood in awe, * O Theotokos, when that pure salutation was spoken to you. 
-Then your Son and Master saved from destruction the first-formed man, 
-and  those on high and here below celebrated in unison. 
-And therefore with the Angel we say to you: Rejoice, O pure and Virgin Mother.
+That solitude-loving turtle-dove, the holy Baptist St. John, 
+the preacher of repentance and the one who pointed to Christ 
+when He became man for us, 
+has become for all sinners an advocate and defender. 
+He is a ready helper of all who are in trouble. 
+By his intercessions, O Christ, rescue and save Your world.
 
 
-peMA.Kathisma23.text = "Τὰ ἐπουράνια, πόθῳ ἠγάλλοντο, καὶ τὰ ἐπίγεια, τρόμῳ ἐξίσταντο, ὅτε ἡ ἄχραντος φωνή, ἐπῆλθέ σοι Θεοτόκε· μία γὰρ πανήγυρις, ἀμφοτέροις ἐπέλαμψεν, ὅτι τὸν Πρωτόπλαστον, ἐκ θανάτου ἐῤῥύσατο· διὸ σὺν τῷ Ἀγγέλῳ βοῶμέν σοι· Χαῖρε ἁγνὴ Παρθενομῆτορ.
+oc.m4.d3.ocMA.Kathisma33
 
-od.m3.d3.ocMA.Kathisma31
-Ἐν τῇ σκέπῃ σου, προσπεφευγότες, 
-πίστει κράζομεν, ψυχῆς ἐκ βάθους, 
-θεομακάριστε Προφῆτα καὶ Πρόδρομε, 
-τῶν πειρασμῶν καὶ κινδύνων τὸν τάραχον, 
-καὶ νοσημάτων τὸν σάλον κατεύνασον, 
-καὶ ματαίωσον ἐχθρῶν δυσμενῶν βουλεύματα, 
-αἰτούμενος ἡμῖν τὸ μέγα ἔλεος.
+Ἡ μόνη κυήσασα, τὸν ποιητὴν τοῦ παντός, 
+ἡ μονη κοσμήσασα, τὴν ἀνθρωπότητα, 
+τῷ τόκῳ σου Ἄχραντε, 
+ῥῦσαί με τῶν παγίδων, τοῦ δολίου Βελίαρ, 
+στῆσόν με ἐπὶ πέτραν, τῶν Χριστοῦ θελημάτων, 
+αὐτὸν ἐκδυσωποῦσα ἐκτενῶς, ὃν ἐσωμάτωσας.
 
-
-
-We rely on you and your protection, 
-and we soulfully with faith implore you, 
-O St. John, Prophet, Forerunner, blest by God, 
-to quell the storm of diseases afflicting us, 
-the woes and dangers that shake us like turbulence. 
-Frustrate every plot that enemies have prepared for us, 
-and ask the Lord to grant us the great mercy.
+Immaculate Virgin, you alone conceived in your womb 
+the Maker of all, and by your giving birth you alone 
+have honored humanity.
+Free me from all the snares that the devil has set for me, 
+establish my on the rock of the words and the will of Christ. 
+To Him who became incarnate from you, pray for me earnestly.
 
 
-
-oc.m3.d4.ocVE.Stichera1
-Ἡ κτίσις ἠλλοιώθη Λόγε τῇ σταυρώσει σου, 
-ὁ ἥλιος ἀκτῖνας, συνέστειλε τῷ φόβῳ, 
-καὶ ναοῦ τὸ καταπέτασμα ἐσχίσθη, 
-καὶ πᾶς πιστὸς σέσωσται· 
-ὅθεν δοξάζομεν, 
-σοῦ τὸν ἄμετρον πλοῦτον.
-
-Creation was affected, O Word, when You were crucified. 
-The sun concealed its rays out of fear, and the earth shook, 
-and the curtain of the Temple was torn in two, 
-and all believers were saved. 
-And now we glorify 
-Your immense wealth of mercy.
-
-oc.m3.d4.ocMA.Kathisma31
-Σταυρὸν ὑπέμεινας, ἀτίμως Δέσποτα, 
-ὁ ὑπερέκεινα, πάσης τῆς κτίσεως, 
-ὅπως τιμήσῃς με τὸν πρίν, δεινῶς ἀτιμασθέντα, 
-λόγχῃ τὴν πλευράν σου δέ, 
-ἐκεντήθης μακρόθυμε, 
-θέλων ἐκλυτρώσασθαι, 
-τῆς φθορᾶς με τὸ πλάσμα σου. 
-Ὑμνῶ σου τὴν πολλὴν εὐσπλαγχνίαν, 
-καὶ τὴν ἀγαθότητα φιλάνθρωπε.
-
-You who who transcend the whole created universe, 
-wishing to honor me who long ago sustained 
-the grave dishonor, have endured dishonorable death on the cross. 
-And You let your side be pierced 
-with a spear, for you wished to free 
-from utter destruction me, 
-whom You fashioned, O forbearing Lord. 
-I glorify Your goodness, O Savior, 
-and Your great compassion, O benevolent God.
-
-oc.m3.d4.ocMA.Kathisma33
-Ἀναρτηθέντα σε, ὡς ἐθεάσατο, 
-ἐν ξύλῳ Δέσποτα, ἡ ἀπειρόγαμος, 
-καὶ Παναμώμητος ἁγνή, Παρθένος τε καὶ Μήτηρ σου. 
-Οἴμοι! ἀνεβόα σοι· ὦ Υἱέ μου γλυκύτατε, 
-πῶς σε ἀνομώτατος, δῆμος ξύλῳ κατέκρινε, 
-τὸν πάντων ποιητὴν καὶ Δεσπότην! 
-Ὑμνῶ σου τὴν ἄκραν ἀγαθότητα."
-
-When Your immaculate and irreproachable 
-and ever-virgin pure, all-holy Mother watched 
-as You were crucified, O Lord, she saw You on the cross and wept. 
-Tearfully she cried aloud, "Woe is me! O my sweetest Son! 
-How could this unlawful crowd condemn You to be crucified, 
-for You are Lord of all and Creator! 
-I glorify Your goodness that has no end."
-
-
-oc.m3.d4.ocMA.Aposticha1
-Φθόνῳ τρυφῆς ἐκβέβλημαι, πτῶμα πεσὼν χαλεπόν, ἀλλʼ οὐ παρεῖδες Δέσποτα, ἀναλαβὼν διʼ ἐμὲ τὸ κατʼ ἐμέ, σταυροῦσαι, καὶ σῴζεις με, εἰς δόξαν εἰσάγεις με· Λυτρωτά μου, δόξα σοι."
-
-I was cast out of Eden because of envy. It was a terrible fall. But You, O Master, did not overlook me. But You assumed my nature for me, and You were crucified. And You save me and bring me into glory. O my Redeemer, glory to You!
-
-oc.m3.d4.ocMA.Aposticha3
-Ὡς φωστῆρες ἐν κόσμῳ λάμπετε, καὶ μετὰ θάνατον ἅγιοι Μάρτυρες, τὸν ἀγῶνα τὸν καλὸν ἀγωνισάμενοι· διὸ ἔχοντες παῤῥησίαν, Χριστὸν ἱκετεύσατε, ἐλεηθῆναι τὰς ψυχὰς ἡμῶν."
-
-O holy Martyrs, even after death, you shine on the world like luminaries, for you fought the good fight. 
-Now that you have confidence when praying to Christ, entreat Him to have mercy on our souls.
-
-oc.m3.d4.ocMA.AposTheotokion
-Ὁρῶσά σε κρεμάμενον, ἐν ξύλῳ ἡ Πανάμωμος, 
-Χριστέ μου ὑπεράγαθε, ὀδυρομένη ἐβόα μητρικῶς· 
-Υἱέ μου παμφίλτατε, 
-πῶς δῆμος ὁ ἄνομος, ξύλῳ σε κατέκρινε;"
-
-O Christ, my most benevolent Savior, 
-when Your irreproachable Mother 
-saw You hanging on the cross, 
-she lamented and cried aloud, 
-"O my beloved Son, 
-how could this unlawful crowd condemn You to be crucified!" 
-_________________________________________________________________
-
-oc.m3.d5.ocMA.Kathisma31
-Σὲ τὸν κήρυκα, τῆς ἀληθείας, 
-καὶ ὑπέρλαμπρον, φωστῆρα κόσμου, 
-εὐφημοῦντες ἀνυμνοῦμεν Νικόλαε, 
-καὶ ἐκβοῶμεν ἐν πίστει δεόμενοι. 
-Ὡς τοὺς ἀθώους θανάτου ἐξήρπασας, 
-οὕτως Ἅγιε, κινδύνων ἡμᾶς καὶ θλίψεων, 
-καὶ πάσης ἐξελοῦ δεινῆς κακώσεως.
-
-We extol you as a mighty preacher 
-of the truth of God, and as a brilliant 
-luminary in the world, and we sing your praise, 
-as we entreat you with faith and we pray to you: 
-As you once rescued those innocent men from death, 
-likewise rescue us from danger, O father Nicholas, 
-and save us from disasters and accidents.
-
-oc.m3.d5.ocMA.Kathisma33
-Θρόνος πάγχρυσος, τοῦ Βασιλέως, 
-καὶ Παράδεισος, διηνθισμένος, 
-ἀνεδείχθης Θεοτόκε Πανάχραντε· 
-τὸν γὰρ Θεὸν ἐν γαστρί σου βαστάσασα, 
-εὐωδιάζεις ἡμᾶς θείαις χάρισιν· 
-ὅθεν ἅπαντες, Θεοῦ ἀληθῶς Μητέρα σε, 
-κηρύττομεν ἀεὶ καὶ μεγαλύνομεν.
-
-We declare that you are truly Mother 
-of our God and we all magnify you, 
-who carried God in your womb and gave birth to Him. 
-O all-immaculate Virgin, and thus you are 
-the golden throne of the King of the universe 
-metaphorically, and likewise a blooming Paradise, 
-for you emit like fragrance the gifts of grace.
-
-oc.m3.d5.ocMA.Aposticha3
-Αἱ δυνάμεις τῶν Ἁγίων Ἀγγέλων, ἐθαύμασαν τῶν Μαρτύρων τοὺς ἄθλους, 
-ὅτι σῶμα θνητὸν περικείμενοι, βασάνων κατεφρόνησαν, 
-μιμηταὶ γενόμενοι, τοῦ Πάθους τοῦ Σωτῆρος ἡμῶν, 
-καὶ πρεσβεύουσιν ὑπὲρ τῶν ψυχῶν ὑμῶν.
-
-The hosts of holy Angels were amazed by the contests of the Martyrs. 
-For even in their mortal bodies, they disregarded the tortures, 
-they imitated the Passion of our Savior, 
-and now they intercede on behalf of our souls.
-
-___________________________________________________
-oc.m3.d7.ocMA.Kathisma22
-Ὅτε τῷ λόγῳ σου, παραστησόμεθα, 
-τῷ ἀδεκάστῳ σου, βήματι Κύριε, 
-μὴ καταισχύνῃς τοὺς εἰς σέ, Σωτὴρ ἡμῶν πεπιστευκότας· 
-πάντες γὰρ ἡμάρτομεν, ἀλλὰ σοῦ οὐκ ἀπέστημεν· 
-ὅθεν δυσωποῦμέν σε, ἐν σκηναῖς τῶν δικαίων σου, 
-Χριστέ, οὓς προσελάβου ἀνάπαυσον, 
-ὡς μόνος ὑπάρχων πολυέλεος.
-
-When You command it, Lord, and we shall all be brought 
-to You on Judgment Day and judged impartially, 
-O Christ, may we who have believed in You not be put to shame. 
-Even though we all have sinned, we have not run away from You. 
-Therefore we implore You to grant repose where the saints now dwell 
-to those whom You have taken, O Savior, 
-for You are singularly merciful.
-
-
-oc.m3.d7.ocMA.Kathisma23
-Ξύλῳ πεπτώκαμεν, πικρῶς εἰς θάνατον, 
-ξύλῳ τιμίῳ δέ, πάλιν ἀνέστημεν· 
-διὰ Σταυροῦ σου γάρ Σωτήρ, τὸν θάνατον ἐνέκρωσας, 
-καὶ τὴν ἀτελεύτητον, ζωὴν πᾶσιν ἐπήγασας, 
-ἧς περ καταξίωσον, τοὺς πρὸς σὲ ἐκδημήσαντας, 
-οἰκέτας σου πιστοὺς Ἐλεῆμον, 
-δωρούμενος αὐτοῖς τὴν Βασιλείαν σου.
-
-
-
-Our bitter fall to death involved a tree of old. 
-Now we are raised again through Your all-holy tree. 
-For You have killed the force of death, O Savior, by the tree of Your cross. 
-You became the well of life everlasting for everyone. 
-We implore You grant this life to the departed who had faith in You, 
-and give to these Your servants Your kingdom, 
-O Master, who are singularly merciful.
-
-O Lord, for You have killed the force of death
-
-oc.m3.d7.ocMA.Kathisma24
-Τὸν πολυτάραχον, τοῦ βίου κλύδωνα, 
-τοὺς ἐκπεράσαντας, τῷ θείῳ νεύματι, 
-καὶ μεταστάντας εὐσεβῶς, οἰκέτας σου Πανάμωμε, 
-δέξαι καὶ προσάγαγε, τῷ Κριτῇ καὶ Θεῷ ἡμῶν, 
-τούτοις ἀπολύτρωσιν, παρασχεῖν ἱκετεύουσα· 
-καὶ γὰρ ὡς τοῦ ποιήσαντος Μήτηρ, 
-ἔχεις τὸ θέλειν καὶ τὸ δύνασθαι.
-
-O all-immacuate, all-blameless Virgin pure, 
-receive your supplicants who have reposed in faith 
-and by the will of God have passed away from the turbulent 
-storm of life; and usher them to the throne of our Judge and God, 
-earnestly entreating Him to release them and pardon them. 
-For since you are the Mother of our Maker, 
-you are able to accomplish whatever you wish.
-
-oc.m3.d7.ocMA.Lauds4
-Ἄνθρωποι, τί μάτην ταραττόμεθα; 
-ὁ δρόμος βραχύς ἐστιν, ὃν τρέχομεν, 
-καπνὸς ὑπάρχει ὁ βίος, ἀτμὶς καὶ τέφρα καὶ κόνις, 
-πρὸς ὀλίγον φαινόμενος, καὶ ταχέως ἀχρειούμενος· 
-διὸ Χριστῷ τῷ ἀθανάτῳ Βασιλεῖ βοήσωμεν· 
-Τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 
-ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί.
-
-O people, why be we troubled about useless things? 
-The race we are running is short. 
-Our life here is like a puff of smoke, a mist, dust and ashes; 
-it is here for a short time, then it quickly loses its purpose. 
-So let us pray to Christ our immortal King, 
-\"To those who have passed away from us grant repose, 
-where glad are all who have their dwelling in You.\"
-
-
-ocMA.Aposticha1
-Δοξάζω τὸν σταυρόν σου τὸν τίμιον, 11
-διʼ οὗ ζωὴ δεδώρηται, 8
-καὶ τρυφῆς ἡ ἀπόλαυσις, 8
-τοῖς ἐν πίστει καὶ πόθῳ, 7
-σὲ ὑμνοῦσι μόνε πολυέλεε· 11
-διὸ βοῶμέν σοι· Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 12
-ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, 
-δοξάζειν σου τὴν Θεότητα.
-
-I glorify Your honorable cross, O Lord, 
-and Savior very merciful, for through it everlasting life 
-and delight have been given to us all who extol You with faith and love.  
-And now we sing to You, O Christ God, and pray 
-that You give rest to those who passed away from us, 
-and put them in the place, wherein glad are all who have their dwelling in you, 
-to glorify Your divinity.
 
 
 ocMA.Aposticha2
-Ὁ μόνος ἐλεήμων καὶ εὔσπλαγχνος, 11
-ὁ ἔχων ἀκατάληπτον 8
-ἀγαθότητος πέλαγος, 8
-ὁ γινώσκων τὴν φύσιν 7
-τῶν ἀνθρώπων, ἣν ἐδημιούργησας, 11
-σὲ ἱκετεύομεν, Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, 
-ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, δοξάζειν σου τὴν Θεότητα.
+Ζάλη ἁμαρτημάτων περιέχει με Σωτήρ, 
+καὶ μὴ φέρων τὸν κλύδωνα, σοὶ προσπίπτω τῷ μόνῳ Κυβερνήτῃ, 
+ὡς τῷ Πέτρῳ τὴν χεῖρά μοι ἔκτεινον, 
+τῆς φιλανθρωπίας σου, καὶ σῶσόν με.
 
 
-O Lord, supremely caring and merciful, 
-You have an inconceivable abundance of benevolence, 
-and You know well the nature of humanity, for You created it. 
-As we entreat You now, O Christ God, we pray 
-that You give rest to those who passed away from us, 
-and put them in the place, wherein glad are all who have their dwelling in you, 
-to glorify Your divinity.
-
-
-ocMA.Aposticha3
-Ὑπνώσας ἐν τῷ τάφῳ ὡς ἄνθρωπος, 11
-δυνάμει ἀηττήτῳ σου, 8
-ὡς Θεὸς ἐξανέστησας, 8
-τοὺς ἐν τάφοις ὑπνοῦντας, 7
-ἀσιγήτως ὕμνον σοι προσφέροντας· 11
-διὸ βοῶμέν σοι Χριστὲ ὁ Θεός, 11
-τοὺς μεταστάντας ἐξ ἡμῶν ἀνάπαυσον, ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία ἐν σοί, 
-δοξάζειν σου τὴν Θεότητα.
-
-
-
-While You, as man, lay dead in the sepulcher, 
-as God, by Your invincible might and power You raised the dead, 
-in their graves as if sleeping. And they sang extolling You unceasingly. 
-And now we sing to You, O Christ God, and pray 
-that You give rest to those who passed away from us, 
-and put them in the place, wherein glad are all who have their dwelling in you, 
-to glorify Your divinity.
-
+The storm that my sins have caused encompasses me, O Savior, 
+Unable to withstand the waves, I cry to You, my only Pilot. 
+Reach out the hand of Your benevolence to me, as You did to Peter, and save me.
 
 ocMA.AposTheotokion
-Λαμπάδα νοητήν σε βαστάζουσαν, 11
-τὸ φέγγος τῆς Θεότητος, 8
-ὁμιλῆσαν παχύτητι, 8
-τῆς ἀνθρώπων οὐσίας 7
-Θεοτόκε, πάντες ἐπιστάμεθα· 11
-διὸ τὸν σὸν δυσώπησον Υἱὸν καὶ Θεόν, 13
-τοὺς μεταστάντας ἐξ ἡμῶν αὐλίζεσθαι, 
-ἔνθα πάντων ἐστίν, εὐφραινομένων ἡ κατοικία Ἁγνή, 
-δοξάζειν σε τὴν Πανάμωμον.
+Θεοτόκε Παντάνασσα, τῶν Ὀρθοδόξων τὸ καύχημα, 
+αἱρετικῶν τὰ φρυάγματα, καὶ τὰ πρόσωπα καταίσχυνον, 
+τῶν μὴ προσκυνούντων, μηδὲ τιμώντων, Πάναγνε, τὴν σεβάσμιον εἰκόνα σου.
 
 
-When God became incarnate and He assumed 
-the essence of humanity in your womb, then you held the light 
-of the Godhead; and therefore we call you the lampstand metaphorically. 
-O Theotokos, earnestly pray your Son and God, 
-that He give rest to those who passed away from us, 
-and put them in the place, wherein glad are all who have their dwelling in Him, 
-to glorify you, all-blameless one.
+All pure Theotokos and Queen of all, the Orthodox boast about you. 
+We pray you bring dishonor and embarrassment on the insolent heretics, 
+who neither venerate nor honor your holy icon.
+
+
+ocMA.Kathisma31
+Ἐν Παραδείσῳ με δεινῶς πεπτωκότα, 
+τοῦ βροτοκτόνου τῇ πικρᾷ συμβουλίᾳ, 
+ἐν τῷ Κρανίῳ πάλιν ἐξανέστησας Χριστέ, 
+ξύλῳ ἰασάμενος, τὴν τοῦ ξύλου κατάραν, 
+κτείνας τὸν ἀπάτῃ με, θανατώσαντα ὄφιν, 
+καὶ ἐδωρήσω θείαν μοι ζωήν. 
+Δόξα τῇ θείᾳ σταυρώσει σου Κύριε.
+
+
+
+I had a fatal fall in Eden by heeding 
+the poison counsel of the muderous devil. 
+But then You resurrected me on Calvary, O Christ. 
+By a tree you healed the curse of the tree, O my Savior, 
+and you killed the serpant fiend who had killed me by deception. 
+And You have given me eternal life. 
+Glory to Your holy crucifixion, O Lord my God!
 
 
 
