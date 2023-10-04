@@ -2102,7 +2102,7 @@ peLI.AfterCommunion2.mode = ""
 peLI.AfterCommunion2.incipit = "…"
 peLI.AfterCommunion2.text = ""
 
-peMegalynarion.text = ""
+peLI.Megalynarion.text = ""
 
 //for Iambic canons
 peMA.C2.acrostic.line1.text = ""
@@ -4202,4 +4202,4 @@ alt1.peLI.AfterCommunion.mode = ""
 alt1.peLI.AfterCommunion.incipit = "…"
 alt1.peLI.AfterCommunion.text = ""
 
-alt1.peMegalynarion.text = ""
+alt1.peLI.Megalynarion.text = ""

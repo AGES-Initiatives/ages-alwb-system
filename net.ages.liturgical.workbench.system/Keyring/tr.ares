@@ -2747,7 +2747,7 @@ trLI.AfterCommunion.mode = ""
 trLI.AfterCommunion.incipit = ""
 trLI.AfterCommunion.text = ""
 
-trMegalynarion.text = ""
+trLI.Megalynarion.text = ""
 
 //Akathist Hymn
 
