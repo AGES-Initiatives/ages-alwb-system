@@ -1,21 +1,36 @@
-ocMA.Aposticha3
-Ἐν ταῖς βασάνοις ὄντες οἱ Ἅγιοι, ἀγαλλόμενοι ἐβόων· 
-Συναλλάγματα ἡμῖν ἐστι ταῦτα, πρὸς τὸν Δεσπότην· 
-ἀντὶ γὰρ τῶν ἐπανισταμένων, μωλώπων τῷ σώματι, 
-φωτεινόν ἔνδυμα, ἐν τῇ ἀναστάσει ἐπανθήσει ἡμῖν· 
-ἀντὶ δεσμωτηρίων ὁ Παράδεισος· 
-καὶ ἀντὶ τῆς μετὰ τῶν κακούργων καταδίκης, ἡ μετὰ τῶν Ἀγγέλων διαγωγή. 
-Εὐχαῖς αὐτῶν Κύριε, σῶσον τὰς ψυχὰς ἡμῶν."
+ocMA.AposTheotokion.text = "
+Ἡ προεκλελεγμένη, 7
+εἰσάκουσον τῆς φωνῆς ἡμῶν, 9
+καὶ δώρησαι, 4
+τὰ αἰτήματα ταῖς ψυχαῖς ἡμῶν· 10
+λύτρωσαι ἡμᾶς παθῶν καὶ τῶν ὀδυνῶν, 12
+διὰ τῶν Ἀποστόλων, 7
+πάντα δυναμένη ὡς Μήτηρ Θεοῦ. 10\11
 
 
 
-As the Saints were being tortured, they sang in exultation, 
-\"These are all for us a transaction with Master. 
+O Virgin, you were chosen 
+ahead of time. We implore you now 
+to hear our prayer 
+and to grant us our soulful requests. 
+Free us from the passions of our bodies and souls, 
+through the holy Apostles. 
+You can do all things, as the Mother of God.
 
-We will trade what we suffer now in our transactions with the Master. 
-For instead of the physical injuries we are sustaining, 
-in the resurrection He will dress us with a luminous garment. 
-Instead of the prison there will be Paradise. 
-And instead of being sentenced with criminals, we will be in the company of Angels.\"
-O Lord, we pray You save our souls, at their supplications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

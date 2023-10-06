@@ -440,8 +440,6 @@ meMA.Kathisma3T.melody = ""
 meMA.Kathisma3T.incipit = ""
 meMA.Kathisma3T.text = ""
 
-meMA.MM.Prokeimenon.desc = ""
-meMA.MM.Prokeimenon.text = ""
 
 meMA.PostGospelGlory.desc = ""
 meMA.PostGospelGlory.mode = ""
@@ -4021,8 +4019,6 @@ alt1.meMA.Kathisma3T.melody = ""
 alt1.meMA.Kathisma3T.incipit = ""
 alt1.meMA.Kathisma3T.text = ""
 
-alt1.meMA.MM.Prokeimenon.desc = ""
-alt1.meMA.MM.Prokeimenon.text = ""
 
 alt1.meMA.PostGospelGlory.desc = ""
 alt1.meMA.PostGospelGlory.mode = ""
@@ -7414,8 +7410,6 @@ alt2.meMA.Kathisma3T.melody = ""
 alt2.meMA.Kathisma3T.incipit = ""
 alt2.meMA.Kathisma3T.text = ""
 
-alt2.meMA.MM.Prokeimenon.desc = ""
-alt2.meMA.MM.Prokeimenon.text = ""
 
 alt2.meMA.PostGospelGlory.desc = ""
 alt2.meMA.PostGospelGlory.mode = ""
@@ -10737,8 +10731,6 @@ alt3.meMA.Kathisma3T.melody = ""
 alt3.meMA.Kathisma3T.incipit = ""
 alt3.meMA.Kathisma3T.text = ""
 
-alt3.meMA.MM.Prokeimenon.desc = ""
-alt3.meMA.MM.Prokeimenon.text = ""
 
 alt3.meMA.PostGospelGlory.desc = ""
 alt3.meMA.PostGospelGlory.mode = ""
