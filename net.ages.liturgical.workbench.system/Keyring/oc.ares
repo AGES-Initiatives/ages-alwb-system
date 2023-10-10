@@ -1007,7 +1007,7 @@ ocMA.OdeS6C1H.melody = ""
 ocMA.OdeS6C1H.incipit = "…"
 ocMA.OdeS6C1H.text = ""
 
-ocMA.OdeS6C1Talias = ""
+ocMA.OdeS6C1T.desc = ""
 ocMA.OdeS6C1T.mode = ""
 ocMA.OdeS6C1T.ode = ""
 ocMA.OdeS6C1T.melody = ""

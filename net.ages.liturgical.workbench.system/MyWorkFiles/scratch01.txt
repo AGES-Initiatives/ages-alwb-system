@@ -1,23 +1,21 @@
-ocMA.AposTheotokion.text = "
-Ἡ προεκλελεγμένη, 7
-εἰσάκουσον τῆς φωνῆς ἡμῶν, 9
-καὶ δώρησαι, 4
-τὰ αἰτήματα ταῖς ψυχαῖς ἡμῶν· 10
-λύτρωσαι ἡμᾶς παθῶν καὶ τῶν ὀδυνῶν, 12
-διὰ τῶν Ἀποστόλων, 7
-πάντα δυναμένη ὡς Μήτηρ Θεοῦ. 10\11
+Γέγονα καταγώγιον οἴμοι! 10
+τῶν ἡδονῶν ὁ πανάθλιος! 9
+Γέλως οὖν ὁρῶμαι, ἀεὶ τοῖς ἐχθροῖς μου· 12
+ὅθεν σοι προσπίπτω ἁγία Παρθένε, 12
+ἴδε μου τὴν θλῖψιν, καὶ βοήθειάν μοι ὄρεξον, 15
+καὶ δακρύοις κάθαρον, καὶ ῥῦσαί με δέομαι, 14
+καὶ καταισχυνθείησαν, 7
+οἱ χαίροντες Ἁγνὴ τῇ ἀπωλείᾳ μου. 12
 
 
-
-O Virgin, you were chosen 
-ahead of time. We implore you now 
-to hear our prayer 
-and to grant us our soulful requests. 
-Free us from the passions of our bodies and souls, 
-through the holy Apostles. 
-You can do all things, as the Mother of God.
-
-
+I have become a lair of the pleasures. 
+Alas! And now I am miserable. 
+Therefore I am laughed at by my adversaries. 
+O all-holy Lady, I earnestly implore you: 
+Seeing me afflicted, please extend a helping hand to me. 
+Grant me tears to wash me clean. I pray you to rescue me, 
+O Virgin, and let all those 
+who rejoice at my destruction be put to shame.
 
 
 
