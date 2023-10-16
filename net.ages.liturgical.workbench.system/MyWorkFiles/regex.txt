@@ -1,24 +1,14 @@
 
 
 
-^.*score\.w\.url\.path = "(.*)"\R
-
-\t\t\t\t\t\t\t\t\t\t\t\t\t<li dcslink="js/viewer/web/viewer.html?file=$1">Score: Staff</li>\R
 
 
 
-
-^.*a\d.url.path = "(.*)"\R
-
-\t\t\t\t\t\t\t\t\t\t\t\t\t<li dcslink="../..$1">Audio</li>\R
+^\Rme\w\w\.(.*)\.(poet|ode|mode|greekmelody|melody|incipit) =.*(\R|.*\R.*\R|.*\R.*\R.*\R|.*\R.*\R.*\R.*\R|.*\R.*\R.*\R.*\R.*\R).*text = ""\R
 
 
-\R\R(.*)\.score.b.arranger.*\R
+^\Rme\w\w\.(.*)\.(poet|ode|mode|greekmelody|melody|incipit) =.*(\R|.*\R.*\R|.*\R.*\R.*\R|.*\R.*\R.*\R.*\R|.*\R.*\R.*\R.*\R.*\R).*(melody|incipit) =.*\R\R
 
-\R\R\t\t\t\t\t\t\t\t\t\t\t<li class="level_4">$1\R\t\t\t\t\t\t\t\t\t\t\t\t<ul>\R
+Replace: \R
 
-
-(</li>\R)\R(.*<li class="level_4">)
-
-$1\t\t\t\t\t\t\t\t\t\t\t\t</ul>\R\t\t\t\t\t\t\t\t\t\t\t</li>\R$2
 
