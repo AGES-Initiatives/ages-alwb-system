@@ -2684,12 +2684,15 @@ meVE.ProphecyTroparion2Refrain.text = ""
 
 meVE.GeneralApolytikion1.desc = ""
 meVE.GeneralApolytikion1.name = "" // name of saint for General Apolytikia
+meVE.MM.GeneralApolytikion1.text = ""
 
 meVE.GeneralApolytikion2.desc = ""
 meVE.GeneralApolytikion2.name = "" // name of saint for General Apolytikia
+meVE.MM.GeneralApolytikion2.text = ""
 
 meVE.GeneralApolytikion3.desc = ""
 meVE.GeneralApolytikion3.name = "" // name of saint for General Apolytikia
+meVE.MM.GeneralApolytikion3.text = ""
 
 meCO.SupplicationVerse.desc = ""
 meCO.SupplicationVerse.text = ""
