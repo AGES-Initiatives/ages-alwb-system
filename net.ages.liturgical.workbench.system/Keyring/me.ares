@@ -24,6 +24,7 @@ meHO.note1 = ""
 meHO.note2 = ""
 meDA.dismissal = ""
 meDA.poet = ""
+meDA.source = ""
 meTY.note1 = "" //footnotes from Hemerologion
 meTY.note2 = "" //footnotes from Hemerologion
 meTY.note3 = "" //footnotes from Hemerologion
