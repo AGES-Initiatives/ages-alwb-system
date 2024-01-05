@@ -1,29 +1,7 @@
-Τῆς Ναξίας τὸν γόνον καὶ σεπτὸν ἐγκαλλώπισμα, 
-ἐν ὕμνοις τιμήσωμεν ἡγιασμένον Νικόλαον, 
-τὸν Πλανᾶν μὲν τῇ κλήσει, 
-ἀπλανῆ δὲ τὴν πίστιν, 
-καὶ τὸν βίον εὐσχήμονα καὶ θεοφιλῆ. 
-Αὐτὸς γὰρ συγκαλεῖται εἰς τράπεζαν πνευματικὴν τὰ οἰκεῖα τέκνα καὶ φιλοπάτορα, 
-οὐ βρώσει ξενίζων καὶ πόσει, 
-ἀλλὰ δικαιοσύνην καὶ ἄσκησιν ὑποδεικνὺς εἰς ἁγιασμόν.
+Καθὼς εἶπας Κύριε τῇ Μάρθᾳ· 
+Ἐγώ εἰμι ἡ ἀνάστασις, ἔργῳ τὸν λόγον ἐπλήρωσας, ἐξ ᾍδου καλέσας τὸν Λάζαρον, κᾀμὲ φιλάνθρωπε, νεκρὸν τοῖς πάθεσιν, ὡς συμπαθής ἐξανάστησον, δέομαι.
 
 
+trMA.Lauds8.text = "
 
-He was the son of Naxos and its precious jewel, 
-Saint Nicholas Planas. 
-Let us sing hymns in honor of him. 
-His faith was inerrant 
-and his life was dignified and godly. 
-He invites his loving spiritual children to a spiritual banquet, 
-not serving them food and drink,
-but showing them virtue and discipline, for their sanctification.
-
-
-
-
-
-
-
-
-
-
+Lord, when You said to Martha, \"I am the resurrection," then You fulfilled Your word with action, by calling back Lazarus from Hades. As I am dead through the passions, I pray You resurrect me also, O benevolent and compassionate God.
