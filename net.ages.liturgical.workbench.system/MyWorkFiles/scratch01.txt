@@ -1,7 +1,15 @@
-Καθὼς εἶπας Κύριε τῇ Μάρθᾳ· 
-Ἐγώ εἰμι ἡ ἀνάστασις, ἔργῳ τὸν λόγον ἐπλήρωσας, ἐξ ᾍδου καλέσας τὸν Λάζαρον, κᾀμὲ φιλάνθρωπε, νεκρὸν τοῖς πάθεσιν, ὡς συμπαθής ἐξανάστησον, δέομαι.
+Ὡς τὸν Προφήτην ἐῤῥύσω, 
+ἐκ βυθοῦ κατωτάτου Χριστὲ ὁ Θεός, 
+κἀμὲ τῶν πταισμάτων μου, 
+ῥῦσαι ὡς φιλάνθρωπος, 
+καὶ κυβέρνησον τὴν ζωήν μου δέομαι."
 
-
-trMA.Lauds8.text = "
-
-Lord, when You said to Martha, \"I am the resurrection," then You fulfilled Your word with action, by calling back Lazarus from Hades. As I am dead through the passions, I pray You resurrect me also, O benevolent and compassionate God.
+ 
+ 
+  O Christ my God, as You rescued * 
+  Prophet Jonah of old from the depths of the sea, * 
+  I pray You, now rescue me * 
+  from my sins, and steer the ship * of my life, as You are my benevolent Lord.
+  
+  
+  
