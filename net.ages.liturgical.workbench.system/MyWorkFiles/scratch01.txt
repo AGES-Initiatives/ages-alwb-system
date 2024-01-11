@@ -1,15 +1,5 @@
-Ὡς τὸν Προφήτην ἐῤῥύσω, 
-ἐκ βυθοῦ κατωτάτου Χριστὲ ὁ Θεός, 
-κἀμὲ τῶν πταισμάτων μου, 
-ῥῦσαι ὡς φιλάνθρωπος, 
-καὶ κυβέρνησον τὴν ζωήν μου δέομαι."
+meMA.Lauds1.text = "You the Master who loves mankind, * ever wishing to demonstrate * the abundant wealth of Your goodness to mankind, * became incarnate and thus assumed * our nature; and You were born * of a Virgin in the flesh; * and You dwelt in a cave on earth, * so that You might raise * to the heights and make heavenly Your servants, who are praising and extolling * Your ineffable Nativity."
 
- 
- 
-  O Christ my God, as You rescued * 
-  Prophet Jonah of old from the depths of the sea, * 
-  I pray You, now rescue me * 
-  from my sins, and steer the ship * of my life, as You are my benevolent Lord.
-  
-  
-  
+
+
+Master, wishing to demonstrate * Your abundant benevolence * and the wealth of goodness towards humanity, * You were incarnate 
