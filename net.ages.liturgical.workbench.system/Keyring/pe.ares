@@ -20,7 +20,7 @@ peTY.note3 = "" //footnotes from Hemerologion
 peTY.note4 = "" //footnotes from Hemerologion
 peTY.note5 = "" //footnotes from Hemerologion
 
-// Unique Pascha ID's used throughout Pentecostarion
+// Unique Pascha ID’s used throughout Pentecostarion
 
 peMO.Troparion1.desc = ""
 peMO.Troparion1.mode = ""
