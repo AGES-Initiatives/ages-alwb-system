@@ -1,14 +1,8 @@
 
 
+hoVE.MM.LoavesHymn1_Theotokos.text = properties_gr_GR_cog.media.key\RhoVE.MM.LoavesHymn2_ps33v11.text = properties_gr_GR_cog.media.key\R
 
+hoVE.MM.LoavesHymn1_Theotokos.text = properties_gr_GR_cog.deprecated.key\RhoVE.MM.LoavesHymn2_ps33v11.text = properties_gr_GR_cog.deprecated.key\RhoVE.MM.LoavesHymn1Theotokos.text = properties_gr_GR_cog.media.key\RhoVE.MM.LoavesHymn2ps33v11.text = properties_gr_GR_cog.media.key\R
 
-
-
-^\Rme\w\w\.(.*)\.(poet|ode|mode|greekmelody|melody|incipit) =.*(\R|.*\R.*\R|.*\R.*\R.*\R|.*\R.*\R.*\R.*\R|.*\R.*\R.*\R.*\R.*\R).*text = ""\R
-
-
-^\Rme\w\w\.(.*)\.(poet|ode|mode|greekmelody|melody|incipit) =.*(\R|.*\R.*\R|.*\R.*\R.*\R|.*\R.*\R.*\R.*\R|.*\R.*\R.*\R.*\R.*\R).*(melody|incipit) =.*\R\R
-
-Replace: \R
 
 
