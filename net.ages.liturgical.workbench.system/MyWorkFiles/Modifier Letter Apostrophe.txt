@@ -1,0 +1,22 @@
+Unicode Character "ʼ" (U+02BC)
+
+The character ʼ (Modifier Letter Apostrophe) is represented by the Unicode codepoint U+02BC. It is encoded in the Spacing Modifier Letters block, which belongs to the Basic Multilingual Plane. It was added to Unicode in version 1.1 (June, 1993). It is HTML encoded as &#x02BC;.
+
+ʼ
+___________________________________________________________
+
+
+«
+
+»
+
+“
+
+”
+
+‘
+
+’
+
+…
+
