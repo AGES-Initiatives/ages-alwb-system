@@ -2761,11 +2761,6 @@ trLI.Megalynarion.text = ""
 
 //Akathist Hymn
 
-trAK.Apolytikion1.desc = ""
-trAK.Apolytikion1.mode = ""
-trAK.Apolytikion1.melody = ""
-trAK.Apolytikion1.incipit = ""
-trAK.Apolytikion1.text = ""
 
 trAK.Oikos010.text = ""
 trAK.Oikos011.text = ""
@@ -2911,9 +2906,6 @@ trAK.Oikos237.text = ""
 trAK.Oikos240.text = ""
 trAK.Oikos241.text = ""
 
-trAK.Kontakion.desc = ""
-trAK.Kontakion.mode = ""
-trAK.Kontakion.melody = ""
 trAK.Kontakion1.incipit = ""
 trAK.Kontakion1.text = ""
 trAK.Kontakion2.incipit = ""
