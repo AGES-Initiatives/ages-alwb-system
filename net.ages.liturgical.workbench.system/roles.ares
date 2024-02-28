@@ -17,6 +17,7 @@ source0 = "source0"
 source1 = "source1"
 
 //roles with Para
+actorinaudible = "actorinaudible"
 alttext = "alttext"
 chant = "chant"
 dialog = "dialog"
