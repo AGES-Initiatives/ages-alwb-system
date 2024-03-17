@@ -31,7 +31,6 @@ meTY.note3 = "" //footnotes from Hemerologion
 meTY.note4 = "" //footnotes from Hemerologion
 meTY.note5 = "" //footnotes from Hemerologion
 
-
 meR001 = "" //for rubical notices
 meR002 = ""
 meR003 = ""
@@ -440,7 +439,6 @@ meMA.Kathisma3T.mode = ""
 meMA.Kathisma3T.melody = ""
 meMA.Kathisma3T.incipit = ""
 meMA.Kathisma3T.text = ""
-
 
 meMA.PostGospelGlory.desc = ""
 meMA.PostGospelGlory.mode = ""
@@ -7418,7 +7416,6 @@ alt2.meMA.Kathisma3T.melody = ""
 alt2.meMA.Kathisma3T.incipit = ""
 alt2.meMA.Kathisma3T.text = ""
 
-
 alt2.meMA.PostGospelGlory.desc = ""
 alt2.meMA.PostGospelGlory.mode = ""
 alt2.meMA.PostGospelGlory.melody = ""
@@ -10739,7 +10736,6 @@ alt3.meMA.Kathisma3T.mode = ""
 alt3.meMA.Kathisma3T.melody = ""
 alt3.meMA.Kathisma3T.incipit = ""
 alt3.meMA.Kathisma3T.text = ""
-
 
 alt3.meMA.PostGospelGlory.desc = ""
 alt3.meMA.PostGospelGlory.mode = ""

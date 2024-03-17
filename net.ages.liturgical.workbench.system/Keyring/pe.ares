@@ -42,7 +42,6 @@ peMA.Troparion2b.text = "."
 peMA.TroparionShort.desc = ""
 peMA.TroparionShort.text = "" //for media
 
-
 peMA.Ode1K.desc = ""
 peMA.Ode1K.ode = ""
 peMA.Ode1K.mode = ""
@@ -4176,7 +4175,6 @@ alt1.peLI.Beatitudes.Ode6C1as910GB.text = ""
 
 alt1.peLI.Beatitudes.Ode6C2as910GB.desc = ""
 alt1.peLI.Beatitudes.Ode6C2as910GB.text = ""
-
 
 alt1.peLI.MM.EntranceHymn.text = ""
 
