@@ -1,0 +1,1107 @@
+@page  {
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+  margin-left: 0.75in;
+  margin-right: 0.75in;
+  size: portrait letter;
+}
+
+a.cover11  {
+	color: blue;
+}
+
+a.link  {
+	color: blue;
+}
+
+body  {
+	color: black;
+	font-family: "Liberation Serif";
+	font-size: 13pt;
+	height: 100%;
+	line-height: 1rem;
+	width: 100%;
+}
+
+hr.solid1  {
+	border-top: 1pt solid black;
+	text-align: center;
+	width: 88%;
+}
+
+p.actor  {
+	break-before: page;
+	color: #cc0000;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	text-align: left;
+}
+
+p.actor:first-letter  {
+	font-size: 125%;
+	text-align: left;
+}
+
+p.actorinaudible  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-variant: normal;
+	font-weight: bold;
+	padding-top: 2pt;
+	text-align: left;
+	text-indent: 0.3in;
+}
+
+p.alttext {
+	margin-left: .3in;
+	margin-right: .1in;
+	margin-bottom: .1in;
+	text-indent: .3in;
+	font-size: 10pt;
+	font-style: inherit;
+	line-height: 150%;
+	background-color: #E6E6E6;"
+}
+
+p.anum {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: normal;
+}
+
+p.bigblack {
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+p.black {
+	color: black;
+}
+
+p.bold  {
+	font-style: normal;
+	font-weight: bold;
+}
+
+p.bolditalics  {
+	font-style: italic;
+	font-weight: bold;
+}
+
+p.bolditalicsred  {
+	color: #cc0000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+p.boldred  {
+	color: #cc0000;
+	font-style: normal;
+	font-weight: bold;
+}
+
+p.break  {
+	margin-bottom: 10pt;
+}
+
+p.chant  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 4pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.chant:first-letter  {
+	color: #cc0000;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+p.chapverse  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+
+p.contact  {
+	font-size: 9pt;
+}
+
+p.cover0  {
+	color: #cc0000;
+	font-size: 20pt;
+	font-weight: bold;
+	margin-bottom: 1in;
+	margin-left: 1in;
+	text-align: left;
+}
+
+p.cover1  {
+	font-size: 30pt;
+	font-weight: normal;
+	line-height: 100%;
+	margin-top: 1in;
+	text-align: center;
+}
+
+p.cover10  {
+	font-size: 9pt;
+	font-weight: bold;
+	margin-top: 0.2in;
+	text-align: center;
+}
+
+p.cover11  {
+	font-weight: normal;
+	line-height: 9pt;
+	text-align: center;
+}
+
+p.cover110  {
+	color: #ffffff;
+	font-size: 9pt;
+	font-weight: normal;
+	text-align: center;
+}
+
+p.cover12  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-weight: normal;
+	margin-bottom: .5in;
+	margin-left: 1.5in;
+	margin-right: 1.5in;
+	margin-top: .5in;
+	text-align: center;
+}
+
+p.cover2  {
+	font-size: 24pt;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+p.cover3  {
+	color: #cc0000;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 0.85in;
+	text-align: center;
+}
+
+p.cover4  {
+	color: #cc0000;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.cover40  {
+	color: #cc0000;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.cover5  {
+	font-size: 16pt;
+	font-weight: bold;
+	margin-top: 0.2in;
+	text-align: center;
+}
+
+p.cover6  {
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.cover7  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-bottom: 0.3in;
+	text-align: center;
+}
+
+p.cover8  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+}
+
+p.cover9  {
+	font-size: 12pt;
+	font-weight: bold;
+	margin-top: 2in;
+	text-align: center;
+}
+
+p.cover90  {
+	color: #ffffff;
+	font-size: 12pt;
+	font-weight: normal;
+	margin-top: 8in;
+	text-align: center;
+}
+
+p.credits1  {
+	font-size: 12pt;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	text-align: left;
+}
+
+p.credits2  {
+	font-size: 12pt;
+	text-align: left;
+}
+
+p.credits3  {
+	font-size: 9pt;
+	padding-bottom: 1rem;
+	text-align: left;
+}
+
+p.credits4  {
+	font-size: 9pt;
+	text-align: left;
+}
+
+p.designation  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 2pt;
+}
+
+p.dialog, span.dialog  {
+	font-size: 13pt;
+	line-height: 130%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.dialogzero  {
+	font-size: 13pt;
+	line-height: 130%;
+	text-align: left;
+	text-indent: .3pt;
+}
+
+p.emc {
+	font-size: 0pt;
+	line-height: 0%;"
+}
+
+p.footer  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+p.footerEvenCenter  {
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.footerEvenCenterColor  {
+	color: #cc0000;
+}
+
+p.footerEvenLeft  {
+	font-size: 10pt;
+	text-align: left;
+}
+
+p.footerEvenLeftColor  {
+	color: red;
+}
+
+p.footerEvenRight  {
+	font-size: 10pt;
+	text-align: right;
+}
+
+p.footerEvenRightColor  {
+	color: #cc0000;
+}
+
+p.footerOddCenter  {
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.footerOddCenterColor  {
+	color: #cc0000;
+}
+
+p.footerOddLeft  {
+	font-size: 10pt;
+	text-align: left;
+}
+
+p.footerOddLeftColor  {
+	color: #cc0000;
+}
+
+p.footerOddRight  {
+	font-size: 10pt;
+	text-align: right;
+}
+
+p.footerOddRightColor  {
+	color: #cc0000;
+}
+
+p.greekmelody  {
+	color: #cc0000;
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: normal;
+	padding-bottom: 2pt;
+	text-align: center;
+}
+
+p.header  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+}
+
+p.headerEvenCenter  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerEvenCenterColor  {
+	color: #cc0000;
+}
+
+p.headerEvenLeft  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerEvenLeftColor  {
+	color: #cc0000;
+}
+
+p.headerEvenRight  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerEvenRightColor  {
+	color: #cc0000;
+}
+
+p.headerOddCenter  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerOddCenterColor  {
+	color: #cc0000;
+}
+
+p.headerOddLeft  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerOddLeftColor  {
+	color: #cc0000;
+}
+
+p.headerOddRight  {
+	border-bottom: thin solid silver;
+	font-size: 10pt;
+	text-align: center;
+}
+
+p.headerOddRightColor  {
+	color: #cc0000;
+}
+
+p.heirmos  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.heirmos:first-letter  {
+	color: #cc0000;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+p.hymn  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.hymn:first-letter  {
+	color: #cc0000;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+p.hymn:first-letter(drop)  {
+	color: #cc0000;
+	float: left;
+	font-size: 320%;
+	line-height: 0.5em;
+}
+
+p.hymnlinefirst  {
+	font-size: 13pt;
+	line-height: 150%;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.hymnlinefirst:first-letter  {
+	color: #cc0000;
+	font-size: 180%;
+	font-weight: normal;
+}
+
+p.hymnlinelast  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+}
+
+p.hymnlinemiddle  {
+	font-size: 13pt;
+	line-height: 150%;
+	text-align: left;
+}
+
+p.inaudible  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.inlinerubric  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+p.italics  {
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.italicsblack  {
+	color: black;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.italicsred  {
+	color: #cc0000;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.letter0  {
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	padding-bottom: 2pt;
+	text-align: left;
+}
+
+p.letter1  {
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: normal;
+	padding-bottom: 12pt;
+	text-align: left;
+}
+
+p.lineblank  {
+	font-size: 1pt;
+	font-style: normal;
+	font-weight: normal;
+	padding-bottom: 12pt;
+	text-align: left;
+}
+
+p.logo1  {
+	color: #cc0000;
+	font-size: 25pt;
+	font-weight: bold;
+	line-height: 60%;
+	margin-top: 8pt;
+	text-align: center;
+}
+
+p.logo2  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	margin-bottom: 8pt;
+	text-align: center;
+}
+
+p.logo_line_above  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	margin-bottom: .1in;
+	margin-top: -9in;
+	text-align: center;
+}
+
+p.logo_line_below  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	margin-top: -4pt;
+	text-align: center;
+}
+
+p.melody  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+
+p.mode  {
+	break-before: page;
+	color: #cc0000;
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.name  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.nodisplay  {
+	font-size: 0pt;
+	line-height: 0%;
+}
+
+p.noprintactor  {
+	font-size: 0pt;
+	line-height: 0%;
+}
+
+p.noprintdesig  {
+	font-size: 0pt;
+	line-height: 0%;
+}
+
+p.noprintprayer  {
+	font-size: 0pt;
+	line-height: 0%;
+}
+
+p.noprintrub  {
+	font-size: 0pt;
+	line-height: 0%;
+}
+
+p.optional  {
+	font-style: italic;
+}
+
+p.plain  {
+	font-size: 13pt;
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.prayer  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.prayeroptional  {
+	color: #651612;
+	font-size: 10pt;
+	font-style: italic;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.prayerzero  {
+	font-size: 13pt;
+	line-height: 150%;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.reading  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.readingcenter  {
+	font-size: 13pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: center;
+}
+
+p.readingcenterzero  {
+	font-size: 13pt;
+	line-height: 150%;
+	text-align: center;
+}
+
+p.readingzero  {
+	font-size: 13pt;
+	line-height: 150%;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.red  {
+	color: #cc0000;
+}
+
+p.reference  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+p.rubric  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.servicesources  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-weight: bold;
+	line-height: 150%;
+	margin-left: 19pt;
+	text-align: left;
+}
+
+p.servicesourcessection  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 4pt;
+	margin-left: 19pt;
+	text-align: left;
+	text-indent: 11pt;
+}
+
+p.servicesourcestitle  {
+	font-size: 11pt;
+	font-weight: bold;
+	line-height: 150%;
+	margin-left: 7.5pt;
+	text-align: left;
+}
+
+p.smallcenter  {
+	color: #cc0000;
+	font-size: 8pt;
+	font-weight: bold;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: center;
+}
+
+p.smaller  {
+	color: inherit;
+	font-size: 8pt;
+	font-style: inherit;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: inherit;"
+}
+
+p.smallred {
+	color: #cc0000;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: inherit;
+}
+
+p.smallredbold {
+	color: #cc0000;
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: inherit;
+}
+
+p.source  {
+	color: gray;
+	font-size: 8pt;
+	line-height: 0%;
+	margin-bottom: 2pt;
+	margin-top: 1pt;
+	text-align: left;
+}
+
+p.source0  {
+	color: gray;
+	font-size: 70%;
+	line-height: 0%;
+	margin-bottom: 2pt;
+	margin-top: 1pt;
+	text-align: left;
+	top: -3rem;
+}
+
+p.source1  {
+	color: gray;
+	font-size: 70%;
+	line-height: 0%;
+	margin-bottom: 2pt;
+	margin-top: 1pt;
+	text-align: left;
+	top: -6rem;
+}
+
+p.synaxarioncommemoration  {
+	font-size: 13pt;
+	line-height: 150%;
+	padding-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.synaxarionnarration0  {
+	color: #cc0000;
+	font-size: 10pt;
+	line-height: 150%;
+	text-align: left;
+	text-indent: .2in;
+}
+
+p.synaxarionnarration1  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 2pt;
+	margin-top: 5pt;
+	text-align: left;
+	text-indent: .2in;
+}
+
+p.synaxarionnarration10  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 0pt;
+	margin-top: 2pt;
+	text-align: left;
+	text-indent: .2in;
+}
+
+p.synaxarionnarrationlast  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	margin-top: 0pt;
+	text-align: left;
+	text-indent: .2in;
+}
+
+p.synaxarionnarrationtitle  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.synaxarionnote  {
+	font-size: 9pt;
+	line-height: 150%;
+	margin-bottom: 5pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.synaxarionverse  {
+	font-size: 10pt;
+	line-height: 150%;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.synaxarionverse0  {
+	font-size: 10pt;
+	line-height: 150%;
+	text-align: center;
+}
+
+p.synaxarionversetitle  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p.title  {
+	font-size: 12pt;
+	font-weight: normal;
+	margin-top: 5pt;
+	text-align: center;
+}
+
+p.titlezero  {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 150%;
+	margin-bottom: -2pt;
+	margin-top: -2pt;
+	text-align: center;
+}
+
+p.typikon  {
+	font-size: 9pt;
+	line-height: 150%;
+	margin-left: 16pt;
+	text-align: left;
+	text-indent: -16pt;
+}
+
+p.typikonblock  {
+	font-size: 9pt;
+	line-height: 150%;
+	text-align: left;
+}
+
+p.typikoncenter  {
+	font-size: 9pt;
+	line-height: 150%;
+	text-align: center;
+}
+
+p.typikoncenteromitted  {
+	background-color: #e9e9e9;
+	font-size: 9pt;
+	line-height: 150%;
+	text-align: center;
+}
+
+p.typikoncommemoration  {
+	font-size: 9pt;
+	line-height: 150%;
+	font-weight: bold;
+	text-align: left;
+}
+
+p.typikonindent  {
+	font-size: 9pt;
+	line-height: 150%;
+	text-align: left;
+	text-indent: 9pt;
+}
+
+p.typikonnote  {
+	font-size: 8pt;
+	line-height: 150%;
+	text-align: left;
+}
+
+p.typikonomitted  {
+	background-color: #e9e9e9;
+	font-size: 9pt;
+	line-height: 150%;
+	text-align: left;
+}
+
+p.verse  {
+	break-before: page;
+	font-size: 13pt;
+	font-style: italic;
+	line-height: 150%;
+	margin-bottom: 2pt;
+	text-align: left;
+	text-indent: .3in;
+}
+
+p.versecenter  {
+	break-before: page;
+	font-size: 13pt;
+	font-style: italic;
+	line-height: 150%;
+	margin-bottom: 2pt;
+	text-align: center;
+}
+
+p.versiondesignation  {
+	color: #cc0000;
+	font-size: 6pt;
+	vertical-align: middle;
+}
+
+span.anum  {
+	color: #cc0000;
+	font-size: 10pt;
+}
+
+span.bigblack  {
+	color: black;
+	display: inline-block;
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+span.black  {
+	color: black;
+	font-style: normal;
+	font-weight: normal;
+}
+
+span.bold  {
+	font-style: normal;
+	font-weight: bold;
+}
+
+span.bolditalics  {
+	font-style: italic;
+	font-weight: bold;
+}
+
+span.bolditalicsred  {
+	color: #cc0000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+span.boldred  {
+	color: #cc0000;
+	font-style: normal;
+	font-weight: bold;
+}
+
+span.designation  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+}
+
+span.italics  {
+	font-style: italic;
+}
+
+span.italicsblack  {
+	color: black;
+	font-style: italic;
+}
+
+span.italicsred  {
+	color: #cc0000;
+	font-style: italic;
+}
+
+span.melody  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+span.mode  {
+	color: #cc0000;
+	font-size: 12pt;
+	font-style: normal;
+	font-weight: bold;
+}
+
+span.numright  {
+	color: #cc0000;
+	float: right;
+	font-style: inherit;
+}
+
+span.red  {
+	color: #cc0000;
+	font-style: inherit;
+}
+
+span.reference {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+}
+
+span.rubric {
+	color: #cc0000;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: normal;
+}
+
+span.strong  {
+	font-weight: bold;
+}
+
+span.versiondesignation  {
+	color: #cc0000;
+	float: right;
+	font-size: 6pt;
+	vertical-align: middle;
+}
