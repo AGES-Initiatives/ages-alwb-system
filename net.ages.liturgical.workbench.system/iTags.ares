@@ -23,6 +23,7 @@ Tnumright = "emphasis,numright"
 Toptional = "emphasis,optional"
 Tplain = "emphasis,plain"
 Trubric = "emphasis,rubric"
+Tsmallcenter = "emphasis,smallcenter"
 Tsmaller = "emphasis,smaller"
 
 Tnoprintactor = "emphasis,noprintactor"
