@@ -399,7 +399,7 @@ credits3 = "credits3"
 credits4 = "credits4"
 
 //roles with Para for Logos
-logo1 = "logo1"
-logo2 = "logo2"
-logo_line_above = "logo_line_above"
-logo_line_below = "logo_line_below"
+cover_logo1 = "cover_logo1"
+cover_logo2 = "cover_logo2"
+cover_logo_line_above = "cover_logo_line_above"
+cover_logo_line_below = "cover_logo_line_below"

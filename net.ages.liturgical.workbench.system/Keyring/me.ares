@@ -25,6 +25,7 @@ meHO.note2 = ""
 meDA.dismissal = ""
 meDA.poet = ""
 meDA.source = ""
+meDA.translator = ""
 meTY.note1 = "" //footnotes from Hemerologion
 meTY.note2 = "" //footnotes from Hemerologion
 meTY.note3 = "" //footnotes from Hemerologion
@@ -3672,6 +3673,7 @@ alt1.meHO.note1 = ""
 alt1.meHO.note2 = ""
 alt1.meDA.dismissal = ""
 alt1.meDA.poet = ""
+alt1.meDA.translator = ""
 alt1.meDA.source = ""
 
 alt1.meVE.Stichera01.desc = ""
@@ -7068,6 +7070,7 @@ alt2.meHO.note1 = ""
 alt2.meHO.note2 = ""
 alt2.meDA.dismissal = ""
 alt2.meDA.poet = ""
+alt2.meDA.translator = ""
 alt2.meDA.source = ""
 
 alt2.meVE.Stichera01.desc = ""
@@ -10400,6 +10403,7 @@ alt3.meHO.note1 = ""
 alt3.meHO.note2 = ""
 alt3.meDA.dismissal = ""
 alt3.meDA.poet = ""
+alt3.meDA.translator = ""
 alt3.meDA.source = ""
 
 alt3.meVE.Stichera01.desc = ""
