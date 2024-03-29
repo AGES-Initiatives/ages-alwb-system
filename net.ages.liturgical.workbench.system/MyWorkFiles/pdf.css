@@ -18,8 +18,7 @@ body  {
 	color: black;
 	font-family: "Liberation Serif";
 	font-size: 13pt;
-	height: 100%;
-	line-height: 1rem;
+	line-height: 100%;
 	width: 100%;
 }
 
@@ -34,6 +33,7 @@ p.actor  {
 	color: #cc0000;
 	font-size: 11pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-top: 2pt;
 	margin-bottom: 2pt;
 	text-align: left;
@@ -49,20 +49,22 @@ p.actorinaudible  {
 	font-size: 10pt;
 	font-variant: normal;
 	font-weight: bold;
-	padding-top: 2pt;
+	line-height: 100%;
+	margin-top: 2pt;
 	text-align: left;
 	text-indent: 0.3in;
 }
 
 p.alttext {
+	line-height: 100%;
 	margin-left: .3in;
 	margin-right: .1in;
 	margin-bottom: .1in;
-	text-indent: .3in;
+	text-indent: .2in;
 	font-size: 10pt;
 	font-style: inherit;
 	line-height: 150%;
-	background-color: #E6E6E6;"
+	background-color: #E6E6E6;
 }
 
 p.anum {
@@ -112,7 +114,7 @@ p.chant  {
 	line-height: 150%;
 	margin-bottom: 4pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.chant:first-letter  {
@@ -126,6 +128,7 @@ p.chapverse  {
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
+	line-height: 100%;
 	text-align: center;
 }
 
@@ -137,6 +140,7 @@ p.cover0  {
 	color: #cc0000;
 	font-size: 20pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-bottom: 1in;
 	margin-left: 1in;
 	text-align: left;
@@ -153,6 +157,7 @@ p.cover1  {
 p.cover10  {
 	font-size: 9pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-top: 0.2in;
 	text-align: center;
 }
@@ -167,6 +172,7 @@ p.cover110  {
 	color: #ffffff;
 	font-size: 9pt;
 	font-weight: normal;
+	line-height: 100%;
 	text-align: center;
 }
 
@@ -174,6 +180,7 @@ p.cover12  {
 	color: #cc0000;
 	font-size: 12pt;
 	font-weight: normal;
+	line-height: 100%;
 	margin-bottom: .5in;
 	margin-left: 1.5in;
 	margin-right: 1.5in;
@@ -183,6 +190,7 @@ p.cover12  {
 
 p.cover2  {
 	font-size: 24pt;
+	line-height: 100%;
 	margin-bottom: 1rem;
 	text-align: center;
 }
@@ -191,6 +199,7 @@ p.cover3  {
 	color: #cc0000;
 	font-size: 16pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-bottom: 0.85in;
 	text-align: center;
 }
@@ -199,6 +208,7 @@ p.cover4  {
 	color: #cc0000;
 	font-size: 16pt;
 	font-weight: bold;
+	line-height: 100%;
 	text-align: center;
 }
 
@@ -206,12 +216,14 @@ p.cover40  {
 	color: #cc0000;
 	font-size: 16pt;
 	font-weight: bold;
+	line-height: 100%;
 	text-align: center;
 }
 
 p.cover5  {
 	font-size: 16pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-top: 0.2in;
 	text-align: center;
 }
@@ -219,6 +231,7 @@ p.cover5  {
 p.cover6  {
 	font-size: 16pt;
 	font-weight: bold;
+	line-height: 100%;
 	text-align: center;
 }
 
@@ -226,6 +239,7 @@ p.cover7  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-bottom: 0.3in;
 	text-align: center;
 }
@@ -235,45 +249,88 @@ p.cover8  {
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
-	text-align: center;
-}
-
-p.cover9  {
-	font-size: 12pt;
-	font-weight: bold;
-	margin-top: 2in;
+	line-height: 100%;
 	text-align: center;
 }
 
 p.cover90  {
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 100%;
+	margin-top: 2in;
+	text-align: center;
+}
+
+p.cover9  {
 	color: #ffffff;
 	font-size: 12pt;
 	font-weight: normal;
-	margin-top: 8in;
+	line-height: 100%;
+	margin-top: 6in;
 	text-align: center;
 }
+
+p.cover_logo1  {
+	color: #cc0000;
+	font-size: 25pt;
+	font-weight: normal;
+	line-height: 100%;
+	margin-top: 8pt;
+	text-align: center;
+}
+
+p.cover_logo2  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	line-height: 100%;
+	margin-bottom: 8pt;
+	margin-top: 2pt;
+	text-align: center;
+}
+
+p.cover_logo_line_above  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	line-height: 100%;
+	margin-bottom: .1in;
+	margin-top: 2in;
+	text-align: center;
+}
+
+p.cover_logo_line_below  {
+	font-size: 11.2pt;
+	font-weight: normal;
+	line-height: 100%;
+	margin-top: -4pt;
+	text-align: center;
+}
+
 
 p.credits1  {
 	font-size: 12pt;
 	font-weight: bold;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
+	line-height: 100%;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 	text-align: left;
 }
 
 p.credits2  {
 	font-size: 12pt;
+	line-height: 100%;
 	text-align: left;
 }
 
 p.credits3  {
 	font-size: 9pt;
-	padding-bottom: 1rem;
+	line-height: 100%;
+	margin-bottom: 1rem;
 	text-align: left;
 }
 
 p.credits4  {
 	font-size: 9pt;
+	line-height: 100%;
 	text-align: left;
 }
 
@@ -282,16 +339,17 @@ p.designation  {
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: bold;
+	line-height: 100%;
 	text-align: center;
 	margin-bottom: 2pt;
 }
 
-p.dialog, span.dialog  {
+p.dialog  {
 	font-size: 13pt;
 	line-height: 130%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.dialogzero  {
@@ -303,7 +361,7 @@ p.dialogzero  {
 
 p.emc {
 	font-size: 0pt;
-	line-height: 0%;"
+	line-height: 0%;
 }
 
 p.footer  {
@@ -372,7 +430,9 @@ p.greekmelody  {
 	font-size: 8pt;
 	font-style: italic;
 	font-weight: normal;
-	padding-bottom: 2pt;
+	line-height: 100%;
+	margin-top: 6pt;
+	margin-bottom: 2pt;
 	text-align: center;
 }
 
@@ -448,7 +508,7 @@ p.heirmos  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.heirmos:first-letter  {
@@ -462,7 +522,7 @@ p.hymn  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.hymn:first-letter  {
@@ -475,14 +535,14 @@ p.hymn:first-letter(drop)  {
 	color: #cc0000;
 	float: left;
 	font-size: 320%;
-	line-height: 0.5em;
+	line-height: 0.5rem;
 }
 
 p.hymnlinefirst  {
 	font-size: 13pt;
 	line-height: 150%;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.hymnlinefirst:first-letter  {
@@ -509,13 +569,14 @@ p.inaudible  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.inlinerubric  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-style: italic;
+	line-height: 100%;
 }
 
 p.italics  {
@@ -539,7 +600,8 @@ p.letter0  {
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: normal;
-	padding-bottom: 2pt;
+	line-height: 100%;
+	margin-bottom: 2pt;
 	text-align: left;
 }
 
@@ -547,7 +609,8 @@ p.letter1  {
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: normal;
-	padding-bottom: 12pt;
+	line-height: 100%;
+	margin-bottom: 12pt;
 	text-align: left;
 }
 
@@ -555,39 +618,8 @@ p.lineblank  {
 	font-size: 1pt;
 	font-style: normal;
 	font-weight: normal;
-	padding-bottom: 12pt;
+	margin-bottom: 12pt;
 	text-align: left;
-}
-
-p.logo1  {
-	color: #cc0000;
-	font-size: 25pt;
-	font-weight: bold;
-	line-height: 60%;
-	margin-top: 8pt;
-	text-align: center;
-}
-
-p.logo2  {
-	font-size: 11.2pt;
-	font-weight: normal;
-	margin-bottom: 8pt;
-	text-align: center;
-}
-
-p.logo_line_above  {
-	font-size: 11.2pt;
-	font-weight: normal;
-	margin-bottom: .1in;
-	margin-top: -9in;
-	text-align: center;
-}
-
-p.logo_line_below  {
-	font-size: 11.2pt;
-	font-weight: normal;
-	margin-top: -4pt;
-	text-align: center;
 }
 
 p.melody  {
@@ -595,16 +627,26 @@ p.melody  {
 	font-size: 12pt;
 	font-style: italic;
 	font-weight: normal;
+	line-height: 100%;
 	margin-bottom: 2pt;
 	text-align: center;
 }
 
+p.mixed {
+  font-size: 12pt;
+  font-style: normal;
+  font-weight: normal;
+	line-height: 100%;
+  margin-bottom: 2pt;
+  text-align: center;
+}
 
 p.mode  {
 	break-before: page;
 	color: #cc0000;
 	font-size: 12pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-bottom: 2pt;
 	text-align: center;
 }
@@ -614,6 +656,7 @@ p.name  {
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
+	line-height: 100%;
 	margin-bottom: 2pt;
 	text-align: center;
 }
@@ -651,6 +694,7 @@ p.plain  {
 	font-size: 13pt;
 	font-style: normal;
 	font-weight: normal;
+	line-height: 100%;
 	margin-bottom: 2pt;
 	text-align: center;
 }
@@ -660,7 +704,7 @@ p.prayer  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.prayeroptional  {
@@ -670,14 +714,14 @@ p.prayeroptional  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.prayerzero  {
 	font-size: 13pt;
 	line-height: 150%;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.reading  {
@@ -685,7 +729,7 @@ p.reading  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.readingcenter  {
@@ -705,7 +749,7 @@ p.readingzero  {
 	font-size: 13pt;
 	line-height: 150%;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.red  {
@@ -716,14 +760,16 @@ p.reference  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-style: italic;
+	line-height: 100%;
 }
 
 p.rubric  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-style: italic;
+	line-height: 100%;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.servicesources  {
@@ -767,7 +813,7 @@ p.smaller  {
 	font-style: inherit;
 	line-height: 150%;
 	margin-bottom: 5pt;
-	text-align: inherit;"
+	text-align: inherit;
 }
 
 p.smallred {
@@ -820,11 +866,11 @@ p.source1  {
 }
 
 p.synaxarioncommemoration  {
-	font-size: 13pt;
+	font-size: 10pt;
 	line-height: 150%;
-	padding-bottom: 5pt;
+	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.synaxarionnarration0  {
@@ -866,6 +912,7 @@ p.synaxarionnarrationtitle  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-weight: bold;
+	line-height: 100%;
 	margin-bottom: 2pt;
 	text-align: center;
 }
@@ -875,7 +922,7 @@ p.synaxarionnote  {
 	line-height: 150%;
 	margin-bottom: 5pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.synaxarionverse  {
@@ -895,12 +942,15 @@ p.synaxarionversetitle  {
 	color: #cc0000;
 	font-size: 10pt;
 	font-weight: bold;
+	line-height: 100%;
 	text-align: center;
 }
 
 p.title  {
+	break-before: page;
 	font-size: 12pt;
 	font-weight: normal;
+	line-height: 100%;
 	margin-top: 5pt;
 	text-align: center;
 }
@@ -971,17 +1021,15 @@ p.typikonomitted  {
 }
 
 p.verse  {
-	break-before: page;
 	font-size: 13pt;
 	font-style: italic;
 	line-height: 150%;
 	margin-bottom: 2pt;
 	text-align: left;
-	text-indent: .3in;
+	text-indent: .2in;
 }
 
 p.versecenter  {
-	break-before: page;
 	font-size: 13pt;
 	font-style: italic;
 	line-height: 150%;
@@ -992,7 +1040,8 @@ p.versecenter  {
 p.versiondesignation  {
 	color: #cc0000;
 	font-size: 6pt;
-	vertical-align: middle;
+	vertical-align: bottom;
+	line-height: 100%;
 }
 
 span.anum  {
@@ -1103,5 +1152,49 @@ span.versiondesignation  {
 	color: #cc0000;
 	float: right;
 	font-size: 6pt;
-	vertical-align: middle;
+	vertical-align: bottom;
 }
+
+p.emc {
+  color: red;
+  font-size: 0pt;
+  line-height: 0%;
+}
+
+p.table {
+  border-collapse: collapse;
+  margin: 0 0 pt;
+  margin: 0;
+}
+
+p.td {
+  border-left: thin solid silver;
+  border-right: thin solid silver;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  vertical-align: top;
+}
+
+p.tdL1 {
+  border-right: thin solid silver;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  vertical-align: top;
+}
+
+p.tdL2 {
+  margin-left: 0pt;
+  margin-right: 0pt;
+  vertical-align: top;
+}
+
+p.tdMono {
+  margin-left: 0pt;
+  margin-right: 0pt;
+  vertical-align: top;
+}
+
+p.tr {
+  border-spacing: 0 0;
+}
+
