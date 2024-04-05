@@ -5898,6 +5898,7 @@ alt1.meLI.AfterCommunion.incipit = ""
 alt1.meLI.AfterCommunion.text = ""
 
 alt1.meLI.Megalynarion.desc = ""
+alt1.meLI.Megalynarion.poet = ""
 alt1.meLI.Megalynarion.text = ""
 
 alt1.meCoupletv1.desc = ""
@@ -5906,7 +5907,9 @@ alt1.meCoupletv2.desc = ""
 alt1.meCoupletv2.text = ""
 
 alt1.meLI.Megalynarion2.desc = ""
+alt1.meLI.Megalynarion2.poet = ""
 alt1.meLI.Megalynarion2.text = ""
+
 alt1.meLI.Megalynarion3.desc = ""
 alt1.meLI.Megalynarion3.text = ""
 alt1.meLI.Megalynarion4.desc = ""

@@ -30,7 +30,7 @@ hr.solid1  {
 
 p.actor  {
 	break-before: page;
-	color: #cc0000;
+	color: #a91827;
 	font-size: 11pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -45,7 +45,7 @@ p.actor:first-letter  {
 }
 
 p.actorinaudible  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-variant: normal;
 	font-weight: bold;
@@ -68,7 +68,7 @@ p.alttext {
 }
 
 p.anum {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: normal;
 }
@@ -94,13 +94,13 @@ p.bolditalics  {
 }
 
 p.bolditalicsred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: italic;
 	font-weight: bold;
 }
 
 p.boldred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: normal;
 	font-weight: bold;
 }
@@ -118,13 +118,13 @@ p.chant  {
 }
 
 p.chant:first-letter  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 180%;
 	font-weight: normal;
 }
 
 p.chapverse  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
@@ -137,7 +137,7 @@ p.contact  {
 }
 
 p.cover0  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 20pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -177,7 +177,7 @@ p.cover110  {
 }
 
 p.cover12  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-weight: normal;
 	line-height: 100%;
@@ -196,7 +196,7 @@ p.cover2  {
 }
 
 p.cover3  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 16pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -205,7 +205,7 @@ p.cover3  {
 }
 
 p.cover4  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 16pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -213,7 +213,7 @@ p.cover4  {
 }
 
 p.cover40  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 16pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -236,7 +236,7 @@ p.cover6  {
 }
 
 p.cover7  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -245,7 +245,7 @@ p.cover7  {
 }
 
 p.cover8  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
@@ -271,7 +271,7 @@ p.cover9  {
 }
 
 p.cover_logo1  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 25pt;
 	font-weight: normal;
 	line-height: 100%;
@@ -335,7 +335,7 @@ p.credits4  {
 }
 
 p.designation  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: bold;
@@ -365,7 +365,7 @@ p.emc {
 }
 
 p.footer  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: normal;
 	font-weight: normal;
@@ -377,7 +377,7 @@ p.footerEvenCenter  {
 }
 
 p.footerEvenCenterColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.footerEvenLeft  {
@@ -395,7 +395,7 @@ p.footerEvenRight  {
 }
 
 p.footerEvenRightColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.footerOddCenter  {
@@ -404,7 +404,7 @@ p.footerOddCenter  {
 }
 
 p.footerOddCenterColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.footerOddLeft  {
@@ -413,7 +413,7 @@ p.footerOddLeft  {
 }
 
 p.footerOddLeftColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.footerOddRight  {
@@ -422,11 +422,11 @@ p.footerOddRight  {
 }
 
 p.footerOddRightColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.greekmelody  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 8pt;
 	font-style: italic;
 	font-weight: normal;
@@ -437,7 +437,7 @@ p.greekmelody  {
 }
 
 p.header  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: normal;
 	font-weight: normal;
@@ -450,7 +450,7 @@ p.headerEvenCenter  {
 }
 
 p.headerEvenCenterColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.headerEvenLeft  {
@@ -460,7 +460,7 @@ p.headerEvenLeft  {
 }
 
 p.headerEvenLeftColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.headerEvenRight  {
@@ -470,7 +470,7 @@ p.headerEvenRight  {
 }
 
 p.headerEvenRightColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.headerOddCenter  {
@@ -480,7 +480,7 @@ p.headerOddCenter  {
 }
 
 p.headerOddCenterColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.headerOddLeft  {
@@ -490,7 +490,7 @@ p.headerOddLeft  {
 }
 
 p.headerOddLeftColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.headerOddRight  {
@@ -500,7 +500,7 @@ p.headerOddRight  {
 }
 
 p.headerOddRightColor  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.heirmos  {
@@ -512,7 +512,7 @@ p.heirmos  {
 }
 
 p.heirmos:first-letter  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 180%;
 	font-weight: normal;
 }
@@ -526,13 +526,13 @@ p.hymn  {
 }
 
 p.hymn:first-letter  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 180%;
 	font-weight: normal;
 }
 
 p.hymn:first-letter(drop)  {
-	color: #cc0000;
+	color: #a91827;
 	float: left;
 	font-size: 320%;
 	line-height: 0.5rem;
@@ -546,7 +546,7 @@ p.hymnlinefirst  {
 }
 
 p.hymnlinefirst:first-letter  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 180%;
 	font-weight: normal;
 }
@@ -573,7 +573,7 @@ p.inaudible  {
 }
 
 p.inlinerubric  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	line-height: 100%;
@@ -591,7 +591,7 @@ p.italicsblack  {
 }
 
 p.italicsred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: italic;
 	font-weight: normal;
 }
@@ -623,7 +623,7 @@ p.lineblank  {
 }
 
 p.melody  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-style: italic;
 	font-weight: normal;
@@ -643,7 +643,7 @@ p.mixed {
 
 p.mode  {
 	break-before: page;
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -652,7 +652,7 @@ p.mode  {
 }
 
 p.name  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
@@ -753,18 +753,18 @@ p.readingzero  {
 }
 
 p.red  {
-	color: #cc0000;
+	color: #a91827;
 }
 
 p.reference  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	line-height: 100%;
 }
 
 p.rubric  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	line-height: 100%;
@@ -773,7 +773,7 @@ p.rubric  {
 }
 
 p.servicesources  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-weight: bold;
 	line-height: 150%;
@@ -799,7 +799,7 @@ p.servicesourcestitle  {
 }
 
 p.smallcenter  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 8pt;
 	font-weight: bold;
 	line-height: 150%;
@@ -817,7 +817,7 @@ p.smaller  {
 }
 
 p.smallred {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 8pt;
 	font-style: normal;
 	font-weight: normal;
@@ -827,7 +827,7 @@ p.smallred {
 }
 
 p.smallredbold {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 8pt;
 	font-style: normal;
 	font-weight: bold;
@@ -874,7 +874,7 @@ p.synaxarioncommemoration  {
 }
 
 p.synaxarionnarration0  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	line-height: 150%;
 	text-align: left;
@@ -909,7 +909,7 @@ p.synaxarionnarrationlast  {
 }
 
 p.synaxarionnarrationtitle  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -939,7 +939,7 @@ p.synaxarionverse0  {
 }
 
 p.synaxarionversetitle  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-weight: bold;
 	line-height: 100%;
@@ -956,7 +956,7 @@ p.title  {
 }
 
 p.titlezero  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: normal;
 	font-weight: bold;
@@ -1038,14 +1038,14 @@ p.versecenter  {
 }
 
 p.versiondesignation  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 6pt;
 	vertical-align: bottom;
 	line-height: 100%;
 }
 
 span.anum  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 }
 
@@ -1075,19 +1075,19 @@ span.bolditalics  {
 }
 
 span.bolditalicsred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: italic;
 	font-weight: bold;
 }
 
 span.boldred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: normal;
 	font-weight: bold;
 }
 
 span.designation  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: bold;
@@ -1103,42 +1103,43 @@ span.italicsblack  {
 }
 
 span.italicsred  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: italic;
 }
 
 span.melody  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-style: italic;
 }
 
 span.mode  {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 12pt;
 	font-style: normal;
 	font-weight: bold;
 }
 
 span.numright  {
-	color: #cc0000;
+	color: #a91827;
 	float: right;
 	font-style: inherit;
 }
 
 span.red  {
-	color: #cc0000;
+	color: #a91827;
 	font-style: inherit;
+/* GOA red. alt. #cc0000 */	
 }
 
 span.reference {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 }
 
 span.rubric {
-	color: #cc0000;
+	color: #a91827;
 	font-size: 10pt;
 	font-style: italic;
 	font-weight: normal;
@@ -1149,7 +1150,7 @@ span.strong  {
 }
 
 span.versiondesignation  {
-	color: #cc0000;
+	color: #a91827;
 	float: right;
 	font-size: 6pt;
 	vertical-align: bottom;
