@@ -1,6 +1,5 @@
 A_Resource_Whose_Name = iTags
 
-//format based tags used with Title role mixed
 bl = "emphasis,black"
 inbl = "emphasis,italicsblack"
 b = "emphasis,bold"
@@ -11,25 +10,24 @@ bnr = "emphasis,boldred"
 inr = "emphasis,italicsred"
 bninr = "emphasis,bolditalicsred"
 bigblack = "emphasis,bigblack"
+bigred = "emphasis,bigred"
+sm = "emphasis,smaller"
+smnr = "emphasis,smallred"
+smnrni = "emphasis,smallreditalic"
+smnrnb = "emphasis,smallredbold"
+smnrninb = "emphasis,smallreditalicbold"
 
-//role based tags used with Title role mixed
-Tchapverse = "emphasis,chapverse"
-Tcontact = "emphasis,contact"
+
 Tdesig = "emphasis,designation"
 Tmelody = "emphasis,melody"
 Tmode = "emphasis,mode"
-Tname = "emphasis,name"
-Tnumright = "emphasis,numright"
-Toptional = "emphasis,optional"
-Tplain = "emphasis,plain"
-Trubric = "emphasis,rubric"
-Tsmallcenter = "emphasis,smallcenter"
-Tsmaller = "emphasis,smaller"
 
-Tnoprintactor = "emphasis,noprintactor"
-Tnoprintdesig = "emphasis,noprintdesig"
-//Tnoprintrubric = "emphasis,noprintrubric"
-
-inlinerubric = "emphasis,rubric"
 anum = "emphasis,anum"
+optional = "emphasis,optional"
 reference = "emphasis,reference"
+rubric = "emphasis,rubric"
+smaller = "emphasis,smaller"
+smallred = "emphasis,smallred"
+smallreditalic = "emphasis,smallreditalic"
+smallredbold = "emphasis,smallredbold"
+smallreditalicbold = "emphasis,smallreditalicbold"
