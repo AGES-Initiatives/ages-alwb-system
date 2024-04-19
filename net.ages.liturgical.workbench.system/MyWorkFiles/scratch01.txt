@@ -1,44 +1,18 @@
-Ὁδηγήτρια Παρθένε 
-εὐσεβῶν πρὸς τελείωσιν, 
-ἀρετῆς σὲ πάντες 
-οἱ πιστοὶ λαμπρῶς μεγαλύνοντες, 
-σῶν θαυμασίων τὸ πλῆθος πίστει σπεύδομεν, 
-ὡς ὠκύποδες τῇ προστασίᾳ σου ἔλαφοι.
 
 
 
+Imitating the life-giving Dead after his voluntary passion, as in a tomb you placed yourself in a gloomy well
 
-Reverentially, O Lady, 
-we extol all your miracles. 
-Orthodox believers 
-call you The Directress who guides them all 
-to the perfection of virtue and the love of God, 
-and they swiftly run to your protection, O Virgin pure.
+Theotokion.
 
-
-turn to you, O Lad
-
-
-run to your protection
-
-
-O all-holy Virgin, 
-we believers run to you faithfully 
-for you provide us protection and direct us all
-
-we the faithful swiftly 
-run to your protection with utmost faith 
-O Virgin
-
-We believers
-who festively magnify 
-your many miracles 
-run to your protection with faith 
-O virgin Lady, 
-who directs us all
-to perfection of virtue 
+Immaculate Mary, implore the God whom you bore to grant your servants pardon of their offences.
 
 
 
+Μετὰ πάθος ἑκούσιον, τὸν ζωοποιὸν νεκρὸν ἐκμιμούμενος, ὥς περ μνήματι τῷ φρέατι, σεαυτὸν ζοφώδει ζῶντα δέδωκας."
 
-Resolutely 
+meMA.Ode4C3T.ode = miscellanea_gr_GR_cog.misc.Ode4
+meMA.Ode4C3T.mode = miscellanea_gr_GR_cog.misc.Mode8
+meMA.Ode4C3T.melody = he.h.m8_gr_GR_cog.heHE.EisakikoaKyrie.name
+meMA.Ode4C3T.incipit = "Τὸν Θεὸν ὃν ἐκύησας…"
+meMA.Ode4C3T.text = "Τὸν Θεὸν ὃν ἐκύησας, ἄχραντε Μαρία δυσώπει πάντοτε, τοῖς οἰκέταις σου δωρήσασθαι, τῶν πλημμελημάτων τὴν συγχώρησιν."
