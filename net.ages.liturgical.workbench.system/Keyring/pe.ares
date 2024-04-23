@@ -129,8 +129,6 @@ peMA.Ode9K.melody = ""
 peMA.Ode9K.incipit = "…"
 peMA.Ode9K.text = ""
 
-peLI.CommunionHymn = ""
-
 //Small Vespers
 
 peSV.Stichera1.desc = ""
@@ -2088,7 +2086,6 @@ peLI.TheotokosHymn.incipit = "…"
 peLI.TheotokosHymn.text = ""
 
 peLI.CommunionHymn.text = ""
-
 peLI.MM.CommunionHymn.text = ""
 
 peLI.AfterCommunion.desc = ""
@@ -2101,6 +2098,7 @@ peLI.AfterCommunion2.mode = ""
 peLI.AfterCommunion2.incipit = "…"
 peLI.AfterCommunion2.text = ""
 
+peLI.Megalynarion.rubric = ""
 peLI.Megalynarion.text = ""
 
 //for Iambic canons

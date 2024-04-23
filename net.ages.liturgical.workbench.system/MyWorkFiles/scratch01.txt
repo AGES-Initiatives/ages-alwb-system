@@ -1,18 +1,31 @@
+Βεβασιλευκότα, παθῶν διὰ καρτερίας, ὁ Χριστὸς σε προσήκατο, Συμεὼν θεοφόρε, τῆς αὐτοῦ κοινωνὸν σκηπτουχίας· ὅθεν σε ὕμνοις μεγαλύνομεν.
 
 
 
-Imitating the life-giving Dead after his voluntary passion, as in a tomb you placed yourself in a gloomy well
 
-Theotokion.
+Ἰαματικῆς, χάριτος κατηξιωμένος, ἐξ ἀσύλων τοῦ Πνεύματος θησαυρῶν θεοφόρε, Συμεὼν τὰς ἰάσεις βραβεύεις, τοῖς πανηγυρίζουσι τὴν μνήμην σου."
 
-Immaculate Mary, implore the God whom you bore to grant your servants pardon of their offences.
-
+Ἐπιβεβηκώς, Ὅσιε τῆς οὐρανοδρόμου ἀρετῆς, καὶ αἰθέριον ἆθλον ἐνδεδειγμένος, καὶ πρὸς σκηνὰς ἀναπτὰς οὐρανίους, πρέσβευε σωθῆναι τὰς ψυχὰς ἡμῶν."
 
 
-Μετὰ πάθος ἑκούσιον, τὸν ζωοποιὸν νεκρὸν ἐκμιμούμενος, ὥς περ μνήματι τῷ φρέατι, σεαυτὸν ζοφώδει ζῶντα δέδωκας."
+Βάτος καιομένη, πυρὶ καὶ μὴ φλεγομένη, ἀνεδείχθης ὦ Παρθένε, συλλαβοῦσα ἀσπόρως, τὸν Θεὸν καὶ Σωτῆρα τοῦ κόσμου, ὃν ἀκαταπαύστως μεγαλύνομεν."
 
-meMA.Ode4C3T.ode = miscellanea_gr_GR_cog.misc.Ode4
-meMA.Ode4C3T.mode = miscellanea_gr_GR_cog.misc.Mode8
-meMA.Ode4C3T.melody = he.h.m8_gr_GR_cog.heHE.EisakikoaKyrie.name
-meMA.Ode4C3T.incipit = "Τὸν Θεὸν ὃν ἐκύησας…"
-meMA.Ode4C3T.text = "Τὸν Θεὸν ὃν ἐκύησας, ἄχραντε Μαρία δυσώπει πάντοτε, τοῖς οἰκέταις σου δωρήσασθαι, τῶν πλημμελημάτων τὴν συγχώρησιν."
+
+
+
+
+
+O God-bearing father Symeon, Christ adopted you to reign with Him, for by your endurance you reigned over passions. Therefore we sing hymns to magnify you.
+
+ 
+
+To you was granted the grace to heal, O God-bearing Symeon. From the Spirit's inviolable treasures, you provide healing to those who celebrate your memory.
+
+ 
+
+You advanced in virtue that led you to heaven. You display your celestial prize. You have gone up to the heavenly mansions. O devout father, we pray you intercede for the salvation of our souls.
+
+Theotokion
+
+O Virgin, the burning bush that was not consumed prefigured you, who without seed conceived God, the Savior of the world, whom we unceasingly magnify.
+
