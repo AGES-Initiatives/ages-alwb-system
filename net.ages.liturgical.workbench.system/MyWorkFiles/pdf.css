@@ -67,44 +67,6 @@ p.alttext {
 	background-color: #E6E6E6;
 }
 
-p.anum {
-	color: #cc0000;
-	font-size: 10pt;
-	font-style: normal;
-}
-
-p.bigblack {
-	font-size: 14pt;
-	font-style: normal;
-	font-weight: normal;
-}
-
-p.black {
-	color: black;
-}
-
-p.bold  {
-	font-style: normal;
-	font-weight: bold;
-}
-
-p.bolditalics  {
-	font-style: italic;
-	font-weight: bold;
-}
-
-p.bolditalicsred  {
-	color: #cc0000;
-	font-style: italic;
-	font-weight: bold;
-}
-
-p.boldred  {
-	color: #cc0000;
-	font-style: normal;
-	font-weight: bold;
-}
-
 p.break  {
 	margin-bottom: 10pt;
 }
@@ -301,7 +263,6 @@ p.cover_logo_line_below  {
 	text-align: center;
 }
 
-
 p.credits1  {
 	font-size: 12pt;
 	font-weight: bold;
@@ -352,7 +313,7 @@ p.dialogzero  {
 	font-size: 13pt;
 	line-height: 130%;
 	text-align: left;
-	text-indent: .3pt;
+	text-indent: .2in;
 }
 
 p.emc {
@@ -568,30 +529,6 @@ p.inaudible  {
 	text-indent: .2in;
 }
 
-p.inlinerubric  {
-	color: #cc0000;
-	font-size: 10pt;
-	font-style: italic;
-	line-height: 100%;
-}
-
-p.italics  {
-	font-style: italic;
-	font-weight: normal;
-}
-
-p.italicsblack  {
-	color: black;
-	font-style: italic;
-	font-weight: normal;
-}
-
-p.italicsred  {
-	color: #cc0000;
-	font-style: italic;
-	font-weight: normal;
-}
-
 p.letter0  {
 	font-size: 12pt;
 	font-style: normal;
@@ -718,10 +655,6 @@ p.readingzero  {
 	line-height: 150%;
 	text-align: left;
 	text-indent: .2in;
-}
-
-p.red  {
-	color: #cc0000;
 }
 
 p.reference  {
@@ -994,13 +927,6 @@ p.versecenter  {
 	text-align: center;
 }
 
-p.versiondesignation  {
-	color: #cc0000;
-	font-size: 6pt;
-	vertical-align: bottom;
-	line-height: 100%;
-}
-
 span.anum  {
 	color: #cc0000;
 	font-size: 10pt;
@@ -1090,7 +1016,6 @@ span.optional  {
 span.red  {
 	color: #cc0000;
 	font-style: inherit;
-/* GOA red. alt. #cc0000 */	
 }
 
 span.reference {
@@ -1151,10 +1076,3 @@ span.versiondesignation  {
 	font-size: 6pt;
 	vertical-align: bottom;
 }
-
-p.emc {
-  color: red;
-  font-size: 0pt;
-  line-height: 0%;
-}
-
