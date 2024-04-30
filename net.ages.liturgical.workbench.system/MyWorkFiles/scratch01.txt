@@ -1,40 +1,26 @@
-Πρᾶε ἱεράρχα καὶ σεμνέ, 
-τῆς Ἀμερικῆς κοσμιότης, Ἀβύδου εὖχος λαμπρόν, 
-ὅσιε Γεράσιμε, ἀγάπης ἔκτυπον, 
-ταπεινώσεως σκήνωμα καὶ χρηστοηθείας, 
-ἄγαλμα θεόγλυπτον, ἡμῶν ἐπάκουσον, 
-σοῦ τῶν δεομένων καὶ χάριν, 
-πέμψον σοῖς ἱκέταις ἀφθόνως, 
-τὴν ἐν σοὶ οἰκοῦσαν, χαριτόβρυτε.
+hoCA.Apolytikion1.text = "
 
 
-Gentle hierarch 
-dignified jewel of America 
-illustrious boast of Pittsburgh and Brookline 
-devout Gerasimos 
-paragon of love 
-you had humility 
-perfect image of God's of goodness of heart 
+hoCA.Ode33.text = "
 
-Hear us when we pray to you 
-abundantly send us the grace that dwells in you
+As you wished to converse with the Lord alone through your prayers, * 
+you alloted quality time daily to accomplish this, * 
+avoiding foolish disputes and useless banter and gossip. * 
+Help us to avoid all this, blessed Gerasimos."
 
+hoCA.Ode52.text = "
+Shaken by the cares * 
+of our daily life, we pray to you * 
+to support as you did the parishes * 
+that you oversaw as bishop, O Gerasimos.
 
-Hear us who in earnest pray to you. 
-Send to us the grace of the Spirit that richly flows from you. 
-Paragon of gentleness and of humility, 
-precious jewel of America, 
-both Pittsburgh and Brookline 
-boast for having hosted you, O St. Gerasimos, 
-for you were the faithful exemplar 
-of the love of Christ for His people, 
-Therefore we all prayerfully now honor you. 
+to support us, O unshakable support * 
+of the parishes in Pittsburgh, O Gerasimos."
+
+as a hierarch in Pittsburgh
+supported the parishes when you were bishop in Pittsburgh
 
 
-for you overflow with divine grace
+Inspired by God he blessed the faithful and supported them.
 
-paragon of gentleness and of humility.
-
-
-
-
+And even now he helps and blesses all who pray to him.
