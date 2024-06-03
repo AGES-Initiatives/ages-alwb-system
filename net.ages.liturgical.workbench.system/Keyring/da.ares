@@ -15,6 +15,9 @@ da.R001 = ""
 
 daDay.desc = ""
 daDay.text = ""
+daOnDay.text = ""
+daOnDay.desc = ""
+daOnDay.text = ""
 daCommemoration.desc = ""
 daCommemoration.text = ""
 
