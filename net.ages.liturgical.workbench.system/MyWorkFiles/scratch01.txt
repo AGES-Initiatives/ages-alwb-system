@@ -1,26 +1,10 @@
-hoCA.Apolytikion1.text = "
 
 
-hoCA.Ode33.text = "
 
-As you wished to converse with the Lord alone through your prayers, * 
-you alloted quality time daily to accomplish this, * 
-avoiding foolish disputes and useless banter and gossip. * 
-Help us to avoid all this, blessed Gerasimos."
-
-hoCA.Ode52.text = "
-Shaken by the cares * 
-of our daily life, we pray to you * 
-to support as you did the parishes * 
-that you oversaw as bishop, O Gerasimos.
-
-to support us, O unshakable support * 
-of the parishes in Pittsburgh, O Gerasimos."
-
-as a hierarch in Pittsburgh
-supported the parishes when you were bishop in Pittsburgh
+meMA.C2.acrostic.line1.text = "Σήμερον ἀχράντοιο βαλών Θεοφεγγέϊ πυρσῷ," 35
+meMA.C2.acrostic.line2.text = "Πνεύματος, ἐνθάπτει νάμασιν, ἀμπλακίην," 33
+meMA.C2.acrostic.line3.text = "Φλέξας παμμεδέοντος ἐΰς Πάϊς·" 25
+meMA.C2.acrostic.line4.text = "Ἠπιόων δέ, Ὑμνητα[ῖ]ς μελέων τῶν δε δίδωσι χάριν." 37
 
 
-Inspired by God he blessed the faithful and supported them.
-
-And even now he helps and blesses all who pray to him.
+130 lines in 26 troparia
