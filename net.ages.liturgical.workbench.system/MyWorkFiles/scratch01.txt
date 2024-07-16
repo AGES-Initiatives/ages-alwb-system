@@ -74,6 +74,9 @@ he.a.m4_en_US_oca.heAU.EpefanisSimeron.text
 meMA.Oikos1.text = 
 A great light has shone on Galilee of the Gentiles, on the land of Zebulon and the land of Nephthali, as the prophet said. It is Christ, a bright Dawn appearing as lightning from Bethlehem to those who sat in darkness. The Lord born from Mary, the Sun of Righteousness, sheds His rays on the whole inhabited earth. Come then, naked children of Adam; let us clothe ourselves in Him, that we may warm ourselves. You are a protection and veil to the naked, a light to those in darkness! You have come and revealed Yourself, ⁄⁄ Light unapproachable!
 
+
+
+
 meMA.Ode7C1H.text = 
 he.h.m2_en_US_oca.heHE.NeousEfseveis.text
 
