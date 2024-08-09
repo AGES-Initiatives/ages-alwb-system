@@ -1,159 +1,74 @@
-
-meMA.Ode1C11.text = 
-The Lord, the King of the ages, ⁄ renewed corrupted Adam, in the streams of Jordan. ⁄ He shattered the heads of the dragons hidden there, ⁄ for He has been glorified!
-
-meMA.Ode1C12.text = 
-The Lord, incarnate of the Virgin, ⁄ having clothed material flesh with the immaterial fire of His divinity, ⁄ wraps Himself in the waters of Jordan, ⁄ for He has been glorified!
-
-meMA.Ode1C13.text = 
-The Lord who purges out the filth of men, ⁄ was cleansed in the Jordan for their sake. ⁄ Of His own will, He made Himself like them, ⁄ while yet remaining what He was. ⁄ He enlightens those in darkness, ⁄ for He has been glorified!
-
-
-
-
-meMA.Ode3C1H.text = 
-he.h.m2_en_US_oca.heHE.IschynODidous.text
-
-meMA.Ode3C11.text = 
-Rejoice today, O Church of Christ! ⁄ Before you were barren and sadly childless; ⁄ now through water and the Spirit sons have been born to you ⁄ and they cry aloud in faith: ⁄ None is holy as our God ⁄ and none is righteous but You, O Lord!
-
-meMA.Ode3C12.text = 
-The Forerunner cries out in the wilderness: ⁄ Prepare the way of Christ; make straight the pathways for our God ⁄ and cry aloud in faith: ⁄ None is holy as our God ⁄ and none is righteous but You, O Lord!
-
-
-
-
-meMA.Hypakoe.text = 
-When You enlightened all things by Your Epiphany, ⁄ the salt sea of unbelief fled; ⁄ the Jordan was turned back to its source, ⁄ thereby exalting us to heaven. ⁄ By the height of Your divine commandments, ⁄ preserve us through the intercessions of the Theotokos, Christ our God, ⁄⁄ and have mercy on us.
-
-meMA.Ode4C1H.text = 
-he.h.m2_en_US_oca.heHE.AkikoeKyrieFonisSou.text
-
-meMA.Ode4C11.text = 
-Who has seen the Sun, bright by nature, being cleansed? ⁄ Then how, cried the Preacher, Shall I wash You in the waters? ⁄ You are the brightness of the glory, ⁄ the Image of the everlasting Father! ⁄ How shall I who am grass with my hand touch the divine fire? ⁄ For You are Christ, the Wisdom and the Power of God!
-
-meMA.Ode4C12.text = 
-Moses, when he encountered You, ⁄ manifested the holy reverence he felt: ⁄ He heard Your voice from the bush and turned away his gaze at once! ⁄ Then how shall I behold You openly? ⁄ How shall I lay my hand upon You? ⁄ For You are Christ, the Wisdom and the Power of God!
-
-meMA.Ode4C13.text = 
-I am endowed with an understanding soul ⁄ and honored with the power of reason, ⁄ yet I respect the things that have no soul. ⁄ If I baptize You, I shall have as my accusers the mountain that smoked with fire, ⁄ the sea which fled on either side, and this same Jordan which turned back. ⁄ For You are Christ, the Wisdom and the Power of God!
-
-
-
-
-
-meMA.Ode5C1H.text = 
-he.h.m2_en_US_oca.heHE.IisousOZoisArchigos.text
-
-meMA.Ode5C11.text = 
-A multitude without number came to be baptized by John. ⁄ Standing in their midst he raised his voice and said: ⁄ Disobedient ones, who warned you to flee the wrath to come? ⁄ Offer worthy fruits to Christ, ⁄ for He is present now, granting peace.
-
-meMA.Ode5C12.text = 
-The Husbandman and Creator ⁄ stands in men’s midst as one of them and searches their hearts. ⁄ In His hand He takes the winnowing fan; ⁄ in the fullness of His wisdom He cleanses the threshing floor of the universe, ⁄ dividing the wheat from the chaff, burning the barren. ⁄ He grants eternal life to those who bring forth good fruit!
-
-
-
-
-meMA.Ode6C1H.text = 
-he.h.m2_en_US_oca.heHE.IFoniTouLogou.text
-
-meMA.Ode6C11.text = 
-Christ was begotten without change from God the Father, ⁄ and took flesh without defilement from the Virgin; ⁄ and as the Forerunner teaches, ⁄ it is not possible to loose the latchet of His shoes: ⁄ the bond that joins the Word to our nature. ⁄ He is the One who delivers the earth-born from error.
-
-meMA.Ode6C12.text = 
-Christ baptizes in the fire of the last Day ⁄ the disobedient who do not believe that He is God. ⁄ But to all who acknowledge His divinity ⁄ He grants a new birth through the Spirit ⁄ and by the grace that comes through water ⁄ He delivers them all from their faults.
-
-
-
-
-meMA.Kontakion1.poet = 
-poets_en_US_oca.po.RomanouTouMelodou
-meMA.Kontakion1.text = 
-he.a.m4_en_US_oca.heAU.EpefanisSimeron.text
-
-meMA.Oikos1.text = 
-A great light has shone on Galilee of the Gentiles, on the land of Zebulon and the land of Nephthali, as the prophet said. It is Christ, a bright Dawn appearing as lightning from Bethlehem to those who sat in darkness. The Lord born from Mary, the Sun of Righteousness, sheds His rays on the whole inhabited earth. Come then, naked children of Adam; let us clothe ourselves in Him, that we may warm ourselves. You are a protection and veil to the naked, a light to those in darkness! You have come and revealed Yourself, ⁄⁄ Light unapproachable!
-
-
-
-
-meMA.Ode7C1H.text = 
-he.h.m2_en_US_oca.heHE.NeousEfseveis.text
-
-meMA.Ode7C11.text = 
-With the trembling and wonder of heaven, ⁄ the angelic powers stood by the Jordan, ⁄ beholding God’s great condescension: ⁄ How He Who holds dominion over the waters above the firmament ⁄ stood in the waters in bodily form: ⁄ The God of our fathers!
-
-meMA.Ode7C12.text = 
-The sea and cloud in which the people of Israel ⁄ once were baptized by the lawgiver Moses as they journeyed from Egypt, ⁄ prefigured the wonder of the Baptism of God! ⁄ The sea was an image of the water and the cloud an image of the Spirit ⁄ by which we are initiated and cry aloud: ⁄ Blessed are You, the God of our fathers!
-
-meMA.Ode7C13.text = 
-Come, all faithful, let us speak of the things of God, ⁄ joining the angels in unending hymns ⁄ to glorify the God in Whom we have received initiation: ⁄ Father, Son and Holy Spirit, ⁄ the Trinity, consubstantial in Persons, yet one God to Whom we sing: ⁄ Blessed are You, Lord God of our fathers!
-
-
-
-
-
-meMA.Ode8C1H.text = 
-he.h.m2_en_US_oca.heHE.MystirionParadoxon.text
-
-meMA.Ode8C11.text = 
-The Deliverer said to the Forerunner: ⁄ Cast aside all fear; draw near, obedient to My command, ⁄ for by nature I am good and love. ⁄ Yield to My ordinance and baptize Me, ⁄ for in condescension I come down, ⁄ Whom the peoples bless and exalt above all forever.
-
-meMA.Ode8C12.text = 
-When the Baptist heard the Master’s words, ⁄ he stretched out his hand in trembling; ⁄ and as he touched the head of his Creator, ⁄ he cried aloud to Him who was baptized: ⁄ Sanctify me, for You are my God, ⁄ Whom the peoples bless and exalt above all forever.
-
-meMA.Ode8C13.text = 
-The Trinity was made manifest in the Jordan: ⁄ for the Father, supreme in divinity, bore witness, saying: ⁄ He who is baptized here is My beloved Son. ⁄ And the Spirit, equal in divinity, rested upon Him ⁄ Whom the peoples bless and exalt above all forever.
-
-
-
-
-meMA.Ode9C1M01.text = 
-
-meMA.Ode9C1M02.text = 
-
-meMA.Ode9C1M03.text = 
-
-meMA.Ode9C1M04.text = 
-
-meMA.Ode9C1M05.text = 
-
-meMA.Ode9C1M06.text = 
-
-meMA.Ode9C1M07.text = 
-
-
-
-meMA.Ode9C1H.text = 
-he.h.m2_en_US_oca.heHE.AporeiPasaGlossa.text
-
-meMA.Ode9C11.text = 
-Come in Spirit, David, to those who are now to be enlightened and sing: ⁄ Approach now to God in faith and receive enlightenment! ⁄ Fallen Adam, the poor man, cried and the Lord heard him: ⁄ He has come and in the streams of Jordan, ⁄ has renewed the one sunk in corruption.
-
-meMA.Ode9C12.text = 
-Wash; make yourselves clean! says Isaiah. ⁄ Put away the evil of your doings from before the Lord. ⁄ Ho, everyone who thirsts, come to the living waters! ⁄ For Christ will sprinkle with the water of renewal ⁄ those who hasten to Him in faith, ⁄ and He baptizes them with the Spirit into unaging life.
-
-meMA.Ode9C13.text = 
-Let us, the faithful, keep ourselves safe through grace ⁄ and through the seal of Baptism. ⁄ In the past the Hebrews fled destruction by marking the door posts with blood; ⁄ so also this divine washing unto regeneration ⁄ shall be our Exodus, ⁄ and as we go out, we shall behold the never-setting light of the Trinity.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Χαίροις, ἀρχιερέων λαμπτήρ· 
+χαίροις Αἰγίνης ὁ ποιμὴν ὁ πανάριστος· 
+Ζακύνθου χαίροις ὁ γόνος, ὁ τιμαλφὴς καὶ τερπνός· 
+τῶν Στροφάδων χαίροις τὸ προπύργιον· 
+ἀκέστωρ νοσούντων, καὶ τῆς πενίας ἐπάρκεια· 
+τῶν ἐν θαλάσσῃ, ὁ λιμὴν ὁ ἀχείμαστος· 
+Ἐκκλησίας τε, κόσμοι ὄντως καὶ ἔρεισμα· 
+ἥνπερ ἐκδυσωποῦμέν σε, σοφὲ Διονύσιε, 
+τηρῆσαι βλάβης παντοίας, διαπαντὸς ἀνενόχλητον, 
+προχέων ἐξ ὕψους, 
+ἐπ’ αὐτῇ θείαν εἰρήνη, ταῖς ἱκεσίαις σου.
+
+
+
+Singing our salutation, “Rejoice!” 
+we call you lamp that lights the way for our hierarchs.
+You pastored Aegina ably, you kept Strophades unharmed, 
+O beloved and favorite son of Zakynthos. 
+You heal and support the sick, and you help those in poverty. 
+You are a stormless tranquil harbor for those at sea, 
+ornament and pillar adorning the Church of Christ. 
+All-holy Dionysios, we earnestly pray to you, 
+that you preserve her untroubled, and heal the schism afflicting her, 
+and pour out upon her 
+from on high the peace of God by your constant fervent prayers.
+
+
+
+
+Δεῦρο, Αἰγινητῶν ὁ χορός, 
+καὶ Ζακυνθίων εὐφημήσωμεν σύλλογος, 
+συμφώνως τῶν φιλεόρτων· οἱ μὲν ποιμένα σεπτόν, 
+οἱ δὲ γόνον ὄντως ἀμφιδέξιον· 
+καὶ πίστει τὴν λάρνακα, τὴν προχέουσαν θαύματα, 
+περικυκλοῦντες, ἀῤῥυπάροις ἐν χείλεσιν, 
+ἀσπασώμεθα, τὸ πανσέβαστον λείψανον. 
+Μέγας ἀνακραυγάζοντες, ὑπάρχεις Τρισήλιε, 
+ἡ ἑνιαία Θεότης, ἡ τὸν κλεινὸν Διονύσιον, 
+κατ’ ἄμφω ἐνδόξως, 
+ἀνυψώσασα καὶ κόσμῳ, φρουρὸν παρέχουσα.
+
+
+
+
+Ἔδυς, τετελευκὼς ὑπὸ γῆν, 
+καὶ αὖθις ἥλιος καθάπερ ἀνέτειλας, 
+ἀστράπτων τῆς ἀφθαρσίας, ταῖς σελασφόροις βολαῖς, 
+εὐσεβῶν χορείας Διονύσιε, 
+ἀρδεύεις δὲ ἅπαντας, τοῖς ὀχετοῖς τῶν θαυμάτων σου, 
+τοῖς ἀειῤῥύτοις, κρουνηδὸν οἳ προχέονται, 
+ἐκ τοῦ σκήνους σου, τοῦ Ἁγίου παμμέγιστε, 
+ὅπερ κατασπαζόμενοι, ψυχῆς αἰσθητήρια, 
+καὶ τοῦ χρωτὸς τὴν ὁμίχλην, τῆς τῶν παθῶν ἐκκαθάρωμεν, 
+Θεῷ τῷ ἀφθάρτῳ, 
+ἀναπέμποντες τὸν ὕμνον, τῷ σὲ δοξάσαντι."
+
+
+
+
+
+
+alt2.meVE.AposGlory.text = "
+Παυσάτωσαν σήμερον δή, παυσάτωσαν αἱ ληρώδεις φληναφίαι ἀσόφων φιλοσόφων αἱ φάσκουσαι, 
+σωματοτρόφον πέλουσαν τὴν γῆν, καὶ σωματοφθόρον. 
+Φροῦδα τούτων τὰ δόγματα, ἀπατηλὰ τὰ σοφίσματα. 
+Ἰδοὺ γὰρ τὸ πανσέβαστον σκῆνος τοῦ μάκαρος πνέον ὀσμάς, εὐωδιάζει τοὺς προσπελάζοντας. 
+Καὶ θαύματα βρύον, ὡς ἄλλος τῆς Ἐδὲμ ποταμός, ἀρδεύει τὴν τετραμέρειαν. 
+Καὶ ὑπὸ χρόνου μὴ λυμαινόμενον, ἀνατρέπει παραδόξως, τοὺς τῆς φύσεως ὅρους. 
+Ὅπερ εὐλαβῶς οἱ πιστοὶ ἀσπαζόμενοι, θερμῶς ἀνακράξωμεν· 
+ταῖς τοῦ κλεινοῦ Σου θεράποντος Διονυσίου προστασίαις, Τριὰς ὑπερούσιε, 
+σῶσον τὰς ψυχὰς ἡμῶν.
 
 
 
