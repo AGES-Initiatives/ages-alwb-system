@@ -1,90 +1,44 @@
-Χαίροις, ἀρχιερέων λαμπτήρ· 
-χαίροις Αἰγίνης ὁ ποιμὴν ὁ πανάριστος· 
-Ζακύνθου χαίροις ὁ γόνος, ὁ τιμαλφὴς καὶ τερπνός· 
-τῶν Στροφάδων χαίροις τὸ προπύργιον· 
-ἀκέστωρ νοσούντων, καὶ τῆς πενίας ἐπάρκεια· 
-τῶν ἐν θαλάσσῃ, ὁ λιμὴν ὁ ἀχείμαστος· 
-Ἐκκλησίας τε, κόσμοι ὄντως καὶ ἔρεισμα· 
-ἥνπερ ἐκδυσωποῦμέν σε, σοφὲ Διονύσιε, 
-τηρῆσαι βλάβης παντοίας, διαπαντὸς ἀνενόχλητον, 
-προχέων ἐξ ὕψους, 
-ἐπ’ αὐτῇ θείαν εἰρήνη, ταῖς ἱκεσίαις σου.
+Τῶν Ζακυνθίων εὐσεβῶς ἡ ὁμήγυρις, 
+πανηγυρίσωμεν λαμπρῶς ἑορτάζοντες, 
+ἐν ἐτησίοις ᾄσμασι καὶ ὕμνοις ἱεροῖς, 
+πάνσεπτον ἐπάνοδον, τοῦ παντίμου λειψάνου, 
+τοῦ ἐξανατείλαντος, δίκην κόσμῳ ἡλίου, 
+ὃ ἀσπασθέντες κράξωμεν θερμῶς· 
+φωστήρων χαῖρε, φωστὴρ Διονύσιε.
 
 
-
-Singing our salutation, “Rejoice!” 
-we call you lamp that lights the way for our hierarchs.
-You pastored Aegina ably, you kept Strophades unharmed, 
-O beloved and favorite son of Zakynthos. 
-You heal and support the sick, and you help those in poverty. 
-You are a stormless tranquil harbor for those at sea, 
-ornament and pillar adorning the Church of Christ. 
-All-holy Dionysios, we earnestly pray to you, 
-that you preserve her untroubled, and heal the schism afflicting her, 
-and pour out upon her 
-from on high the peace of God by your constant fervent prayers.
+Come, all believers, join the people of Zakynthos, 
+participating in the yearly festivities, 
+by singing sacred hymns and songs in honor of the day 
+celebrating the return of the eminent relic 
+of the Island's patron Saint, who illumines the whole world. 
+And as we venerate him, let us cry aloud, 
+“We all salute you, O St. Dionysius.”
 
 
 
 
-Δεῦρο, Αἰγινητῶν ὁ χορός, 
-καὶ Ζακυνθίων εὐφημήσωμεν σύλλογος, 
-συμφώνως τῶν φιλεόρτων· οἱ μὲν ποιμένα σεπτόν, 
-οἱ δὲ γόνον ὄντως ἀμφιδέξιον· 
-καὶ πίστει τὴν λάρνακα, τὴν προχέουσαν θαύματα, 
-περικυκλοῦντες, ἀῤῥυπάροις ἐν χείλεσιν, 
-ἀσπασώμεθα, τὸ πανσέβαστον λείψανον. 
-Μέγας ἀνακραυγάζοντες, ὑπάρχεις Τρισήλιε, 
-ἡ ἑνιαία Θεότης, ἡ τὸν κλεινὸν Διονύσιον, 
-κατ’ ἄμφω ἐνδόξως, 
-ἀνυψώσασα καὶ κόσμῳ, φρουρὸν παρέχουσα.
-
-
-
-
-Ἔδυς, τετελευκὼς ὑπὸ γῆν, 
-καὶ αὖθις ἥλιος καθάπερ ἀνέτειλας, 
-ἀστράπτων τῆς ἀφθαρσίας, ταῖς σελασφόροις βολαῖς, 
-εὐσεβῶν χορείας Διονύσιε, 
-ἀρδεύεις δὲ ἅπαντας, τοῖς ὀχετοῖς τῶν θαυμάτων σου, 
-τοῖς ἀειῤῥύτοις, κρουνηδὸν οἳ προχέονται, 
-ἐκ τοῦ σκήνους σου, τοῦ Ἁγίου παμμέγιστε, 
-ὅπερ κατασπαζόμενοι, ψυχῆς αἰσθητήρια, 
-καὶ τοῦ χρωτὸς τὴν ὁμίχλην, τῆς τῶν παθῶν ἐκκαθάρωμεν, 
-Θεῷ τῷ ἀφθάρτῳ, 
-ἀναπέμποντες τὸν ὕμνον, τῷ σὲ δοξάσαντι."
-
-
-
-
-
-
-alt2.meVE.AposGlory.text = "
-Παυσάτωσαν σήμερον δή, παυσάτωσαν αἱ ληρώδεις φληναφίαι ἀσόφων φιλοσόφων αἱ φάσκουσαι, 
-σωματοτρόφον πέλουσαν τὴν γῆν, καὶ σωματοφθόρον. 
-Φροῦδα τούτων τὰ δόγματα, ἀπατηλὰ τὰ σοφίσματα. 
-Ἰδοὺ γὰρ τὸ πανσέβαστον σκῆνος τοῦ μάκαρος πνέον ὀσμάς, εὐωδιάζει τοὺς προσπελάζοντας. 
-Καὶ θαύματα βρύον, ὡς ἄλλος τῆς Ἐδὲμ ποταμός, ἀρδεύει τὴν τετραμέρειαν. 
-Καὶ ὑπὸ χρόνου μὴ λυμαινόμενον, ἀνατρέπει παραδόξως, τοὺς τῆς φύσεως ὅρους. 
-Ὅπερ εὐλαβῶς οἱ πιστοὶ ἀσπαζόμενοι, θερμῶς ἀνακράξωμεν· 
-ταῖς τοῦ κλεινοῦ Σου θεράποντος Διονυσίου προστασίαις, Τριὰς ὑπερούσιε, 
-σῶσον τὰς ψυχὰς ἡμῶν.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Τὴν τοῦ διδασκάλου Χριστοῦ φωνὴν ἐνωτισάμενος, 
+ἦρες ἐπ’ ὤμων τὸν Σταυρὸν Αὐτοῦ, 
+καὶ ἀκλινῶς ἐπορεύθης τὴν στενὴν καὶ τεθλιμμένην τοῦ ματαίου βίου ὁδόν, 
+ἀποῤῥίψας ὄγκον γένους, πραγμάτων περιουσίαν, καὶ πᾶσαν ἄλλην κοσμικὴν ἡδυπάθειαν, 
+καὶ μόνος ἐν ὄρεσιν ἐν καθαρῷ τῷ νοΐ, τῷ φύσει μόνῳ καθαρῷ Θεῷ ὁμιλῶν, 
+ὤφθης ἀρτιφανὴς ἀστὴρ καὶ ζῶν καὶ μετὰ πότμον 
+ἀφθαρσίᾳ δοξάσας τὸ σὸν πανσέβαστον σκῆνος ὁ Κύριος, 
+ᾧ ἐν γῇ, καθαρῶς ἐλάτρευσας, 
+ἐδωρήσατο τῇ σῇ πατρίδι δῶρον τιμαλφέστατον, 
+ὃ ἀσπαζόμενοι σὺν πόθῳ κράζομεν θερμῶς· φωστήρων χαῖρε, φωστὴρ Διονύσιε."
+You took to heart the words of Christ the Teacher, 
+and you took up His cross on your shoulders, 
+and took the straight and narrow way of this life and never strayed. 
+Discarding the weight kin, possessions, and all other earthly pleasures, 
+alone on the mountains with purified mind, you conversed with God who alone is pure by nature.
+And you were seen as new shining star while alive and after dying. 
+The Lord, whom you worshiped on earth in purity, 
+glorified your venerable body with incorruptibility, 
+and He gave it to your homeland as a precious gift. 
+Today, as we venerate it, we cry aloud, 
+“We all salute you, O St. Dionysius.”
 
 
 
