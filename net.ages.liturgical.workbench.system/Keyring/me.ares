@@ -72,6 +72,7 @@ meVE.MM.Stichera112as8910.text = ""
 meVE.MM.Stichera1123as3456.text = "" //for media
 meVE.MM.Stichera1123as4567.text = "" //for media
 meVE.MM.Stichera1123as78910.text = "" //for media
+meVE.MM.Stichera1234as1234.text = "" //for media
 meVE.MM.Stichera1234as3456.text = "" //for media
 meVE.MM.Stichera1234as5678.text = "" //for media
 meVE.MM.Stichera1234as78910.text = "" //for media
@@ -2254,6 +2255,9 @@ meMA.Lauds8.text = ""
 meMA.MM.Lauds12as45.desc = ""
 meMA.MM.Lauds12as45.text = ""
 
+meMA.MM.Lauds12as78.desc = ""
+meMA.MM.Lauds12as78.text = ""
+
 meMA.MM.Lauds123as123.desc = ""
 meMA.MM.Lauds123as123.text = ""
 
@@ -2271,6 +2275,9 @@ meMA.MM.Lauds1123as5678.text = ""
 
 meMA.MM.Lauds123456as123456.desc = ""
 meMA.MM.Lauds123456as123456.text = ""
+
+meMA.MM.Lauds1234as1234.desc = ""
+meMA.MM.Lauds1234as1234.text = ""
 
 meMA.MM.Lauds1234as5678.desc = ""
 meMA.MM.Lauds1234as5678.text = ""
