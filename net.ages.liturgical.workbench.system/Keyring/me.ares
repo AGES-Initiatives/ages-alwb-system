@@ -16,6 +16,7 @@ meDA.insert1 = "" //for use in petitions and dismissal
 meDA.insert2 = "" //for use in petitions and dismissal
 meDA.note = ""
 meDA.pdfcoverdate = ""
+meDA.pdfdatebefore = ""
 meDA.pdfheaderdate = ""
 meDA.fordate = ""
 meLE.commemoration1 = ""
