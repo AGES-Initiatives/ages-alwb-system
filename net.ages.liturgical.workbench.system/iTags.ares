@@ -31,6 +31,13 @@ dhi = "emphasis,dhierarch"
 dpr = "emphasis,dpriest"
 dre = "emphasis,dreader"
 
+dwach = "emphasis,dwachoir"
+dwacl = "emphasis,dwaclergy"
+dwadde = "emphasis,dwadeacon"
+dwadhi = "emphasis,dwahierarch"
+dwadpr = "emphasis,dwapriest"
+dwadre = "emphasis,dwareader"
+
 Tdesig = "emphasis,designation"
 Tdialog = "emphasis,dialog"
 Tmelody = "emphasis,melody"
