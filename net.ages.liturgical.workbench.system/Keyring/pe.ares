@@ -14,6 +14,7 @@ peHO.des2 = ""
 peHO.note1 = ""
 peHO.note2 = ""
 peDA.dismissal = ""
+peDA.dismissal.incipit = ""
 peTY.note1 = "" //footnotes from Hemerologion
 peTY.note2 = "" //footnotes from Hemerologion
 peTY.note3 = "" //footnotes from Hemerologion
@@ -2585,6 +2586,7 @@ alt1.peHO.des2 = ""
 alt1.peHO.note1 = ""
 alt1.peHO.note2 = ""
 alt1.peDA.dismissal = ""
+alt1.peDA.dismissal.incipit = ""
 
 alt1.peVE.Stichera01.desc = ""
 alt1.peVE.Stichera01.mode = ""

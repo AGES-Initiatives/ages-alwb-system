@@ -18,6 +18,7 @@ trVE.header = "" //for pdf header of vespers e.g. on Good Friday
 trVL.header = "" //for pdf headers of presanctified and vesperal liturgies
 trEM.header = "" //for pdf headers of Holy Week evening Matins
 trDA.dismissal = ""
+trDA.dismissal.incipit = ""
 trTY.note1 = "" //footnotes from Hemerologion
 trTY.note2 = "" //footnotes from Hemerologion
 trTY.note3 = "" //footnotes from Hemerologion
