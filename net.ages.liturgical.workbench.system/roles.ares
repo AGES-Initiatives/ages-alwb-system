@@ -115,6 +115,11 @@ bkmrk18 = "bkmrk18"
 bkmrk19 = "bkmrk19"
 bkmrk20 = "bkmrk20"
 
+//roles with Para for links
+prayersbeforecommunionlink = "prayersbeforecommunionlink"
+
+
+
 //roles with Para for marked content
 bmc_collapse = "bmc_collapse"
 emc_collapse = "emc_collapse"

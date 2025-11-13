@@ -60,3 +60,6 @@ smallreditalicbold = "emphasis,smallreditalicbold"
 troparionfirstletter = "emphasis,troparionfirstletter"
 troparionlinefirstletter = "emphasis,troparionlinefirstletter"
 troparionminusfirstletter = "emphasis,troparionminusfirstletter"
+
+//prayers before communion
+pbc = "emphasis,pbc"
