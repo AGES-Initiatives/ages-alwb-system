@@ -20,7 +20,6 @@ PRESET_SCRIPT = os.path.join(UTILS_DIR, "preset_switcher.py")
 LOGO_SCRIPT = os.path.join(UTILS_DIR, "add_logo.py")
 ANALYTICS_SCRIPT = os.path.join(UTILS_DIR, "insert_google_analytics.py")
 INDEXER_SCRIPT = os.path.join(UTILS_DIR, "toggle_client_indexer.py")
-CHECK_STATUS_SCRIPT = os.path.join(UTILS_DIR, "check_template_status.py")
 
 class ToolTip:
     def __init__(self, widget, text):
@@ -46,46 +45,7 @@ class ToolTip:
             self.tip_window.destroy()
             self.tip_window = None
 
-class WhatTab(ttk.Frame):
-    def __init__(self, parent, run_script_callback):
-        super().__init__(parent)
-        self.run_script = run_script_callback
-        
-        container = ttk.Frame(self, padding="20")
-        container.pack(fill="both", expand=True)
-
-        v_frame = ttk.LabelFrame(container, text=" Template Readiness (What) ", padding="15")
-        v_frame.pack(fill="x", pady=10)
-
-        ttk.Label(v_frame, text="Select a month to validate template consistency:").pack(anchor="w")
-
-        # Month Selector for Validation
-        self.val_month_var = tk.StringVar()
-        self.val_months_data = [
-            ("January", "m01"), ("February", "m02"), ("March", "m03"), ("April", "m04"),
-            ("May", "m05"), ("June", "m06"), ("July", "m07"), ("August", "m08"),
-            ("September", "m09"), ("October", "m10"), ("November", "m11"), ("December", "m12")
-        ]
-        
-        self.val_month_combo = ttk.Combobox(v_frame, values=[m[0] for m in self.val_months_data], state="readonly")
-        self.val_month_combo.pack(pady=10, fill="x")
-        self.val_month_combo.set("January")
-
-        self.btn_check = ttk.Button(v_frame, text="Run Validation Report", 
-                                    command=self.trigger_validation, width=25)
-        self.btn_check.pack(pady=5)
-        ToolTip(self.btn_check, "Compares filename date vs internal Set_Date and reports Status")
-
-    def trigger_validation(self):
-        # Find the month code (m01, etc) for the selected name
-        selected_name = self.val_month_combo.get()
-        month_code = next(m[1] for m in self.val_months_data if m[0] == selected_name)
-        
-        # Run the script with the month code as an argument
-        self.run_script(CHECK_STATUS_SCRIPT, month_code)
-
-class WhenTab(ttk.Frame):
-    """Formerly What - Handles Date and Regex generation."""
+class GenerationTab(ttk.Frame):
     def __init__(self, parent, log_callback):
         super().__init__(parent)
         self.log_callback = log_callback
@@ -213,43 +173,26 @@ class ALWBWorkflowManager:
         self.notebook = ttk.Notebook(self.main_container)
         self.notebook.pack(fill="both", expand=True, padx=5, pady=5)
 
-        # UPDATED TAB ORDER AND LABELS
-        self.what_tab = WhatTab(self.notebook, self.run_script)
-        self.notebook.add(self.what_tab, text=" What ")
-
         self.main_tab = ttk.Frame(self.notebook)
         self.notebook.add(self.main_tab, text=" Who - Where - How ")
         self.setup_main_tab()
 
-        self.when_tab = WhenTab(self.notebook, self.log)
-        self.notebook.add(self.when_tab, text=" When ")
+        self.gen_tab = GenerationTab(self.notebook, self.log)
+        self.notebook.add(self.gen_tab, text=" What ")
 
-# 1. Create the container for the log
-        self.log_container = ttk.Frame(self.main_container)
-        self.log_container.pack(fill="both", expand=True)
-
-        # 2. Create a small bar for the buttons (Sits ABOVE the log frame)
-        self.button_bar = ttk.Frame(self.log_container)
-        self.button_bar.pack(fill="x", padx=15)
-
-        # 3. Pack buttons to the RIGHT side of the bar
-        # Pack them in reverse order (Clear then Hide) to keep Hide on the far right
-        ttk.Button(self.button_bar, text="CLEAR", width=10, command=self.clear_log).pack(side="right", padx=2)
-        
-        self.btn_log_toggle = ttk.Button(self.button_bar, text="HIDE LOG", width=12, command=self.toggle_log)
-        self.btn_log_toggle.pack(side="right", padx=2)
-
-        # 4. The actual Log Frame (This is what will hide/show)
-        self.log_frame = ttk.LabelFrame(self.log_container, text=" Activity Log ", padding="5")
+        self.log_frame = ttk.LabelFrame(self.main_container, text=" Activity Log ", padding="5")
         self.log_frame.pack(fill="both", expand=True, padx=15, pady=5)
-
-        self.console = scrolledtext.ScrolledText(self.log_frame, height=45, state='disabled', font=('Consolas', 9))
+        self.console = scrolledtext.ScrolledText(self.log_frame, height=5, state='disabled', font=('Consolas', 9))
         self.console.pack(fill="both", expand=True)
+
+        footer = ttk.Frame(self.main_container, padding=(15, 0, 15, 10))
+        footer.pack(fill="x", side="bottom")
+        self.btn_log_toggle = ttk.Button(footer, text="HIDE LOG", width=12, command=self.toggle_log)
+        self.btn_log_toggle.pack(side="left")
 
         self.refresh_ui()
 
     def toggle_log(self):
-        """Hides or Shows the log frame while keeping buttons visible."""
         if self.log_frame.winfo_viewable():
             self.log_frame.pack_forget()
             self.btn_log_toggle.configure(text="SHOW LOG")
@@ -329,19 +272,7 @@ class ALWBWorkflowManager:
              self.btn_update_web.configure(bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
 
     def log(self, msg):
-        self.console.config(state='normal')
-        
-        # Create a "red_text" tag if it doesn't exist
-        self.console.tag_config("mismatch", foreground="red", font=('Consolas', 9, 'bold'))
-        
-        # Check if the message contains "mismatch" or "ERROR" (adjust based on your script's output)
-        if "MISMATCH" in msg.upper() or "ERROR" in msg.upper() or "STATUS: FAIL" in msg.upper():
-            self.console.insert(tk.END, f"> {msg}\n", "mismatch")
-        else:
-            self.console.insert(tk.END, f"> {msg}\n")
-            
-        self.console.see(tk.END)
-        self.console.config(state='disabled')
+        self.console.config(state='normal'); self.console.insert(tk.END, f"> {msg}\n"); self.console.see(tk.END); self.console.config(state='disabled')
 
     def refresh_ui(self):
         client = "..."
@@ -423,10 +354,5 @@ class ALWBWorkflowManager:
             p.wait(); self.refresh_ui()
         threading.Thread(target=worker, daemon=True).start()
 
-    def clear_log(self):
-        self.console.config(state='normal')
-        self.console.delete('1.0', tk.END)
-        self.console.config(state='disabled')
-        
 if __name__ == "__main__":
     tk_root = tk.Tk(); app = ALWBWorkflowManager(tk_root); tk_root.mainloop()
