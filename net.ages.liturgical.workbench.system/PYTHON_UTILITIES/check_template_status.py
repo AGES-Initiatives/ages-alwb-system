@@ -16,7 +16,7 @@ def validate_templates(target_month_code):
 
     print(f"--- VALIDATION REPORT FOR {target_month_code.upper()} ---")
     print(f"{'Filename':<20} | {'Status':<10} | {'Set_Date':<12} | {'Match?'}")
-    print("-" * 85)
+    print("-" * 55)
 
     all_files = []
     # Walk through the month folder and its dXX subfolders

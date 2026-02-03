@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Media Index</title>
+		<base href=''/>
+		<!-- Meta Declarations -->
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width"/>		
+	
+			<!-- Stylesheets -->
+			<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+			<link rel='stylesheet' type='text/css' href='css/alwb.css'>
+			<link rel='stylesheet' type='text/css' href='css/dcs.css'>
+			<link rel='stylesheet' type='text/css' href='js/lib/bootstrap/css/bootstrap.css'>
+			<link rel="stylesheet" type="text/css" href="css/jquery.dropdown.css" />
+	
+			<style>
+	
+				body {
+					background-color: #f3ebe1;
+				}
+	
+				#dcs_tree_container {
+					margin-left: -40px;
+				}
+				#dcs_tree{
+					
+				}
+				#dcs_tree li { 
+					font-family: "Arimo", sans-serif;
+					display:block; 
+					text-decoration:none; 
+					padding-left:10px; 
+				}
+	
+				p.treetitle {
+					text-align:center;
+					display:block; 
+					font-size: 16pt;
+					font-weight: bold;
+					color: #a91827;
+					border-top-style:none;
+				}
+				p.treesubtitle {
+					text-align:center;
+					display:block; 
+					font-size: 10pt;
+					font-style: italic;
+					color: #000000;
+				}
+				.level_1 {
+					display:block; 
+					font-size: 16pt;
+					font-weight: bold;
+					color: #a91827;
+					border-top-style:none;
+				}
+	
+				.level_2 {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: bold;
+					color: #a91827;
+					border-top-style:solid; 
+					border-top-width:1px; 
+				}
+	
+				.level_3 {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: bold;
+					color: #990000;
+					border-top-style:solid; 
+					border-top-width:1px; 
+				}
+	
+				.level_4 {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: bold;
+					color: #660000;
+					border-top-style:solid; 
+					border-top-width:1px; 
+				}
+	
+				.level_5 {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: bold;
+					color: #330000;
+					border-top-style:solid; 
+					border-top-width:1px; 
+				}
+	
+				.level_6 {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: bold;
+					color: #110000;
+					border-top-style:solid; 
+					border-top-width:1px; 
+				}				
+				
+				a {
+					color:#000000;
+				}
+	
+				.treelink {
+					margin-left: -25px;
+					font-size: 12pt;
+					font-weight: normal;
+					color: #000000;
+				}
+	
+				.treelink:hover {
+					cursor: pointer;
+				}
+	
+				.treeparent:hover {
+					cursor: cell;
+				}
+	
+				li span {
+					display: block;
+				}
+	
+				.treerubric {
+					font-size: 8pt;
+					font-weight: thin;
+					font-style: italic;
+					color: #000000;
+				}
+	
+				.notavailable a {
+					color: #B3B3B3;
+					font-style: italic;
+				}
+
+                .contributor{
+                    display: inline;
+                    padding-left: 10px;
+                    font-size: 10pt;
+                    font-weight: normal;
+                    color: #330000;
+                }		
+			</style>
+	
+			<!-- Scripts -->
+			<script data-main="js/app" src="js/lib/require.js"></script>
+			<script src="js/lib/jquery-2.0.3.min.js"></script>
+			<script src="js/lib/dcs_tree.js"></script>
+			
+			<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+				<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+				<!--[if lt IE 9]>
+					<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+				<![endif]-->
+	    			<script type="text/javascript">
+	    					var alwbTooltips = {
+	    						l1: {
+	    							Audio: "Click to hear an audio recording.", 
+	    							Byzantine: "Click to view score in Byzantine notation.",
+	    							Staff: "Click to view score in Staff notation."
+	    							},
+	    						l2: {
+	    							Audio: "To hear an audio recording, click here.", 
+	    							Byzantine: "To view a Byzantine score, click here.",
+	    							Staff: "To view a Staff score, click here."
+	    							}
+	    					};
+	    			</script>
+	</head>
+	<body>
+		<div class='agesMenu'>
+			<!-- Menu Bar Icons-->
+			<a href="#" data-jqm-dropdown="#jqm-dropdown-pages" title="Go to..."><i class="fa fa-bars ages-menu-link"></i></a>
+			<span id="clockbox" class="clockbox"></span>
+			
+			<!-- Dropdown Menu Contents -->
+			<div id="jqm-dropdown-pages" class="jqm-dropdown jqm-dropdown-tip">
+			    <ul class="jqm-dropdown-menu jqm-dropdown-relative">
+					<li><a href="servicesindex.html"><i class="fa fa-calendar">&nbsp;Daily Services by Date</i></a></li>
+				    <li><a href="booksindex.html"><i class="fa fa-arrows">&nbsp;Sacraments and Services</i></a></li>
+		  			<li><a href="preferences.html"><i class="fa fa-list-alt">&nbsp;Preferences</i></a></li>
+					<li class="jqm-dropdown-divider"></li>
+				    <li><a href="about.html"><i class="fa fa-info-circle">&nbsp;About</i></a></li>
+				    <li><a href="contact.html"><i class="fa fa-envelope">&nbsp;Contact</i></a></li>
+			   <!-- <li><a href="donate.html"><i class="fa fa-money">&nbsp;Donate</i></a></li>-->
+					<li class="jqm-dropdown-divider"></li>
+				    <li><a href="javascript:(showInfo())"><i class="fa fa-laptop">&nbsp;Browser Information</i></a></li>
+			<!-- 	<li class="jqm-dropdown-divider"></li>  -->
+			 <!--   <li><a href="help.html"><i class="fa fa-question-circle">&nbsp;Help</i></a></li> -->
+			 	</ul>
+			</div>
+		</div>
+	<br>
+		<div class='index-content'>
+			<p class='logoleft'><img style="border:0;" src="img/goa-dcs-app-logotype-1200.png" alt="Digital Chant Stand of the Greek Orthodox Archdiocese of America" width="100%" height="100%"></p>
+			<p class="treetitle">Media Index</p>
+			<p class="treesubtitle">Scores and audio primarily in English</p>
+			<div id="dcs_tree_container">
+			    <ul id="dcs_tree">
+			</div>   <!--FOOTER STARTS HERE & IS 5 LINES-->
+		</div>
+		<br><br>	
+	</body>
+</html>
+
+                

@@ -5,6 +5,8 @@ import subprocess
 import sys
 import re
 import threading
+from pathlib import Path
+from datetime import datetime
 
 # --- SHARED PATHS ---
 UTILS_DIR = r"C:\git\ages-alwb-system\net.ages.liturgical.workbench.system\PYTHON_UTILITIES"
@@ -14,6 +16,7 @@ PRESET_STATUS = os.path.join(UTILS_DIR, "status_preset.txt")
 MASTER_ARES = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\c-generator-settings\pref.master.templates.ares"
 CLIENTS_BASE = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\b-preferences"
 ATEM_FILE = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\c-generator-settings\generator.atem"
+DERIVED_WEBSITE_BASE = Path(r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\src-gen\website")
 
 # Worker Scripts
 PRESET_SCRIPT = os.path.join(UTILS_DIR, "preset_switcher.py")
@@ -50,146 +53,178 @@ class WhatTab(ttk.Frame):
     def __init__(self, parent, run_script_callback):
         super().__init__(parent)
         self.run_script = run_script_callback
-        
         container = ttk.Frame(self, padding="20")
         container.pack(fill="both", expand=True)
-
         v_frame = ttk.LabelFrame(container, text=" Template Readiness (What) ", padding="15")
         v_frame.pack(fill="x", pady=10)
-
         ttk.Label(v_frame, text="Select a month to validate template consistency:").pack(anchor="w")
-
-        # Month Selector for Validation
         self.val_month_var = tk.StringVar()
         self.val_months_data = [
             ("January", "m01"), ("February", "m02"), ("March", "m03"), ("April", "m04"),
             ("May", "m05"), ("June", "m06"), ("July", "m07"), ("August", "m08"),
             ("September", "m09"), ("October", "m10"), ("November", "m11"), ("December", "m12")
         ]
-        
         self.val_month_combo = ttk.Combobox(v_frame, values=[m[0] for m in self.val_months_data], state="readonly")
         self.val_month_combo.pack(pady=10, fill="x")
         self.val_month_combo.set("January")
-
-        self.btn_check = ttk.Button(v_frame, text="Run Validation Report", 
-                                    command=self.trigger_validation, width=25)
+        self.btn_check = ttk.Button(v_frame, text="Run Validation Report", command=self.trigger_validation, width=25)
         self.btn_check.pack(pady=5)
         ToolTip(self.btn_check, "Compares filename date vs internal Set_Date and reports Status")
 
     def trigger_validation(self):
-        # Find the month code (m01, etc) for the selected name
         selected_name = self.val_month_combo.get()
         month_code = next(m[1] for m in self.val_months_data if m[0] == selected_name)
-        
-        # Run the script with the month code as an argument
         self.run_script(CHECK_STATUS_SCRIPT, month_code)
 
 class WhenTab(ttk.Frame):
-    """Formerly What - Handles Date and Regex generation."""
     def __init__(self, parent, log_callback):
         super().__init__(parent)
         self.log_callback = log_callback
-        
-        self.months_data = [
-            ("January", "01"), ("February", "02"), ("March", "03"), ("April", "04"),
-            ("May", "05"), ("June", "06"), ("July", "07"), ("August", "08"),
-            ("September", "09"), ("October", "10"), ("November", "11"), ("December", "12")
-        ]
+        self.months_data = [("January", "01"), ("February", "02"), ("March", "03"), ("April", "04"), ("May", "05"), ("June", "06"), ("July", "07"), ("August", "08"), ("September", "09"), ("October", "10"), ("November", "11"), ("December", "12")]
         self.status_options = ["Final", "Review", "Draft", "NA"]
-        self.regex_presets = {
-            "HTML generation": r"se.m{m}.d{d}.(..|...)",
-            "PDF Generation": r"se.m{m}.d{d}.(..|(?!(ma2|h91))\\w{{3}})",
-            "Seminary Chapel": r"se.hc.m{m}.d{d}.(ma8)"
-        }
-
+        self.regex_presets = {"HTML generation": r"se.m{m}.d{d}.(..|...)", "PDF Generation": r"se.m{m}.d{d}.(..|(?!(ma2|h91))\\w{{3}})", "Seminary Chapel": r"se.hc.m{m}.d{d}.(ma8)"}
         self.month_vars = {m[1]: tk.BooleanVar() for m in self.months_data}
         self.day_vars = {f"{d:02d}": tk.BooleanVar() for d in range(1, 32)}
         self.manual_var = tk.StringVar()
-
         for var in self.month_vars.values(): var.trace_add("write", self.on_input_change)
         for var in self.day_vars.values(): var.trace_add("write", self.on_input_change)
         self.manual_var.trace_add("write", self.set_button_dirty)
-
         self.create_widgets()
         self.sync_manual_box()
 
     def create_widgets(self):
         container = ttk.Frame(self, padding="10")
         container.pack(fill="both", expand=True)
-
         m_frame = ttk.LabelFrame(container, text=" Months ", padding="5")
         m_frame.pack(fill="x", pady=(0, 5))
         m_grid = ttk.Frame(m_frame); m_grid.pack(anchor="w", pady=5)
         for i, (name, code) in enumerate(self.months_data):
             ttk.Checkbutton(m_grid, text=name, variable=self.month_vars[code]).grid(row=i//4, column=i%4, sticky="w", padx=5)
-
         d_frame = ttk.LabelFrame(container, text=" Days ", padding="5")
         d_frame.pack(fill="x", pady=5)
         d_grid = ttk.Frame(d_frame); d_grid.pack(anchor="w", pady=5)
         for d in range(1, 32):
             code = f"{d:02d}"
-            row_idx = (d-1) // 10
-            col_idx = (d-1) % 10
-            ttk.Checkbutton(d_grid, text=code, variable=self.day_vars[code], width=4).grid(row=row_idx, column=col_idx, sticky="w", padx=2)
-
+            ttk.Checkbutton(d_grid, text=code, variable=self.day_vars[code], width=4).grid(row=(d-1)//10, column=(d-1)%10, sticky="w", padx=2)
         s_frame = ttk.Frame(container); s_frame.pack(fill="x", pady=5)
         ttk.Label(s_frame, text="Preset:").grid(row=0, column=0, sticky="w")
         self.pattern_combo = ttk.Combobox(s_frame, values=list(self.regex_presets.keys()), state="readonly", width=18)
         self.pattern_combo.grid(row=0, column=1, padx=5); self.pattern_combo.set("HTML generation")
         self.pattern_combo.bind("<<ComboboxSelected>>", self.on_input_change)
-        
         ttk.Label(s_frame, text="Status:").grid(row=0, column=2, padx=(10, 0))
         self.status_combo = ttk.Combobox(s_frame, values=self.status_options, state="readonly", width=8)
         self.status_combo.grid(row=0, column=3, padx=5); self.status_combo.set("Final")
         self.status_combo.bind("<<ComboboxSelected>>", self.set_button_dirty)
-
         r_frame = ttk.LabelFrame(container, text=" Final Regex (Review or Edit) ", padding="10")
         r_frame.pack(fill="x", pady=5)
         e_bar = ttk.Frame(r_frame); e_bar.pack(fill="x")
         ttk.Entry(e_bar, textvariable=self.manual_var, font=('Consolas', 10)).pack(side="left", fill="x", expand=True, padx=(0,5))
-        
         self.btn_update_atem = tk.Button(e_bar, text="Update", command=self.update_atem, bg="#f0f0f0", relief="raised", bd=1, width=8)
         self.btn_update_atem.pack(side="left", padx=2)
         ToolTip(self.btn_update_atem, "Update generator.atem with these settings")
-        
         ttk.Button(e_bar, text="Revert", command=self.sync_manual_box, width=8).pack(side="left", padx=(2, 0))
 
-    def on_input_change(self, *args):
-        self.sync_manual_box()
-        self.set_button_dirty()
-
-    def set_button_dirty(self, *args):
-        self.btn_update_atem.configure(bg="red", fg="white", font=('Segoe UI', 9, 'bold'))
-
-    def set_button_clean(self):
-        self.btn_update_atem.configure(bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
-
+    def on_input_change(self, *args): self.sync_manual_box(); self.set_button_dirty()
+    def set_button_dirty(self, *args): self.btn_update_atem.configure(bg="red", fg="white", font=('Segoe UI', 9, 'bold'))
+    def set_button_clean(self): self.btn_update_atem.configure(bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
     def sync_manual_box(self, *args):
         sel_m = sorted([c for c, v in self.month_vars.items() if v.get()])
         sel_d = sorted([c for c, v in self.day_vars.items() if v.get()])
         m_p = self.build_grp(sel_m, 12); d_p = self.build_grp(sel_d, 31)
         self.manual_var.set(self.regex_presets[self.pattern_combo.get()].format(m=m_p, d=d_p))
         self.set_button_clean()
-
     def build_grp(self, items, count):
         if len(items) == count or len(items) == 0: return "(..)"
         return f"({items[0]})" if len(items) == 1 else f"({'|'.join(items)})"
-
     def update_atem(self):
         try:
-            regex = self.manual_var.get().strip()
-            line_reg = f'\t\tService_Regular_Expression "{regex}.atem"\n'
-            line_stat = f'\t\tService_Status {self.status_combo.get()}\n'
+            regex, stat = self.manual_var.get().strip(), self.status_combo.get()
             with open(ATEM_FILE, 'r', encoding='utf-8') as f: lines = f.readlines()
             with open(ATEM_FILE, 'w', encoding='utf-8', newline='') as f:
                 for l in lines:
-                    if "Service_Regular_Expression" in l: f.write(line_reg)
-                    elif "Service_Status" in l: f.write(line_stat)
+                    if "Service_Regular_Expression" in l: f.write(f'\t\tService_Regular_Expression "{regex}.atem"\n')
+                    elif "Service_Status" in l: f.write(f'\t\tService_Status {stat}\n')
                     else: f.write(l)
-            messagebox.showinfo("Success", "Atem file updated.")
-            self.log_callback(f"generator.atem updated: {regex}")
-            self.set_button_clean()
+            messagebox.showinfo("Success", "Atem file updated."); self.log_callback(f"generator.atem updated: {regex}"); self.set_button_clean()
         except Exception as e: messagebox.showerror("Error", str(e))
+
+class PostGenerationTab(ttk.Frame):
+    """Fourth Tab: Post-Generation Utilities and Index Editor."""
+    def __init__(self, parent, log_callback, run_script_callback):
+        super().__init__(parent)
+        self.log_callback = log_callback
+        self.run_script = run_script_callback
+        self.service_rows = []
+        self.current_file = None
+
+        container = ttk.Frame(self, padding="10")
+        container.pack(fill="both", expand=True)
+
+        # SECTION 1: Post-Generation Utilities
+        util_frame = ttk.LabelFrame(container, text=" Post-Generation Utilities ", padding="10")
+        util_frame.pack(fill="x", pady=(0, 5))
+        
+        tight_row = ttk.Frame(util_frame); tight_row.pack(fill="x")
+        ttk.Label(tight_row, text="PDF:", font=('Segoe UI', 9, 'bold')).pack(side="left")
+        btn_logo = ttk.Button(tight_row, text="Add Logo", command=lambda: self.run_script(LOGO_SCRIPT), width=9)
+        btn_logo.pack(side="left", padx=(2, 10))
+        ToolTip(btn_logo, "Add GOA logo to PDF covers")
+        
+        ttk.Label(tight_row, text="HTML:", font=('Segoe UI', 9, 'bold')).pack(side="left")
+        btn_code = ttk.Button(tight_row, text="Insert Code", command=lambda: self.run_script(ANALYTICS_SCRIPT), width=10)
+        btn_code.pack(side="left", padx=2)
+        ToolTip(btn_code, "Insert google analytics code into HTML files")
+
+        # SECTION 2: Index Editor
+        editor_frame = ttk.LabelFrame(container, text=" Index Editor ", padding="10")
+        editor_frame.pack(fill="both", expand=True, pady=5)
+
+        # File Selector inside Index Editor
+        sel_frame = ttk.Frame(editor_frame); sel_frame.pack(fill="x", pady=(0, 5))
+        sites = sorted([d.name for d in DERIVED_WEBSITE_BASE.iterdir() if d.is_dir()]) if DERIVED_WEBSITE_BASE.exists() else ["Error"]
+        self.site_combo = ttk.Combobox(sel_frame, values=sites, state="readonly", width=12)
+        self.site_combo.pack(side="left", padx=5)
+        if "goa" in sites: self.site_combo.set("goa")
+        
+        self.y_var, self.m_var, self.d_var = tk.StringVar(value="2026"), tk.StringVar(value=datetime.now().strftime("%m")), tk.StringVar(value=datetime.now().strftime("%d"))
+        ttk.Combobox(sel_frame, textvariable=self.y_var, values=[str(y) for y in range(2024, 2030)], width=6).pack(side="left")
+        ttk.Combobox(sel_frame, textvariable=self.m_var, values=[f"{m:02d}" for m in range(1, 13)], width=4).pack(side="left", padx=2)
+        ttk.Combobox(sel_frame, textvariable=self.d_var, values=[f"{d:02d}" for d in range(1, 32)], width=4).pack(side="left")
+        
+        ttk.Button(sel_frame, text="Load", command=self.load_index, width=8).pack(side="left", padx=10)
+        ttk.Button(sel_frame, text="Save All", command=self.save_index, width=10).pack(side="left")
+
+        # Scrollable Area inside Index Editor
+        self.canvas = tk.Canvas(editor_frame)
+        self.scrollbar = ttk.Scrollbar(editor_frame, orient="vertical", command=self.canvas.yview)
+        self.scroll_frame = ttk.Frame(self.canvas)
+        self.scroll_frame.bind("<Configure>", lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
+        self.canvas.create_window((0, 0), window=self.scroll_frame, anchor="nw")
+        self.canvas.configure(yscrollcommand=self.scrollbar.set)
+        self.canvas.pack(side="left", fill="both", expand=True)
+        self.scrollbar.pack(side="right", fill="y")
+
+    def load_index(self):
+        fname = f"{self.y_var.get()}{self.m_var.get()}{self.d_var.get()}.html"
+        self.current_file = DERIVED_WEBSITE_BASE / self.site_combo.get() / "dcs" / "indexes" / fname
+        if not self.current_file.exists(): messagebox.showerror("Not Found", f"Derived index missing:\n{fname}"); return
+        for w in self.scroll_frame.winfo_children(): w.destroy()
+        self.service_rows = []
+        content = self.current_file.read_text(encoding="utf-8")
+        matches = re.finditer(r"<span class='index-service-day'>(.*?)</span>", content)
+        for m in matches:
+            row = ttk.Frame(self.scroll_frame, padding=2); row.pack(fill="x")
+            e = ttk.Entry(row, width=60); e.insert(0, m.group(1)); e.pack(side="left", padx=5)
+            self.service_rows.append({'orig': m.group(1), 'entry': e})
+        self.log_callback(f"Loaded index for editing: {fname}")
+
+    def save_index(self):
+        if not self.current_file: return
+        content = self.current_file.read_text(encoding="utf-8")
+        for r in self.service_rows:
+            content = content.replace(f"class='index-service-day'>{r['orig']}</span>", f"class='index-service-day'>{r['entry'].get()}</span>")
+        self.current_file.write_text(content, encoding="utf-8")
+        messagebox.showinfo("Saved", "Derived index updated."); self.load_index()
 
 class ALWBWorkflowManager:
     def __init__(self, root):
@@ -197,192 +232,94 @@ class ALWBWorkflowManager:
         try:
             self.logo_img = tk.PhotoImage(file=LOGO_ICON_PATH)
             self.root.iconphoto(False, self.logo_img)
-        except:
-            pass
+        except: pass
         self.root.title("DCS Generation Dashboard")
-        self.root.geometry("550x750")
-        self.root.resizable(True, True)
-        self.root.minsize(440, 480)
-
-        self.style = ttk.Style()
-        self.style.theme_use('xpnative')
-
-        self.main_container = ttk.Frame(self.root)
-        self.main_container.pack(fill="both", expand=True)
-
-        self.notebook = ttk.Notebook(self.main_container)
-        self.notebook.pack(fill="both", expand=True, padx=5, pady=5)
-
-        # UPDATED TAB ORDER AND LABELS
+        self.root.geometry("550x850")
+        self.root.resizable(True, True); self.root.minsize(440, 480)
+        self.style = ttk.Style(); self.style.theme_use('xpnative')
+        self.main_container = ttk.Frame(self.root); self.main_container.pack(fill="both", expand=True)
+        self.notebook = ttk.Notebook(self.main_container); self.notebook.pack(fill="both", expand=True, padx=5, pady=5)
+        
         self.what_tab = WhatTab(self.notebook, self.run_script)
         self.notebook.add(self.what_tab, text=" What ")
-
-        self.main_tab = ttk.Frame(self.notebook)
-        self.notebook.add(self.main_tab, text=" Who - Where - How ")
+        self.main_tab = ttk.Frame(self.notebook); self.notebook.add(self.main_tab, text=" Who - Where - How ")
         self.setup_main_tab()
-
-        self.when_tab = WhenTab(self.notebook, self.log)
-        self.notebook.add(self.when_tab, text=" When ")
-
-# 1. Create the container for the log
-        self.log_container = ttk.Frame(self.main_container)
-        self.log_container.pack(fill="both", expand=True)
-
-        # 2. Create a small bar for the buttons (Sits ABOVE the log frame)
-        self.button_bar = ttk.Frame(self.log_container)
-        self.button_bar.pack(fill="x", padx=15)
-
-        # 3. Pack buttons to the RIGHT side of the bar
-        # Pack them in reverse order (Clear then Hide) to keep Hide on the far right
-        ttk.Button(self.button_bar, text="CLEAR", width=10, command=self.clear_log).pack(side="right", padx=2)
+        self.when_tab = WhenTab(self.notebook, self.log); self.notebook.add(self.when_tab, text=" When ")
         
-        self.btn_log_toggle = ttk.Button(self.button_bar, text="HIDE LOG", width=12, command=self.toggle_log)
-        self.btn_log_toggle.pack(side="right", padx=2)
+        # ADDED POST-GENERATION TAB
+        self.post_gen_tab = PostGenerationTab(self.notebook, self.log, self.run_script)
+        self.notebook.add(self.post_gen_tab, text=" Post-Generation ")
 
-        # 4. The actual Log Frame (This is what will hide/show)
-        self.log_frame = ttk.LabelFrame(self.log_container, text=" Activity Log ", padding="5")
-        self.log_frame.pack(fill="both", expand=True, padx=15, pady=5)
-
-        self.console = scrolledtext.ScrolledText(self.log_frame, height=45, state='disabled', font=('Consolas', 9))
-        self.console.pack(fill="both", expand=True)
-
+        self.log_container = ttk.Frame(self.main_container); self.log_container.pack(fill="both", expand=True)
+        self.button_bar = ttk.Frame(self.log_container); self.button_bar.pack(fill="x", padx=15)
+        ttk.Button(self.button_bar, text="CLEAR", width=10, command=self.clear_log).pack(side="right", padx=2)
+        self.btn_log_toggle = ttk.Button(self.button_bar, text="HIDE LOG", width=12, command=self.toggle_log); self.btn_log_toggle.pack(side="right", padx=2)
+        self.log_frame = ttk.LabelFrame(self.log_container, text=" Activity Log ", padding="5"); self.log_frame.pack(fill="both", expand=True, padx=15, pady=5)
+        self.console = scrolledtext.ScrolledText(self.log_frame, height=15, state='disabled', font=('Consolas', 9)); self.console.pack(fill="both", expand=True)
         self.refresh_ui()
 
     def toggle_log(self):
-        """Hides or Shows the log frame while keeping buttons visible."""
-        if self.log_frame.winfo_viewable():
-            self.log_frame.pack_forget()
-            self.btn_log_toggle.configure(text="SHOW LOG")
-        else:
-            self.log_frame.pack(fill="both", expand=True, padx=15, pady=5)
-            self.btn_log_toggle.configure(text="HIDE LOG")
+        if self.log_frame.winfo_viewable(): self.log_frame.pack_forget(); self.btn_log_toggle.configure(text="SHOW LOG")
+        else: self.log_frame.pack(fill="both", expand=True, padx=15, pady=5); self.btn_log_toggle.configure(text="HIDE LOG")
 
     def setup_main_tab(self):
-        status_frame = ttk.LabelFrame(self.main_tab, text=" System Status ", padding="10")
-        status_frame.pack(fill="x", padx=15, pady=5)
-        
+        status_frame = ttk.LabelFrame(self.main_tab, text=" System Status ", padding="10"); status_frame.pack(fill="x", padx=15, pady=5)
         row1 = ttk.Frame(status_frame); row1.pack(fill="x")
         ttk.Label(row1, text="Client:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.client_var = tk.StringVar(value="...")
-        ttk.Label(row1, textvariable=self.client_var, foreground="#005fb8", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=(5, 10))
-        
+        self.client_var = tk.StringVar(value="..."); ttk.Label(row1, textvariable=self.client_var, foreground="#005fb8", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=(5, 10))
         ttk.Label(row1, text="Website:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.web_status_var = tk.StringVar(value="...")
-        ttk.Label(row1, textvariable=self.web_status_var, foreground="#2e86c1", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=(5, 10))
-        
+        self.web_status_var = tk.StringVar(value="..."); ttk.Label(row1, textvariable=self.web_status_var, foreground="#2e86c1", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=(5, 10))
         ttk.Label(row1, text="Indexer:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.indexer_var = tk.StringVar(value="...")
-        self.indexer_status_lbl = ttk.Label(row1, textvariable=self.indexer_var, font=('Segoe UI', 9, 'bold'))
-        self.indexer_status_lbl.pack(side="left", padx=5)
-
+        self.indexer_var = tk.StringVar(value="..."); self.indexer_status_lbl = ttk.Label(row1, textvariable=self.indexer_var, font=('Segoe UI', 9, 'bold')); self.indexer_status_lbl.pack(side="left", padx=5)
         row2 = ttk.Frame(status_frame); row2.pack(fill="x", pady=(8, 0))
         ttk.Label(row2, text="Generation Preset:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.preset_var = tk.StringVar(value="...")
-        ttk.Label(row2, textvariable=self.preset_var, foreground="#6c3483", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=10)
-
-        conf_frame = ttk.LabelFrame(self.main_tab, text=" Configuration ", padding="10")
-        conf_frame.pack(fill="x", padx=15, pady=5)
+        self.preset_var = tk.StringVar(value="..."); ttk.Label(row2, textvariable=self.preset_var, foreground="#6c3483", font=('Segoe UI', 9, 'bold')).pack(side="left", padx=10)
+        conf_frame = ttk.LabelFrame(self.main_tab, text=" Configuration ", padding="10"); conf_frame.pack(fill="x", padx=15, pady=5)
         ttk.Label(conf_frame, text="Client:", font=('Segoe UI', 9, 'bold')).grid(row=0, column=0, sticky="w")
-        self.client_combo = ttk.Combobox(conf_frame, values=self.get_available_clients(), state="readonly", width=15)
-        self.client_combo.grid(row=0, column=1, columnspan=2, sticky="w", padx=(5, 0))
-        self.client_combo.bind("<<ComboboxSelected>>", self.apply_client_switch)
-
+        self.client_combo = ttk.Combobox(conf_frame, values=self.get_available_clients(), state="readonly", width=15); self.client_combo.grid(row=0, column=1, columnspan=2, sticky="w", padx=(5, 0)); self.client_combo.bind("<<ComboboxSelected>>", self.apply_client_switch)
         ttk.Label(conf_frame, text="Website:", font=('Segoe UI', 9, 'bold')).grid(row=1, column=0, sticky="w", pady=10)
-        self.web_folder_var = tk.StringVar()
-        self.web_folder_var.trace_add("write", self.handle_web_change) 
-        self.web_folder_entry = ttk.Entry(conf_frame, textvariable=self.web_folder_var, width=15)
-        self.web_folder_entry.grid(row=1, column=1, sticky="w", padx=(5, 0), pady=10)
-        
-        self.btn_update_web = tk.Button(conf_frame, text="Update Website", command=self.update_web_folder_in_ares, width=15, relief="raised", bd=1, bg="#f0f0f0")
-        self.btn_update_web.grid(row=1, column=2, padx=(5,0), pady=10)
+        self.web_folder_var = tk.StringVar(); self.web_folder_var.trace_add("write", self.handle_web_change) 
+        ttk.Entry(conf_frame, textvariable=self.web_folder_var, width=15).grid(row=1, column=1, sticky="w", padx=(5, 0), pady=10)
+        self.btn_update_web = tk.Button(conf_frame, text="Update Website", command=self.update_web_folder_in_ares, width=15, relief="raised", bd=1, bg="#f0f0f0"); self.btn_update_web.grid(row=1, column=2, padx=(5,0), pady=10)
         ToolTip(self.btn_update_web, "Update the website folder root for this client")
-
         ttk.Label(conf_frame, text="Preset:", font=('Segoe UI', 9, 'bold')).grid(row=2, column=0, sticky="w")
-        self.preset_combo = ttk.Combobox(conf_frame, values=["HTML EN", "HTML GR-EN", "HTML GR-EN / EN", "PDF EN", "PDF GR-EN", "PDF GR"], state="readonly", width=15)
-        self.preset_combo.grid(row=2, column=1, columnspan=2, sticky="w", padx=(5, 0))
-        self.preset_combo.bind("<<ComboboxSelected>>", self.apply_preset)
-        
+        self.preset_combo = ttk.Combobox(conf_frame, values=["HTML EN", "HTML GR-EN", "HTML GR-EN / EN", "PDF EN", "PDF GR-EN", "PDF GR"], state="readonly", width=15); self.preset_combo.grid(row=2, column=1, columnspan=2, sticky="w", padx=(5, 0)); self.preset_combo.bind("<<ComboboxSelected>>", self.apply_preset)
         ttk.Label(conf_frame, text="Indexer:", font=('Segoe UI', 9, 'bold')).grid(row=3, column=0, sticky="w", pady=(10, 0))
         idx_btn_frame = ttk.Frame(conf_frame); idx_btn_frame.grid(row=3, column=1, columnspan=2, sticky="w", padx=(5, 0), pady=(10, 0))
-        self.idx_state = tk.StringVar()
-        tk.Radiobutton(idx_btn_frame, text="ON", variable=self.idx_state, value="yes", indicatoron=0, width=5, command=lambda: self.set_indexer("yes")).pack(side="left")
-        tk.Radiobutton(idx_btn_frame, text="OFF", variable=self.idx_state, value="no", indicatoron=0, width=5, command=lambda: self.set_indexer("no")).pack(side="left")
+        self.idx_state = tk.StringVar(); tk.Radiobutton(idx_btn_frame, text="ON", variable=self.idx_state, value="yes", indicatoron=0, width=5, command=lambda: self.set_indexer("yes")).pack(side="left"); tk.Radiobutton(idx_btn_frame, text="OFF", variable=self.idx_state, value="no", indicatoron=0, width=5, command=lambda: self.set_indexer("no")).pack(side="left")
 
-        post_frame = ttk.LabelFrame(self.main_tab, text=" Post-Generation ", padding="10")
-        post_frame.pack(fill="x", padx=15, pady=5)
-        
-        tight_row = ttk.Frame(post_frame); tight_row.pack(fill="x")
-        ttk.Label(tight_row, text="PDF:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.btn_logo = ttk.Button(tight_row, text="Add Logo", command=lambda: self.run_script(LOGO_SCRIPT), width=9)
-        self.btn_logo.pack(side="left", padx=(2, 10))
-        ToolTip(self.btn_logo, "Add GOA logo to PDF covers")
-
-        ttk.Label(tight_row, text="HTML:", font=('Segoe UI', 9, 'bold')).pack(side="left")
-        self.btn_code = ttk.Button(tight_row, text="Insert Code", command=lambda: self.run_script(ANALYTICS_SCRIPT), width=10)
-        self.btn_code.pack(side="left", padx=2)
-        ToolTip(self.btn_code, "Insert google analytics code into HTML files")
-
-    def handle_web_change(self, *args):
-        if self.web_folder_var.get() != self.web_status_var.get():
-             self.btn_update_web.configure(bg="red", fg="white", font=('Segoe UI', 9, 'bold'))
-        else:
-             self.btn_update_web.configure(bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
-
+    def handle_web_change(self, *args): self.btn_update_web.configure(bg="red" if self.web_folder_var.get() != self.web_status_var.get() else "#f0f0f0", fg="white" if self.web_folder_var.get() != self.web_status_var.get() else "black", font=('Segoe UI', 9, 'bold' if self.web_folder_var.get() != self.web_status_var.get() else 'normal'))
     def log(self, msg):
-        self.console.config(state='normal')
-        
-        # Create a "red_text" tag if it doesn't exist
-        self.console.tag_config("mismatch", foreground="red", font=('Consolas', 9, 'bold'))
-        
-        # Check if the message contains "mismatch" or "ERROR" (adjust based on your script's output)
-        if "MISMATCH" in msg.upper() or "ERROR" in msg.upper() or "STATUS: FAIL" in msg.upper():
-            self.console.insert(tk.END, f"> {msg}\n", "mismatch")
-        else:
-            self.console.insert(tk.END, f"> {msg}\n")
-            
-        self.console.see(tk.END)
-        self.console.config(state='disabled')
-
+        self.console.config(state='normal'); self.console.tag_config("mismatch", foreground="red", font=('Consolas', 9, 'bold'))
+        self.console.insert(tk.END, f"> {msg}\n", "mismatch" if any(x in msg.upper() for x in ["MISMATCH", "ERROR", "FAIL"]) else None)
+        self.console.see(tk.END); self.console.config(state='disabled')
     def refresh_ui(self):
         client = "..."
         if os.path.exists(CONTEXT_FILE):
-            with open(CONTEXT_FILE, 'r') as f:
-                client = f.read().strip()
-                self.client_var.set(client.upper()); self.client_combo.set(client)
+            with open(CONTEXT_FILE, 'r') as f: client = f.read().strip(); self.client_var.set(client.upper()); self.client_combo.set(client)
         path = self.find_ares_file(client)
         if path:
             try:
                 with open(path, 'r', encoding='utf-8') as f: content = f.read()
                 idx_match = re.search(r'generate\.services\.index\s*=\s*"([^"]+)"', content)
-                if idx_match:
-                    val = idx_match.group(1).lower()
-                    self.indexer_var.set("ON" if val == "yes" else "OFF"); self.idx_state.set(val)
-                    self.indexer_status_lbl.configure(foreground="green" if val == "yes" else "red")
+                if idx_match: val = idx_match.group(1).lower(); self.indexer_var.set("ON" if val == "yes" else "OFF"); self.idx_state.set(val); self.indexer_status_lbl.configure(foreground="green" if val == "yes" else "red")
                 f_match = re.search(r'generated\.website\.folder\.root\s*=\s*"([^/]+)/dcs"', content)
-                if f_match: 
-                    current_val = f_match.group(1)
-                    self.web_status_var.set(current_val)
-                    self.web_folder_var.set(current_val)
-                    self.btn_update_web.configure(bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
+                if f_match: current_val = f_match.group(1); self.web_status_var.set(current_val); self.web_folder_var.set(current_val); self.btn_update_web.configure(bg="#f0f0f0", fg="black")
             except: pass
         if os.path.exists(PRESET_STATUS):
             with open(PRESET_STATUS, 'r') as f: self.preset_var.set(f.read().strip())
-
     def find_ares_file(self, client):
         target = f"pref.website_{client}.ares"
         for r, _, files in os.walk(CLIENTS_BASE):
             if target in files: return os.path.join(r, target)
         return None
-
     def get_available_clients(self):
         try: return [d for d in os.listdir(CLIENTS_BASE) if os.path.isdir(os.path.join(CLIENTS_BASE, d))]
         except: return []
-
     def apply_client_switch(self, event):
         client = self.client_combo.get()
         with open(CONTEXT_FILE, 'w') as f: f.write(client)
         threading.Thread(target=self.sync_master_ares, args=(client,), daemon=True).start()
-
     def sync_master_ares(self, client_name):
         try:
             with open(MASTER_ARES, 'r', encoding='utf-8') as f: content = f.read()
@@ -392,7 +329,6 @@ class ALWBWorkflowManager:
                 with open(MASTER_ARES, 'w', encoding='utf-8', newline='') as f: f.write(new_content)
         except Exception as e: self.log(f"Error: {e}")
         self.refresh_ui()
-
     def update_web_folder_in_ares(self):
         client, folder = self.client_combo.get(), self.web_folder_var.get().strip()
         path = self.find_ares_file(client)
@@ -405,15 +341,11 @@ class ALWBWorkflowManager:
                     else: f.write(line)
             self.refresh_ui(); messagebox.showinfo("Updated", f"Website folder set to: {folder}")
         except Exception as e: self.log(f"Error: {e}")
-
     def set_indexer(self, state): self.run_script(INDEXER_SCRIPT, state)
     def apply_preset(self, event):
         sel = self.preset_combo.get()
         mapping = {"HTML EN": "HTML_E", "HTML GR-EN": "HTML_GE", "HTML GR-EN / EN": "HTML_GE_E", "PDF EN": "PDF_E", "PDF GR-EN": "PDF_GE", "PDF GR": "PDF_G"}
-        self.run_script(PRESET_SCRIPT, mapping[sel])
-        with open(PRESET_STATUS, 'w') as f: f.write(sel)
-        self.refresh_ui()
-
+        self.run_script(PRESET_SCRIPT, mapping[sel]); f = open(PRESET_STATUS, 'w'); f.write(sel); f.close(); self.refresh_ui()
     def run_script(self, script_path, arg=None):
         def worker():
             cmd = [sys.executable, script_path]
@@ -422,11 +354,7 @@ class ALWBWorkflowManager:
             for line in p.stdout: self.log(line.strip())
             p.wait(); self.refresh_ui()
         threading.Thread(target=worker, daemon=True).start()
-
-    def clear_log(self):
-        self.console.config(state='normal')
-        self.console.delete('1.0', tk.END)
-        self.console.config(state='disabled')
+    def clear_log(self): self.console.config(state='normal'); self.console.delete('1.0', tk.END); self.console.config(state='disabled')
         
 if __name__ == "__main__":
     tk_root = tk.Tk(); app = ALWBWorkflowManager(tk_root); tk_root.mainloop()
