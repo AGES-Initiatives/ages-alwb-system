@@ -17,6 +17,8 @@ MASTER_ARES = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templat
 CLIENTS_BASE = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\b-preferences"
 ATEM_FILE = r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\c-generator-settings\generator.atem"
 DERIVED_WEBSITE_BASE = Path(r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\src-gen\website")
+# Targeted scan path for QA
+SCAN_PATH = Path(r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates\src-gen\website\test\dcs\h\s")
 
 # Worker Scripts
 PRESET_SCRIPT = os.path.join(UTILS_DIR, "preset_switcher.py")
@@ -50,15 +52,18 @@ class ToolTip:
             self.tip_window = None
 
 class WhatTab(ttk.Frame):
-    def __init__(self, parent, run_script_callback):
+    def __init__(self, parent, run_script_callback, manager):
         super().__init__(parent)
         self.run_script = run_script_callback
+        self.manager = manager
         container = ttk.Frame(self, padding="20")
         container.pack(fill="both", expand=True)
+
+        # --- SECTION 1: Template Readiness ---
         v_frame = ttk.LabelFrame(container, text=" Template Readiness (What) ", padding="15")
         v_frame.pack(fill="x", pady=10)
-        ttk.Label(v_frame, text="Select a month to validate template consistency:").pack(anchor="w")
-        self.val_month_var = tk.StringVar()
+        
+        ttk.Label(v_frame, text="Select a month to check its templates.").pack(anchor="w")
         self.val_months_data = [
             ("January", "m01"), ("February", "m02"), ("March", "m03"), ("April", "m04"),
             ("May", "m05"), ("June", "m06"), ("July", "m07"), ("August", "m08"),
@@ -68,8 +73,29 @@ class WhatTab(ttk.Frame):
         self.val_month_combo.pack(pady=10, fill="x")
         self.val_month_combo.set("January")
         self.btn_check = ttk.Button(v_frame, text="Run Validation Report", command=self.trigger_validation, width=25)
-        self.btn_check.pack(pady=5)
-        ToolTip(self.btn_check, "Compares filename date vs internal Set_Date and reports Status")
+        self.btn_check.pack(pady=5, anchor="w") 
+
+        # --- SECTION 2: Website Readiness ---
+        w_frame = ttk.LabelFrame(container, text=" Website Readiness ", padding="15")
+        w_frame.pack(fill="x", pady=10)
+        
+        ttk.Label(w_frame, text="Sacraments and Services Index", font=('Segoe UI', 9, 'bold')).pack(anchor="w")
+        self.btn_index_books = ttk.Button(w_frame, text="Update EN and GR Media", 
+                                          command=lambda: self.run_script("total_media_refresh.py"), width=25)
+        self.btn_index_books.pack(pady=5, anchor="w")
+
+        # --- NEW SECTION 3: Template Testing (QA) ---
+        t_frame = ttk.LabelFrame(container, text=" Template Testing (QA) ", padding="15")
+        t_frame.pack(fill="x", pady=10)
+        
+        ttk.Label(t_frame, text="1. Prepare environment:").pack(anchor="w")
+        self.btn_prep = ttk.Button(t_frame, text="Test and HTML EN", command=self.manager.setup_test_env, width=25)
+        self.btn_prep.pack(pady=5, anchor="w")
+        ToolTip(self.btn_prep, "Sets Client=test, Indexer=OFF, Preset=HTML EN, targets Month, and opens ATEM")
+
+        ttk.Label(t_frame, text="2. After generating in Eclipse (Ctrl+G):").pack(anchor="w", pady=(10, 0))
+        self.btn_scan = ttk.Button(t_frame, text="Scan for Missing Strings", command=self.manager.run_error_scan, width=25)
+        self.btn_scan.pack(pady=5, anchor="w")
 
     def trigger_validation(self):
         selected_name = self.val_month_combo.get()
@@ -149,7 +175,6 @@ class WhenTab(ttk.Frame):
         except Exception as e: messagebox.showerror("Error", str(e))
 
 class PostGenerationTab(ttk.Frame):
-    """Fourth Tab: Post-Generation Utilities and Index Editor."""
     def __init__(self, parent, log_callback, run_script_callback):
         super().__init__(parent)
         self.log_callback = log_callback
@@ -160,7 +185,6 @@ class PostGenerationTab(ttk.Frame):
         container = ttk.Frame(self, padding="10")
         container.pack(fill="both", expand=True)
 
-        # SECTION 1: Post-Generation Utilities
         util_frame = ttk.LabelFrame(container, text=" Post-Generation Utilities ", padding="10")
         util_frame.pack(fill="x", pady=(0, 5))
         
@@ -168,18 +192,14 @@ class PostGenerationTab(ttk.Frame):
         ttk.Label(tight_row, text="PDF:", font=('Segoe UI', 9, 'bold')).pack(side="left")
         btn_logo = ttk.Button(tight_row, text="Add Logo", command=lambda: self.run_script(LOGO_SCRIPT), width=9)
         btn_logo.pack(side="left", padx=(2, 10))
-        ToolTip(btn_logo, "Add GOA logo to PDF covers")
         
         ttk.Label(tight_row, text="HTML:", font=('Segoe UI', 9, 'bold')).pack(side="left")
         btn_code = ttk.Button(tight_row, text="Insert Code", command=lambda: self.run_script(ANALYTICS_SCRIPT), width=10)
         btn_code.pack(side="left", padx=2)
-        ToolTip(btn_code, "Insert google analytics code into HTML files")
 
-        # SECTION 2: Index Editor
         editor_frame = ttk.LabelFrame(container, text=" Index Editor ", padding="10")
         editor_frame.pack(fill="both", expand=True, pady=5)
 
-        # File Selector inside Index Editor
         sel_frame = ttk.Frame(editor_frame); sel_frame.pack(fill="x", pady=(0, 5))
         sites = sorted([d.name for d in DERIVED_WEBSITE_BASE.iterdir() if d.is_dir()]) if DERIVED_WEBSITE_BASE.exists() else ["Error"]
         self.site_combo = ttk.Combobox(sel_frame, values=sites, state="readonly", width=12)
@@ -194,7 +214,6 @@ class PostGenerationTab(ttk.Frame):
         ttk.Button(sel_frame, text="Load", command=self.load_index, width=8).pack(side="left", padx=10)
         ttk.Button(sel_frame, text="Save All", command=self.save_index, width=10).pack(side="left")
 
-        # Scrollable Area inside Index Editor
         self.canvas = tk.Canvas(editor_frame)
         self.scrollbar = ttk.Scrollbar(editor_frame, orient="vertical", command=self.canvas.yview)
         self.scroll_frame = ttk.Frame(self.canvas)
@@ -234,19 +253,20 @@ class ALWBWorkflowManager:
             self.root.iconphoto(False, self.logo_img)
         except: pass
         self.root.title("DCS Generation Dashboard")
-        self.root.geometry("550x850")
+        self.root.geometry("600x900")
         self.root.resizable(True, True); self.root.minsize(440, 480)
         self.style = ttk.Style(); self.style.theme_use('xpnative')
         self.main_container = ttk.Frame(self.root); self.main_container.pack(fill="both", expand=True)
         self.notebook = ttk.Notebook(self.main_container); self.notebook.pack(fill="both", expand=True, padx=5, pady=5)
         
-        self.what_tab = WhatTab(self.notebook, self.run_script)
+        self.what_tab = WhatTab(self.notebook, self.run_script, self)
         self.notebook.add(self.what_tab, text=" What ")
+        
         self.main_tab = ttk.Frame(self.notebook); self.notebook.add(self.main_tab, text=" Who - Where - How ")
         self.setup_main_tab()
+        
         self.when_tab = WhenTab(self.notebook, self.log); self.notebook.add(self.when_tab, text=" When ")
         
-        # ADDED POST-GENERATION TAB
         self.post_gen_tab = PostGenerationTab(self.notebook, self.log, self.run_script)
         self.notebook.add(self.post_gen_tab, text=" Post-Generation ")
 
@@ -257,6 +277,94 @@ class ALWBWorkflowManager:
         self.log_frame = ttk.LabelFrame(self.log_container, text=" Activity Log ", padding="5"); self.log_frame.pack(fill="both", expand=True, padx=15, pady=5)
         self.console = scrolledtext.ScrolledText(self.log_frame, height=15, state='disabled', font=('Consolas', 9)); self.console.pack(fill="both", expand=True)
         self.refresh_ui()
+
+    # --- QA LOGIC START ---
+    def setup_test_env(self):
+        """Action for 'Test for Empty Strings' - Prepares all systems and focuses Eclipse"""
+        self.log("QA SETUP: Overriding configuration for Empty String check...")
+        try:
+            # 1. Update Client Context
+            with open(CONTEXT_FILE, 'w') as f: f.write("test")
+            self.log("CLIENT CONTEXT: Set to 'test'")
+
+            # 2. Toggle Indexer and Preset via sub-scripts
+            self.set_indexer("no")
+            # Apply HTML EN preset
+            mapping = {"HTML EN": "HTML_E"}
+            self.run_script(PRESET_SCRIPT, mapping["HTML EN"])
+            with open(PRESET_STATUS, 'w') as f: f.write("HTML EN")
+            
+            # 3. Sync ATEM Regex for month
+            selected_name = self.what_tab.val_month_combo.get()
+            month_code = next(m[1] for m in self.what_tab.val_months_data if m[0] == selected_name)
+            pattern = f"se.{month_code}.d(..).(..|...)"
+            
+            with open(ATEM_FILE, 'r', encoding='utf-8') as f: lines = f.readlines()
+            with open(ATEM_FILE, 'w', encoding='utf-8', newline='') as f:
+                for line in lines:
+                    if "Service_Regular_Expression" in line: f.write(f'\t\tService_Regular_Expression "{pattern}.atem"\n')
+                    else: f.write(line)
+            os.utime(ATEM_FILE, None)
+            self.log(f"ATEM SYNC: Month set to {selected_name} ({month_code})")
+
+            # 4. Refresh UI
+            self.refresh_ui() 
+            
+            # 5. Open in Eclipse
+            if os.path.exists(ATEM_FILE):
+                os.startfile(ATEM_FILE)
+                self.log(f"ECLIPSE: Focused {os.path.basename(ATEM_FILE)}")
+            
+            self.log("--------------------------------------------------")
+            self.log("SYSTEM READY: Press CTRL+G in Eclipse to generate.")
+            self.log("--------------------------------------------------")
+        except Exception as e:
+            self.log(f"ERROR in setup_test_env: {e}")
+
+    def run_error_scan(self):
+        """Scans 'en' folders only, skipping Greek/Bilingual false positives"""
+        search_strings = ["<p class='hymn'><span class='kvp dummy'", "<p class='reading'><span class='kvp dummy'"]
+        found_count = 0
+        self.log(f"SCANNING: Filtering English paths in {SCAN_PATH}...")
+
+        if not SCAN_PATH.exists():
+            self.log(f"ERROR: Scan path missing: {SCAN_PATH}")
+            return
+
+        for html_file in SCAN_PATH.rglob("index.html"):
+            path_parts = [p.lower() for p in html_file.parts]
+            # Exclude paths containing Greek or Bilingual tags
+            if any(x in path_parts for x in ["gr", "gr-en", "grem"]) or "en" not in path_parts:
+                continue
+
+            try:
+                with open(html_file, 'r', encoding='utf-8') as f:
+                    for i, line in enumerate(f, 1):
+                        if any(s in line for s in search_strings):
+                            rel_p = str(html_file.parent.relative_to(SCAN_PATH)).replace("\\", "/")
+                            # Custom log method to handle links
+                            self.log_link(f"{rel_p} (Line {i})", str(html_file))
+                            found_count += 1
+                            break 
+            except Exception as e:
+                self.log(f"Read Error: {html_file.name}")
+        
+        if found_count == 0:
+            self.log("SUCCESS: No missing strings found in English folders.")
+            messagebox.showinfo("QA Pass", "Clean English Generation!")
+        else:
+            self.log(f"SCAN COMPLETE: {found_count} issues reported.")
+
+    def log_link(self, msg, file_path):
+        self.console.config(state='normal')
+        tag_name = f"link_{hash(file_path)}"
+        self.console.tag_config(tag_name, foreground="#4da6ff", underline=1)
+        self.console.insert(tk.END, f">   - {msg}\n", tag_name)
+        self.console.tag_bind(tag_name, "<Button-1>", lambda e, p=file_path: os.startfile(p))
+        self.console.tag_bind(tag_name, "<Enter>", lambda e: self.console.config(cursor="hand2"))
+        self.console.tag_bind(tag_name, "<Leave>", lambda e: self.console.config(cursor=""))
+        self.console.see(tk.END); self.console.config(state='disabled')
+    # --- QA LOGIC END ---
 
     def toggle_log(self):
         if self.log_frame.winfo_viewable(): self.log_frame.pack_forget(); self.btn_log_toggle.configure(text="SHOW LOG")
@@ -281,7 +389,6 @@ class ALWBWorkflowManager:
         self.web_folder_var = tk.StringVar(); self.web_folder_var.trace_add("write", self.handle_web_change) 
         ttk.Entry(conf_frame, textvariable=self.web_folder_var, width=15).grid(row=1, column=1, sticky="w", padx=(5, 0), pady=10)
         self.btn_update_web = tk.Button(conf_frame, text="Update Website", command=self.update_web_folder_in_ares, width=15, relief="raised", bd=1, bg="#f0f0f0"); self.btn_update_web.grid(row=1, column=2, padx=(5,0), pady=10)
-        ToolTip(self.btn_update_web, "Update the website folder root for this client")
         ttk.Label(conf_frame, text="Preset:", font=('Segoe UI', 9, 'bold')).grid(row=2, column=0, sticky="w")
         self.preset_combo = ttk.Combobox(conf_frame, values=["HTML EN", "HTML GR-EN", "HTML GR-EN / EN", "PDF EN", "PDF GR-EN", "PDF GR"], state="readonly", width=15); self.preset_combo.grid(row=2, column=1, columnspan=2, sticky="w", padx=(5, 0)); self.preset_combo.bind("<<ComboboxSelected>>", self.apply_preset)
         ttk.Label(conf_frame, text="Indexer:", font=('Segoe UI', 9, 'bold')).grid(row=3, column=0, sticky="w", pady=(10, 0))
@@ -346,14 +453,29 @@ class ALWBWorkflowManager:
         sel = self.preset_combo.get()
         mapping = {"HTML EN": "HTML_E", "HTML GR-EN": "HTML_GE", "HTML GR-EN / EN": "HTML_GE_E", "PDF EN": "PDF_E", "PDF GR-EN": "PDF_GE", "PDF GR": "PDF_G"}
         self.run_script(PRESET_SCRIPT, mapping[sel]); f = open(PRESET_STATUS, 'w'); f.write(sel); f.close(); self.refresh_ui()
+    
     def run_script(self, script_path, arg=None):
         def worker():
-            cmd = [sys.executable, script_path]
-            if arg: cmd.append(arg)
-            p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
-            for line in p.stdout: self.log(line.strip())
-            p.wait(); self.refresh_ui()
+            if script_path == "total_media_refresh.py":
+                media_folder = r"C:\git\ages-alwb-system\net.ages.liturgical.workbench.system\MEDIA_INDEX_UTILITY\python_code"
+                final_path = os.path.join(media_folder, script_path)
+            elif not os.path.isabs(script_path):
+                final_path = os.path.join(UTILS_DIR, script_path)
+            else:
+                final_path = script_path
+                
+            if os.path.exists(final_path):
+                self.log(f"Launching Utility: {os.path.basename(final_path)}")
+                cmd = [sys.executable, final_path]
+                if arg: cmd.append(arg)
+                p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+                for line in p.stdout: self.log(line.strip())
+                p.wait(); self.refresh_ui()
+            else:
+                self.log(f"ERROR: File not found at {final_path}")
+                
         threading.Thread(target=worker, daemon=True).start()
+
     def clear_log(self): self.console.config(state='normal'); self.console.delete('1.0', tk.END); self.console.config(state='disabled')
         
 if __name__ == "__main__":
