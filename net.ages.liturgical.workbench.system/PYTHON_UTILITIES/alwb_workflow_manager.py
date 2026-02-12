@@ -88,10 +88,10 @@ class WhatTab(ttk.Frame):
                                           command=lambda: self.run_script("total_media_refresh.py"), width=25)
         self.btn_index_books.pack(pady=5, anchor="w")
 
-        t_frame = ttk.LabelFrame(container, text=" Template Testing (QA) ", padding="15")
+        t_frame = ttk.LabelFrame(container, text=" Template Testing ", padding="15")
         t_frame.pack(fill="x", pady=10)
         ttk.Label(t_frame, text="1. Prepare environment:").pack(anchor="w")
-        self.btn_prep = ttk.Button(t_frame, text="Test and HTML EN",
+        self.btn_prep = ttk.Button(t_frame, text="Set test client and HTML EN",
                                    command=self.manager.setup_test_env, width=25)
         self.btn_prep.pack(pady=5, anchor="w")
         ToolTip(self.btn_prep, "Sets Client=test, Indexer=OFF, Preset=HTML EN, targets Month, and opens ATEM")
@@ -465,11 +465,11 @@ class ALWBWorkflowManager:
 
     def setup_test_env(self):
         """Action for 'Test for Empty Strings' - Prepares all systems and focuses Eclipse"""
-        self.log("QA SETUP: Overriding configuration for Empty String check...")
+        self.log("Template Testing setup: Overriding configuration for Empty String check...")
         try:
             with open(CONTEXT_FILE, 'w') as f:
                 f.write("test")
-            self.log("CLIENT CONTEXT: Set to 'test'")
+            self.log("CLIENT: Set to 'test' (This changed the file 'pref.master.templates.ares')")
             self.set_indexer("no")
             mapping = {"HTML EN": "HTML_E"}
             self.run_script(PRESET_SCRIPT, mapping["HTML EN"])
@@ -487,13 +487,13 @@ class ALWBWorkflowManager:
                     else:
                         f.write(line)
             os.utime(ATEM_FILE, None)
-            self.log(f"ATEM SYNC: Month set to {selected_name} ({month_code})")
+            self.log(f"SYNC: to selected month (The regular expression in the file 'generator.atem' is set to {selected_name} i.e. {month_code})")
             self.refresh_ui()
             if os.path.exists(ATEM_FILE):
                 os.startfile(ATEM_FILE)
-                self.log(f"ECLIPSE: Focused {os.path.basename(ATEM_FILE)}")
+                self.log(f"ECLIPSE: Opens file {os.path.basename(ATEM_FILE)}")
             self.log("--------------------------------------------------")
-            self.log("SYSTEM READY: Press CTRL+G in Eclipse to generate.")
+            self.log("SYSTEM READY: Click inside the generator.atem file now open in Eclipse, and press CTRL+G to generate.")
             self.log("--------------------------------------------------")
         except Exception as e:
             self.log(f"ERROR in setup_test_env: {e}")

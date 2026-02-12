@@ -1,1 +1,1 @@
-goarch
+test
