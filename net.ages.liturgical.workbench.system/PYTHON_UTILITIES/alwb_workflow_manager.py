@@ -1,3 +1,4 @@
+import automate_generation
 import os
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox
@@ -90,22 +91,48 @@ class WhatTab(ttk.Frame):
 
         t_frame = ttk.LabelFrame(container, text=" Template Testing ", padding="15")
         t_frame.pack(fill="x", pady=10)
-        ttk.Label(t_frame, text="1. Prepare environment:").pack(anchor="w")
-        self.btn_prep = ttk.Button(t_frame, text="Set test client and HTML EN",
+        ttk.Label(t_frame, text="1. Click the Test Settings button to set client to 'test' and generation to HTML EN.").pack(anchor="w")
+        self.btn_prep = ttk.Button(t_frame, text="Test Settings",
                                    command=self.manager.setup_test_env, width=25)
         self.btn_prep.pack(pady=5, anchor="w")
         ToolTip(self.btn_prep, "Sets Client=test, Indexer=OFF, Preset=HTML EN, targets Month, and opens ATEM")
 
-        ttk.Label(t_frame, text="2. After generating in Eclipse (Ctrl+G):").pack(anchor="w", pady=(10, 0))
+        # Step 2
+        ttk.Label(
+                t_frame, 
+                text="2. Click the Run Generator button to generate the services of the selected month. Eclipse will seem to hang and indicate that is Not Responding. This is normal.",
+                wraplength=400,
+                justify="left"
+        ).pack(anchor="w", pady=(10, 0))
+        self.btn_generate = ttk.Button(t_frame, text="Run Generator",
+                                       command=self.trigger_eclipse_generation, width=25)
+        self.btn_generate.pack(pady=5, anchor="w")
+        ToolTip(self.btn_generate, "Focuses Eclipse Oxygen.2 and executes the Ctrl+G macro automatically")
+
+        # Step 3
+        ttk.Label(
+            t_frame, 
+            text="3. After the files have been generated and Eclipse is responding again, click the Scan for Missing Strings button. The results of the scan will appear in the Activity Log.",
+            wraplength=400,
+            justify="left"
+        ).pack(anchor="w", pady=(10, 0))
+        
         self.btn_scan = ttk.Button(t_frame, text="Scan for Missing Strings",
                                    command=self.manager.run_error_scan, width=25)
         self.btn_scan.pack(pady=5, anchor="w")
+
+    def trigger_eclipse_generation(self):
+        from tkinter import messagebox
+        success, message = automate_generation.run_generator_macro()
+        if success:
+            messagebox.showinfo("Eclipse Automation", "Ctrl+G sent successfully!\nCheck Oxygen.2 for generation progress.")
+        else:
+            messagebox.showerror("Automation Error", f"Failed to trigger Eclipse:\n{message}")
 
     def trigger_validation(self):
         selected_name = self.val_month_combo.get()
         month_code = next(m[1] for m in self.val_months_data if m[0] == selected_name)
         self.run_script(CHECK_STATUS_SCRIPT, month_code)
-
 
 class WhenTab(ttk.Frame):
     def __init__(self, parent, log_callback):
@@ -161,7 +188,6 @@ class WhenTab(ttk.Frame):
                 total_found = len(found_items)
                 
                 if total_found > 0:
-                    # Updated to your preferred casing
                     self.log_callback(f"Total .fo files found: {total_found}")
                     for item in found_items:
                         self.log_callback(f"  > {item}")
@@ -187,6 +213,8 @@ class WhenTab(ttk.Frame):
     def create_widgets(self):
         container = ttk.Frame(self, padding="10")
         container.pack(fill="both", expand=True)
+        
+        # Months Section
         m_frame = ttk.LabelFrame(container, text=" Months ", padding="5")
         m_frame.pack(fill="x", pady=(0, 5))
         m_grid = ttk.Frame(m_frame)
@@ -194,6 +222,8 @@ class WhenTab(ttk.Frame):
         for i, (name, code) in enumerate(self.months_data):
             ttk.Checkbutton(m_grid, text=name, variable=self.month_vars[code]).grid(
                 row=i//4, column=i % 4, sticky="w", padx=5)
+        
+        # Days Section
         d_frame = ttk.LabelFrame(container, text=" Days ", padding="5")
         d_frame.pack(fill="x", pady=5)
         d_grid = ttk.Frame(d_frame)
@@ -202,6 +232,8 @@ class WhenTab(ttk.Frame):
             code = f"{d:02d}"
             ttk.Checkbutton(d_grid, text=code, variable=self.day_vars[code], width=4).grid(
                 row=(d-1)//10, column=(d-1) % 10, sticky="w", padx=2)
+        
+        # Settings Section
         s_frame = ttk.Frame(container)
         s_frame.pack(fill="x", pady=5)
         ttk.Label(s_frame, text="Preset:").grid(row=0, column=0, sticky="w")
@@ -210,12 +242,15 @@ class WhenTab(ttk.Frame):
         self.pattern_combo.grid(row=0, column=1, padx=5)
         self.pattern_combo.set("For HTML generation")
         self.pattern_combo.bind("<<ComboboxSelected>>", self.on_input_change)
+        
         ttk.Label(s_frame, text="Status:").grid(row=0, column=2, padx=(10, 0))
         self.status_combo = ttk.Combobox(
             s_frame, values=self.status_options, state="readonly", width=8)
         self.status_combo.grid(row=0, column=3, padx=5)
         self.status_combo.set("Final")
         self.status_combo.bind("<<ComboboxSelected>>", self.set_button_dirty)
+        
+        # Regex Editor Section
         r_frame = ttk.LabelFrame(container, text=" Final Regex (Review or Edit) ", padding="10")
         r_frame.pack(fill="x", pady=5)
         e_bar = ttk.Frame(r_frame)
@@ -228,44 +263,62 @@ class WhenTab(ttk.Frame):
         ToolTip(self.btn_update_atem, "Update generator.atem with these settings")
         ttk.Button(e_bar, text="Revert", command=self.sync_manual_box,
                    width=8).pack(side="left", padx=(2, 0))
+
         # --- Section 4: Transformer for PDFs ---
-        self.pdf_frame = ttk.LabelFrame(container, text="Transformer for PDFs ", padding="10")
+        self.pdf_frame = ttk.LabelFrame(container, text=" Transformer for PDFs ", padding="10")
         self.pdf_frame.pack(fill="x", pady=5)
 
-        # Step 1 Label
+        # Original Step 1 Label
         ttk.Label(
             self.pdf_frame, 
-            text="Step 1: In Eclipse, click into the generator.atem file that should have opened, and press Ctrl+G to generate the selected files. Eclipse will seem to hang and indicate that it is Not Responding. This is normal.", 
+            text="Step 1: Click the Run Generator button to generate the selected services. Eclipse will seem to hang and indicate that it is Not Responding. This is normal.", 
             foreground="black", 
             font=('Segoe UI', 9),
             justify="left",
             wraplength=350
-        ).pack(pady=(5, 2), anchor="w", padx=10) # pady=(top, bottom)
+        ).pack(pady=(5, 2), anchor="w", padx=10)
 
-        # Step 2 Label
+        # New Generation Button
+        self.btn_generate_pdf = ttk.Button(
+            self.pdf_frame, 
+            text="Run Generator",
+            command=self.trigger_eclipse_generation, 
+            width=20
+        )
+        self.btn_generate_pdf.pack(pady=5, padx=10, anchor="w")
+
+        # Original Step 2 Label
         ttk.Label(
             self.pdf_frame, 
-            text="Step 2: When generation has finished (i.e. Eclipse is responding again), return here and click the button below to transform the generated .fo files into .pdf.", 
+            text="Step 2: When generation has finished (i.e. Eclipse is responding again), click the Run PDF Transformer button to transform the generated .fo files into .pdf.", 
             foreground="black", 
             font=('Segoe UI', 9),
             justify="left",
             wraplength=350
         ).pack(pady=(2, 5), anchor="w", padx=10)
-        self.btn_run_transformer = tk.Button(
+
+        self.btn_run_transformer = ttk.Button(
             self.pdf_frame,
             text="Run PDF Transformer",
-            bg="#2d2d2d",
-            fg="white",
-            font=('Segoe UI', 9, 'bold'),
             command=self.run_pdf_transformer,
             width=20
         )
-        self.btn_run_transformer.pack(pady=10)
+        self.btn_run_transformer.pack(pady=5, padx=10, anchor="w")
+
+    # Required method for the button to work
+    def trigger_eclipse_generation(self):
+        from tkinter import messagebox
+        import automate_generation
+        success, message = automate_generation.run_generator_macro()
+        if success:
+            messagebox.showinfo("Eclipse Automation", "Ctrl+G sent successfully!\nCheck Oxygen.2 for generation progress.")
+        else:
+            messagebox.showerror("Automation Error", f"Failed to trigger Eclipse:\n{message}")
 
     def on_input_change(self, *args): self.sync_manual_box(); self.set_button_dirty()
 
     def set_button_dirty(self, *args): self.btn_update_atem.configure(bg="red",
-                                                                      fg="white", font=('Segoe UI', 9, 'bold'))
+                                                                    fg="white", font=('Segoe UI', 9, 'bold'))
 
     def set_button_clean(self): self.btn_update_atem.configure(
         bg="#f0f0f0", fg="black", font=('Segoe UI', 9))
@@ -286,10 +339,8 @@ class WhenTab(ttk.Frame):
     def update_atem(self):
         try:
             regex, stat = self.manual_var.get().strip(), self.status_combo.get()
-            
             with open(ATEM_FILE, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
-                
             with open(ATEM_FILE, 'w', encoding='utf-8', newline='') as f:
                 for l in lines:
                     if "Service_Regular_Expression" in l:
@@ -298,19 +349,11 @@ class WhenTab(ttk.Frame):
                         f.write(f'\t\tService_Status {stat}\n')
                     else:
                         f.write(l)
-            
-            # Show success and log it
             messagebox.showinfo("Success", "Atem file updated.")
             self.log_callback(f"generator.atem updated: {regex}")
             self.set_button_clean()
-            
-            # NEW: Open the generator settings file in Eclipse
-            settings_path = (
-                r"C:\git\ages-alwb-templates\net.ages.liturgical.workbench.templates"
-                r"\c-generator-settings\generator.atem"
-            )
-            os.startfile(settings_path)
-
+            if os.path.exists(ATEM_FILE):
+                os.startfile(ATEM_FILE)
         except Exception as e:
             messagebox.showerror("Error", str(e))
 
