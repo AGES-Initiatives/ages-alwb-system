@@ -1,8 +1,12 @@
 @echo off
-:: Navigate to your dashboard folder
-cd /d "C:\git\ages-alwb-system\net.ages.liturgical.workbench.system\PYTHON_UTILITIES"
+:: 1. Navigate to the utility folder
+cd /d "%~dp0PYTHON_UTILITIES"
 
-:: Launch the dashboard using 'pythonw' (this hides the black console window)
+:: 2. Clean up temporary Python cache files to keep the USB clean
+for /d /r . %%d in (__pycache__) do @if exist "%%d" rd /s /q "%%d"
+
+:: 3. Launch the dashboard silently using pythonw
 start "" pythonw "alwb_workflow_manager.py"
 
+:: 4. Close the batch window
 exit
