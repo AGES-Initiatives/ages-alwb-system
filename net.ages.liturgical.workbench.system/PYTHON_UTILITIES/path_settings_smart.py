@@ -38,12 +38,12 @@ if DRIVE_ROOT.lower().startswith("c:"):
     # MOTHERSHIP (C: Drive)
     WORKSPACE_IDENTIFIER = r"C:\ALWB_WORKSPACES\Workspace-git-Oxygen02"
     ECLIPSE_EXE = r"C:\Users\AGES user\eclipse\java-oxygen2\eclipse\eclipse.exe"
-    JAVA_HOME = r"C:\Program Files\Java\jre1.8.0_471"
+    JAVA_HOME = r"C:\Program Files\Java\jre1.8.0_461"
 else:
     # USB DRIVE
     WORKSPACE_IDENTIFIER = os.path.join(DRIVE_ROOT, "Workspace")
     ECLIPSE_EXE = os.path.join(DRIVE_ROOT, "_tools", "Eclipse", "eclipse.exe")
-    JAVA_HOME = os.path.join(DRIVE_ROOT, "_tools", "Java8", "jre1.8.0_471")
+    JAVA_HOME = os.path.join(DRIVE_ROOT, "_tools", "Java8", "jre1.8.0_461")
 
 JAVA_EXE = os.path.join(JAVA_HOME, "bin", "java.exe")
 

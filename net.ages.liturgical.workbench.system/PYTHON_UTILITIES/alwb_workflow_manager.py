@@ -157,68 +157,59 @@ class WhenTab(ttk.Frame):
         self.sync_manual_box()
 
     def run_pdf_transformer(self):
-        # 1. SETUP PATHS
-        java_exe = JAVA_EXE
-        
-        # Point to the PROJECT ROOT (where bin and lib live)
-        working_dir = os.path.join(TOOLS_BASE, "dcsjavautilities")
-        
-        # The templates location (already using our GIT_FOLDER anchor)
-        templates_base = os.path.join(GIT_FOLDER, "ages-alwb-templates", "net.ages.liturgical.workbench.templates", "src-gen", "website")
-        
-        main_class = "net.ages.liturgical.workbench.transformer.AlwbTransformer"
-        
-        # 2. THE CLASSPATH
-        # Find jre/lib by going up from bin/java.exe
-        jre_lib = os.path.join(os.path.dirname(os.path.dirname(java_exe)), "lib")
-
-        full_classpath = (
-            os.path.join(jre_lib, "rt.jar") + ";" +
-            os.path.join(jre_lib, "jsse.jar") + ";" +
-            os.path.join(working_dir, "bin") + ";" +
-            os.path.join(working_dir, "lib", "jars", "*") + ";" +
-            os.path.join(working_dir, "lib", "fop-1.1", "build", "fop.jar") + ";" +
-            os.path.join(working_dir, "lib", "fop-1.1", "lib", "*")
-        )
-
-        # 3. THE PRE-CHECK (Clean casing and no extensions)
-        self.log_callback("--- Launching Transformer Utility ---")
+        """Launches the Java Transformer with specific pathing for the 'bin' root."""
+        self.log_callback(">>> Initializing PDF Transformer (C: Drive)")
         
         try:
-            found_items = []
-            if os.path.exists(templates_base):
-                for root, dirs, files in os.walk(templates_base):
-                    for f in files:
-                        if f.lower().endswith('.fo'):
-                            rel_path = os.path.relpath(os.path.join(root, f), templates_base)
-                            # Strips the .fo extension
-                            clean_name = os.path.splitext(rel_path)[0]
-                            found_items.append(clean_name)
-                
-                total_found = len(found_items)
-                
-                if total_found > 0:
-                    self.log_callback(f"Total .fo files found: {total_found}")
-                    for item in found_items:
-                        self.log_callback(f"  > {item}")
-                else:
-                    self.log_callback("Pre-check: 0 .fo files found in website route.")
-            else:
-                self.log_callback(f"Pre-check Error: Folder not found at {templates_base}")
-                
-        except Exception as e:
-            self.log_callback(f"Pre-check Error: {e}")
-
-        # 4. EXECUTION
-        try:
-            subprocess.Popen(
-                [java_exe, "-Dfile.encoding=UTF-8", "-cp", full_classpath, main_class],
-                cwd=working_dir
-            )
-            self.log_callback("Success: The Transformer Utility was launched. Check the Eclipse console.")
+            # 1. PATH CONFIGURATION
+            java_exe = r"C:\Program Files\Java\jre1.8.0_461\bin\java.exe"
+            working_dir = r"C:\ALWB_Additional_Resources\dcsjavautilities"
             
+            # The root of your compiled classes
+            bin_dir = os.path.join(working_dir, "bin")
+            
+            # The full name of the class (Package + ClassName)
+            main_class = "net.ages.liturgical.workbench.transformer.AlwbTransformer" 
+            
+            # 2. BUILD THE CLASSPATH
+            # Note: We point to 'bin', not 'bin/net/ages...'
+            cp_parts = [
+                bin_dir,
+                os.path.join(working_dir, "lib", "jars", "*"),
+                os.path.join(working_dir, "lib", "fop-1.1", "build", "fop.jar"),
+                os.path.join(working_dir, "lib", "fop-1.1", "lib", "*")
+            ]
+            full_classpath = ";".join(cp_parts)
+
+            # 3. EXECUTION
+            self.log_callback(f"STATUS: Executing {main_class}...")
+            
+            # Using Popen with stdout capture to see Java's internal messages
+            process = subprocess.Popen(
+                [java_exe, "-Dfile.encoding=UTF-8", "-cp", full_classpath, main_class],
+                cwd=working_dir,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+                bufsize=1
+            )
+
+            # 4. MONITOR OUTPUT IN REAL-TIME
+            def stream_output():
+                for line in iter(process.stdout.readline, ''):
+                    self.log_callback(f"JAVA: {line.strip()}")
+                process.stdout.close()
+                return_code = process.wait()
+                if return_code == 0:
+                    self.log_callback("SUCCESS: PDF Transformation sequence complete.")
+                else:
+                    self.log_callback(f"ERROR: Java exited with code {return_code}")
+
+            import threading
+            threading.Thread(target=stream_output, daemon=True).start()
+
         except Exception as e:
-            self.log_callback(f"Critical Error: {str(e)}")
+            self.log_callback(f"CRITICAL ERROR: {str(e)}")
 
     def create_widgets(self):
         container = ttk.Frame(self, padding="10")
@@ -611,12 +602,11 @@ class ALWBWorkflowManager:
 
     def run_script(self, script_path, arg=None):
         def worker():
-            # Base directory for all dated services
-            # Replacement: Use GIT_FOLDER to reach the templates repo
+            # Locked to GIT_FOLDER on C: drive via path_settings
             template_base = Path(GIT_FOLDER) / "ages-alwb-templates" / "net.ages.liturgical.workbench.templates" / "a-templates" / "Dated-Services"
 
             if script_path == "total_media_refresh.py":
-                # Replacement: Navigate relative to GIT_FOLDER to reach the system repo's utility folder
+                # Media indexer located on C: drive via system repo
                 media_folder = os.path.join(GIT_FOLDER, "ages-alwb-system", "net.ages.liturgical.workbench.system", "MEDIA_INDEX_UTILITY", "python_code")
                 final_path = os.path.join(media_folder, script_path)
             elif not os.path.isabs(script_path):
@@ -642,7 +632,7 @@ class ALWBWorkflowManager:
                         month_part = match.group(2)    # m01
                         day_part = match.group(3)      # d01
 
-                        # Build the nested path: ...\Dated-Services\m01\d01\se.m01.d01.h91.atem
+                        # Build the nested path on C: ...\Dated-Services\m01\d01\se.m01.d01.h91.atem
                         full_file_path = template_base / month_part / day_part / full_filename
 
                         if full_file_path.exists():

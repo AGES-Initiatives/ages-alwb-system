@@ -5,19 +5,18 @@ from pathlib import Path
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 # Defining this here ensures add_logo.py finds it immediately
 UTILS_DIR = BASE_PATH 
-DRIVE_ROOT = os.path.abspath(os.sep)
+
+# Hardcoded to C: Drive to remove USB dependency
+DRIVE_ROOT = "C:\\"
 GIT_FOLDER = os.path.join(DRIVE_ROOT, "git")
 
 # --- 2. REPOSITORY AND TOOL PATHS ---
 TEMPLATES_PROJ = os.path.join(GIT_FOLDER, "ages-alwb-templates", "net.ages.liturgical.workbench.templates")
 
-# Detect if using local Additional Resources or USB tools
-alt_tools = os.path.join(DRIVE_ROOT, "ALWB_Additional_Resources")
-usb_tools = os.path.join(DRIVE_ROOT, "_tools")
-TOOLS_BASE = alt_tools if os.path.exists(alt_tools) else usb_tools
+# Removed USB tool detection; hardcoded to C: drive resource path
+TOOLS_BASE = os.path.join(DRIVE_ROOT, "ALWB_Additional_Resources")
 
 # --- 3. GENERATION AND TEMPLATE SETTINGS ---
-# Defined before the files below use it
 ATEM_DIRECTORY = os.path.join(TEMPLATES_PROJ, "c-generator-settings")
 CLIENTS_BASE = os.path.join(TEMPLATES_PROJ, "b-preferences")
 BASE_TEMPLATES_DIR = os.path.join(TEMPLATES_PROJ, "a-templates", "Dated-Services")
@@ -34,16 +33,10 @@ CONTEXT_FILE = os.path.join(CONFIG_DIR, "client_context.txt")
 STATUS_PRESET_FILE = os.path.join(CONFIG_DIR, "status_preset.txt")
 
 # --- 5. ENVIRONMENT AND EXECUTABLES ---
-if DRIVE_ROOT.lower().startswith("c:"):
-    # MOTHERSHIP (C: Drive)
-    WORKSPACE_IDENTIFIER = r"C:\ALWB_WORKSPACES\Workspace-git-Oxygen02"
-    ECLIPSE_EXE = r"C:\Users\AGES user\eclipse\java-oxygen2\eclipse\eclipse.exe"
-    JAVA_HOME = r"C:\Program Files\Java\jre1.8.0_471"
-else:
-    # USB DRIVE
-    WORKSPACE_IDENTIFIER = os.path.join(DRIVE_ROOT, "Workspace")
-    ECLIPSE_EXE = os.path.join(DRIVE_ROOT, "_tools", "Eclipse", "eclipse.exe")
-    JAVA_HOME = os.path.join(DRIVE_ROOT, "_tools", "Java8", "jre1.8.0_471")
+# Hardcoded to C: Drive paths (MOTHERSHIP)
+WORKSPACE_IDENTIFIER = r"C:\ALWB_WORKSPACES\Workspace-git-Oxygen02"
+ECLIPSE_EXE = r"C:\Users\AGES user\eclipse\java-oxygen2\eclipse\eclipse.exe"
+JAVA_HOME = r"C:\Program Files\Java\jre1.8.0_461"
 
 JAVA_EXE = os.path.join(JAVA_HOME, "bin", "java.exe")
 
